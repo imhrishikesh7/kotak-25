@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.marginal {
+    width: 86%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 2% 0;
+}
+.swiper-pagination {
+  margin-top: 1.5rem; /* 6 = 24px space below cards */
+  position: relative !important;
+}

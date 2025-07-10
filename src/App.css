@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body{
+  font-family: sans-serif;
+}
+
 .marginal {
     width: 86%;
     max-width: 1500px;

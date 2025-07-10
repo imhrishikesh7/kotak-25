@@ -8,19 +8,29 @@ import Excellence from './pages/Delivering_Excellence/Excellence';
 import Safeguarding1 from './pages/Safeguarding_Stakeholders/Safeguarding1';
 import Sustainable1 from './pages/Sustainable_future/Sustainable1';
 import Empowering1 from './pages/Empowering/Empowering1';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Home from './pages/Home/Home';
 function App() {
- 
+
 
   return (
     <>
-     <Page1/>
-     <Page2/>
-     <Carousel/>
-     <Generating1/>
-     <Excellence/>
-     <Safeguarding1/>
-     <Sustainable1/>
-     <Empowering1/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          {/* <Page1 /> */}
+          <Route path='/company' element={<Page2 />}/>
+          
+          {/* <Carousel />
+          <Generating1 />
+          <Excellence />
+          <Safeguarding1 />
+          <Sustainable1 />
+          <Empowering1 /> */}
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

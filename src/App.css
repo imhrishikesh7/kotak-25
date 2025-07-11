@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-body{
-  font-family: sans-serif;
-}
-
 .icon-dot {
   width: 20px;
   height: 20px;

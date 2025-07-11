@@ -35,8 +35,8 @@ function App() {
 
 
         {/* Stakeholder Engagement */}
-        <Route path="/stakeholder-engagement/page1" element={<Page1 />} />
-        <Route path="/stakeholder-engagement/page2" element={<Page2 />} />
+        <Route path="/page1" element={<Page1 />} />
+        <Route path="/page2" element={<Page2 />} />
 
         {/* Snapshot */}
         <Route path="/analytics/overview" element={<Carousel />} />

@@ -16,6 +16,9 @@ import BOD from './pages/BOD';
 import AshokMessage from './pages/AshokMessage';
 import BusinessOverview from './pages/BusinessOverview';
 import Navbar from './Components/Navbar';
+import Technology from './pages/Technology';
+import DigitalPowerhouse from './pages/DigitalPowerhouse';
+import Talent from './pages/Talent';
 
 function App() {
   return (
@@ -25,7 +28,11 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/bod" element={<BOD />} />
         <Route path="/ashok-message" element={<AshokMessage />} />
-        <Route path="/company" element={<BusinessOverview />} />
+        <Route path="/company" element={<BusinessOverview />} />\
+        <Route path="/technology" element={<Technology/>} />
+        <Route path="/digital" element={<DigitalPowerhouse/>} />
+        <Route path="/talent" element={<Talent/>} />
+
 
         {/* Stakeholder Engagement */}
         <Route path="/stakeholder-engagement/page1" element={<Page1 />} />

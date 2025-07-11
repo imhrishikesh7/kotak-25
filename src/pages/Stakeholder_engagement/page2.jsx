@@ -368,7 +368,7 @@ const page2 = () => {
         </p>
       </div>
       <div className='text-lg mb-10'>
-        <h1 className='text-xl text-[#252f80] mb-1 font-semibold'>
+        <h1 className='text-xl text-[#252f80] mb-1 font-semibold;/;;;;'>
           Key Performance on Material Topics -FY 2024-25
         </h1>
         <p className='mb-1'>

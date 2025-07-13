@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
-body{
-  font-family: sans-serif;
+.icon-dot {
+  width: 20px;
+  height: 20px;
+  background-image: url('/BusinessOverview/image.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
 }
+
 
 .marginal {
     width: 86%;

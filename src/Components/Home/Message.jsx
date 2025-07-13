@@ -16,7 +16,7 @@ const Message = () => {
                 className="relative marginal rounded-4xl w-full overflow-hidden"
                 style={{
                     height: "80vh", // consistent vertical space on desktops
-                    backgroundImage: `url(./home/ceo-banner.png)`,
+                    backgroundImage: `url(./home/ceo-banner.webp)`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover", // Fill the container with cropping (better than contain)
                     backgroundPosition: "top",

@@ -37,13 +37,13 @@ const Excellence = () => {
         capitalLinkage={[
           {
             label: "Social and Relationship Capital",
-            icon: "./All_Icons/4.png",
+            icon: "./All_Icons/4.webp",
           },
         ]}
         sdgs={[
           "/Generating/Key/Icon1.webp",
           "/Generating/Key/Icon2.webp",
-          "./All_Icons/3.png",
+          "./All_Icons/3.webp",
         ]}
       />
 

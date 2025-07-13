@@ -44,25 +44,25 @@ const Sustainable1 = () => {
                capitalLinkage={[
                  {
                    label: "Financial Capital",
-                   icon: "./All_Icons/17.png",
+                   icon: "./All_Icons/17.webp",
                  },
                  {
                    label: "Social and Relationship Capital",
-                   icon: "./All_Icons/18.png",
+                   icon: "./All_Icons/18.webp",
                  },
                  {
                     label:"Natural Capital",
-                    icon:"./All_Icons/19.png"
+                    icon:"./All_Icons/19.webp"
                  }
                ]}
                sdgs={[
-                 "./All_Icons/10.png",
-                 "./All_Icons/11.png",
-                 "./All_Icons/12.png",
-                 "./All_Icons/13.png",
-                 "./All_Icons/14.png",
-                 "./All_Icons/15.png",
-                 "./All_Icons/16.png",
+                 "./All_Icons/10.webp",
+                 "./All_Icons/11.webp",
+                 "./All_Icons/12.webp",
+                 "./All_Icons/13.webp",
+                 "./All_Icons/14.webp",
+                 "./All_Icons/15.webp",
+                 "./All_Icons/16.webp",
                ]}
              />
              <p className='font-xs text-xs text-gray-700 mb-5'>

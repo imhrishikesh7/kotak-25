@@ -227,7 +227,7 @@ export default function Scene() {
 
   // Sample images - replace with your own URLs
   const images = [
-    './home/Kotak Infinity.svg'
+    './home/Kotak Infinity.webp'
   ];
 
   // Intersection Observer for scroll trigger

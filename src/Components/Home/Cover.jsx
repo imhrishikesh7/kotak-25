@@ -10,7 +10,7 @@ const Cover = () => {
         muted
         playsInline
         preload="auto"
-        poster="./home/balco-poster.jpg"
+        poster="./home/balco-poster.webp"
       />
     </div>
   );

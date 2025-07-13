@@ -38,7 +38,7 @@ const BOD = () => {
             <h1 className="text-3xl font-bold text-[#ed1c2f]">
                 Guardians of your trust
             </h1>
-            <img src="BOD/page-3.jpg" alt="" className='mt-5 rounded-3xl' />
+            <img src="BOD/page-3.webp" alt="" className='mt-5 rounded-3xl' />
             <HeadingPill2 heading='Standing Left to Right' />
             {renderRow(standing)}
 

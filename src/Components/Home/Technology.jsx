@@ -80,7 +80,7 @@ const Technology = () => {
             className="md:w-[50%] flex justify-center"
           >
             <img
-              src="./home/technology-swirl.png"
+              src="./home/technology-swirl.webp"
               className="w-full"
               alt="technology swirl"
             />

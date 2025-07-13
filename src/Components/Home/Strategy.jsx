@@ -14,7 +14,7 @@ const Strategy = () => {
                 </div>
                 <div className='my-12 flex md:flex-row gap-6'>
                     <div className='md:w-1/2'>
-                        <img src="./home/Image-40.png" className='w-[75%] mx-auto' alt="" />
+                        <img src="./home/Image-40.webp" className='w-[75%] mx-auto' alt="" />
                     </div>
                     <div className='md:w-1/2 flex flex-col justify-center bg-gradient-to-r from-[#ed1c25] to-[#013367] px-12 text-white rounded-l-4xl'>
                         <p className='text-xl text-left'>

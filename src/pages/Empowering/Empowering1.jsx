@@ -80,14 +80,14 @@ const Empowering1 = () => {
           capitalLinkage={[
             {
               label: "Human Capital",
-              icon: "./All_Icons/23.png",
+              icon: "./All_Icons/23.webp",
             },
 
           ]}
           sdgs={[
-            "./All_Icons/20.png",
-            "./All_Icons/21.png",
-            "./All_Icons/22.png",
+            "./All_Icons/20.webp",
+            "./All_Icons/21.webp",
+            "./All_Icons/22.webp",
           ]}
         />
       </div>
@@ -194,7 +194,7 @@ const Empowering1 = () => {
               Five Pillars of Talent Engagement
             </h1>
             <div className='mb-5'>
-              <img className='' src="./All_Icons/24.png" alt="" />
+              <img className='' src="./All_Icons/24.webp" alt="" />
             </div>
             <div class="w-full  my-6">
               <div class="inline-block px-6 py-2 rounded-full text-white font-semibold text-sm bg-gradient-to-r from-[#262b7b] via-[#6f2b66] to-[#e31e32]">

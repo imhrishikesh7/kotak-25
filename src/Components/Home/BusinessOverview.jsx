@@ -24,7 +24,7 @@ const BusinessOverview = () => {
         className="relative rounded-4xl w-full overflow-hidden"
         style={{
           height: '480px',
-          backgroundImage: `url(./home/bo-banner.JPG)`,
+          backgroundImage: `url(./home/bo-banner.webp)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'bottom',

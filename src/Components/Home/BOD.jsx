@@ -101,7 +101,7 @@ export default function BOD() {
                             ref={imageRef}
                             className="h-full w-[120%] rounded-4xl bg-gradient-to-r from-gray-100 to-gray-200 flex py-8 items-center justify-center"
                         >
-                            <img src="./home/IMG-06.png" className='h-full rounded-3xl' alt="" />
+                            <img src="./home/IMG-06.webp" className='h-full rounded-3xl' alt="" />
                         </div>
                     </div>
 

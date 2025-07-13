@@ -8,15 +8,15 @@ import Message from "./Message";
 
 export const ScreenContent = () => {
 
-    const src = "./home/Test.png"
+    const src = "./home/Test.webp"
 
     const slides = [<Scene />,
-    <img src="./home/Kotak 811.jpg" alt="Test" className="w-full h-full object-cover" />,
-    <img src="./home/Kotak Bank App.jpg" alt="Test" className="w-full h-full object-cover" />,
-    <img src="./home/Kotak Cherry.jpg" alt="Test" className="w-full h-full object-cover" />,
-    <img src="./home/Kotak FYN.jpg" alt="Test" className="w-full h-full object-cover" />,
-    <img src="./home/Kotak Neo.png" alt="Test" className="w-full h-full object-cover" />,
-    <img src="./home/Kotak Sampark Setu.jpg" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak 811.webp" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak Bank App.webp" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak Cherry.webp" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak FYN.webp" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak Neo.webp" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak Sampark Setu.webp" alt="Test" className="w-full h-full object-cover" />,
 
     ]
         ;

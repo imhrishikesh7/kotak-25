@@ -49,17 +49,17 @@ const page2 = () => {
     <div className='marginal'>
       <div className='mb-4'>
         <h1 className='text-3xl font-bold text-[#ed1c2f] border-b-3 w-fit mb-4 pb-2'>Stakeholder Engagement and Materiality Assessment</h1>
-        <div className="w-full bg-black text-white">
+        <div className="w-full bg-white/90">
           <div className="flex flex-col md:flex-row h-screen relative">
             <div className="md:w-1/2 w-full relative">
               <img
-                src="./Stakeholders/Page1-1.webp"
+                src="Stakeholders\Image-30.webp"
                 alt="Background"
-                className="h-full w-full object-contain transform 2xl:translate-x-[-4.5%]"
+                className="h-full w-full object-contain transform 2xl:translate-x-[-5%]"
               />
             </div>
 
-            <div className="md:w-1/2 w-full flex items-center p-8 bg-black text-white">
+            <div className="md:w-1/2 w-full flex items-center p-8 bg-white/90">
               <div>
                 <h2 className="text-3xl md:text-4xl font-light mb-6">
                   Creating value <br /> and nurturing relationships
@@ -101,44 +101,44 @@ const page2 = () => {
         to measure progress against key material topics that drive
         sustainable performance.
       </div>
-      <div className=''>
-        <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
-          Stakeholder engagement helps us in the following:
-        </h1>
-        <div className='flex md:flex-row flex-col  gap-5 mb-4'>
-          <div className="relative flex items-start justify-between border rounded-4xl p-4 w-[300px] shadow-sm">
-            <div>
-              <h2 className="text-2xl font-bold  inline-block px-1">
-                Improve
-              </h2>
-              <p className="mt-2 ">
-                stakeholders’ trust and <br />
-                confidence in our business
-              </p>
-            </div>
-            <div className="absolute bottom-4 right-4 w-15 h-15 bg-red-600 rounded-full flex items-center justify-center">
-              <img src="/Stakeholders/Page1-2.webp" alt="Chart Icon" className="" />
-            </div>
-          </div>
-          <div className="relative flex items-start justify-between border rounded-4xl p-4 w-[300px] shadow-sm">
-            <div>
-              <h2 className="text-2xl font-bold  inline-block px-1">
-                Increase
-              </h2>
-              <p className="mt-2 ">
-                our ability to understand
-                <br />
-                stakeholder inputs
-              </p>
-            </div>
-            <div className="absolute bottom-4 right-4 w-15 h-15 bg-red-600 rounded-full flex items-center justify-center">
-              <img src="/Stakeholders/Page1-3.webp" alt="Chart Icon" className="" />
-            </div>
-          </div>
-        </div>
-      </div>
       <div className='md:flex gap-5 mb-3 pb-3 border-b-2 border-[#b6b8ba]'>
         <div>
+          <div className=''>
+            <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
+              Stakeholder engagement helps us in the following:
+            </h1>
+            <div className='flex md:flex-row flex-col  gap-5 mb-4'>
+              <div className="relative flex items-start justify-between border rounded-4xl p-4 w-[300px] shadow-sm">
+                <div>
+                  <h2 className="text-4xl font-bold  inline-block px-1">
+                    Improve
+                  </h2>
+                  <p className="mt-2 ">
+                    stakeholders’ trust and <br />
+                    confidence in our business
+                  </p>
+                </div>
+                <div className="absolute bottom-4 right-4 w-15 h-15 bg-red-600 rounded-full flex items-center justify-center">
+                  <img src="/Stakeholders/Page1-2.webp" alt="Chart Icon" className="" />
+                </div>
+              </div>
+              <div className="relative flex items-start justify-between border rounded-4xl p-4 w-[300px] shadow-sm">
+                <div>
+                  <h2 className="text-4xl font-bold  inline-block px-1">
+                    Increase
+                  </h2>
+                  <p className="mt-2 ">
+                    our ability to understand
+                    <br />
+                    stakeholder inputs
+                  </p>
+                </div>
+                <div className="absolute bottom-4 right-4 w-15 h-15 bg-red-600 rounded-full flex items-center justify-center">
+                  <img src="/Stakeholders/Page1-3.webp" alt="Chart Icon" className="" />
+                </div>
+              </div>
+            </div>
+          </div>
           <h1 className='text-xl mb-3 text-[#ed1c2f] font-semibold' >
             Materiality Assessment <sup>1</sup>
           </h1>
@@ -163,8 +163,8 @@ const page2 = () => {
             </p>
           </div>
         </div>
-        <div className=''>
-          <img src="/Stakeholders/Page1-4.webp" alt="" />
+        <div className='flex items-center'>
+          <img src="Stakeholders\Box-Page-31.webp" alt="" />
         </div>
 
       </div>
@@ -172,117 +172,22 @@ const page2 = () => {
         <sup>1</sup>GRI 3-1
       </p>
       <div className='mb-5'>
-        <img src="/Stakeholders/Page1-5.webp" alt="" />
+        <img src="Stakeholders\IMG_6426.webp" alt="" className='rounded-3xl' />
       </div>
       <div className='text-lg'>
         <h1 className='text-xl text-[#252f80] mb-1 font-semibold'>
           Materiality Assesment Process
         </h1>
         <p className='mb-8'>The following steps were undertaken as a part of the improved materiality assessment process during FY 2023-24 :</p>
-
-        <div className="relative bg-white rounded-xl p-4 shadow-md mb-10">
-          {/* Step Label */}
-          <div className="absolute -top-3 left-1 bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full z-10">
-            Step 1
+        <div className='flex lg:flex-row flex-col gap-5'>
+          <div className='lg:w-1/3'>
+            <img src="Stakeholders\Image-32-Box1.webp" alt="" />
           </div>
-
-          {/* Dashed Line */}
-          <div className="absolute top-2 left-[80px] w-[calc(100%-100px)] border-t-2 border-dashed border-red-400 text-lg"></div>
-
-          {/* Card Content */}
-          <div className="mt-3">
-            <h3 className="font-bold  mb-2">
-              Identification and
-              Articulation of Topics
-            </h3>
-            <ul className="list-disc pl-5 space-y-2 marker:text-red-600">
-              <li>
-                Identified key sustainability topics by analysing emerging business
-                trends, risks, and opportunities
-              </li>
-              <li>
-                Conducted secondary research, including benchmarking against
-                industry practices, peer strategies, and assessments by financial
-                institutions
-              </li>
-              <li>
-                Evaluated wider environmental and societal impacts to ensure a
-                holistic perspective
-              </li>
-            </ul>
+          <div className='lg:w-1/3'>
+            <img src="Stakeholders\Image-32-Box2.webp" alt="" />
           </div>
-        </div>
-        <div className="relative bg-white rounded-xl p-4 shadow-md mb-10">
-          {/* Step Label */}
-          <div className="absolute -top-3 left-1 bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full z-10">
-            Step 2
-          </div>
-
-          {/* Dashed Line */}
-          <div className="absolute top-2 left-[80px] w-[calc(100%-100px)] border-t-2 border-dashed border-red-400 text-lg"></div>
-
-          {/* Card Content */}
-          <div className="mt-3">
-            <h3 className="font-bold  mb-2">
-              Stakeholder Engagement<sup>2
-              </sup>
-            </h3>
-            <ul className="list-disc pl-5   space-y-2 marker:text-red-600">
-              <li>
-                Engaged key stakeholders
-                through online surveys to
-                gather their perspectives
-                on material topics
-              </li>
-              <li>
-                Assessed the scale and
-                scope of potential risks,
-                opportunities and impacts
-                through stakeholders survey
-                inputs which provided
-                valuable insights that
-                informed and shaped our
-                sustainability strategy
-              </li>
-            </ul>
-            <p className=' mt-5 text-xs text-gray-700'>
-              <sup>2</sup>GRI 2-29
-            </p>
-          </div>
-        </div>
-        <div className="relative bg-white rounded-xl p-4 shadow-md mb-5">
-          {/* Step Label */}
-          <div className="absolute -top-3 left-1 bg-red-600 text-white text-sm font-semibold px-3 py-1 rounded-full z-10">
-            Step 3
-          </div>
-
-          {/* Dashed Line */}
-          <div className="absolute top-2 left-[80px] w-[calc(100%-100px)] border-t-2 border-dashed border-red-400 text-lg"></div>
-
-          {/* Card Content */}
-          <div className="mt-3">
-            <h3 className="font-bold  mb-2">
-              Analysis and Materiality
-              Matrix Development
-            </h3>
-            <ul className="list-disc pl-5   space-y-2 marker:text-red-600">
-              <li>
-                Collected feedback from
-                stakeholders was analyzed
-                to derive material outcomes,
-                including the categorization
-                of material topics into
-                three groups: Foundation,
-                Growth and Ecosystem
-              </li>
-              <li>
-                Reviewed by the Board’s
-                Executive Directors and Senior
-                Management, the materiality
-                matrix ensured alignment
-                with strategic goals
-              </li>
-            </ul>
+          <div className='lg:w-1/3'>
+            <img src="Stakeholders\Image-32-Box3.webp" alt="" />
           </div>
         </div>
       </div>
@@ -317,12 +222,12 @@ const page2 = () => {
             growth of our business.
           </p>
         </div>
-        <div className='md:w-[50%]'>
-          <img src="/Stakeholders/Page2-1.webp" alt="" />
+        <div className='md:w-[50%] mt-5'>
+          <img src="Stakeholders\IMG_6561.webp" alt="" className='rounded-3xl' />
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Materiality Assessment Outcome <sup>3</sup>
         </h1>
         <p className='mb-2'>
@@ -470,11 +375,6 @@ const page2 = () => {
             <div>
               <img src="/Stakeholders/Page6-5.webp" alt="" />
             </div>
-            {/* <div className='text-xs text-gray-700'>
-        <sup>*
-</sup>
-Financial implications are -ve | <sup> #</sup>  Financial implications are +ve|
-    </div> */}
             <div className=' text-xs text-gray-700'>
               <sup>*
               </sup>

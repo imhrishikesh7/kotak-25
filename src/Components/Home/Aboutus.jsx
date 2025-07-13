@@ -16,7 +16,7 @@ const Aboutus = () => {
            
             <div className='mt-8'>
                 <RevealImage
-                    src="./AboutUs/page2.jpg"
+                    src="./AboutUs/page2.webp"
                     animation="scale-in"
                     className="w-full mx-auto rounded-xl"
                 />

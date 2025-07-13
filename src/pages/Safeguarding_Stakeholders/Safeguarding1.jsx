@@ -163,17 +163,17 @@ ensuring that risks are managed prudently to optimise shareholder value.
                capitalLinkage={[
                  {
                    label: "Financial Capital",
-                   icon: "./All_Icons/8.png",
+                   icon: "./All_Icons/8.webp",
                  },
                  {
                    label: "Intellectual Capital",
-                   icon: "./All_Icons/9.png",
+                   icon: "./All_Icons/9.webp",
                  },
                ]}
                sdgs={[
-                 "./All_Icons/5.png",
-                 "./All_Icons/6.png",
-                 "./All_Icons/7.png",
+                 "./All_Icons/5.webp",
+                 "./All_Icons/6.webp",
+                 "./All_Icons/7.webp",
                ]}
              />
               <div className='text-xs text-gray-700 mb-5'>

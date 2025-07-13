@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Airplane = ({ backgroundImage = './AboutUs/planebg.png', airplaneImage = './AboutUs/Plane.png' }) => {
+const Airplane = ({ backgroundImage = './AboutUs/planebg.webp', airplaneImage = './AboutUs/Plane.webp' }) => {
     const containerRef = useRef(null);
     const planeWrapperRef = useRef(null);
     const planeImgRef = useRef(null);

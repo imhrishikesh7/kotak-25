@@ -11,28 +11,36 @@ import Excellence from './pages/Delivering_Excellence/Excellence';
 import Safeguarding1 from './pages/Safeguarding_Stakeholders/Safeguarding1';
 import Sustainable1 from './pages/Sustainable_future/Sustainable1';
 import Empowering1 from './pages/Empowering/Empowering1';
-import About from './pages/About';
+// import About from './pages/About';
 import BOD from './pages/BOD';
 import AshokMessage from './pages/AshokMessage';
 import BusinessOverview from './pages/BusinessOverview';
 import Navbar from './Components/Navbar';
 import Home from './pages/Home/Home';
 import Footer from './Components/Footer';
+import Technology from './pages/Technology';
+import DigitalPowerhouse from './pages/DigitalPowerhouse';
+import Talent from './pages/Talent';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/" element={<About />} /> */}
-        <Route path="/bod" element={<BOD />} />
-        <Route path="/ashok-message" element={<AshokMessage />} />
-        <Route path="/company" element={<BusinessOverview />} />
+        <Route path="/board-of-directors" element={<BOD />} />
+        <Route path="/message-from-ashok-vaswani" element={<AshokMessage />} />
+        <Route path="/business-overview" element={<BusinessOverview />} />\
+        <Route path="/technology" element={<Technology/>} />
+        <Route path="/digital" element={<DigitalPowerhouse/>} />
+        <Route path="/talent" element={<Talent/>} />
 
         {/* Stakeholder Engagement */}
-        <Route path="/stakeholder-engagement/page1" element={<Page1 />} />
-        <Route path="/stakeholder-engagement/page2" element={<Page2 />} />
+        <Route path="/page1" element={<Page1 />} />
+        <Route path="/page2" element={<Page2 />} />
 
         {/* Snapshot */}
         <Route path="/analytics/overview" element={<Carousel />} />
@@ -48,8 +56,6 @@ function App() {
       </Routes>
       <Footer/>
     </Router>
-    // width: '860px',
-    //         height: '480px',
   );
 }
 

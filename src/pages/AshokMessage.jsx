@@ -10,7 +10,7 @@ const AshokMessage = () => {
                 Transforming for scale
             </h1>
             <div className='mt-5 bg-gray-400 rounded-3xl p-3'>
-                <img src="AshokMessage/Ashok.png" alt="" className='w-250 mx-auto' />
+                <img src="AshokMessage/Ashok.webp" alt="" className='w-250 mx-auto' />
             </div>
             <div className='text-lg mt-5'>
                 <h2 className='text-[#ed1c2f] text-2xl font-semibold'>Dear Shareholders,
@@ -48,7 +48,7 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-medium'>
                     “We committed to transforming our business
                     for scale. Scale, not just for the sake of size but
@@ -81,7 +81,7 @@ const AshokMessage = () => {
                 </p>
             </div>
             <div className='text-lg mt-5'>
-                <img src="AshokMessage/Customers-Icon.png" alt="" className='w-20'/>
+                <img src="AshokMessage/Customers-Icon.webp" alt="" className='w-20'/>
                 <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Customer <br /><br /></h2>
                 <h3 className='text-2xl text-[#212b7e]'>The Heart of Our Business <br /><br /></h3>
                 <p className='text-[#000000]'>
@@ -93,7 +93,7 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-medium'>
                     “We strongly believe that the only way we will
                     get it right is if we get it right by the customer.”
@@ -120,7 +120,7 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-medium'>
                     “Technology is central to our strategy to
                     transform for scale.”
@@ -147,7 +147,7 @@ const AshokMessage = () => {
                 </p>
             </div>
             <div className='text-lg mt-5'>
-                <img src="favicon.png" alt="" className='w-20' />
+                <img src="favicon.webp" alt="" className='w-20' />
                 <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Company <br /><br /></h2>
                 <h3 className='text-2xl text-[#212b7e]'>Building Sustainable value<br /><br /></h3>
                 <p className='text-[#000000]'>
@@ -172,7 +172,7 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-medium'>
                     “A strong risk management culture remains at
                     the heart of Kotak and that is the one thing that
@@ -204,7 +204,7 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-medium'>
                     “We seek sustainable, profitable growth without
                     compromising on our strong governance process and
@@ -222,7 +222,7 @@ const AshokMessage = () => {
                     lie ahead.
                     <br /><br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-medium'>
                     “We take pride in our strong balance
                     sheet and capital position. This strength
@@ -233,7 +233,7 @@ const AshokMessage = () => {
                 </p>
             </div>
             <div className='text-lg'>
-                <img src="AshokMessage/Colleagues-Icon.png" alt="" className='w-25'/>
+                <img src="AshokMessage/Colleagues-Icon.webp" alt="" className='w-25'/>
                 <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Colleagues <br /><br /></h2>
                 <h3 className='text-2xl text-[#212b7e]'>Our Greatest Asset <br /><br /></h3>
                 <p className='text-[#000000]'>
@@ -255,16 +255,16 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-normal'>
                     “Our Colleagues are our greatest assets.”
                     <br />
                     <br />
                 </p>
             </div>
-            <img src="AshokMessage/Page-11-Image.png" alt="" className='mb-10'/>
+            <img src="AshokMessage/Page-11-Image.webp" alt="" className='mb-10'/>
             <div className='text-lg'>
-                <img src="AshokMessage/Community-Icon.png" alt="" className='w-20' />
+                <img src="AshokMessage/Community-Icon.webp" alt="" className='w-20' />
                 <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Community<br /><br /></h2>
                 <h3 className='text-2xl text-[#212b7e]'>Thriving Together<br /><br /></h3>
                 <p className='text-[#000000]'>
@@ -286,7 +286,7 @@ const AshokMessage = () => {
                     <br />
                     <br />
                 </p>
-                <img src="AshokMessage/image.png" alt="" className='w-10'/>
+                <img src="AshokMessage/image.webp" alt="" className='w-10'/>
                 <p className='text-[#212b7e] text-xl font-normal'>
                     “...our brand Kotak has been built brick by
                     brick, with ambition and hard work.”
@@ -317,7 +317,7 @@ const AshokMessage = () => {
                 </p>
             </div>
             <div>
-                <img src="AshokMessage/Sign.png" alt="" className='w-50' />
+                <img src="AshokMessage/Sign.webp" alt="" className='w-50' />
                 <h1 className='text-[#ed1c2f] text-2xl font-semibold'>Ashok Vaswani</h1>
                 <h2 className='text-[#202a7d] text-xl font-bold mb-3'>Managing Director & CEO</h2>
                 <h3 className='text-xl font-semibold'>07th July, 2025</h3>

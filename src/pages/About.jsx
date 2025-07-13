@@ -34,7 +34,7 @@ const About = () => {
                     capital markets, asset management and protection, all of which provides us with counter
                     cyclical benefits.
                 </p>
-                <img src="AboutUs/page2.jpg" alt="" className='rounded-4xl mt-5' />
+                <img src="AboutUs/page2.webp" alt="" className='rounded-4xl mt-5' />
                 <HeadingPill heading='Kotak Universe<sup>#</sup>' />
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold">
 
@@ -114,7 +114,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className='md:w-1/4 mx-auto'>
-                    <img src="AboutUs/page2A.jpg" alt="" className='rounded-3xl' />
+                    <img src="AboutUs/page2A.webp" alt="" className='rounded-3xl' />
                 </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold">
@@ -175,7 +175,7 @@ const About = () => {
                     <p className="text-[#000000] text-md font-normal">Sonata Finance</p>
                 </div>
             </div>
-            <img src="AboutUs/Page-05-Data-Table.png" alt="" className='mt-10' />
+            <img src="AboutUs/Page-05-Data-Table.webp" alt="" className='mt-10' />
         </div>
     )
 }

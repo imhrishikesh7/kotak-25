@@ -16,13 +16,16 @@ import BOD from './pages/BOD';
 import AshokMessage from './pages/AshokMessage';
 import BusinessOverview from './pages/BusinessOverview';
 import Navbar from './Components/Navbar';
+import Home from './pages/Home/Home';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<About />} /> */}
         <Route path="/bod" element={<BOD />} />
         <Route path="/ashok-message" element={<AshokMessage />} />
         <Route path="/company" element={<BusinessOverview />} />
@@ -43,7 +46,10 @@ function App() {
         <Route path="/sustainable-future" element={<Sustainable1 />} />
         <Route path="/empowering" element={<Empowering1 />} />
       </Routes>
+      <Footer/>
     </Router>
+    // width: '860px',
+    //         height: '480px',
   );
 }
 

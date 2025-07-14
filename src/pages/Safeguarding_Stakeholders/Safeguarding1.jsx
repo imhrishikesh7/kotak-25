@@ -1,12 +1,13 @@
 import React from 'react'
 import Key from '../../Reusable/Key'
 import RiskTable from '../../Reusable/RiskTable';
+import Cyber from '../../Components/Cyber'
 const riskData = [
   {
     icon: '/Safeguarding_Stakeholder/Icon/1.webp',
     riskTitle: 'Credit Risk',
     riskFull:
-      'Risk of financial loss resulting from the failure of a borrower or counterparty to fulfil their contractual obligations, leading to non-payment of loans or default on financial obligations.',
+      'Risk of not being able to meet short-term obligations due to an inability to convert assets into cash or obtain funding at reasonable cost.',
     mitigationShort: 'Our credit risk management framework is designed to ensure that all lending activities....',
     mitigationFull:
       "Our credit risk management framework is designed to ensure that all lending activities are conducted in a prudent manner. The framework encompasses a comprehensive three-stage approach to credit approval, comprising initial assessment (pre-sanction), authorisation (sanction) and ongoing monitoring (post-sanction). The risk management process involves a combination of techniques customised to the type of borrower and facility. The approval stage goes through multiple checks which includes meticulous documentation by our credit administration team followed by systematic monitoring of covenant adherence and regular assessment of the overall portfolio’s performance."
@@ -19,23 +20,23 @@ const riskData = [
       'Risk of not being able to meet short-term obligations due to an inability to convert assets into cash or obtain funding at reasonable cost.',
     mitigationShort: 'The key components of comprehensive liquidity risk management framework implemented....',
     mitigationFull:
-      "The key components of comprehensive liquidity risk management framework implemented by the bank include maintaining high-quality liquid asset buffers and a structured approach to monitoring and managing liquidity risk through cash flow management, internal limits and stress testing. A contingency liquidity plan approved by the Asset Liability Management Committee (ALCO) and the Board, provides an early warning system for emerging or stress liquidity conditions."
+      "The key components of comprehensive liquidity risk management framework implemented by the Bank include maintaining highquality liquid asset buffers and a structured approach to monitoring and managing liquidity risk through cash flow management, internal limits and stress testing. A contingency liquidity plan, approved by the Asset Liability Management Committee (ALCO) and the Board, provides an early warning system for emerging or stressed liquidity conditions."
     ,
   },
   {
     icon: '/Safeguarding_Stakeholder/Icon/3.webp',
     riskTitle: 'Interest Rate Risk in Banking Book',
     riskFull:
-      'Risk of losses in a Bank’s earnings /economic value of its capital due to fluctuations in interest rates affecting value of assets, liabilities and net interest income.',
+      'Risk of losses in a Bank’s earnings or economic value of its capital due to fluctuations in interest rates affecting value of assets, liabilities and net interest income.',
     mitigationShort: 'The risk limits set by the ALCO are adhered to and interest rate risk is transferred by business....',
     mitigationFull:
-      "The risk limits set by the ALCO are adhered to and interest rate risk is transferred by business unit through a transfer price to a centralised Treasury function. In addition to short term measures such as earnings at risk (EaR) that assess the sensitivity of NII and NIM over a one-year period, the bank also uses long term risk metrics such as economic value of equity (EVE) to estimate sensitivity to interest rate changes in the long term.",
+      "The risk limits set by the ALCO are adhered to and interest rate risk is transferred by business unit through a transfer price to a centralised Treasury function. In addition to short term measures such as Earnings at Risk (EaR) that assess the sensitivity of NII and NIM over a one-year period, the Bank also uses long term risk metrics such as economic value of equity (EVE) to estimate sensitivity to interest rate changes in the long term.",
   },
   {
     icon: '/Safeguarding_Stakeholder/Icon/4.webp',
     riskTitle: 'Group risk',
     riskFull:
-      "Risk arising from interconnectedness and exposures within a banking group, including risks associated with inter-group transactions, funding and contagion effects between entities within the group.",
+      "Risk arising from interconnectedness and exposures within a banking group, including risks associated with inter-group transactions, funding and contagion effects between entities within the Group.",
     mitigationShort: 'The Bank has a Group Risk Management Committee (GRMC) that oversees group-related....',
     mitigationFull:
       "The Bank has a Group Risk Management Committee (GRMC) that oversees group-related risk management activities. Our comprehensive group risk management framework includes a robust governance structure, comprehensive risk policies, a clearly defined risk appetite for the Group and regular monitoring and reporting of risks.",
@@ -372,23 +373,24 @@ const Safeguarding1 = () => {
                 <img src="/Safeguarding_Stakeholder/Safeguarding12.webp" alt="" />
               </div>
               <div className='md:w-[70%]'>
-                <p className='mb-2'>Technology simultaneously represents our greatest opportunity
-                  and most complex risk. As banking becomes increasingly
+                <p className='mb-2'>TTechnology simultaneously represents our greatest opportunity
+                  and the most complex risk. As banking becomes increasingly
                   digital, traditional risk boundaries blur, creating interconnected
                   vulnerabilities requiring holistic management approaches. Our
                   strategy acknowledges this complexity while maintaining focus
                   on fundamental risk principles.
                 </p>
                 <p className=''>
-                  The pace of technological change accelerates annually. Systems
-                  considered cutting-edge today may become obsolete tomorrow.
-                  This reality shapes our investment philosophy - building flexible,
-                  scalable architectures capable of evolution rather than rigid
-                  systems requiring wholesale replacement. We emulate this
-                  philosophy in dealing with the various core technology risks and
-                  the risks that arise due to rapid technology evolution. Detailed
-                  explanation on technology advancements can be found digital
-                  chapter (page xxx).
+                  The pace of technological change accelerates annually —
+                  systems considered cutting-edge today may become obsolete
+                  tomorrow. This reality shapes our investment philosophy as
+                  we focus on building flexible, scalable architectures capable
+                  of evolving rather than rigid systems requiring wholesale
+                  replacement. We emulate this philosophy in dealing with the
+                  various core technology risks and the risks that arise due to
+                  rapid technology evolution. Detailed explanation on technology
+                  advancements can be found ‘Digital Powerhouse’ section of the
+                  report on pages 24-25.
                 </p>
               </div>
               <div>
@@ -398,8 +400,8 @@ const Safeguarding1 = () => {
           </div>
         </div>
         <div className='mb-5'>
-          <p className='mb-2'>Technology risks can be further detailed into two below domains i.e. core technology risks and those that are associated with
-            emerging technologies.</p>
+          <p className='mb-2'>Technology risks can be further detailed into two below domains i.e. core technology risks and risks associated with
+emerging technologies.</p>
           <div className='mb-6'>
             <h1 className='font-bold text-black mb-2'>Core Technology risks</h1>
             <RiskTable risks={coreData} />
@@ -429,6 +431,7 @@ const Safeguarding1 = () => {
             <img src="/Safeguarding_Stakeholder/Safeguarding20.webp" alt="" />
           </div>
         </div>
+        <Cyber/>
         <div className='mb-4'>
           <div className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full w-fit font-semibold mb-2">
             <div className="bg-[#2c2d83] w-6 h-6 rounded-full flex items-center justify-center text-sm">

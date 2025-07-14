@@ -60,6 +60,8 @@ function App() {
         <Route path="/analytics/overview" element={<Carousel />} />
         <Route path="/analytics/transactions" element={<Carousel />} />
         <Route path="/analytics/reports" element={<Carousel />} />
+        <Route path="/sustainability/embracing-sustainability" element={<Sustainable1 />} />
+
 
         {/* Excellence */}
         <Route path="/generating-value" element={<Generating1 />} />

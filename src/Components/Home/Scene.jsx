@@ -1,7 +1,7 @@
 import React, { useRef, useMemo, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { OrbitControls } from '@react-three/drei';
+// import { OrbitControls } from '@react-three/drei'; // Removed import
 
 const ParticleImage = ({ imageUrl, shouldStartAnimation }) => {
   const pointsRef = useRef();
@@ -66,9 +66,9 @@ const ParticleImage = ({ imageUrl, shouldStartAnimation }) => {
           // Only create particles for non-transparent pixels
           if (a > 50) {
             // Convert to 3D coordinates (centered and scaled)
-           const SCALE = 10;
-const posX = (x - width / 2) * SCALE;
-const posY = (height / 2 - y) * SCALE;
+            const SCALE = 10;
+            const posX = (x - width / 2) * SCALE;
+            const posY = (height / 2 - y) * SCALE;
 
             const posZ = 0;
 
@@ -125,9 +125,9 @@ const posY = (height / 2 - y) * SCALE;
 
   // Start animation when shouldStartAnimation becomes true
   useEffect(() => {
-    if (shouldStartAnimation && isReady && targetPositions.length > 0) { 
+    if (shouldStartAnimation && isReady && targetPositions.length > 0) {
       animationStartTime.current = Date.now();
-setHasStartedAnimation(true);
+      setHasStartedAnimation(true);
     }
   }, [shouldStartAnimation, isReady, targetPositions.length, hasStartedAnimation]);
 
@@ -231,27 +231,27 @@ export default function Scene() {
   ];
 
   // Intersection Observer for scroll trigger
-useEffect(() => {
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.isIntersecting) {
-        setShouldStartAnimation(false); // Reset
-        setTimeout(() => setShouldStartAnimation(true), 50); // Re-trigger
-      }
-    },
-    { threshold: 0.3 }
-  );
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldStartAnimation(false); // Reset
+          setTimeout(() => setShouldStartAnimation(true), 50); // Re-trigger
+        }
+      },
+      { threshold: 0.3 }
+    );
 
-  if (sectionRef.current) {
-    observer.observe(sectionRef.current);
-  }
-
-  return () => {
     if (sectionRef.current) {
-      observer.unobserve(sectionRef.current);
+      observer.observe(sectionRef.current);
     }
-  };
-}, []);
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
 
 
   const nextImage = () => {
@@ -263,7 +263,6 @@ useEffect(() => {
 
   return (
     <div style={{
-
       background: 'transparent'
     }}>
 
@@ -272,12 +271,21 @@ useEffect(() => {
         ref={sectionRef}
         style={{
           width: '100%',
-          height: '400px',
+          height: '480px',
           background: 'transparent',
           position: 'relative'
         }}
       >
         <Canvas
+          style={{
+            position: 'absolute',
+            top: '2.5%',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            width: '80%',
+            height: '80%'
+          }}
+
           camera={{ position: [0, 0, 500], fov: 75 }}
           onWheel={(e) => e.stopPropagation()}
         >
@@ -287,11 +295,7 @@ useEffect(() => {
             shouldStartAnimation={shouldStartAnimation}
             key={currentImage}
           />
-          <OrbitControls
-            enableZoom={false}
-            enablePan={false}
-            enableRotate={true}
-          />
+          {/* OrbitControls removed completely */}
         </Canvas>
       </div>
     </div>

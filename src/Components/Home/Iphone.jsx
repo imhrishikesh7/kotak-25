@@ -40,11 +40,13 @@ export default function IPhone() {
     directionalLight.position.set(10, 10, 5);
     scene.add(directionalLight);
 
-    // OrbitControls
+    // OrbitControls - DISABLED
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableZoom = false;
     controls.enablePan = false;
+    controls.enableRotate = false; // Disable rotation
     controls.enableDamping = true;
+    controls.enabled = false; // Completely disable controls
 
     // Phone Group
     const phoneGroup = new THREE.Group();
@@ -123,36 +125,44 @@ export default function IPhone() {
     let animationId;
     const animate = () => {
       animationId = requestAnimationFrame(animate);
-      controls.update();
+      // controls.update(); // Removed since controls are disabled
 
       if (phoneGroupRef.current && sliderRef.current) {
         const rotation = phoneGroupRef.current.rotation;
 
-        // Fixed condition: Check if phone is facing forward in landscape orientation
-        // After animation: x ≈ π (180°), z ≈ π/2 (90°)
+        // Check if phone is facing forward in landscape orientation AND has completed the animation
+        // After full animation: x ≈ 0 (returned to 0°), z ≈ π/2 (90° landscape)
         const phoneDir = new THREE.Vector3();
         const cameraDir = new THREE.Vector3();
         camera.getWorldDirection(cameraDir);
         phoneGroupRef.current.getWorldDirection(phoneDir);
 
         const facingForward = phoneDir.dot(cameraDir) < -0.9;
+        
+        // Check if animation has completed the final step (x back to ~0, z at ~90°)
+        const xBackToZero = Math.abs(rotation.x) < 0.3; // x should be close to 0
+        const zAtNinety = Math.abs(rotation.z - Math.PI / 2) < 0.3; // z should be close to π/2
+        const animationComplete = xBackToZero && zAtNinety;
 
-
+        // Only show screen content if facing forward AND animation is complete
+        const shouldShowContent = facingForward && animationComplete;
 
         // Debug logging (remove after testing)
         console.log('Rotation:', {
           x: rotation.x,
           z: rotation.z,
           facingForward,
-          xCheck: Math.abs(rotation.x) < 0.3,
-          zCheck: Math.abs(rotation.z - Math.PI / 2) < 0.3
+          xBackToZero,
+          zAtNinety,
+          animationComplete,
+          shouldShowContent
         });
 
         gsap.to(sliderRef.current, {
-          opacity: facingForward ? 1 : 0,
+          opacity: shouldShowContent ? 1 : 0,
           duration: 0.5,
           ease: 'power2.out',
-          pointerEvents: facingForward ? 'auto' : 'none',
+          pointerEvents: shouldShowContent ? 'auto' : 'none',
         });
       }
 

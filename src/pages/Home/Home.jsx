@@ -25,7 +25,7 @@ const Home = () => {
             <div className='flex md:flex-row md:h-[90vh] gap-4 flex-col'>
                 <div className='md:w-[40%] bg-gray-200 md:rounded-r-4xl p-6 md:px-10 flex flex-col justify-center items-cente'>
                     <Reveal animation="slide-up">
-                        <p className='text-2xl'>
+                        <p className='text-2xl md:text-left text-center'>
                             We are a <span className='text-2xl font-bold text-[#013367]'>₹ 8.8 trillion</span> institution* with a market capitalisation of <span className='text-2xl font-bold text-[#013367] '>₹ 4.3 trillion</span>, as of 31st March, 2025.
                         </p>
                     </Reveal>

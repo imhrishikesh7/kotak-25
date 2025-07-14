@@ -16,170 +16,140 @@ export default function IPhone() {
   const sliderRef = useRef();
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
+  const canvas = canvasRef.current;
+  if (!canvas) return;
 
-    // Scene
-    const scene = new THREE.Scene();
-    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
-    renderer.setSize(canvas.clientWidth, canvas.clientHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setClearColor('#f9f9f9', 0);
+  // Scene setup
+  const scene = new THREE.Scene();
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setClearColor('#f9f9f9', 0);
 
-    // Camera
-    const camera = new THREE.PerspectiveCamera(
-      45,
-      canvas.clientWidth / canvas.clientHeight,
-      0.1,
-      1000
-    );
-    camera.position.set(0, 0, 24);
+  const camera = new THREE.PerspectiveCamera(
+    45,
+    canvas.clientWidth / canvas.clientHeight,
+    0.1,
+    1000
+  );
+  camera.position.set(0, 0, 24);
 
-    // Lighting
-    scene.add(new THREE.AmbientLight(0xffffff, 1.2));
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
-    directionalLight.position.set(10, 10, 5);
-    scene.add(directionalLight);
+  // Lighting
+  scene.add(new THREE.AmbientLight(0xffffff, 1.2));
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
+  directionalLight.position.set(10, 10, 5);
+  scene.add(directionalLight);
 
-    // OrbitControls - DISABLED
-    const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableZoom = false;
-    controls.enablePan = false;
-    controls.enableRotate = false; // Disable rotation
-    controls.enableDamping = true;
-    controls.enabled = false; // Completely disable controls
+  // Disable OrbitControls
+  const controls = new OrbitControls(camera, renderer.domElement);
+  controls.enabled = false;
 
-    // Phone Group
-    const phoneGroup = new THREE.Group();
-    phoneGroupRef.current = phoneGroup;
-    scene.add(phoneGroup);
+  // Phone Group
+  const phoneGroup = new THREE.Group();
+  phoneGroupRef.current = phoneGroup;
+  scene.add(phoneGroup);
 
-    // Load iPhone model
-    const loader = new GLTFLoader();
-    loader.load(
-      './models/iphone_16free.glb',
-      (gltf) => {
-        const model = gltf.scene;
-        model.scale.set(1.5, 1.5, 1.5);
+  // --- Render function (used by GSAP and resize) ---
+  const render = () => {
+    if (sliderRef.current && phoneGroupRef.current) {
+      const rotation = phoneGroupRef.current.rotation;
 
-        // ❌ No initial flip
-        // model.rotation.y = Math.PI;
+      const phoneDir = new THREE.Vector3();
+      const cameraDir = new THREE.Vector3();
+      camera.getWorldDirection(cameraDir);
+      phoneGroupRef.current.getWorldDirection(phoneDir);
 
-        // Center the model
-        const box = new THREE.Box3().setFromObject(model);
-        const center = new THREE.Vector3();
-        box.getCenter(center);
-        model.position.sub(center);
+      const facingForward = phoneDir.dot(cameraDir) < -0.9;
+      const xBackToZero = Math.abs(rotation.x) < 0.3;
+      const zAtNinety = Math.abs(rotation.z - Math.PI / 2) < 0.3;
+      const animationComplete = xBackToZero && zAtNinety;
 
-        phoneGroup.add(model);
+      const shouldShowContent = facingForward && animationComplete;
 
-        // Set initial portrait rotation (screen facing)
-        phoneGroup.rotation.set(0, 0, 0);
+      gsap.to(sliderRef.current, {
+        opacity: shouldShowContent ? 1 : 0,
+        duration: 0.5,
+        ease: 'power2.out',
+        pointerEvents: shouldShowContent ? 'auto' : 'none',
+      });
+    }
 
-        // Scroll-triggered cinematic animation
-        ScrollTrigger.create({
+    renderer.render(scene, camera);
+  };
+
+  // Load GLTF model
+  const loader = new GLTFLoader();
+  loader.load(
+    './models/iphone_16free.glb',
+    (gltf) => {
+      const model = gltf.scene;
+      model.scale.set(1.5, 1.5, 1.5);
+
+      const box = new THREE.Box3().setFromObject(model);
+      const center = new THREE.Vector3();
+      box.getCenter(center);
+      model.position.sub(center);
+
+      phoneGroup.add(model);
+      phoneGroup.rotation.set(0, 0, 0);
+
+      // Scroll-triggered GSAP animation
+      const tl = gsap.timeline({
+        scrollTrigger: {
           trigger: "#phone-section",
           start: "top center",
           end: "bottom center",
-          onEnter: () => {
-            const tl = gsap.timeline();
-
-            // Step 1: Tilt backward (show top bezel)
-            tl.to(phoneGroup.rotation, {
-              x: "+=" + THREE.MathUtils.degToRad(90),
-              duration: 0.6,
-              ease: "power2.inOut",
-            })
-              // Step 2: Rotate to landscape
-              .to(phoneGroup.rotation, {
-                z: "+=" + THREE.MathUtils.degToRad(90),
-                duration: 0.6,
-                ease: "power2.inOut",
-              })
-              // Step 3: Bring screen to face front again
-              .to(phoneGroup.rotation, {
-                x: "-=" + THREE.MathUtils.degToRad(90),
-                duration: 0.6,
-                ease: "power2.inOut",
-              });
-          },
           once: true,
+          onUpdate: render,
+        },
+        onUpdate: render,
+        onComplete: render,
+      });
+
+      tl.to(phoneGroup.rotation, {
+        x: "+=" + THREE.MathUtils.degToRad(90),
+        duration: 0.6,
+        ease: "power2.inOut",
+      })
+        .to(phoneGroup.rotation, {
+          z: "+=" + THREE.MathUtils.degToRad(90),
+          duration: 0.6,
+          ease: "power2.inOut",
+        })
+        .to(phoneGroup.rotation, {
+          x: "-=" + THREE.MathUtils.degToRad(90),
+          duration: 0.6,
+          ease: "power2.inOut",
         });
-      },
-      undefined,
-      (err) => {
-        console.error('Error loading model', err);
-      }
-    );
+    },
+    undefined,
+    (err) => {
+      console.error('Error loading model', err);
+    }
+  );
 
-    // Resize
-    const handleResize = () => {
-      const width = canvas.parentElement.clientWidth;
-      const height = canvas.parentElement.clientHeight;
-      camera.aspect = width / height;
-      camera.updateProjectionMatrix();
-      renderer.setSize(width, height);
-    };
-    window.addEventListener('resize', handleResize);
+  // Resize handler
+  const handleResize = () => {
+    const width = canvas.parentElement.clientWidth;
+    const height = canvas.parentElement.clientHeight;
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+    render(); // Re-render after resizing
+  };
 
-    // Animation loop
-    let animationId;
-    const animate = () => {
-      animationId = requestAnimationFrame(animate);
-      // controls.update(); // Removed since controls are disabled
+  window.addEventListener('resize', handleResize);
 
-      if (phoneGroupRef.current && sliderRef.current) {
-        const rotation = phoneGroupRef.current.rotation;
+  // Initial render
+  render();
 
-        // Check if phone is facing forward in landscape orientation AND has completed the animation
-        // After full animation: x ≈ 0 (returned to 0°), z ≈ π/2 (90° landscape)
-        const phoneDir = new THREE.Vector3();
-        const cameraDir = new THREE.Vector3();
-        camera.getWorldDirection(cameraDir);
-        phoneGroupRef.current.getWorldDirection(phoneDir);
+  // Cleanup
+  return () => {
+    window.removeEventListener('resize', handleResize);
+    renderer.dispose();
+  };
+}, []);
 
-        const facingForward = phoneDir.dot(cameraDir) < -0.9;
-
-        // Check if animation has completed the final step (x back to ~0, z at ~90°)
-        const xBackToZero = Math.abs(rotation.x) < 0.3; // x should be close to 0
-        const zAtNinety = Math.abs(rotation.z - Math.PI / 2) < 0.3; // z should be close to π/2
-        const animationComplete = xBackToZero && zAtNinety;
-
-        // Only show screen content if facing forward AND animation is complete
-        const shouldShowContent = facingForward && animationComplete;
-
-        // Debug logging (remove after testing)
-        console.log('Rotation:', {
-          x: rotation.x,
-          z: rotation.z,
-          facingForward,
-          xBackToZero,
-          zAtNinety,
-          animationComplete,
-          shouldShowContent
-        });
-
-        gsap.to(sliderRef.current, {
-          opacity: shouldShowContent ? 1 : 0,
-          duration: 0.5,
-          ease: 'power2.out',
-          pointerEvents: shouldShowContent ? 'auto' : 'none',
-        });
-      }
-
-      renderer.render(scene, camera);
-    };
-
-    animate(); // Start animation loop
-    // Cleanup
-    return () => {
-      cancelAnimationFrame(animationId);
-      window.removeEventListener('resize', handleResize);
-      renderer.dispose();
-    };
-
-
-  }, []);
 
   return (
     <div>

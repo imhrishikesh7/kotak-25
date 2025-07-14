@@ -100,7 +100,7 @@ export default function BOD() {
   return (
     <div className="min-h-screen bg-white py-12 px-4">
       <div className="marginal mx-auto">
-        <div className='w-fit mb-12 mx-auto text-center'>
+        <div className='w-fit mb-10 mx-auto text-center'>
           <Reveal animation="slide-up">
             <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Board of Directors</h3>
           </Reveal>

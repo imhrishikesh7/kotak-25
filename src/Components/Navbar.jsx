@@ -213,13 +213,13 @@ const Navbar = () => {
                                 </div>
                             </div>
                         ) : (
-                            <a
-                                href={sub.link}
+                            <Link
+                                to={sub.link}
                                 onClick={() => setActive(null)}
                                 className="block py-2 cursor-pointer px-2 text-sm hover:text-blue-300 transition"
                             >
                                 {sub.label}
-                            </a>
+                            </Link>
                         )}
                     </div>
                 ))}
@@ -255,9 +255,9 @@ const Navbar = () => {
                 }
             `}</style>
             <nav className="bg-[#013367]/90 backdrop-blur-[20px] relative text-white md:px-16 px-6 py-6 flex justify-between items-center">
-                <a href="/" className="text-xl font-bold w-32">
+                <Link to="/" className="text-xl font-bold w-32">
                     <img src="/Kotak-White-Version.webp" alt="Logo" />
-                </a>
+                </Link>
 
                 {/* Desktop Nav */}
                 <div
@@ -322,13 +322,13 @@ const Navbar = () => {
                                     <FiChevronRight className="text-xl" />
                                 </button>
                             ) : (
-                                <a
-                                    href={item.link}
+                                <Link
+                                    to={item.link}
                                     key={item.label}
                                     className="block text-base cursor-pointer py-4 bg-[#111]/30 px-4 rounded hover:bg-[#222] transition"
                                 >
                                     {item.label}
-                                </a>
+                                </Link>
                             )
                         )}
                     </div>
@@ -358,13 +358,13 @@ const Navbar = () => {
                                         <FiChevronRight className="text-lg" />
                                     </button>
                                 ) : (
-                                    <a
-                                        href={sub.link}
+                                    <Link
+                                        to={sub.link}
                                         key={sub.label}
                                         className="block py-3 px-4 cursor-pointer bg-[#111]/30 rounded hover:bg-[#222] transition"
                                     >
                                         {sub.label}
-                                    </a>
+                                    </Link>
                                 )
                             ))}
                         </div>

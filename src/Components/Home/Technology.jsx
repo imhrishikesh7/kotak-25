@@ -41,7 +41,7 @@ const Technology = () => {
   }, []);
 
   return (
-    <div className='pb-16'>
+    <div className='pb-12 md:pb-4'>
       {/* Titles */}
       <div className="w-fit marginal mx-auto md:mb-12 text-center">
         <Reveal animation="slide-up">

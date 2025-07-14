@@ -23,11 +23,12 @@ import DigitalPowerhouse from './pages/DigitalPowerhouse';
 import Talent from './pages/Talent';
 import ScrollToTop from './Components/ScrollToTop';
 import KPI from './Components/Home/KPI';
-import Strategy from './Components/Home/Strategy';
+import Strategy from './Components/Home/StrategyHome';
 import SusSnapshots from './Components/Home/SusSnapshots';
 
 function App() {
   return (
+      <div className="min-h-screen flex flex-col">
     <Router>
       <ScrollToTop />
       <Navbar />
@@ -68,6 +69,7 @@ function App() {
       </Routes>
       <Footer/>
     </Router>
+    </div>
   );
 }
 

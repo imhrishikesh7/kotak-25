@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScreenContent } from './ScreenContent';
 import Reveal from '../Reveal';
+import KnowMore from '../KnowMore';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -138,7 +139,7 @@ export default function IPhone() {
         phoneGroupRef.current.getWorldDirection(phoneDir);
 
         const facingForward = phoneDir.dot(cameraDir) < -0.9;
-        
+
         // Check if animation has completed the final step (x back to ~0, z at ~90°)
         const xBackToZero = Math.abs(rotation.x) < 0.3; // x should be close to 0
         const zAtNinety = Math.abs(rotation.z - Math.PI / 2) < 0.3; // z should be close to π/2
@@ -181,38 +182,56 @@ export default function IPhone() {
   }, []);
 
   return (
-    <div id="phone-section" className="relative flex flex-col items-center justify-center">
-      <div className='w-fit mx-auto text-center mb-12'>
-        <Reveal animation="slide-up">
-          <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Digital Powerhouse</h3>
-        </Reveal>
-        <Reveal animation="slide-up">
-          <p className="text-2xl w-5xl pb-2 font-semibold text-[#013367] bg-clip-text">Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.</p>
-        </Reveal>
-      </div>
-      <div className="w-full h-[800px] bg-gradient-to-br from-[#ed1c25] to-[#013367] relative">
-        <canvas ref={canvasRef} className="w-full h-full" />
-
-        {/* SLIDER CONTENT OVERLAY */}
-        <div
-          ref={sliderRef}
-          className="absolute"
-          style={{
-            top: '24.5%',
-            left: '50%',
-            background: 'black',
-            transform: 'translateX(-50%)',
-            width: '882px',
-            height: '410px',
-            opacity: 0,
-            pointerEvents: 'none',
-            overflow: 'hidden',
-            borderRadius: '3.5rem',
-          }}
-        >
-          <ScreenContent />
+    <div>
+      <div className='block mt-12 md:hidden'>
+        <div className='w-fit marginal mx-auto text-center'>
+          <Reveal animation="slide-up">
+            <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Digital Powerhouse</h3>
+          </Reveal>
+          <Reveal animation="slide-up">
+            <p className=" md:text-2xl pb-2 font-semibold text-[#013367] bg-clip-text">Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.</p>
+          </Reveal>
         </div>
+        <div className='border-gray-200 marginal rounded-4xl shadow-lg border !mb-4'>
+          <img src="./Digital/Page-24.webp" className='' alt="" />
+        <div className='w-fit mx-auto'>
+          <KnowMore/>
+        </div>
+        </div>
+      </div>
+      <div id="phone-section" className=" relative hidden md:flex my-12 flex-col items-center justify-center">
+        <div className='w-fit marginal mx-auto text-center'>
+          <Reveal animation="slide-up">
+            <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Digital Powerhouse</h3>
+          </Reveal>
+          <Reveal animation="slide-up">
+            <p className=" md:text-2xl pb-2 font-semibold text-[#013367] bg-clip-text">Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.</p>
+          </Reveal>
+        </div>
+        <div className="w-full h-[800px] bg-gradient-to-br from-[#ed1c25] to-[#013367] relative">
+          <canvas ref={canvasRef} className="w-full h-full" />
 
+          {/* SLIDER CONTENT OVERLAY */}
+          <div
+            ref={sliderRef}
+            className="absolute"
+            style={{
+              top: '24.5%',
+              left: '50%',
+              background: 'black',
+              transform: 'translateX(-50%)',
+              width: '882px',
+              height: '410px',
+              opacity: 0,
+              pointerEvents: 'none',
+              overflow: 'hidden',
+              borderRadius: '3.5rem',
+            }}
+          >
+            <ScreenContent />
+          </div>
+
+        </div>
       </div>
     </div>
   );

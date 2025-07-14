@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   FiDownload,
   FiFileText,
@@ -8,8 +8,9 @@ import {
   FiHome,
   FiSearch
 } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
-import Reveal from '../Reveal';
+
+// Mock components for demonstration
+const Reveal = ({ children, animation }) => <div>{children}</div>;
 
 const DownloadCenter = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -129,20 +130,15 @@ const DownloadCenter = () => {
   };
 
   return (
-    <div className="marginal bg-gray-100 !my-12 rounded-4xl mx-auto !p-6">
-      {/* Header */}
-      {/* <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-900 mb-1">Download Center</h1>
-        <p className="text-gray-600 text-sm">Access financial statements and reports</p>
-      </div> */}
-            <div className='w-fit mx-auto my-12 text-center'>
-                <Reveal animation="slide-up">
-                    <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Download Center</h3>
-                </Reveal>
-                <Reveal animation="slide-up">
-                    <h1 className="text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Access financial statements and reports</h1>
-                </Reveal>
-            </div>
+    <div className="marginal bg-gray-100 !my-12 rounded-3xl mx-auto !p-4">
+      <div className='w-fit mx-auto mt-12 mb-6 text-center'>
+        <Reveal animation="slide-up">
+          <h3 className="text-2xl mb-3 font-bold text-red-600 pb-2 border-b border-gray-400">Download Center</h3>
+        </Reveal>
+        <Reveal animation="slide-up">
+          <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-red-600 to-blue-900 bg-clip-text">Access financial statements and reports</h1>
+        </Reveal>
+      </div>
 
       {/* Search and Filter */}
       <div className="mb-6 flex flex-col sm:flex-row gap-3">
@@ -156,16 +152,15 @@ const DownloadCenter = () => {
             className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           {categories.map(category => (
             <button
               key={category.id}
               onClick={() => setSelectedCategory(category.id)}
-              className={`px-3 py-2 cursor-pointer rounded-lg text-sm font-medium transition-colors ${
-                selectedCategory === category.id
-                  ? 'bg-[#013367] text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
+              className={`px-3 py-2 cursor-pointer rounded-lg text-sm font-medium transition-colors ${selectedCategory === category.id
+                ? 'bg-blue-900 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
             >
               {category.name} ({category.count})
             </button>
@@ -173,45 +168,44 @@ const DownloadCenter = () => {
         </div>
       </div>
 
-   {/* Documents List */}
-<div className="flex flex-wrap gap-4">
-  {filteredDocuments.map(document => (
-    <div
-      key={document.id}
-      className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow w-full sm:w-[48%] lg:w-[32%]"
-    >
-      <div className="flex items-start justify-between gap-4">
-        <div className="flex items-start gap-3 flex-1 min-w-0">
-          <div className={`p-2 rounded-lg ${getCategoryColor(document.category)}`}>
-            {document.icon}
-          </div>
-          <div className="flex-1 min-w-0">
-            <h3 className="text-sm font-medium text-gray-900 truncate">
-              {document.title}
-            </h3>
-            <div className="flex items-center gap-3 mt-1">
-              <span className={`inline-block px-2 py-1 rounded-md text-xs font-medium ${getCategoryColor(document.category)}`}>
-                {document.category.charAt(0).toUpperCase() + document.category.slice(1)}
-              </span>
-              <span className="text-xs text-gray-500 flex items-center gap-1">
-                <FiFileText className="w-3 h-3" />
-                {document.pages} pages
-              </span>
+      {/* Documents List */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {filteredDocuments.map(document => (
+          <div
+            key={document.id}
+            className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div className="flex items-start gap-3 flex-1 min-w-0">
+                <div className={`p-2 rounded-lg ${getCategoryColor(document.category)}`}>
+                  {document.icon}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-sm font-medium text-gray-900 line-clamp-2 sm:line-clamp-1">
+                    {document.title}
+                  </h3>
+                  <div className="flex items-center gap-3 mt-1">
+                    <span className={`inline-block px-2 py-1 rounded-md text-xs font-medium ${getCategoryColor(document.category)}`}>
+                      {document.category.charAt(0).toUpperCase() + document.category.slice(1)}
+                    </span>
+                    <span className="text-xs text-gray-500 flex items-center gap-1">
+                      <FiFileText className="w-3 h-3" />
+                      {document.pages} pages
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <button
+                onClick={() => handleDownload(document)}
+                className="bg-blue-900 text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap flex-shrink-0"
+              >
+                <FiDownload className="w-4 h-4" />
+                Download
+              </button>
             </div>
           </div>
-        </div>
-        <Link
-        to={"/"}
-        //   onClick={() => handleDownload(document)}
-          className="bg-[#013367] text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap"
-        >
-          <FiDownload className="w-4 h-4" />
-          Download
-        </Link>
+        ))}
       </div>
-    </div>
-  ))}
-</div>
 
 
       {/* No Results */}

@@ -24,17 +24,17 @@ const Talent = () => {
                 </div>
             </div>
 
-            <SectionHeading heading={'Best of Kotak for Kotakites'} icon={'Talent/Page-26-Icon-2.webp'} />
+            <SectionHeading heading={'Best of Kotak for Kotakites'} icon={'/Talent/Page-26-Icon-2.webp'} />
             <div>
                 <p className='text-lg'>We offered value propositions and benefits to our colleagues on
                     preferential terms. In FY 2024-25, we launched Kotak Staff Home
                     Loan Policy with the objective to provide home loan benefits to
                     Kotak Bank colleagues at preferential rates.
                 </p>
-                <img src="Talent/Page-26-Image.webp" alt="" className='rounded-3xl mt-5' />
+                <img src="/Talent/Page-26-Image.webp" alt="" className='rounded-3xl mt-5' />
             </div>
 
-            <SectionHeading heading={'Colleague Development'} icon={'Talent/Page-26-Icon-2.webp'} />
+            <SectionHeading heading={'Colleague Development'} icon={'/Talent/Page-26-Icon-2.webp'} />
             <div>
                 <p className='text-lg'>We believe in unlocking the potential of every colleague. <i>Kotak
                     MyLearn</i>, the Bank’s digital learning platform was extended to
@@ -88,7 +88,7 @@ const Talent = () => {
                 </p>
             </div>
 
-            <SectionHeading heading={'Building a Culture of Appreciation'} icon={'Talent/Page-27-Icon-1.webp'} />
+            <SectionHeading heading={'Building a Culture of Appreciation'} icon={'/Talent/Page-27-Icon-1.webp'} />
             <div>
                 <p className='text-lg'>Through the <i>Celebrating You</i> philosophy, we bring appreciation
                     into everyday work life. At the Bank level, it includes <i>Long Service
@@ -109,17 +109,17 @@ const Talent = () => {
                 </p>
             </div>
 
-            <SectionHeading heading={'Transparent Communication'} icon={'Talent/Page-27-Icon-3.webp'} />
+            <SectionHeading heading={'Transparent Communication'} icon={'/Talent/Page-27-Icon-3.webp'} />
             <div>
                 <p className='text-lg'>Open dialogue is at the heart of our culture. Amber, the AI-powered feedback platform, captures real-time sentiment from
                     colleagues across the Bank, while <i>My Kotak My Say</i> is a Bank-wide survey conducted in partnership with Great Place to Work<sup>®</sup>.
                     Together, they ensure every voice is heard and can provide
                     insights that directly shape our people strategies.
                 </p>
-                <img src="Talent/Page-27-Image.webp" alt="" className='rounded-3xl mt-5' />
+                <img src="/Talent/Page-27-Image.webp" alt="" className='rounded-3xl mt-5' />
             </div>
 
-            <SectionHeading heading={'Enhanced Colleague Value Proposition'} icon={'Talent/Page-27-Icon-2.webp'} />
+            <SectionHeading heading={'Enhanced Colleague Value Proposition'} icon={'/Talent/Page-27-Icon-2.webp'} />
             <div>
                 <p className='text-lg'>We are shaping employee experience through various initiatives
                     that support every stage of life and career.

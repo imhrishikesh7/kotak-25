@@ -23,8 +23,10 @@ import DigitalPowerhouse from './pages/DigitalPowerhouse';
 import Talent from './pages/Talent';
 import ScrollToTop from './Components/ScrollToTop';
 import KPI from './Components/Home/KPI';
-import Strategy from './Components/Home/StrategyHome';
+import StrategyInner from './pages/StrategyInner';
 import SusSnapshots from './Components/Home/SusSnapshots';
+import VCModel from './Components/Home/VCModel';
+import Awards from './pages/Awards';
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
         <Route path="/technology" element={<Technology/>} />
         <Route path="/digital" element={<DigitalPowerhouse/>} />
         <Route path="/talent" element={<Talent/>} />
+        <Route path="/value-creation-model" element={<VCModel/>} />
+        <Route path="/awards-and-accolades" element={<Awards/>} />
 
         {/* Stakeholder Engagement */}
         <Route path="/page1" element={<Page1 />} />
@@ -50,11 +54,12 @@ function App() {
         <Route path="/our-enablers/digital-powerhouse" element={<DigitalPowerhouse />} />
         <Route path="/our-enablers/talent" element={<Talent />} />
         <Route path="/our-enablers/stakeholder-engagement" element={<Page2 />} />
-        {/* <Route path="/strategy" element={<Strategy />} /> */}
+        <Route path="/strategy" element={<StrategyInner />} />
         <Route path="/sustainability/snapshot" element={<Carousel />} />
         <Route path="/sustainability/customers" element={<Generating1 />} />
         <Route path="/sustainability/governance" element={<Excellence />} />
         <Route path="/sustainability/risk-resilience" element={<Safeguarding1 />} />
+        <Route path="/sustainability/colleagues" element={<Empowering1 />} />
 
         {/* Snapshot */}
         <Route path="/analytics/overview" element={<Carousel />} />

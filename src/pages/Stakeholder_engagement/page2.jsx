@@ -164,7 +164,7 @@ const page2 = () => {
           </div>
         </div>
         <div className='flex items-center'>
-          <img src="Stakeholders\Box-Page-31.webp" alt="" />
+          <img src="\Stakeholders\Box-Page-31.webp" alt="" />
         </div>
 
       </div>
@@ -172,7 +172,7 @@ const page2 = () => {
         <sup>1</sup>GRI 3-1
       </p>
       <div className='mb-5'>
-        <img src="Stakeholders\IMG_6426.webp" alt="" className='rounded-3xl' />
+        <img src="\Stakeholders\IMG_6426.webp" alt="" className='rounded-3xl' />
       </div>
       <div className='text-lg'>
         <h1 className='text-xl text-[#252f80] mb-1 font-semibold'>
@@ -181,13 +181,13 @@ const page2 = () => {
         <p className='mb-8'>The following steps were undertaken as a part of the improved materiality assessment process during FY 2023-24 :</p>
         <div className='flex lg:flex-row flex-col gap-5'>
           <div className='lg:w-1/3'>
-            <img src="Stakeholders\Image-32-Box1.webp" alt="" />
+            <img src="\Stakeholders\Image-32-Box1.webp" alt="" />
           </div>
           <div className='lg:w-1/3'>
-            <img src="Stakeholders\Image-32-Box2.webp" alt="" />
+            <img src="\Stakeholders\Image-32-Box2.webp" alt="" />
           </div>
           <div className='lg:w-1/3'>
-            <img src="Stakeholders\Image-32-Box3.webp" alt="" />
+            <img src="\Stakeholders\Image-32-Box3.webp" alt="" />
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@ const page2 = () => {
           </p>
         </div>
         <div className='md:w-[50%] mt-5'>
-          <img src="/Stakeholders\IMG_6561.webp" alt="" className='rounded-3xl' />
+          <img src="\Stakeholders\IMG_6561.webp" alt="" className='rounded-3xl' />
         </div>
       </div>
       <div className='mb-5'>

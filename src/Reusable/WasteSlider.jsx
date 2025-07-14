@@ -7,16 +7,16 @@ import "swiper/css/pagination";
 const wasteCategories = [
   {
     title: "E-Waste",
-    text: "We considered the quantity of e-waste recycled through authorised vendors, which was recycled during FY 2024-25. The waste calculation was done for all Bank premises including corporate offices, branches and ATMs by using the quantity of waste disposed as mentioned on the documents submitted to the regulators (manifests)."
+    text: "We considered the quantity of e-waste recycled through authorised vendors, which was recycled during FY 2024-25. The waste calculation was done for all Bank premises, including corporate offices, branches and ATMs by using the quantity of waste disposed as mentioned on the documents submitted to the regulators (manifests)."
 ,
   },
   {
     title: "Biomedical waste",
-    text: "Generation of biomedical waste occured only at two of our corporate offices, which have on-site medical facilities, and it was disposed through authorised vendors to ensure safe disposal.",
+    text: "Generation of biomedical waste occured only at two of our corporate offices, which have on-site medical facilities and it was disposed through authorised vendors to ensure safe disposal.",
   },
   {
     title: "Construction waste",
-    text: "Generation of construction waste occurs at Kotak premises, which underwent renovation and refurbishment. Calculation of construction waste was done basis an estimation methodology, where average waste generated per square feet due to renovation/refurbishment activity was used to estimate waste generated at other premises that underwent similar activities during the year. As the number of premises along with total renovated area differs year-on-year basis, the data is not comparable with FY 2023-24."
+    text: "Construction waste is generated during renovation and refurbishment at Kotak premises. The estimation of waste was based on average waste per square foot for renovation activities, applied to other premises undergoing similar work. Since the number of premises and the total renovated area vary year-to-year, this data is not directly comparable to FY 2023-24."
 ,
   },
   {
@@ -26,7 +26,7 @@ const wasteCategories = [
   },
   {
     title: "Paper and cardboard waste",
-    text: "The total paper procured at Kotak during FY 2024-25 was considered to be consumed and generated as waste. Paper which was disposed through the authorised waste disposal vendors was considered to be recycled, it was taken at actuals and the rest was assumed to have gone to landfill. All paper procured is considered as paper waste, we adopted this assumption in FY 2023-24, which led to increase in waste to landfill. Hence, the data is comparable to FY 2023-24 and not the years prior to that."
+    text: "The total paper procured at Kotak during FY 2024-25 was considered to be consumed and generated as waste. Paper, which was disposed through the authorised waste disposal vendors, was considered to be recycled, it was taken at actuals and the rest was assumed to have gone to landfill. We adopted this assumption of considering all paper procured as paper waste in FY 2023-24, which led to increase in waste to landfill. Hence, the data is comparable to FY 2023-24 and not the years prior to that."
 ,
   },
   {
@@ -35,7 +35,7 @@ const wasteCategories = [
   },
   {
     title: "Used Oil",
-    text: "Generation of used oil occurs at select corporate office premises, where the maintenance of the generators is under Kotak’s purview. The data was taken at actuals as it was disposed through authorised vendors to ensure safe disposal and the records of disposal are also shared with the regulators (manifests)."
+    text: "Generation of used oil occurs at select corporate office premises, where the maintenance of the generators is under our purview. The data was taken at actuals as it was disposed through authorised vendors to ensure safe disposal and the records of disposal are also shared with the regulators (manifests)."
 ,
   },
   {
@@ -50,7 +50,7 @@ const wasteCategories = [
   },
   {
     title: "Organic waste",
-    text: "Food waste was generated at our select corporate offices. It’s disposal was done through authorised vendors or was converted to manure through the OWCs, onsite. We have calculated the waste based on recorded data."
+    text: "Food waste was generated at our select corporate offices. Its disposal was done through authorised vendors or was converted to manure through the OWCs onsite. We have calculated the waste based on recorded data."
 ,
   },
   {
@@ -60,7 +60,7 @@ const wasteCategories = [
   },
   {
     title: "Sludge",
-    text: "This was generated from select corporate offices which have a functional STP and the calculation has been done using the disposal data. Sludge was disposed through authorised vendors to ensure safe disposal.",
+    text: "This was generated from select corporate offices which have a functional STP and the calculation has been done using the disposal data. Sludge was disposed through authorised vendors to ensure safe disposal..",
   },
 ];
 

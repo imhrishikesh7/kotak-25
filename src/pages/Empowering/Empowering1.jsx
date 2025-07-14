@@ -61,13 +61,18 @@ const benefits = [
 const Empowering1 = () => {
   return (
     <div className='marginal text-lg'>
-      <h1 className='text-xl  mb-2'>Our colleagues* are the backbone of our
-        organisation, driving innovation and fueling
-        future growth. We foster an inclusive
-        culture that prioritises colleague well-being,
-        diversity and opportunities for professional
-        development, enabling each individual to
-        thrive and reach their full potential.</h1>
+      <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
+        Empowering Colleagues
+      </div>
+      <h1 className="text-3xl font-bold text-[#ed1c2f]">
+        Colleagues at the Core
+        <br />
+        <br />
+      </h1>
+      <h1 className='text-xl  mb-2'>Our colleagues* are the backbone of our organisation, driving innovation and fueling future
+        growth. We foster an inclusive culture that prioritises colleague well-being, diversity and
+        opportunities for professional development, enabling each individual to thrive and reach
+        their full potential.</h1>
       <div className='mb-5'>
         <Key highlights={[
           { value: "1.14 lakh+", label: "Full-time Employees (FTE) at our Group" },
@@ -80,21 +85,21 @@ const Empowering1 = () => {
           capitalLinkage={[
             {
               label: "Human Capital",
-              icon: "./All_Icons/23.webp",
+              icon: "/All_Icons/23.webp",
             },
 
           ]}
           sdgs={[
-            "./All_Icons/20.webp",
-            "./All_Icons/21.webp",
-            "./All_Icons/22.webp",
+            "/All_Icons/20.webp",
+            "/All_Icons/21.webp",
+            "/All_Icons/22.webp",
           ]}
         />
       </div>
       <div class="md:flex bg-white rounded-xl border-2 border-red-500 overflow-hidden shadow-md mb-5  ">
 
         <div class="md:w-[30%]">
-          <img src="./Empowering/Empowering0.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
+          <img src="/Empowering/Empowering0.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
         </div>
 
 
@@ -102,9 +107,8 @@ const Empowering1 = () => {
           <div class="absolute top-2 left-2 text-red-500 text-2xl font-bold">❝</div>
 
 
-          <p class="mt-6">
-            In FY 2024-25, we continued to shape a workplace where every Kotakite feels valued, empowered, and inspired to bring their best selves to work. From strengthening career journeys to deepening inclusion and well-being, our focus has been on meaningful progress. Through every change and challenge, our commitment remained steady to nurture potential, build trust and grow together with the spirit of
-            <br></br> <span class="font-bold">‘Hausla hai to ho jayega’</span>.
+          <p class="mt-6 text-3xl font-extralight">
+            In FY 2024-25, we continued to shape a workplace where every Kotakite feels valued, empowered, and inspired to bring their best selves to work. From strengthening career journeys to deepening inclusion and well-being, our focus has been on meaningful progress. Through every change and challenge, our commitment remained steady to nurture potential, build trust and grow together with the spirit of <span class="font-bold">‘Hausla hai to ho jayega’</span>.
           </p>
 
 
@@ -112,18 +116,18 @@ const Empowering1 = () => {
 
 
           <div class="mt-4 border-t pt-4">
-            <p class="font-bold text-red-600">Anupam Kaura</p>
-            <p class="text-orange-700 font-semibold">Chief Human Resources Officer</p>
+            <p class="font-bold text-white bg-[#ed2133] w-fit pl-1 pr-1">Anupam Kaura</p>
+            <p class="text-[#ed2133] font-semibold mt-2">Chief Human Resources Officer</p>
             <p>Kotak Mahindra Bank Limited</p>
           </div>
         </div>
 
       </div>
-      <p className='mb-5 text-xs text-gray-700'>
+      <p className='mb-5 text-sm text-gray-700'>
         <sup>*</sup> In this report, colleague(s) refers to all employees on full time (permanent and fixed term contracts) and part time roles.
       </p>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#ed2133] mb-2'>
+        <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
           Overview of Our Workforce <sup>1</sup>
         </h1>
         <p className='mb-2'>
@@ -161,21 +165,47 @@ const Empowering1 = () => {
           respectively. Internal mobility remained a focus, with over
           243 colleagues transitioning to new roles within the Group.
           For detailed retention metrics and employee data, refer
-          to Section A-22, page XX - XX of the BRSR and ESG Data
-          Tables, pages XX - XX.
+          to Section A-22, page 457-458 of the BRSR and ESG Data
+          Tables, pages 507-510.
         </p>
-        <div className='text-xs mb-5 text-gray-700'>
+        <div className='text-sm border-t-1 pt-1 mb-5 text-gray-700'>
           <sup>1</sup>GRI 3-3, GRI 2-7, BRSR, Section A, Question 20.| <sup>2</sup>GRI 401-1|
-          <sup>*</sup>Due to nature of business, Kotak Mahindra Life Insurance Limited (KLIFE) has hired insurance brokers, which are primarily contractual.
+          <sup>*</sup>Due to nature of business, Kotak Mahindra Life Insurance Limited (KLI) has hired insurance brokers, which are primarily contractual.
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>Our Growing Workforce</h1>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Our Growing Workforce</h1>
         <div className='md:w-[50%] mb-5'>
-          <img src="./Empowering/Empowering1.webp" alt="" />
+          <img src="/Empowering/Empowering1.webp" alt="" />
+        </div>
+        <div>
+          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
+          <p>We recognise the critical role of technology in driving growth
+            and innovation. We are committed to investing in professionals
+            who share our vision for harnessing the latest digital tools and
+            capabilities to deliver exceptional customer experiences.
+            <br />
+            <br />
+            Our talent acquisition strategy, centered around the Hire-Train-
+            Deploy (HTD) model, drives a robust pipeline of role-ready talent.
+            We have expanded our sourcing channels through off-campus
+            and lateral hires from top-tier organisations by introducing
+            innovative programmes such as the Kotak NextGen Bankers
+            Programme (in partnership with Manipal Academy of BFSI). To
+            further strengthen our digital capabilities, we have launched
+            initiatives to enhance intake of STEM (Science, Technology,
+            Engineering, Mathematics) professionals and reorganise roles
+            with a focus on digital transformation. We intend to create a
+            more diverse workforce by specifically increasing representation
+            of women by targeting to hire women with diverse qualifications
+            and backgrounds and fostering an inclusive environment that
+            attracts and retains top talent.
+            <br />
+            <br />
+          </p>
         </div>
         <div className='mb-5'>
-          <h1 className='mb-2 text-xl text-[#ef3e4c]'>
+          <h1 className='mb-2 text-xl text-[#ef3e4c] font-semibold'>
             Five Pillars of Talent Engagement
           </h1>
           <p className='mb-2'>
@@ -190,11 +220,11 @@ const Empowering1 = () => {
             long-term engagement.
           </p>
           <div className='mb-5'>
-            <h1 className='mb-2 text-xl text-[#252f80]'>
+            <h1 className='mb-2 text-xl text-[#252f80] font-semibold mt-10'>
               Five Pillars of Talent Engagement
             </h1>
             <div className='mb-5'>
-              <img className='' src="./All_Icons/24.webp" alt="" />
+              <img className='' src="/All_Icons/24.webp" alt="" />
             </div>
             <div class="w-full  my-6">
               <div class="inline-block px-6 py-2 rounded-full text-white font-semibold text-sm bg-gradient-to-r from-[#262b7b] via-[#6f2b66] to-[#e31e32]">
@@ -267,7 +297,6 @@ const Empowering1 = () => {
               </p>
             </div>
 
-            {/* Block 2 */}
             <div>
               <h3 className="font-bold text-lg text-black mb-2">
                 Performance Management System – Praise
@@ -299,7 +328,7 @@ const Empowering1 = () => {
               framework is built around four pillars:
             </p>
             <div className='mb-3 p-4 bg-gray-100 rounded-2xl'>
-              <img className='md:w-[50%] mx-auto ' src="./Empowering/Empowering7.webp" alt="" />
+              <img className='md:w-[50%] mx-auto ' src="/Empowering/Empowering7.webp" alt="" />
             </div>
           </div>
           <div className='mb-5'>
@@ -368,7 +397,10 @@ const Empowering1 = () => {
           <div className='mb-4'>
             <p className="text-3xl font-bold text-indigo-900">₹ 59.4 Cr.</p>
             <p className=" ">
-              was invested in employee training, skill upgradation and development<sup>6</sup>
+              was invested (29% YoY
+              increase) in employee
+              training, skill upgradation
+              and development<sup>6</sup>
             </p>
           </div>
 
@@ -469,12 +501,12 @@ const Empowering1 = () => {
           KYLC programme has shaped 107 careers till FY 2023-24. In FY 2024-25, it was expanded to Group companies and 84 promising young
           leaders were selected.
         </p>
-        <div className="relative w-full max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg mb-6">
+        <div className="relative w-full  mx-auto rounded-3xl overflow-hidden shadow-lg mb-6">
           {/* Base Image */}
           <img
-            src="./Empowering/Empowering4.webp" // replace with your image path
+            src="/Empowering/Empowering4.webp" // replace with your image path
             alt="KYLC Batch"
-            className="w-full object-cover"
+            className="w-full object-cover "
           />
 
           {/* Red Patch with Label */}
@@ -538,7 +570,7 @@ const Empowering1 = () => {
               I am now inspired to explore innovative business ideas and, most importantly, to focus on their effective implementation.
             </p>
             <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
-            <p className="text-white bg-red-600 inline-block px-2 py-1 rounded  mt-2">
+            <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Akhil Jain
             </p>
             <p className=" italic">
@@ -718,13 +750,13 @@ const Empowering1 = () => {
           Our Women Workforce at the Group:
         </h1>
         <div className='p-4 bg-gray-100'>
-          <img className='md:w-[50%] mx-auto' src="./Empowering/Empowering12.webp" alt="" />
+          <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering12.webp" alt="" />
         </div>
       </div>
       <div class="md:flex bg-white rounded-xl border-2 border-red-500 overflow-hidden shadow-md mb-5  ">
 
         <div class="md:w-[30%]">
-          <img src="./Empowering/Empowering6.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
+          <img src="/Empowering/Empowering6.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
         </div>
 
 
@@ -969,7 +1001,8 @@ const Empowering1 = () => {
           moon and back, promoting a culture of health and well-being.
         </p>
         <div className='mb-3'>
-          <img src="./Empowering/Empowering8.webp" alt="" />
+          <img src="/Empowering/Empowering8.webp" alt="" />
+          <p className='md:text-white md:text-3xl transform md:translate-y-[-220%] md:translate-x-[10%]'>Finding harmony through sounds on Yoga Day</p>
         </div>
         <p>
           We conducted specialised health camps addressing diverse
@@ -978,7 +1011,7 @@ const Empowering1 = () => {
           reflect our commitment to holistic employee well-being and
           a culture of care.
         </p>
-        <p className='text-xs text-gray-700 mb-5'>
+        <p className='text-sm border-t-1 pt-1 mt-5 text-gray-700 mb-5'>
           <sup>9</sup>GRI 403-6
         </p>
       </div>
@@ -1023,7 +1056,7 @@ const Empowering1 = () => {
             </div>
           </div>
           <div className='md:mt-10'>
-            <img src="./Empowering/Empowering10.webp" alt="" />
+            <img src="/Empowering/Empowering10.webp" alt="" />
           </div>
         </div>
         <div className=''>
@@ -1052,7 +1085,7 @@ const Empowering1 = () => {
             </div>
           </div>
           <div className='p-4 bg-gray-100 '>
-            <img className='md:w-[50%] mx-auto' src="./Empowering/Empowering9.webp" alt="" />
+            <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering9.webp" alt="" />
           </div>
         </div>
       </div>
@@ -1074,7 +1107,7 @@ const Empowering1 = () => {
         </h2>
         <div className='md:flex gap-5'>
           <div className='md:w-[50%]'>
-            <img src="./Empowering/Empowering11.webp" alt="" />
+            <img src="/Empowering/Empowering11.webp" alt="" />
           </div>
           <div className='md:w-[50%]'>
             <p className='mb-3'> We offer a comprehensive suite of benefits to support the well-
@@ -1110,7 +1143,7 @@ const Empowering1 = () => {
           and parents in laws through voluntary parental insurance.
         </p>
         <div className='p-4 bg-gray-100'>
-          <img className='md:w-[50%] mx-auto' src="./Empowering/Empowering13.webp" alt="" />
+          <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering13.webp" alt="" />
         </div>
       </div>
       <div className='mb-5'>
@@ -1123,7 +1156,7 @@ const Empowering1 = () => {
           healthy work-life balance.
         </p>
         <div className='p-4 bg-gray-100'>
-          <img className='md:w-[50%] mx-auto' src="./Empowering/Empowering14.webp" alt="" />
+          <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering14.webp" alt="" />
         </div>
       </div>
       <div className='mb-5'>
@@ -1136,7 +1169,7 @@ const Empowering1 = () => {
           healthy work-life balance.
         </p>
         <div className='p-4 bg-gray-100'>
-          <img className='md:w-[50%] mx-auto' src="./Empowering/Empowering15.webp" alt="" />
+          <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering15.webp" alt="" />
         </div>
       </div>
       <div className='mb-5'>
@@ -1151,28 +1184,28 @@ const Empowering1 = () => {
         </p>
         <div className='md:flex gap-5  mb-4'>
           <div className='flex flex-col justify-center items-center'>
-            <img className='w-16 h-16' src="./Empowering/Empowering16.webp" alt="" />
+            <img className='w-16 h-16' src="/Empowering/Empowering16.webp" alt="" />
             <p>
               National
               Pension Scheme
             </p>
           </div>
           <div className='flex flex-col justify-center items-center'>
-            <img className='w-16 h-16' src="./Empowering/Empowering17.webp" alt="" />
+            <img className='w-16 h-16' src="/Empowering/Empowering17.webp" alt="" />
             <p>
               Provident
               Fund
             </p>
           </div>
           <div className='flex flex-col justify-center items-center'>
-            <img className='w-16 h-16' src="./Empowering/Empowering18.webp" alt="" />
+            <img className='w-16 h-16' src="/Empowering/Empowering18.webp" alt="" />
             <p>
               Superannuation
               Fund
             </p>
           </div>
           <div className='flex flex-col justify-center items-center'>
-            <img className='w-16 h-16' src="./Empowering/Empowering18.webp" alt="" />
+            <img className='w-16 h-16' src="/Empowering/Empowering18.webp" alt="" />
             <p>
               Gratuity
             </p>
@@ -1205,7 +1238,7 @@ const Empowering1 = () => {
         </p>
         <div className=" w-full  rounded-xl overflow-hidden mb-4">
           {/* Main Image */}
-          <img src="./Empowering/Empowering20.webp" alt="Award Ceremony" className="w-full object-cover" />
+          <img src="/Empowering/Empowering20.webp" alt="Award Ceremony" className="w-full object-cover" />
 
           {/* Bottom Red Banner with White Text */}
           <div className=" w-full bg-red-600 text-white px-6 py-4  rounded-2xl">

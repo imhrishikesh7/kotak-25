@@ -29,7 +29,7 @@ export default function StepTimelineCarousel() {
             <div className="bg-blue-100 text-red-600 font-bold text-3xl w-20 h-20 flex items-center justify-center rounded-full shadow-inner mb-4">
               {item.step}
             </div>
-            <p className="text-sm text-gray-700">{item.label}</p>
+            <p className="text-md text-gray-700">{item.label}</p>
           </div>
         ))}
       </div>

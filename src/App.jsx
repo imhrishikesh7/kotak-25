@@ -11,7 +11,7 @@ import Excellence from './pages/Delivering_Excellence/Excellence';
 import Safeguarding1 from './pages/Safeguarding_Stakeholders/Safeguarding1';
 import Sustainable1 from './pages/Sustainable_future/Sustainable1';
 import Empowering1 from './pages/Empowering/Empowering1';
-// import About from './pages/About';
+import About from './pages/About';
 import BOD from './pages/BOD';
 import AshokMessage from './pages/AshokMessage';
 import BusinessOverview from './pages/BusinessOverview';
@@ -34,7 +34,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/" element={<About />} /> */}
+        <Route path="/about" element={<About />} />
         <Route path="/board-of-directors" element={<BOD />} />
         <Route path="/message-from-ashok-vaswani" element={<AshokMessage />} />
         <Route path="/business-overview" element={<BusinessOverview />} />\
@@ -50,10 +50,11 @@ function App() {
         <Route path="/our-enablers/digital-powerhouse" element={<DigitalPowerhouse />} />
         <Route path="/our-enablers/talent" element={<Talent />} />
         <Route path="/our-enablers/stakeholder-engagement" element={<Page2 />} />
-        <Route path="/strategy" element={<Strategy />} />
+        {/* <Route path="/strategy" element={<Strategy />} /> */}
         <Route path="/sustainability/snapshot" element={<Carousel />} />
         <Route path="/sustainability/customers" element={<Generating1 />} />
-
+        <Route path="/sustainability/governance" element={<Excellence />} />
+        <Route path="/sustainability/risk-resilience" element={<Safeguarding1 />} />
 
         {/* Snapshot */}
         <Route path="/analytics/overview" element={<Carousel />} />

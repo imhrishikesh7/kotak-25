@@ -124,227 +124,206 @@ const Generating1 = () => {
         </div>
 
       </div>
-      
+
       <div className='mb-5'>
         <h1 className='font-bold mb-3  '>
           Kotak generates and delivers value to its customers through three strategic levers:
         </h1>
         <div className=' p-4 bg-gray-100 mb-5'>
-          <img src="/Generating/Generating4.webp" alt="" />
+          <img src="\Generating\Image2-55.png" alt="" />
         </div>
       </div>
       <div className='mb-5' >
-        <h1 className='text-[#ef3e4c] text-xl mb-2'>
+        <h1 className='text-[#ef3e4c] text-xl font-semibold mb-2'>
           Customer Centric Innovation
         </h1>
         <div className='md:flex gap-5'>
-          <p className=''>
-            In FY 2024-25, our consumer banking initiatives were
-            anchored in delivering inclusive, personalized and
-            empowering experiences for customers. Using innovative
-            approaches like Customer 360, we are identifying new
-            engagement opportunities with our customers to become a
-            holistic partner to address their financial needs. Leveraging
-            advanced analytics, we are enabling our frontline teams
-            with monthly customer level intelligence for over 3 million
-            customers. Initiatives such as R360 model are helping
-            us improve frontline productivity and thereby driving
-            customer centricity.
-          </p>
-          <div className=''>
-            <img src="./Generating/Generating5.webp" alt="" className='' />
+          <div className='md:w-1/2'>
+            <p>
+              Our consumer banking initiatives are anchored in delivering
+              inclusive, personalised and empowering experiences for
+              customers. Through innovative approaches such as Customer
+              360, we are identifying new engagement opportunities with our
+              customers to become a holistic partner to address their financial
+              needs. By leveraging advanced analytics, we are enabling
+              our frontline teams with monthly customer-level insights for
+              over 3 million customers. Initiatives such as R360 model are
+              helping us improve frontline productivity and thereby driving
+              customer centricity.
+              <br />
+              <br />
+              Our efforts in strengthening digital infrastructure, exemplified by
+              the launch of our new digital banking app and expansion of DIY
+              investment journeys, enhanced accessibility and convenience for
+              millions of customers. Initiatives such as 811, Voice channel* and
+              enhanced contact centre capabilities bridged digital and human
+              touchpoints, ensuring seamless service across all channels.
+              Further details on innovation and progress towards digital
+              transformation agenda in FY 2024-25 is covered in detail under
+              ‘Digital Powerhouse’ section of the report on pages 24-25.
+              <br />
+              <br />
+            </p>
+          </div>
+          <div className='md:w-1/2'>
+            <img src="\Generating\warehouse.jpg" alt="" className='rounded-3xl' />
           </div>
         </div>
-        <p className='mb-2'>
-          Our efforts in fortifying digital infrastructure including the
-          launch of a new digital banking app, and expansion of DIY
-          investment journeys enhanced accessibility and convenience
-          for millions of customers. Initiatives like 811, Sky Banking*
-          and enhanced contact centre capabilities bridged digital
-          and human touchpoints, ensuring seamless service across
-          channels. Further details on innovation and progress
-          towards digital transformation agenda in this FY2024-25 is
-          covered in detail under Digital chapter (Pg XX).
-        </p>
-        <p className='mb-2'>
-          Innovation, for us, is not just about new products- it’s
-          about creating meaningful ecosystems that empower our
-          customers to thrive. We introduced a specialised Hardship
-          Assistance Program — a proactive initiative that reimagined
-          traditional lending through the lens of empathy and
-          adaptability. This program offers eligible customers tailored
-          support during their periods of financial stress, providing
-          flexible payment options and temporary relief to ease their
-          debt burden. By enabling customers to navigate short-term
-          challenges without compromising long-term financial
-          stability, we are reinforcing our belief that innovation must
-          be both human-centered and impact-driven.
-        </p>
-
+        <div>
+          <p>
+            Innovation is not just about new products for us. It is about
+            creating meaningful ecosystems that empower our customers
+            to thrive. We introduced a specialised Hardship Assistance
+            Programme, a proactive initiative that reimagined traditional
+            lending through the lens of empathy and adaptability.
+            This programme offers eligible customers tailored support
+            during financial stress, providing them with flexible payment
+            options and temporary relief to ease their debt burden. By
+            enabling customers to navigate short-term challenges without
+            compromising long-term financial stability, we are reinforcing
+            our belief that innovation must be both human-centered
+            and impact-driven.
+            <br />
+            <br />
+          </p>
+        </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-[#ef3e4c] text-xl mb-2'>
+        <h1 className='text-[#ef3e4c] text-xl font-semibold mb-2'>
           Superior Service experience
         </h1>
         <div className='mb-5'>
-          <p className='mb-2'>
+          <p className=''>
             In today’s dynamic and competitive banking landscape, customer
-            experience is not just a service function — it is a strategic
+            experience is more than just a service function, it is a strategic
             differentiator. We have elevated our Customer Experience team
-            into a Center of Excellence, embedding it as a critical pillar of our
-            organizational fabric. This team plays a pivotal role in capturing,
+            into a Centre of Excellence, embedding it as a critical pillar of our
+            organisational fabric. This team plays a pivotal role in capturing,
             analysing and acting on customer feedback across all segments,
             ensuring that every voice is heard and every insight is translated into
             meaningful action.
-          </p>
-          <p className='mb-2'>
+            <br />
+            <br />
             We adopt a multi-channel strategy to raise customer awareness
             tailored to product, segment and campaign needs. Our
-
-            outreach includes digital marketing, mass media and branch-
-            level promotions, complemented by financial education
-
+            outreach includes digital marketing, mass media and branchlevel promotions, complemented by financial education
             content and influencer collaborations. Customer engagement
             and collection of feedback are through various direct and
             indirect modes such as:
           </p>
-        </div>
-        <div className='flex flex-col gap-4 p-4 bg-[#d4effb] mb-5'>
-          <div className='flex gap-3 items-center  '>
-            <div className='md:w-16 md:h-16 w-[80px] '>
-              <img src="/Generating/SuperiorService/Icon1.webp" alt="" />
-            </div>
-            <div>
-              Regular Net Promoter Score
-              (NPS) surveys
-            </div>
-          </div>
 
-          <div className='flex gap-3 items-center '>
-            <div className='md:w-16 md:h-16 w-[80px]'>
-              <img src="/Generating/SuperiorService/Icon2.webp" alt="" />
-            </div>
-            <div>
-              Retail banking surveys conducted every
-              six months
-            </div>
-          </div>
-          <div className='flex gap-3 items-center'>
-            <div className='md:w-16 md:h-16 w-[50px]'>
-              <img src="/Generating/SuperiorService/Icon3.webp" alt="" />
-            </div>
-            <div>
-              Social media
-              sentiment analysis
-            </div>
-          </div>
-          <div className='flex gap-3 items-center'>
-            <div className='md:w-16 md:h-16 w-[80px]'>
-              <img src="/Generating/SuperiorService/Icon4.webp" alt="" />
-            </div>
-            <div>
-              Operational insights during execution
-              of transactions
-            </div>
-          </div>
-          <div className='flex gap-3 md:items-center'>
-            <div className='md:w-16 md:h-16 w-[150px]'>
-              <img src="/Generating/SuperiorService/Icon5.webp" alt="" />
-            </div>
-            <div>
-              Annual surveys that are conducted across wealth
-              management, SME, commercial and wholesale
-              banking segments
-            </div>
-          </div>
         </div>
+        <div className='flex flex-col gap-4 p-4 bg-[#d4effb] rounded-4xl mb-5'>
+          {[
+            { img: "/Generating/SuperiorService/Icon1.webp", text: "Regular Net Promoter Score (NPS) surveys", width: "80px" },
+            { img: "/Generating/SuperiorService/Icon2.webp", text: "Retail banking surveys conducted every six months", width: "80px" },
+            { img: "/Generating/SuperiorService/Icon3.webp", text: "Social media sentiment analysis", width: "50px" },
+            { img: "/Generating/SuperiorService/Icon4.webp", text: "Operational insights during execution of transactions", width: "80px" },
+            { img: "/Generating/SuperiorService/Icon5.webp", text: "Annual surveys that are conducted across wealth management, SME, commercial and wholesale banking segments", width: "150px" },
+          ].map((item, idx) => (
+            <div key={idx}>
+              <div className='flex gap-3 items-start md:items-center'>
+                <div className={`md:w-16 md:h-16 w-[${item.width}]`}>
+                  <img src={item.img} alt="" />
+                </div>
+                <div>{item.text}</div>
+              </div>
+              <div className="h-[2px] w-full bg-gradient-to-r from-[#253081] to-transparent mt-2"></div>
+            </div>
+          ))}
+        </div>
+
         <div>
-          <p className='mb-2'>
+          <p className=''>
             The insights gathered through these engagements are more than
             diagnostic; they are directional. They help us identify areas of
-            opportunity, prioritize improvement, and ensure we consistently
+            opportunity, prioritise improvement and ensure we consistently
             deliver on and exceed customer expectations.
-          </p>
-          <p className='mb-3'>
+            <br />
+            <br />
             We leverage the Net Promoter Score (NPS) framework as a strategic
-            tool to continuously assess and enhance the customer experience.
-            By tracking both Relationship NPS (R-NPS) and Transactional NPS
+            tool to continuously assess and enhance customer experience. By
+            tracking both Relationship NPS (R-NPS) and Transactional NPS
             (T-NPS), we gain a nuanced understanding of customer sentiment
-            — from overall brand perception to specific service interactions. In
-            FY 2024-25 we saw a 17 point increase in R-NPS score for consumer
-            3 min A/C
-            Opening
-            banking (Improvement in score over the period July 2023 to March
-            Download Kotak811 App
-            2025) and more than 40% improvement in R-NPS scores of Affluent
-            & NR Customers from September 2024 to March 2025.
+            from an overall brand perception to specific service interactions.
+            As a result of our efforts, we recorded a 17 point increase in R-NPS
+            score for consumer banking (Improvement in score over the
+            period July 2023 to March 2025) and more than 40% improvement
+            in R-NPS scores of Affluent and NR Customers from September
+            2024 to March 2025.
+            <br />
+            <br />
           </p>
+
         </div>
         <div className='mb-5'>
           <p className='text-xs '>
-            <sup>*</sup>Sky banking is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support etc.)
-            and Physical(branches and relationship managers). Further details in digital chapter page XXX
+            *Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support etc.)
+            and Physical(branches and relationship managers). Further details in ‘Digital Powerhouse’ section of the report on pages 24-25
           </p>
         </div>
         <div className='mb-3'>
           <img src="/Generating/SuperiorService/Generating6.webp" alt="" />
         </div>
         <p className='mb-4'>
-          Our customer-first philosophy is further reinforced by clearly defined service-level targets, monitored rigorously across the
-          organisation to drive accountability and excellence. Some of the key initiatives towards improving customer satisfaction were:
+          Our customer-first philosophy is further reinforced by clearly defined service-level targets which are monitored rigorously across
+          the organisation to drive accountability and excellence. Some of the key initiatives towards improving customer experience were:
         </p>
         <div>
+          <div>
+
+          </div>
           <div className='flex flex-row  items-center gap-3 '>
             <div className='w-10 h-10'>
-              <img src="./Generating/SuperiorService/Icon6.webp" alt="" />
+              <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
             <div>
               Technology
             </div>
           </div>
           <div className='mb-4'>
-            Kotak introduced several technology-driven enhancements
-            in FY 2024-25. The implementation of the Transaction
-            Authorization System (TAS) significantly reduced turnaround
-            times for NEFT, RTGS, and fund transfer transactions, enabling
-            faster processing and improved service delivery.
+            We introduced several technology-driven enhancements in FY
+            2024-25. The implementation of the Transaction Authorisation
+            System (TAS) significantly reduced turnaround times for
+            NEFT, RTGS and fund transfer transactions, enabling faster
+            processing and improved service delivery.
           </div>
           <div className='flex flex-row  items-center gap-3 '>
             <div className='w-10 h-10'>
-              <img src="./Generating/SuperiorService/Icon7.webp" alt="" />
+              <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
             </div>
             <div>
               Responsible debt collection
             </div>
           </div>
           <div className='mb-4'>
-            We institutionalized a Responsible Debt Collection Policy
-            supported by a structured training program for all empanelled
-            vendors. This initiative emphasized key principles such
-            as adherence to the Code of Conduct, effective escalation
-            handling, and appropriate behavioural protocols. The training
+            We institutionalised a Responsible Debt Collection Policy,
+            supported by a structured training programme for all
+            empanelled vendors. This initiative emphasises key principles
+            such as adherence to the Code of Conduct, effective escalation
+            handling and appropriate behavioural protocols. The training
             ensured that every vendor adopted a consistent, systematic
             and customer-sensitive approach.
           </div>
           <div className='flex flex-row  items-center gap-3 '>
             <div className='w-10 h-10'>
-              <img src="./Generating/SuperiorService/Icon6.webp" alt="" />
+              <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
             <div>
               Service quality monitoring
             </div>
           </div>
           <div className='mb-4'>
-            Care Index—a performance benchmarking tool that tracks
-            customer satisfaction at the branch level and fosters a
-            culture of accountability across our network. The Care index
-            evaluation takes into consideration, various parameters
-            that are essential for world class service delivery at our
-            branch touchpoints.
+            The Care Index is a performance benchmarking tool
+            that tracks customer satisfaction at the branch level and
+            fosters a culture of accountability across our network.
+            The Care index evaluation takes into consideration
+            various parameters essential for delivering world class
+            services at our branch touchpoints.
           </div>
           <div className='flex flex-row  items-center gap-3 '>
             <div className='w-10 h-10'>
-              <img src="./Generating/SuperiorService/Icon7.webp" alt="" />
+              <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
             </div>
             <div>
               Personalised customer journey
@@ -352,23 +331,23 @@ const Generating1 = () => {
           </div>
           <div className='mb-4'>
             Recognising the pivotal role of start-ups in shaping India’s
-            economic future, our current accounts team deepened its
-            engagement with the entrepreneurial community through
-            strategic partnerships and on-ground presence. In FY 2024-25, we
-            signed three Memoranda of Understanding (MoUs) with leading
-            start-up incubators and accelerators, and actively participated
-            in over 17 ecosystem events in collaboration with institutions
-            such as IIT Madras and ICAI. These initiatives are designed to
-            foster dialogue and co-create solutions for emerging businesses.
-            In parallel, we continue to embed innovation into everyday
-            customer journeys through our WhatsApp Chatbot for Merchant
-            Support, which is a step forward in simplifying service delivery —
-            enabling merchants to raise and track service requests directly,
-            through a familiar, real-time messaging platform.
+            economic future, we deepened our engagement with the
+            entrepreneurial community through strategic partnerships and
+            on-ground presence. In FY 2024-25, we signed three Memoranda
+            of Understanding (MoUs) with leading start-up incubators and
+            accelerators and actively participated in over 17 ecosystem
+            events in collaboration with institutions such as IIT Madras
+            and ICAI. These initiatives are designed to foster dialogue and
+            co-create solutions for emerging businesses. In parallel, we
+            continue to embed innovation into everyday customer journeys
+            through our WhatsApp Chatbot for Merchant Support. This
+            initiative simplifies service delivery, enabling merchants to raise
+            and track service requests directly through a familiar real-time
+            messaging platform.
           </div>
           <div className='flex flex-row  items-center gap-3 '>
             <div className='w-10 h-10'>
-              <img src="./Generating/SuperiorService/Icon6.webp" alt="" />
+              <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
             <div>
               Responsible advertising
@@ -381,16 +360,18 @@ const Generating1 = () => {
             undergoes a structured review process involving product,
             legal, compliance and brand teams to ensure regulatory
             alignment and factual accuracy. Our marketing practices
-            adhere to guidelines issued by RBI, SEBI and IRDAI, and all
-            messaging clearly discloses product features, terms and
-            disclaimers. We take care to avoid misleading claims or
-            over-promising, reinforcing our commitment to ethical and
-            customer-centric communication.
+            adhere to guidelines issued by the RBI, the SEBI and the
+            IRDAI and all messaging clearly discloses product features,
+            terms and disclaimers. We prioritise transparency and
+            avoid misleading claims or over-promising, reinforcing our
+            commitment to ethical and customer-centric communication.
+            Our employees underwent over 2,50,000 hours of training that
+            includes fair advertising policies and procedures in FY 2024-25.
           </div>
           <div>
             <div className='flex flex-row  items-center gap-3 '>
               <div className='w-10 h-10'>
-                <img src="./Generating/SuperiorService/Icon7.webp" alt="" />
+                <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
               </div>
               <div>
                 Proactive prevention of Fraud
@@ -399,38 +380,39 @@ const Generating1 = () => {
             <div className='md:flex gap-5 mb-5'>
               <div className='md:w-[60%]'>
                 <p className='mb-2'>
-                  We provide weekly learning series and annual certifications for
-                  educating branches to communicate with customers on safe
-                  banking practices such as prevention of fraud. This facilitates
-                  proactive protection of customers from negative experiences,
-                  protection of customer interests and delivery of better service
-                  quality through confident interactions.
+                  We provide weekly learning series and annual certifications
+                  to educate branches on safe banking practices such as
+                  prevention of fraud. This facilitates proactive protection of
+                  customers from negative experiences, protection of customer
+                  interests and delivery of better service quality through
+                  confident interactions.
                 </p>
                 Measures taken by Branch staff in detecting and preventing
                 frauds are also highlighted internally to create awareness and
                 encourage the staff to be extra vigilant, especially towards
-                vulnerable sections such as Senior Citizens. The common
+                vulnerable sections such as senior citizens. The common
                 modus/scenarios identified, are detailed to Branch staff and
-                customers, and they are encouraged to report a fraud or any
-                suspicious activity, using Kotak fraud reporting helpline or
-                the government cybercrime helpline. The effectiveness of our
-                awareness programs is reflected through real time instances of
-                staff preventing fraudulent transactions and providing timely
-                alerts to customers. Such proactive efforts of employees are
-                also amplified via “Hall of Fame” and “Hawk Eye” mailers to
-                appreciate them and inspire other employees.
+                customers and they are encouraged to report a fraud or any
+                suspicious activity, using the Bank’s fraud reporting helpline
+                or the government cybercrime helpline. The effectiveness
+                of our awareness programmes is reflected through real time
+                instances of staff preventing fraudulent transactions and
+                providing timely alerts to customers. Such proactive efforts of
+                employees are also recognised via ‘Hall of Fame’ and ‘Hawk
+                Eye’ mailers to appreciate them and inspire other employees.
               </div>
 
               <div className='md:w-[40%]'>
-                <img src="./Generating/Generating7.webp" alt="" />
+                <img src="/Generating/Generating7.webp" alt="" />
               </div>
             </div>
+            <h1 className='text-xl text-[#ed2133] mb-3 font-semibold'>Customer stories </h1>
+
             <div className='p-4 bg-[#d4effd] rounded-3xl mb-5'>
-              <h1 className='text-xl text-[#ed2133] mb-3'>Case studies 1 </h1>
               <p className='mb-2'>
                 At one of our Hyderabad branches, a potential fraud
-                amounting to approximately ₹30 lakh was successfully
-                averted through the vigilance and coordinated efforts of our
+                amounting to approximately ₹ 30 lakh was successfully
+                averted due to the vigilance and coordinated efforts of our
                 frontline staff. When a senior citizen customer requested
                 premature closure of a term deposit and an immediate
                 RTGS transfer, our staff sensed unusual behaviour and
@@ -439,10 +421,10 @@ const Generating1 = () => {
               <p className='mb-2'>
                 Upon further engagement, it was discovered that the
                 customer had been coerced by fraudsters impersonating
-                law enforcement officials. The branch team acted swiftly —
+                law enforcement officials. The branch team acted swiftly by
                 declining the transaction, maintaining communication with
-                the customer’s spouse, involving a trusted family friend,
-                and alerting the customer’s children abroad. After sustained
+                the customer’s spouse, involving a trusted family friend and
+                alerting the customer’s children abroad. After sustained
                 efforts, the customer was convinced of the fraudulent
                 nature of the threat.
               </p>
@@ -454,14 +436,13 @@ const Generating1 = () => {
               </p>
             </div>
             <div className='p-4 bg-[#d4effd] rounded-3xl mb-5'>
-              <h1 className='text-xl text-[#ed2133] mb-3'>Case studies 2 </h1>
               <p className='mb-2'>
                 At one of our branches in Pondicherry, a high-value fraud
-                attempt involving ₹75 lakh was successfully intercepted
+                attempt involving ₹ 75 lakh was successfully intercepted
                 through the vigilance and persistence of our branch
                 team. A long-standing HNI customer arrived in a visibly
                 distressed state, urgently requesting a large RTGS transfer.
-                His behaviour raised immediate red flags — he was
+                His behaviour raised immediate red flags as he was
                 evasive, uncommunicative and appeared to be under
                 external pressure. When verbal communication proved
                 ineffective, the team resorted to written notes to discreetly
@@ -470,12 +451,12 @@ const Generating1 = () => {
               <p className='mb-2'>
                 The branch contacted the beneficiary bank, which
                 confirmed suspicious activity in the recipient account.
-                Continued engagement revealed that the customer had
+                Further engagement revealed that the customer had
                 been coerced via a video call by fraudsters impersonating
                 government officials. The team’s calm, methodical
-                approach — grounded in recent internal fraud awareness
-                training — ultimately convinced the customer to disengage
-                and report the incident.
+                approach which was grounded in recent internal fraud
+                awareness training, ultimately convinced the customer to
+                disengage and report the incident.
               </p>
               <p className='mb-2'>
                 Their timely intervention not only prevented a significant
@@ -484,51 +465,64 @@ const Generating1 = () => {
               </p>
             </div>
             <div className='mb-5'>
-              <h1 className='text-xl mb-2 text-[#ed2133]'>Enhanced Grievance Resolution</h1>
-              <p className='mb-2'>
-                We recognize that a truly sustainable customer relationship
-                is built on responsiveness and reliability. Our multi-channel
-                3-tiered grievance redressal mechanism shown below, is built on
-                a foundation of transparency.
-              </p>
-              <div className='p-4 bg-gray-100 mb-2 '>
-                <img className='md:w-[60%] ' src="./Generating/Generating8.webp" alt="" />
+              <div className='flex md:flex-row flex-col'>
+                <div className='md:w-1/2'>
+                  <h1 className='text-xl mb-2 text-[#ed2133] font-semibold'>Enhanced Grievance Resolution</h1>
+                  <p className='mb-2 '>
+                    We recognise that a truly sustainable customer relationship
+                    is built on responsiveness and reliability. Our multi-channel
+                    3-tiered grievance redressal mechanism shown below, is built on
+                    a foundation of transparency.
+                    <br />
+                    <br />
+                    Our grievance redressal process is structured across two
+                    escalation levels, ensuring that every voice is heard and every
+                    issue is addressed with the seriousness it deserves. In line
+                    with the Reserve Bank of India’s guidelines, we have also
+                    institutionalised the role of an Internal Ombudsman which is an
+                    independent authority whose decisions are binding on the Bank.
+                    <br />
+                    <br />
+                    This reinforces our commitment to fairness, impartiality and
+                    regulatory compliance.
+                    <br />
+                    <br />
+                  </p>
+                </div>
+                <div className='p-4 mb-2 md:w-1/2'>
+                  <img className=' ' src="/Generating/Generating8.webp" alt="" />
+                </div>
               </div>
-              <div className='mb-4'>
-                <p className='mb-2'>
-                  This structure of grievance redressal process covers two
-                  escalation levels and ensures that every voice is heard and
-                  every issue is addressed with the seriousness it deserves.
-                  In line with the Reserve Bank of India’s guidelines, we have
-                  also institutionalized the role of an Internal Ombudsman—an
-                  independent authority whose decisions are binding on the Bank.
-                  This reinforces our commitment to fairness, impartiality and
-                  regulatory compliance.
-                </p>
-                <p className='mb-2'>
+              <div className=''>
+                <p className=''>
+
                   The Salesforce CRM system has empowered our frontline teams
                   with real-time access to customer information and enabling
                   faster and more accurate resolution of issues. The system
-                  ensures end-to-end tracking, categorization and root-cause
-                  analysis of every complaint—turning data into actionable
-                  insights that drive continuous improvement.
-                </p>
-                <p className='mb-2'>
+                  ensures end-to-end tracking, categorisation and root-cause
+                  analysis of every complaint, turning data into actionable insights
+                  that drive continuous improvement.
+                  <br />
+                  <br />
                   In FY 2024-25, we reinforced our grievance redressal framework
-                  by fortifying our Internal Ombudsman Support Desk with 11
-                  members working closely with the 3 Internal Ombudsmen to
-                  address escalated issues effectively. We also updated policies
-                  and improved processes for ATM and cash-related disputes
-                </p>
-                <p className='mb-2'>
+                  by fortifying our Internal Ombudsman support desk with 11
+                  members, who work closely with the 3 Internal Ombudsmen
+                  to effectively address escalated issues. We also updated issue
+                  resolution policies and processes pertaining to ATM and
+                  cash related disputes.
+                  <br />
+                  <br />
                   To ensure transparency, we have implemented a rigorous
-                  tracking system. Every complaint is assigned a Turnaround Time
-                  (TAT), which is communicated to the customer at the time of
-                  registration. Our bank has a dedicated Continuous Improvement
-                  team that plays a pivotal role in analysing customer complaints,
-                  identifying root causes, and driving targeted interventions across
-                  policy, process and technology.
+                  tracking system. Every complaint is assigned a Turnaround
+                  Time (TAT), which is communicated to the customer at the
+                  time of registration. Our Bank has a dedicated team that plays
+                  a pivotal role in analysing customer complaints, identifying
+                  root causes and driving targeted interventions across policy,
+                  process and technology.
+                  <br />
+                  <br />
                 </p>
+
               </div>
               {/* <div className='md:flex gap-5 mb-5'>
 <div className='w-[58%]  '>
@@ -539,16 +533,16 @@ const Generating1 = () => {
 </div>
 </div> */}
               <div className="md:flex gap-5 mb-5 md:h-[400px]">
-                <div className="md:w-[58%] h-full mb-5 md:mb-0 ">
+                <div className="md:w-[50%] h-full ">
                   <img
-                    src="/Generating/Generating9.webp"
+                    src="\Generating\Image-59.png"
                     alt=""
                     className="w-full h-full object-cover rounded-2xl"
                   />
                 </div>
-                <div className="md:w-[42%] h-full ">
+                <div className="md:w-[50%] h-full mb-5 md:mb-0 ">
                   <img
-                    src="/Generating/Generating10.webp"
+                    src="/Generating/Generating9.webp"
                     alt=""
                     className="w-full h-full object-cover rounded-2xl"
                   />
@@ -556,82 +550,88 @@ const Generating1 = () => {
               </div>
 
               <div>
-                <p className='mb-2'>
+                <p className=''>
                   In addition to the quarterly review with Customer Service
-                  Standing Committee and the Customer Service Committee of the
-                  Board, we have also established a monthly complaints review
-                  at the leadership level of the Bank, involving the respective
-                  Product and Business heads on a regular basis. An Outstanding
-                  Complaints Ageing Report is published regularly, which is
-                  monitored by a specialised team which reports the complaint
-                  trends quarterly to a Board-level Customer Service Committee
-                  and the regulator. We have also institutionalized the practice
+                  Standing Committee and the CSC, we have established a
+                  monthly complaints review at the leadership level of the Bank,
+                  involving the respective Product and Business heads on a
+                  regular basis. An Outstanding Complaints Ageing Report is
+                  regularly published and monitored by a specialised team, which
+                  reports the complaint trends quarterly to the Board-level CSC
+                  and the regulator. We have also institutionalised the practice
                   of publishing case studies on customer escalations with the
-                  objective of dispersing learnings through sharing practical
-                  experience, thereby driving awareness, accountability, and
+                  objective of disseminating learnings through sharing practical
+                  experience, thereby driving awareness, accountability and
                   continuous improvement in service excellence.
-                </p>
-                <p className='mb-2'>
-                  We continue to lay strong emphasis on promoting self-service
-                  options—both across our digital platforms and within our
-                  branches. By empowering customers with intuitive on-
-                  demand tools, we are making everyday banking faster, simpler
+                  <br />
+                  <br />
+                  We continue to lay strong emphasis on promoting selfservice options, both across our digital platforms and within
+                  our branches. By empowering customers with intuitive ondemand tools, we are making everyday banking faster, simpler
                   and more accessible.
-                  Our subsidiaries have also put in place robust mechanisms to
+                  <br />
+                  <br />
+                  Our subsidiaries have implemented robust mechanisms to
                   facilitate smooth customer experience and grievance redressal.
-                </p>
-                <p className='mb-2'>
-                  KSL implemented a structured and insight-driven approach to
-                  enhance customer satisfaction and service quality. A formal
-                  service recovery mechanism ensures that unresolved issues
-                  are addressed comprehensively, while detractor feedback is
-                  systematically analysed to generate actionable insights. These
-                  insights are shared across relevant functions — including
-                  operations, product, and training — to drive targeted
-                  improvements. KSL also channels process-related feedback to its
-                  process improvement team, ensuring continuous refinement of
-                  service delivery. This year, KSL further strengthened its customer
-                  sentiment framework by expanding feedback touchpoints and
-                  transitioning from an NPS to a CSAT model, enabling real-time,
+                  <br />
+                  <br />
+                  KSL has embraced a structured and insight-driven approach
+                  to enhance customer satisfaction and service quality. A
+                  formal service recovery mechanism ensures that unresolved
+                  issues are addressed comprehensively, while detractor
+                  feedback is systematically analysed to generate actionable
+                  insights. These insights are shared across relevant functions
+                  such as operations, product and training to drive targeted
+                  improvements. Additionally, KSL channels process-related
+                  feedback to its process improvement team, ensuring continuous
+                  refinement of service delivery. In FY 2024-25, KSL further
+                  strengthened its customer sentiment framework by expanding
+                  in-app feedback touchpoints and implementing a interaction
+                  CSAT (customer satisfaction score) model, enabling real-time,
                   post-interaction insights that support more responsive and
-                  personalized engagement.
+                  personalised engagement.
+                  <br />
+                  <br />
                 </p>
               </div>
-              <div className='p-4 bg-[#d4effc] mb-4'>
+              <div className='p-4 bg-[#d4effc] mb-4 rounded-4xl'>
                 <h1 className='font-bold mb-2'>Impact</h1>
-                <div className='mb-2'>
-                  These efforts are already delivering measurable impact. In
-                  FY 2024–25, we achieved a notable reduction in complaint
-                  volumes across key categories: 12% reduction in complaints
-                  belonging to Kotak bank ATMs, 32% decline in the complaints
-                  related to usage of our Bank’s cards at non-Kotak bank ATMs,
-                  and 4% reduction in Kotak CRM related complaints.
-                </div>
-                <div>
-                  Our AI- and ML-powered tools proactively identified potential
-                  escalations and helped resolve issues before they intensified.
-                  Additionally, validations and automated execution of service
-                  requests through APIs streamlined the service request journey,
-                  resulting in 40% of requests being processed automatically.
-                  These interventions supported by a dedicated Kaizen team,
-                  led to 28% YoY reduction in net complaints and 9.13% YoY
-                  drop in Banking Ombudsman complaints. These initiatives
-                  also contributed to the increase in RNPS score that measures
-                  overall customer satisfaction.
+                <div className=''>
+                  <p>
+                    Our initiatives mentioned so far are delivering measurable
+                    impact. In FY 2024–25, we achieved a notable reduction in
+                    complaint volumes across key categories: a 12% reduction in
+                    complaints related to Kotak Bank ATMs, 32% decline in the
+                    complaints related to usage of our Bank’s cards at non-Kotak
+                    Bank ATMs and 4% reduction in Kotak CRM related complaints.
+                    Our AI- and ML-powered tools proactively identified potential
+                    escalations and helped resolve issues before they intensified.
+                    <br />
+                    <br />
+                    Additionally, validations and automated execution of service
+                    requests through APIs streamlined the service request journey,
+                    resulting in 40% of requests being processed automatically.
+                    These interventions supported by a dedicated Kaizen team,
+                    led to 28% YoY reduction in net complaints and 9.13% YoY
+                    decrease in Banking Ombudsman complaints. These initiatives
+                    also contributed to the increase in R–NPS score that measures
+                    overall customer satisfaction.
+                  </p>
                 </div>
               </div>
-              <p className='mb-2'>
-                Our measures and the impact stated above, reflects our commitment to eliminate the root cause of the issues rather than just
-                resolving them. This approach has transformed grievance redressal mechanism into a catalyst for continuous innovation and
+              <p>
+                The measures undertaken and the impact outlined above reflects our commitment to eliminate the root cause of the issues rather
+                than just resolving them. This approach has transformed grievance redressal mechanism into a catalyst for continuous innovation and
                 operational resilience.
+                <br />
+                <br />
+                At Kotak, customer satisfaction is not just a metric — it is a mindset that drives all our decisions. By embedding innovation, resilience,
+                agility and empathy into our service ethos while we are resolving problems, we are also simultaneously building a stronger and more
+                responsive Kotak for the future.
+                <br />
+                <br />
               </p>
-              <p className='mb-2'>
-                At Kotak, customer satisfaction is not just a metric — it’s a mindset that drives all our decisions. By embedding innovation, resilience,
-                agility and empathy into our service ethos while we are resolving problems—we are also simultaneously building a stronger and more
-                responsive Kotak of the future.
-              </p>
-              <div className=' p-4 bg-gray-100'>
-                <img className='md:w-[60%] mx-auto' src="./Generating/Generating13.webp" alt="" />
+              <div className=' p-4 bg-gray-100 rounded-4xl'>
+                <img className='md:w-[60%] mx-auto rounded-3xl' src="\Generating\generating11.png" alt="" />
               </div>
             </div>
           </div>

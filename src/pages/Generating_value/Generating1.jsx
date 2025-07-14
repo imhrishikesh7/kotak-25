@@ -3,8 +3,13 @@ import Key from '../../Reusable/Key'
 const Generating1 = () => {
   return (
     <div className='marginal text-lg'>
-      <h1 className='text-2xl mb-2 text-[#ed2133]'>
-        Re-imagining customer experience
+      <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
+        Generating Value for Customers
+      </div>
+      <h1 className="text-3xl font-bold text-[#ed1c2f]">
+        Re-imagining Customer Experience
+        <br />
+        <br />
       </h1>
       <div className='mb-3'>
         At Kotak, we remain steadfast in our commitment to fostering enduring customer
@@ -18,13 +23,11 @@ const Generating1 = () => {
       </div>
       <Key highlights={[
         { value: "28%", label: "Reduction in net complaints*" },
-        { value: "17", label: "Points increase in R-NPS score for Consumer Banking segment **" },
+        { value: "40%", label: "Of service requests automated through API" },
         { value: "87%", label: "Customer grievances resolved within stipulated turnaround time#" },
-        { value: "40%", label: "Improvement in R-NPS scores of Affluent & NR Customers##" },
-        { value: "40%", label: " Of Service requests automated through API" },
-        { value: "6%", label: "Growth in the Bank’s customer base from 50 million to 53 million" },
+        { value: "6%", label: "Growth in the Bank’s customer base from 5 crore to 5.3 crore" },
       ]}
-        materialTopics={["Data Privacy", "Customer Centricity", "Brand Recognition"]}
+        materialTopics={["Customer Centricity", "Data Privacy", "Brand Recognition"]}
         capitalLinkage={[
           {
             label: "Social and Relationship Capital",
@@ -38,17 +41,17 @@ const Generating1 = () => {
         sdgs={[
           "/Generating/Key/Icon1.webp",
           "/Generating/Key/Icon2.webp",
-          "/Generating/Key/Icon3.webp",
         ]}
       />
-      <div className='mb-5 text-xs text-gray-500'>
-        <sup>*</sup> Net Complaints are gross complaints excluding complaints which are resolved within 0 & 1 working Day. | <sup>**</sup>Improvement in score over the period July
-        2023 to Mar 2025 | #In comparison to 80% in FY 2024-25|<sup> ##</sup>Improvement in score over the period September 2024 to March 2025.
+      <div className='mb-5 text-sm text-gray-500'>
+        *at the Bank |** Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | #
+        In comparison to 80% in
+        FY 2024-25
       </div>
       <div class="md:flex bg-white rounded-xl border-2 border-red-500 overflow-hidden shadow-md mb-5 mt-6 ">
 
         <div class="md:w-[30%]">
-          <img src="./Generating/Generating1.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
+          <img src="/Generating/Generating1.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
         </div>
 
 
@@ -56,7 +59,7 @@ const Generating1 = () => {
           <div class="absolute top-2 left-2 text-red-500 text-2xl font-bold">❝</div>
 
 
-          <p class="mt-6">
+          <p class="mt-6 text-4xl font-light">
             If you get it right by the
             customer, everything else will
             fall into place. If you don’t get
@@ -69,57 +72,59 @@ const Generating1 = () => {
 
 
           <div class="mt-4 border-t pt-4">
-            <p class="font-bold text-red-600">Ashok Vaswani</p>
-            <p class="text-orange-700 font-semibold">MD & CEO</p>
+            <p class="font-bold text-white bg-[#ed1c2f] w-fit pl-1 pr-1">Ashok Vaswani</p>
+            <p class="text-[#ed1c2f] font-semibold">MD & CEO</p>
             <p>Kotak Mahindra Bank Limited</p>
           </div>
         </div>
       </div>
       <div className='mb- mt-5 md:flex gap-5'>
         <div className='md:w-[60%]'>
-          <p className='mb-2'> In an increasingly digital and interconnected world, we recognize
-            that customer expectations are evolving rapidly. Our strategy
-            is built on anticipating these needs and embedding customer-
-            centricity into every aspect of our operations — from policy
-            design, service delivery to digital transformation for customer’s
-            convenience to effective and quick grievance redressal.
+          <p className='mb-2'> In an increasingly digital and interconnected world, we recognise
+            that customer expectations are rapidly evolving. Our strategy is
+            focused on proactively anticipating these needs and embedding
+            customer-centricity into every aspect of our operations, from
+            policy design to service delivery and from product innovation to
+            effective grievance redressal.
+            <br />
+            <br />
             Our governance framework reinforces this commitment towards
             our customers. The Board-level Customer Service Committee
             (CSC) plays a pivotal role in shaping our customer experience
             strategy, monitoring both qualitative and quantitative indicators
-            such as digital engagement, resolution effectiveness, and
-            first-contact resolution. This data-driven oversight ensures
-            that customer feedback is not only heard but acted upon —
-            driving continuous improvement across the Bank. Our service
-            excellence framework integrates real-time feedback from
-            multiple modes, directly linking them to frontline performance
-            and accountability.
-          </p>
-          <p className='mb-2'>
+            such as digital engagement, resolution effectiveness and firstcontact resolution. This data-driven oversight ensures that
+            customer feedback is not only heard but also acted upon, driving
+            continuous improvement across the Bank. Our service excellence
+            framework integrates real-time feedback from multiple channels,
+            directly linking it to frontline performance and accountability.
+            <br />
+            <br />
             Our investments in resilient systems and global-standard data
             security protocols reflect our belief that safeguarding customer
-            data is foundational to trust. At the same time, we continue to
+            data is fundamental to trust. Simultaneously, we continue to
             evolve our digital platforms to offer intuitive, accessible and
-            empowering experiences enabling customers to bank on their
+            empowering experiences that enable customers to bank on their
             terms, with confidence and ease.
+            <br />
+            <br />
+            To institutionalise a culture of empathy and responsiveness, we
+            implemented a suite of customer-centric policies which embed
+            responsibility and transparency across the organisation. The
+            details of the policies are available in our BRSR disclosures on pages 503-506. These efforts are complemented by structured
+            engagement with customers and internal stakeholders, ensuring
+            that every touchpoint is aligned with our broader digital
+            transformation agenda.
+            <br />
+            <br />
           </p>
 
         </div>
-        <div className='md:w-[40%] p-4 bg-gray-100 mb-2 '>
-          <img className=' mx-auto my-auto' src="./Generating/Generating2.webp" alt="" />
+        <div className='md:w-[40%] mb-2 rounded-2xl'>
+          <img className=' mx-auto my-auto rounded-2xl' src="\Generating\Image-55.png" alt="" />
         </div>
 
       </div>
-      <p className='mb-5'>
-        To institutionalize a culture of empathy and responsiveness,
-        we implemented a suite of customer-centric policies— detailed
-        in our BRSR disclosures (Pg. XXX) , that embed responsibility
-        Kotak generates and delivers value to its customers through three strategic levers:
-        and transparency across the organisation. These efforts are
-        complemented by structured engagement with customers and
-        internal stakeholders, ensuring that every touchpoint is aligned
-        with our broader digital transformation agenda.
-      </p>
+      
       <div className='mb-5'>
         <h1 className='font-bold mb-3  '>
           Kotak generates and delivers value to its customers through three strategic levers:

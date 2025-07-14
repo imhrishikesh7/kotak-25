@@ -9,7 +9,7 @@ import Message from '../../Components/Home/Message'
 import BusinessOverview from '../../Components/Home/BusinessOverview'
 import Technology from '../../Components/Home/Technology'
 // import Scene from '../../Components/Home/Scene'
-import IPhone from '../../Components/Home/Iphone'  
+import IPhone from '../../Components/Home/Iphone'
 import KPIHome from '../../Components/Home/KPIHome'
 import Strategy from '../../Components/Home/Strategy'
 import VCModel from '../../Components/Home/VCModel'
@@ -22,8 +22,8 @@ const Home = () => {
         <div className=' overflow-hidden'>
             <Cover />
             <Aboutus />
-            <div className='flex md:flex-row h-[90vh] gap-4 flex-col'>
-                <div className='md:w-[40%] bg-gray-200 md:rounded-r-4xl  md:px-10 flex flex-col justify-center items-cente'>
+            <div className='flex md:flex-row md:h-[90vh] gap-4 flex-col'>
+                <div className='md:w-[40%] bg-gray-200 md:rounded-r-4xl p-6 md:px-10 flex flex-col justify-center items-cente'>
                     <Reveal animation="slide-up">
                         <p className='text-2xl'>
                             We are a <span className='text-2xl font-bold text-[#013367]'>₹ 8.8 trillion</span> institution* with a market capitalisation of <span className='text-2xl font-bold text-[#013367] '>₹ 4.3 trillion</span>, as of 31st March, 2025.
@@ -45,21 +45,13 @@ const Home = () => {
             <Message />
             <BusinessOverview />
             <Technology />
-            {/* <div className='flex'>
-                <div className='border w-1/2'>
-                    <Scene />
-                </div>
-                <div className='border w-1/2'>
-
-                </div>
-            </div> */}
-                <IPhone/>
-                <KPIHome/>
-                <Strategy/>
-                <VCModel/>
-                <SusSnapshots/>
-                <AwardsSlider/>
-                <DownloadCenter/>
+            <IPhone />
+            <KPIHome />
+            <Strategy />
+            <VCModel />
+            <SusSnapshots />
+            <AwardsSlider />
+            <DownloadCenter />
         </div>
     )
 }

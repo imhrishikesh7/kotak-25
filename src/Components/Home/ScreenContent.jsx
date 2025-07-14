@@ -25,17 +25,17 @@ export const ScreenContent = () => {
         speed: 600,
         autoplay: true,
         autoplaySpeed: 3500,
-        fade: false,            // ❌ turn off fade, use sliding
-        pauseOnHover: false,
-        draggable: true,        // ✅ allow touch/mouse dragging
-        swipe: true,            // ✅ ensure swipe is enabled
-        swipeToSlide: true,     // ✅ smooth transition to slides
-        touchThreshold: 10      // ✅ sensitivity like iOS
+        fade: false,            
+        pauseOnHover: true,
+        draggable: true,       
+        swipe: true,      
+        swipeToSlide: true,
+        touchThreshold: 10     
     };
 
 
     return (
-        <div className="relative">
+        <div className="relative cursor-pointer">
             <Slider {...settings}>
                 {slides.map((Component, i) => (
                     <div

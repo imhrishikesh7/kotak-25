@@ -5,26 +5,26 @@ const SusSnapshots = () => {
     {
       id: 1,
       title: "Customers",
-      image: "./home/Pic1.webp",
-      link: "#business-solutions",
+      image: "/home/Pic1.webp",
+      link: "sustainability/snapshot",
     },
     {
       id: 2,
       title: "Company",
-      image: "./home/Pic2.webp",
-      link: "#technology",
+      image: "/home/Pic2.webp",
+      link: "sustainability/snapshot",
     },
     {
       id: 3,
       title: "Colleagues",
-      image: "./home/Pic3.webp",
-      link: "#market-analysis",
+      image: "/home/Pic3.webp",
+      link: "sustainability/snapshot",
     },
     {
       id: 4,
       title: "Community",
-      image: "./home/Pic4.webp",
-      link: "#strategic-planning",
+      image: "/home/Pic4.webp",
+      link: "sustainability/snapshot",
     }
   ];
 

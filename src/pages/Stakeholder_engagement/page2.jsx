@@ -53,7 +53,7 @@ const page2 = () => {
           <div className="flex flex-col md:flex-row h-screen relative">
             <div className="md:w-1/2 w-full relative">
               <img
-                src="Stakeholders\Image-30.webp"
+                src="\Stakeholders\Image-30.webp"
                 alt="Background"
                 className="h-full w-full object-contain transform 2xl:translate-x-[-5%]"
               />
@@ -223,7 +223,7 @@ const page2 = () => {
           </p>
         </div>
         <div className='md:w-[50%] mt-5'>
-          <img src="Stakeholders\IMG_6561.webp" alt="" className='rounded-3xl' />
+          <img src="/Stakeholders\IMG_6561.webp" alt="" className='rounded-3xl' />
         </div>
       </div>
       <div className='mb-5'>
@@ -279,29 +279,12 @@ const page2 = () => {
         <p className='mb-1'>
           Material Topics for our organisation and the related key performance indicators covered in this Report <sup>3</sup> are in the table depicted below-
         </p>
-        <div className=''>
+        <div className='mt-10'>
           <div>
             <img src="/Stakeholders/Page3-1.webp" alt="" />
           </div>
           <div>
-            <img src="/Stakeholders/Page3-2.webp" alt="" />
-          </div>
-          <div>
-            <img src="/Stakeholders/Page3-3.webp" alt="" />
-          </div>
-          <div>
-            <img src="/Stakeholders/Page3-4.webp" alt="" />
-          </div>
-          <div>
-            <img src="/Stakeholders/Page3-5.webp" alt="" />
-          </div>
-          <div className=' text-xs text-gray-700'>
-            <sup>*
-            </sup>
-            Financial implications are -ve | <sup> #</sup>  Financial implications are +ve| <sup>3</sup> GRI 3-2 | <sup>4
-            </sup>BRSR, Section A, Question 26 describing rationale for identifying a material topic as risk or opportunity, approach to adapt or mitigate and the financial implications of the risk or opportunity| <sup> 5</sup>
-            GRI 3-3 | <sup>6</sup>The performance is indicated for the Bank wherever it is not
-            mentioned specifically. The static figures mentioned in the KPIs are as on 31st March, 2025. The period figures mentioned are for FY 2024-25.
+            <img src="/Stakeholders/Image-34-Box.png" alt="" />
           </div>
         </div>
 
@@ -312,21 +295,7 @@ const page2 = () => {
             <img src="/Stakeholders/Page4-1.webp" alt="" />
           </div>
           <div>
-            <img src="/Stakeholders/Page4-2.webp" alt="" />
-          </div>
-          <div>
-            <img src="/Stakeholders/Page4-3.webp" alt="" />
-          </div>
-          <div>
-            <img src="/Stakeholders/Page4-4.webp" alt="" />
-          </div>
-          <div>
-            <img src="/Stakeholders/Page4-5.webp" alt="" />
-          </div>
-          <div className='text-xs text-gray-700'>
-            <sup>*
-            </sup>
-            Financial implications are -ve | <sup> #</sup>  Financial implications are +ve|
+            <img src="\Stakeholders\Image-35-Box.png" alt="" />
           </div>
         </div>
 
@@ -336,25 +305,9 @@ const page2 = () => {
         <div className='text-lg '>
           <div className='mb-10'>
             <div>
-              <img src="/Stakeholders/Page5-1.webp" alt="" />
+              <img src="/Stakeholder/Page5-1.webp" alt="" />
             </div>
-            <div>
-              <img src="/Stakeholders/Page5-2.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page5-3.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page5-4.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page5-5.webp" alt="" />
-            </div>
-            <div className='text-xs text-gray-700'>
-              <sup>*
-              </sup>
-              Financial implications are -ve | <sup> #</sup>  Financial implications are +ve|
-            </div>
+            
           </div>
 
         </div>
@@ -364,24 +317,7 @@ const page2 = () => {
               <img src="/Stakeholders/Page6-1.webp" alt="" />
             </div>
             <div>
-              <img src="/Stakeholders/Page6-2.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page6-3.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page6-4.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page6-5.webp" alt="" />
-            </div>
-            <div className=' text-xs text-gray-700'>
-              <sup>*
-              </sup>
-              Financial implications are -ve | <sup> #</sup>  Financial implications are +ve| <sup>$</sup> As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green
-              deposits’ issued in April, 2023. | <sup>**
-              </sup>As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023,
-              based on internal mapping.
+              <img src="\Stakeholders\Image-36-Box.png" alt="" />
             </div>
           </div>
 
@@ -392,22 +328,7 @@ const page2 = () => {
               <img src="/Stakeholders/Page7-1.webp" alt="" />
             </div>
             <div>
-              <img src="/Stakeholders/Page7-2.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page7-3.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page7-4.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page7-5.webp" alt="" />
-            </div>
-
-            <div className='text-xs text-gray-700'>
-              <sup>*
-              </sup>
-              Financial implications are -ve | <sup> #</sup>  Financial implications are +ve| <sup>$</sup>As on 28th February, 2025
+              <img src="\Stakeholders\Image-37-Box.png" alt="" />
             </div>
           </div>
 
@@ -418,25 +339,20 @@ const page2 = () => {
               <img src="/Stakeholders/Page8-1.webp" alt="" />
             </div>
             <div>
-              <img src="/Stakeholders/Page8-2.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page8-3.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page8-4.webp" alt="" />
-            </div>
-            <div>
-              <img src="/Stakeholders/Page8-5.webp" alt="" />
-            </div>
-            <div className='text-xs text-gray-700'>
-              <sup>*
-              </sup>
-              Financial implications are -ve | <sup> #</sup>  Financial implications are +ve| <sup>7</sup>Inclusive of transfer to Unspent CSR Account, administrative overhead and impact
-              assessment.
+              <img src="\Stakeholders\Image-38-Box.png" alt="" />
             </div>
           </div>
 
+        </div>
+        <div className='text-lg mb-10'>
+          <div>
+            <div>
+              <img src="/Stakeholders/Page8-1.webp" alt="" />
+            </div>
+            <div>
+              <img src="\Stakeholders\Image-39-Box.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -23,6 +23,8 @@ import DigitalPowerhouse from './pages/DigitalPowerhouse';
 import Talent from './pages/Talent';
 import ScrollToTop from './Components/ScrollToTop';
 import KPI from './Components/Home/KPI';
+import Strategy from './Components/Home/Strategy';
+import SusSnapshots from './Components/Home/SusSnapshots';
 
 function App() {
   return (
@@ -43,6 +45,14 @@ function App() {
         <Route path="/page1" element={<Page1 />} />
         <Route path="/page2" element={<Page2 />} />
         <Route path="/our-enablers/key-performance-indicators" element={<KPI />} />
+        <Route path="/our-enablers/technology" element={<Technology />} />
+        <Route path="/our-enablers/digital-powerhouse" element={<DigitalPowerhouse />} />
+        <Route path="/our-enablers/talent" element={<Talent />} />
+        <Route path="/our-enablers/stakeholder-engagement" element={<Page2 />} />
+        <Route path="/strategy" element={<Strategy />} />
+        <Route path="/sustainability/snapshot" element={<Carousel />} />
+        <Route path="/sustainability/customers" element={<Generating1 />} />
+
 
         {/* Snapshot */}
         <Route path="/analytics/overview" element={<Carousel />} />

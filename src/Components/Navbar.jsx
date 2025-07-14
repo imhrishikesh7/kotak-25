@@ -205,7 +205,7 @@ const Navbar = () => {
                 {items.map((sub) => (
                     <div key={sub.label} className="relative group">
                         {sub.submenu ? (
-                            <div className="block py-2 px-2 text-sm hover:text-blue-300 transition cursor-pointer flex items-center justify-between">
+                            <div className="     py-2 px-2 text-sm hover:text-blue-300 transition cursor-pointer flex items-center justify-between">
                                 <span>{sub.label}</span>
                                 <FiChevronRight className="text-xs" />
                                 <div className="hidden group-hover:block">
@@ -229,7 +229,7 @@ const Navbar = () => {
 
     return (
         <div className=" z-50 sticky top-0">
-            <style jsx>{`
+            <style jsx="true">{`
                 /* Smart positioning for nested submenus */
                 .submenu-nested {
                     left: 100%;

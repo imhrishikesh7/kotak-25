@@ -3,74 +3,79 @@ import React, { useState } from "react";
 const cardData = [
   {
     title: "Customer",
-    image: "/SustainingSnapshot/Page1-1.webp",
+    image: "/home/Pic1.webp",
     achievements: [
-      "$28%$ Reduction YoY in Net complaints",
-      "$30%$ of our ATMs are differently-abled friendly",
-      "$>40%$ Improvement in RNPS® scores of Affluent & NR Customers from Sept 24 to Mar 25",
-      "$40%$ Of service requests automated for faster complaint resolution",
+      "$28%$ Reduction YoY in net complaints* at the Bank",
+      "$30%$ Of Bank’s ATMs are differentlyabled friendly",
+      "$>40%$ Improvement in RNPS® scores of Affluent and NR Customers** at the Bank",
+      "$40%$ Of service requests automated for faster complaint resolution at the Bank",
     ],
     initiatives: [
-      "$Customer$ Centric initiatives such as Customer 360 and Sky banking*",
+      "$Customer$ Centric initiatives such as 811,Customer 360 and Voice channel$",
       "$Care Index$ For service quality monitoring through key channels",
-      "$Training$ Front line staff for proactive prevention of fraud",
-      "$Grievance redressal$ Fortified with 11 member Internal ombudsman support desk working with 3 Internal ombudsmen",
+      "$Training$ Front-line staff for proactive prevention of fraud",
+      "$Grievance redressal$ Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen",
     ],
     footnotes: [
-    "*  Sky banking is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support etc.) and Physical(branches and relationship managers). Further details in digital chapter page XXX "
+    "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "
   ]
   },
   {
-    title: "Company",
-    image: "/SustainingSnapshot/Page1-2.webp",
-    achievements: [
-      "$>20%$ Of workforce operating from ISO 45001:2018 certified premises",
-      "$5.5%$ Share of renewable electricity used by the Bank",
-      "$5$ Number of Board of Directors with expertise on Risk Management",
-      "$55%$ Independent directors on the Board as on 31st March, 2025",
-    ],
-    initiatives: [
-      "$₹7,900 cr+$ Green assets* as on 31st March 2025",
-      "$ISO 27001$ Certified Information Security and Management Systems of the Bank",
-      "$Integrating ESG$ Considerations in Credit & Risk",
-      "$Open acces$ Renewable energy to power some of our larger office premises and rooftop solar to power five bank-owned premises (pilot)",
-    ],
-    footnotes:[
-      "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping."
-    ]
-  },
-  {
     title: "Colleague",
-    image: "/SustainingSnapshot/Page1-3.webp",
+    image: "/home/Pic3.webp",
     achievements: [
-      "$26%$ Gender diversity in FY 2024-25",
-      "$49.5 hrs$ Average person hours of training",
+      "$26%$ Gender diversity at the Group",
       "$16%$ YoY reduction in employee turnover at the Bank",
-      "$78%$ Employees# take pride in being a part of the Bank",
+      "$78%$ Employees## take pride in being a part of the Bank ",
+      "$49.5 hrs$ Average person hours of training at the Bank",
     ],
     initiatives: [
       "$Aspiration$ To have women represent one-third of our workforce",
-      "$ISO 45001:2018$ certified eight offices",
-      "$Diversity$ Initiatives such as Women re-launch programme",
       "$5 pillars$ of employee development through talent engagement",
+      "$ISO 45001:2018$ certified offices - eight",
+      "$Diversity$ Initiatives such as Women re-launch programme",
     ],
-    footnotes:[" # respondents to the GPTW survey "]
+    footnotes:[" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
   },
   {
-    title: "Community",
-    image: "/SustainingSnapshot/Page1-4.webp",
+    title: "Company",
+    image: "/home/Pic2.webp",
     achievements: [
-      "$7,600+$ Scholarships awarded for continuation of education & college students",
-      "$~19,000$ PwD beneficiaries (children & youth) for better education, healthcare & livelihood",
-      "$1.5 Lakh+$ Saplings creating urban mini forests",
-      "$11,000+$ Cancer patients supported",
+      "$27%$ Board gender diversity",
+      "$>20% $ Of Bank’s workforce operating from ISO 45001:2018 certified premises",
+      "$₹ 7,900+ cr$ Green assets* as on 31st March 2025 at the Bank",
+      "$~20 years$ Average tenure of leadership team with the Group",
+    ],
+    initiatives: [
+      "$ISO 27001$ Certified Information Security and Management Systems of the Bank",
+      "$Integrating ESG$ Considerations in Credit and Risk management processes",
+      "$5.5%$ Share of renewable electricity used by the Bank",
+
+      "$Open acces$ Renewable energy to power some of our larger office premises and rooftop solar to power five bank-owned premises",
+    ],
+    footnotes:[
+      "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
+    ]
+  },
+  
+  {
+    title: "Community",
+    image: "/home/Pic4.webp",
+    achievements: [
+      "$2 lakh+$$ Children from schools and colleges supported by Kotak Edcuation Foundation",
+      "$7,600+$ Scholarships awarded for continuation of education of school and college students",
+      "$~19,000$$ Differently abled beneficiaries for better education, healthcare & livelihood",
+      "$11,000+$$ Cancer patients supported",
     ],
     initiatives: [
       "$Kotak BizLabs$ Bank’s flagship initiative and an accelerator program for early-revenue stage startups in India",
-      "$2 Lakh+$ Kotak Education Foundation supported children from schools and colleges",
-      "$15$ women-specific CSR programs",
+      "$1.5 Lakh+$ Kotak Education Foundation supported children from schools and colleges",
+      "$15$ women-specific CSR programmes",
       "$6$ Flagship Institutions / Programmes built and/or under development",
     ],
+    footnotes:[
+      "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
+    ]
   },
 ];
 function formatTextWithHighlights(text) {

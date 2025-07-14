@@ -22,6 +22,7 @@ import Technology from './pages/Technology';
 import DigitalPowerhouse from './pages/DigitalPowerhouse';
 import Talent from './pages/Talent';
 import ScrollToTop from './Components/ScrollToTop';
+import KPI from './Components/Home/KPI';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         {/* Stakeholder Engagement */}
         <Route path="/page1" element={<Page1 />} />
         <Route path="/page2" element={<Page2 />} />
+        <Route path="/our-enablers/key-performance-indicators" element={<KPI />} />
 
         {/* Snapshot */}
         <Route path="/analytics/overview" element={<Carousel />} />

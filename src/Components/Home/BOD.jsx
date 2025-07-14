@@ -67,7 +67,7 @@ export default function BOD() {
     const progressPercentage = maxScroll > 0 ? (scrollPosition / maxScroll) * 100 : 0;
 
     return (
-        <div className="min-h-screen bg-white py-16 px-4">
+        <div className="min-h-screen bg-white py-12 px-4">
             <div className="marginal mx-auto">
                 <div className='w-fit mb-12 mx-auto text-center'>
                     <Reveal animation="slide-up">
@@ -78,7 +78,6 @@ export default function BOD() {
                     </Reveal>
                 </div>
 
-                {/* Image Container */}
                 {/* Image Container */}
                 <div className="relative group">
                     {/* Scrollable Image */}

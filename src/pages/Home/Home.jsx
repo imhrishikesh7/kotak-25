@@ -15,6 +15,7 @@ import Strategy from '../../Components/Home/Strategy'
 import VCModel from '../../Components/Home/VCModel'
 import DownloadCenter from '../../Components/Home/DownloadCenter'
 import AwardsSlider from '../../Components/Home/AwardsSlider'
+import SusSnapshots from '../../Components/Home/SusSnapshots'
 
 const Home = () => {
     return (
@@ -56,6 +57,7 @@ const Home = () => {
                 <KPIHome/>
                 <Strategy/>
                 <VCModel/>
+                <SusSnapshots/>
                 <AwardsSlider/>
                 <DownloadCenter/>
         </div>

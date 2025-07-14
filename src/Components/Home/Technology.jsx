@@ -41,7 +41,7 @@ const Technology = () => {
   }, []);
 
   return (
-    <div>
+    <div className='pb-12'>
       {/* Titles */}
       <div className="w-fit mx-auto mb-12 text-center">
         <Reveal animation="slide-up">

@@ -4,9 +4,9 @@ import KnowMore from '../KnowMore';
 
 const BusinessOverview = () => {
   return (
-    <div className="marginal">
+    <div className="marginal !mb-12">
       {/* Title Section */}
-      <div className="w-fit mx-auto mb-12 text-center">
+      <div className="w-fit mx-auto mb-12  text-center">
         <Reveal animation="slide-up">
           <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">
             Business Overview

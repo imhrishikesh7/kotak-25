@@ -16,7 +16,7 @@ const max = Math.max(...data.map(d => d.value));
 
 const KPIHome = () => {
     return (
-        <div className='bg-[#F1EFEC]'>
+        <div className='bg-[#F1EFEC] pt-12'>
         <div className='marginal '>
             <div className='w-fit mx-auto  text-center'>
                 <Reveal animation="slide-up">
@@ -67,7 +67,7 @@ const KPIHome = () => {
                 </div>
             </div>
             <div className='mx-auto w-fit'>
-                <KnowMore/>
+                <KnowMore to={"/our-enablers/key-performance-indicators"}/>
             </div>
         </div>
         </div>

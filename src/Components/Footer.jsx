@@ -7,7 +7,7 @@ const Footer = () => {
           {/* Company Logo */}
           <div className="flex items-center">
             <a href="https://www.kotak.com/en/home.html" target="_blank" className="text-xl font-bold w-32">
-                    <img src="./home/Kotak-White-Version.webp" alt="Logo" />
+                    <img src="/Kotak-White-Version.webp" alt="Logo" />
                 </a>
           </div>
           

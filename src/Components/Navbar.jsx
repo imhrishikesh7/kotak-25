@@ -256,7 +256,7 @@ const Navbar = () => {
             `}</style>
             <nav className="bg-[#013367]/90 backdrop-blur-[20px] relative text-white md:px-16 px-6 py-6 flex justify-between items-center">
                 <a href="/" className="text-xl font-bold w-32">
-                    <img src="./home/Kotak-White-Version.webp" alt="Logo" />
+                    <img src="/Kotak-White-Version.webp" alt="Logo" />
                 </a>
 
                 {/* Desktop Nav */}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Recognition from '../Components/Recognition'
 
 const Awards = () => {
     return (
@@ -9,10 +10,7 @@ const Awards = () => {
             <h1 className="text-3xl font-bold text-[#ed1c2f] mb-10">
                 Recognition of Excellence
             </h1>
-            <img src="/Awards/Screenshot 2025-07-15 at 1.23.28 AM.png" alt="" />
-            <img src="/Awards/1.png" alt="" />
-            <img src="/Awards/2.png" alt="" />
-            <img src="/Awards/3.png" alt="" />
+            <Recognition/>
         </div>
     )
 }

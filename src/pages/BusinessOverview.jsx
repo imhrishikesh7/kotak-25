@@ -1616,25 +1616,25 @@ const BusinessOverview = () => {
 
             <Heading heading={'International Business'} subheading={'Kotak Mahindra (International) Limited, Kotak Mahindra (UK) Limited, Kotak Mahindra Inc., Kotak Mahindra Asset Management (Singapore) Pte Limited, Kotak Mahindra Financial Services Limited'} icon='BusinessOverview\Page-21-Icon-2.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
+                <p className='font-semibold mb-3'>
+                    Offers financial services across our offices in Singapore, London,
+                    New York, Dubai, Abu Dhabi and Mauritius.
+                </p>
 
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                    Products and Services
+                </h1>
+
+                <p className='mb-3'>
+                    Offerings include India-bound Asset Management, Investment
+                    Advisory and Alternate Assets, India-bound Institutional Equities and
+                    Prime Brokerage and International Wealth Management.
+                </p>
                 <div className='flex flex-col xl:flex-row md:gap-10'>
 
                     <div className='xl:w-1/2'>
 
-                        <p className='font-semibold mb-3'>
-                            Offers financial services across our offices in Singapore, London,
-                            New York, Dubai, Abu Dhabi and Mauritius.
-                        </p>
 
-                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
-                            Products and Services
-                        </h1>
-
-                        <p className='mb-3'>
-                            Offerings include India-bound Asset Management, Investment
-                            Advisory and Alternate Assets, India-bound Institutional Equities and
-                            Prime Brokerage and International Wealth Management.
-                        </p>
 
                         <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                             Promoting the India Story Internationally

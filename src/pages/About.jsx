@@ -5,8 +5,8 @@ const About = () => {
     return (
         <div className="marginal text-lg">
             <div className="mb-4">
-                <div className="md:flex items-start gap-10 mt-10">
-                    <div className="md:w-7/12">
+                <div className="">
+                    <div className="">
                         <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
                             About us
                         </div>
@@ -37,10 +37,7 @@ const About = () => {
                             cyclical benefits.
                         </p>
                     </div>
-
-                    <div className="md:w-5/12 my-auto">
-                        <img src="\AboutUs\Plane2.jpg" alt="" className='rounded-3xl w-full' />
-                    </div>
+                        <img src="\AboutUs\Plane3.jpg" alt="" className='rounded-3xl w-full' />
                 </div>
 
                 <HeadingPill heading='Kotak Universe<sup>#</sup>' />
@@ -130,24 +127,24 @@ const About = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold">
 
-                <div>
+                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">2,148</h2>
                     <p className="text-[#000000] text-md font-normal">Bank branches<sup>*</sup></p>
                 </div>
 
-                <div>
+                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">3,295</h2>
                     <p className="text-[#000000] text-md font-normal">Bank ATMs<sup>**</sup></p>
                 </div>
 
-                <div>
+                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">961</h2>
                     <p className="text-[#000000] text-md font-normal">Pan-India operating
                         locations
                         of the Bank</p>
                 </div>
 
-                <div>
+                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">5,378</h2>
                     <p className="text-[#000000] text-md font-normal">Group branch network
                         in India<sup>*</sup></p>

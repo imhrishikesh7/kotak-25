@@ -9,8 +9,8 @@ const AshokMessage = () => {
             <h1 className="text-4xl font-normal text-[#ed1c2f]">
                 Transforming for scale
             </h1>
-            <div className='mt-5 bg-gray-400 rounded-3xl p-3'>
-                <img src="AshokMessage/Ashok.webp" alt="" className='w-250 mx-auto' />
+            <div className='mt-5'>
+                <img src="\home\ceo-banner.webp" alt="" className='rounded-3xl' />
             </div>
             <div className='text-lg mt-5'>
                 <h2 className='text-[#ed1c2f] text-2xl font-semibold mb-3'>Dear Shareholders,
@@ -84,8 +84,12 @@ const AshokMessage = () => {
 
             </div>
             <div className='text-lg mt-5'>
-                <img src="AshokMessage/Customers-Icon.webp" alt="" className='w-20' />
-                <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>Customer</h2>
+                <div className='flex gap-3 mb-3'>
+                    <div className='bg-gray-200 w-15 h-15 rounded-full p-3'>
+                        <img src="AshokMessage/Customers-Icon.webp" alt="" className='w-10' />
+                    </div>
+                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>Customer</h2>
+                </div>
                 <h3 className='text-2xl text-[#212b7e] mb-3'>The Heart of Our Business</h3>
                 <div>
                     <p className='text-[#000000] mb-3'>
@@ -153,12 +157,13 @@ const AshokMessage = () => {
 
             </div>
             <div className='text-lg mt-5'>
-                <img src="favicon.webp" alt="" className='w-20' />
+                <div className='flex gap-3 '>
+                    <div className='bg-gray-200 w-15 h-15 rounded-full p-1'>
+                        <img src="favicon.webp" alt="" className='w-' />
+                    </div>
+                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>Company</h2>
+                </div>
                 <div>
-                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>
-                        Company
-                    </h2>
-
                     <h3 className='text-2xl text-[#212b7e] mb-3'>
                         Building Sustainable Value
                     </h3>
@@ -252,12 +257,12 @@ const AshokMessage = () => {
 
             </div>
             <div className='text-lg mt-10'>
-                <img src="AshokMessage/Colleagues-Icon.webp" alt="" className='w-25 mb-3' />
-
-                <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>
-                    Colleagues
-                </h2>
-
+                <div className='flex gap-3 mb-3'>
+                    <div className='bg-gray-200 w-15 h-15 rounded-full p-1'>
+                        <img src="AshokMessage/Colleagues-Icon.webp" alt="" className='w- translate-y-[40%]' />
+                    </div>
+                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Colleagues</h2>
+                </div>
                 <h3 className='text-2xl text-[#212b7e] mb-3'>
                     Our Greatest Asset
                 </h3>
@@ -289,11 +294,12 @@ const AshokMessage = () => {
 
             <img src="AshokMessage/Page-11-Image.webp" alt="" className='mb-10' />
             <div className='text-lg'>
-                <img src="AshokMessage/Community-Icon.webp" alt="" className='w-20 mb-3' />
-
-                <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>
-                    Community
-                </h2>
+                <div className='flex gap-3 mb-3'>
+                    <div className='bg-gray-200 w-15 h-15 rounded-full p-1'>
+                        <img src="AshokMessage/Community-Icon.webp" alt="" className='translate-y-[-5%]' />
+                    </div>
+                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Community</h2>
+                </div>
 
                 <h3 className='text-2xl text-[#212b7e] mb-3'>
                     Thriving Together
@@ -356,6 +362,9 @@ const AshokMessage = () => {
                 <h1 className='text-[#ed1c2f] text-2xl font-semibold'>Ashok Vaswani</h1>
                 <h2 className='text-[#202a7d] text-xl font-bold mb-2'>Managing Director & CEO</h2>
                 <h3 className='text-xl font-semibold'>07th July, 2025</h3>
+            </div>
+            <div className='border-t-1 mt-2 pt-1'>
+                <i><sup>1</sup>GRI 2-22</i>
             </div>
         </div>
     )

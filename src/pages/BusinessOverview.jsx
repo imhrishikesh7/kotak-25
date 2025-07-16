@@ -18,83 +18,79 @@ const BusinessOverview = () => {
                     digital platforms to enable scale, increase efficiencies and provide better customer experiences.
                 </p>
             </div>
+            <h1 className='mt-5 text-xl text-[#ed1c2f] font-bold'>Kotak Mahindra Bank Limited</h1>
             <Heading heading={'Consumer Banking'} icon='BusinessOverview/Page-12-Icon.webp' />
             <div className='mt-10 text-lg'>
-                <p className='font-semibold'>
+                <p className='font-semibold mb-3'>
                     Provides a wide spectrum of propositions to retail customers
                     (including corporate salaried customers and the selfemployed), small businesses, NRIs, retail institutions,
                     government departments and entities, backed by
                     convenient, innovative and digital-first solutions.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+                <p className='mb-3'>
                     Savings and Current Accounts, Term Deposits, Home Loans and
                     Loans Against Property, Personal Loans, Consumer Finance,
                     Business Banking, Credit Cards, Priority Banking, Small
                     Business Loans, Private Banking, Rural Housing, Business
                     Loans and FASTags.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Customer Centricity at the Core
-                    <br />
-                    <br />
                 </h1>
-                <p>
-                    Central to our transformation journey lies a deep commitment to
-                    customer centricity. We have realigned our functions and worked
-                    on our strategy around this principle.
-                    <br />
-                    <br />
-                    The Consumer Bank has been strategically organised into three
-                    core segments i.e. Product, Distribution and Proposition. The
-                    Distribution segment engages customers through three distinct
-                    channels — branch network, digital and voice. Each channel is
-                    now persona-driven whether SME, affluent or others, influencing
-                    everything from branch staffing to app design and functionality.
-                    <br />
-                    <br />
-                    Leveraging our comprehensive product suite, we have crafted
-                    bespoke solutions tailored to the distinct needs of our target
-                    customer segments. Our offerings span essential financial use
-                    cases including saving, investing, borrowing and protection,
-                    drawing on the strengths and capabilities of our Group
-                    companies to deliver integrated and impactful propositions. A manifestation of this approach is evident in the recent launch of
-                    Kotak Solitaire, our new proposition for the affluent customers.
-                    <br />
-                    <br />
-                    Furthermore, all three segments work on deepening customer
-                    engagement, guided by defined personas right from the
-                    onboarding stage through co-origination of products and
-                    continuing across the customer lifecycle with personalised
-                    nudges and targeted offers.
-                    <br />
-                    <br />
-                    To elevate customer service at our branches, we have focused
-                    on two key areas: branch decongestion and optimising the
-                    time our colleagues spend on operational tasks. Decongestion
-                    is achieved by redirecting customer interactions to digital and
-                    voice channels, ensuring faster and more convenient service. For
-                    customers who continue to visit branches, we have enhanced
-                    operational efficiency through our frontline digitisation
-                    initiatives. These include the Transaction Authorisation System
-                    (TAS), automation of daily branch reports and an AI-powered
-                    bot, each designed to streamline workflows and empower
-                    branch staff to deliver superior service.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <div>
+                    <p className='mb-3'>
+                        Central to our transformation journey lies a deep commitment to
+                        customer centricity. We have realigned our functions and worked
+                        on our strategy around this principle.
+                    </p>
+
+                    <p className='mb-3'>
+                        The Consumer Bank has been strategically organised into three
+                        core segments i.e. Product, Distribution and Proposition. The
+                        Distribution segment engages customers through three distinct
+                        channels — branch network, digital and voice. Each channel is
+                        now persona-driven whether SME, affluent or others, influencing
+                        everything from branch staffing to app design and functionality.
+                    </p>
+
+                    <p className='mb-3'>
+                        Leveraging our comprehensive product suite, we have crafted
+                        bespoke solutions tailored to the distinct needs of our target
+                        customer segments. Our offerings span essential financial use
+                        cases including saving, investing, borrowing and protection,
+                        drawing on the strengths and capabilities of our Group
+                        companies to deliver integrated and impactful propositions. A manifestation of this approach is evident in the recent launch of
+                        Kotak Solitaire, our new proposition for the affluent customers.
+                    </p>
+
+                    <p className='mb-3'>
+                        Furthermore, all three segments work on deepening customer
+                        engagement, guided by defined personas right from the
+                        onboarding stage through co-origination of products and
+                        continuing across the customer lifecycle with personalised
+                        nudges and targeted offers.
+                    </p>
+
+                    <p className='mb-3'>
+                        To elevate customer service at our branches, we have focused
+                        on two key areas: branch decongestion and optimising the
+                        time our colleagues spend on operational tasks. Decongestion
+                        is achieved by redirecting customer interactions to digital and
+                        voice channels, ensuring faster and more convenient service. For
+                        customers who continue to visit branches, we have enhanced
+                        operational efficiency through our frontline digitisation
+                        initiatives. These include the Transaction Authorisation System
+                        (TAS), automation of daily branch reports and an AI-powered
+                        bot, each designed to streamline workflows and empower
+                        branch staff to deliver superior service.
+                    </p>
+                </div>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Impact of the Above Strategies:
-                    <br />
-                    <br />
                 </h1>
                 <div className="flex items-start gap-2 mb-3">
                     <div className="icon-dot mt-1" />
@@ -146,35 +142,25 @@ const BusinessOverview = () => {
             </div>
             <Heading heading={'Consumer Banking'} icon='BusinessOverview\Page-13-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+                <p className='font-semibold mb-3'>
                     A full-stack digital banking proposition that aims to
                     simplify banking for a billion Indians (core India).
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+                <p className='mb-3'>
                     Offers a wide suite of products, including Savings Accounts,
                     Term Deposits, Debit cards, Credit cards, Loans, Investments
                     and Protection plans.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Kotak811 - Where Banking meets Technology
-                    <br />
-                    <br />
                 </h1>
-                <p>
+                <p className='mb-3'>
                     In FY 2024-25, Kotak811 integrated advanced technologies and
                     data analytics to enhance customer experience and accelerate
                     growth. The key highlights include:
-                    <br />
-                    <br />
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
@@ -201,10 +187,8 @@ const BusinessOverview = () => {
                         </p>
                     </div>
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Strategic Focus in FY 2024-25 on
-                    <br />
-                    <br />
                 </h1>
                 <div className="flex items-start gap-2 mb-3">
                     <div className="icon-dot mt-1" />
@@ -233,18 +217,14 @@ const BusinessOverview = () => {
                 <div className='flex lg:flex-row flex-col justify-between items-start gap-10 mt-10 text-[#212b7e]'>
                     <div className='flex flex-1 flex-col gap-5'>
                         <div>
-                            <h1 className='text-xl text-[#ed1c2f] font-semibold '>
+                            <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                                 Brand Campaign: ‘Makkhan Jaise Smooth Banking’
-                                <br />
-                                <br />
                             </h1>
-                            <p className='text-black'>
+                            <p className='text-black mb-3'>
                                 ‘Banking so smooth, it’s Makkhan’ captures the essence of what
                                 modern banking should feel like - effortless, fast and smooth. It
                                 reflects the app’s user-friendly design and its ability to cater to
                                 every financial need with just a few clicks.
-                                <br />
-                                <br />
                             </p>
                             <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                                 2.56 cr
@@ -284,70 +264,64 @@ const BusinessOverview = () => {
 
             <Heading heading={'Commercial Banking'} icon='BusinessOverview\Page-14-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+                <p className='font-semibold mb-3'>
                     Plays a significant role in meeting financial inclusion goals and
                     financing deep into ‘Bharat’
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+                <p className='mb-3'>
                     Tractors, Commercial Vehicles and Construction Equipment Loans,
                     Credit loans to Small and Medium Enterprises in the Agri Value
                     Chain, Logistics and EPC segments, Microcredit Loans to women
                     borrowers under Joint Liability Group (JLG) and Gold Loans to
                     individuals and small businesses.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Deepening Engagement in Bharat
-                    <br />
-                    <br />
                 </h1>
-                <p>
-                    We witnessed healthy disbursement growth across businesses,
-                    resulting in higher YoY market share in Commercial Vehicle
-                    and Construction Equipment segments. We also successfully
-                    maintained our leadership position in Tractor Financing. We
-                    are strategically expanding our asset pool to small and medium
-                    enterprises in the Agri Value Chain and Gold Loans segments.
-                    <br />
-                    <br />
-                    By leveraging risk scorecards and analytics-driven strategies, we
-                    are driving disciplined and efficient credit cost management,
-                    improving operational efficiency and optimising risk-adjusted
-                    returns ensuring sustainable profitability.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Microcredit Business
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    The microcredit business operates through our business
-                    correspondents - BSS Microfinance Limited and Sonata
-                    Finance Private Limited.
-                    <br />
-                    <br />
-                    In FY 2024-25, the microcredi business faced increased headwinds
-                    as the industry faced increased stress. In response, we adopted
-                    a more risk-sensitive underwriting approach while staying
-                    committed to supporting the underserved segments. We also set
-                    up a dedicated collections team to strengthen recovery.
-                </p>
-                <div className='mt-5'>
-                    <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                        Harnessing Opportunities Across Customer Segments
-                        <br />
-                        <br />
+                <div>
+                    <p className='mb-3'>
+                        We witnessed healthy disbursement growth across businesses,
+                        resulting in higher YoY market share in Commercial Vehicle
+                        and Construction Equipment segments. We also successfully
+                        maintained our leadership position in Tractor Financing. We
+                        are strategically expanding our asset pool to small and medium
+                        enterprises in the Agri Value Chain and Gold Loans segments.
+                    </p>
+
+                    <p className='mb-3'>
+                        By leveraging risk scorecards and analytics-driven strategies, we
+                        are driving disciplined and efficient credit cost management,
+                        improving operational efficiency and optimising risk-adjusted
+                        returns ensuring sustainable profitability.
+                    </p>
+
+                    <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                        Microcredit Business
                     </h1>
+
+                    <p className='mb-3'>
+                        The microcredit business operates through our business
+                        correspondents - BSS Microfinance Limited and Sonata
+                        Finance Private Limited.
+                    </p>
+
+                    <p>
+                        In FY 2024-25, the microcredit business faced increased headwinds
+                        as the industry faced increased stress. In response, we adopted
+                        a more risk-sensitive underwriting approach while staying
+                        committed to supporting the underserved segments. We also set
+                        up a dedicated collections team to strengthen recovery.
+                    </p>
+                </div>
+
+                <div className='mt-5'>
+                    <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                        Harnessing Opportunities Across Customer Segments
+                    </h1>
+
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
@@ -369,16 +343,17 @@ const BusinessOverview = () => {
                         </p>
                     </div>
                 </div>
+
                 <div className='mt-5'>
-                    <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                    <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                         Continued Investment in Technology to Improve the
                         Ease of Doing Business and Build Process Efficiency
-                        <br />
-                        <br />
                     </h1>
-                    <p>Key initiatives that we continue to progress on
-                        <br /><br />
+
+                    <p className='mb-3'>
+                        Key initiatives that we continue to progress on
                     </p>
+
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
@@ -395,7 +370,7 @@ const BusinessOverview = () => {
                         <div className="icon-dot mt-1" />
                         <p>
                             <strong>CRM:</strong> A unified platform for managing leads, campaigns and
-                            conversions, driving improved sales effectiveness and crosssell opportunities.
+                            conversions, driving improved sales effectiveness and cross-sell opportunities.
                         </p>
                     </div>
 
@@ -409,20 +384,21 @@ const BusinessOverview = () => {
                         </p>
                     </div>
                 </div>
+
                 <div className='mt-5'>
-                    <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                    <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                         Harnessing the Power of Analytics Across the Customer
                         Lifecycle Enabling Smarter, Faster Decision-Making
-                        <br />
-                        <br />
                     </h1>
-                    <p>We are undergoing a strategic shift powered by
-                        <br /><br />
+
+                    <p className='mb-3'>
+                        We are undergoing a strategic shift powered by
                     </p>
+
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
-                            <strong>Data Infrastructure:</strong>Deployment of an improved centralised
+                            <strong>Data Infrastructure:</strong> Deployment of an improved centralised
                             data platform with automation and self-serve analytics has
                             streamlined data access and enabled scalable decision-making
                             across acquisition, underwriting and collections.
@@ -432,19 +408,19 @@ const BusinessOverview = () => {
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
-                            <strong>Advanced Analytical Models:</strong>Embedded machine
+                            <strong>Advanced Analytical Models:</strong> Embedded machine
                             learning scorecards and rule-based segmentation support
                             smarter disbursal and engagement strategies across the
                             product portfolio.
                         </p>
                     </div>
                 </div>
+
                 <div className='mt-5'>
-                    <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+                    <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                         Initiatives Undertaken to Elevate Customer Engagement
-                        <br />
-                        <br />
                     </h1>
+
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
@@ -463,6 +439,7 @@ const BusinessOverview = () => {
                         </p>
                     </div>
                 </div>
+
                 <div>
                     <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                         #1
@@ -475,61 +452,59 @@ const BusinessOverview = () => {
             <h1 className='pt-3'><i>^ Tractor and Mechanisation Association (TMA) website</i></h1>
             <Heading heading={'Wholesale Banking'} icon='BusinessOverview\Page-15-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Caters to a wide range of corporate customer segments,
                     including large Indian corporates, conglomerates, financial
                     institutions, public sector undertakings, multinational
                     companies, financial sponsors, including private equity funds
                     and portfolio investors, new-age companies, small- and medium
                     enterprises and realty businesses.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Offers a portfolio of products and services, including working capital
                     finance, medium-term finance, project finance, trade and supply
                     chain finance, foreign exchange services, other transaction banking
                     requirements, custody services, debt capital markets, structured
                     financing solutions and treasury services.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Business Model for Excellence
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     The wholesale bank continued on its journey towards excellence
                     by reducing reliance on asset-based revenues and enhancing
                     customer flow-led and fee income streams. In light of the falling
-                    interest rate environment, wholesale banking focused on shortterm and working capital lending to optimise returns and manage
+                    interest rate environment, wholesale banking focused on short-term
+                    and working capital lending to optimise returns and manage
                     interest rate risk more effectively. Trade and Supply Chain offerings
                     were strengthened, including through digital offerings and this led
                     to increased share of customer flows and higher liability and fee
                     incomes. Continued focus on customer experience, productivity and
                     digital enhancements led to strong growth in Assets, Liabilities and
                     Profitability, delivering a healthy ATROE.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     The Bank was awarded the ‘Best Bank for Large Corporates in India’
                     by Euromoney in its Awards for Excellence, 2025. This accolade,
                     won for the second consecutive year, reflects the strength and
                     prominence of our wholesale banking model.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Granular Growth
-                    <br />
-                    <br />
                 </h1>
-                <p>The Bank continued its granular growth strategy, with the SME and
+
+                <p className='mb-3'>
+                    The Bank continued its granular growth strategy, with the SME and
                     mid-market segments outpacing overall wholesale bank growth.
                     The market share gains were driven by strong customer acquisitions
                     through network expansion, salesforce upskilling and process
@@ -539,15 +514,13 @@ const BusinessOverview = () => {
                     strategic offering of products across group entities. Asset quality
                     remained healthy, with minimal slippages, aided by strengthened
                     credit monitoring.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Debt Capital Markets and Other Fee Income
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We achieved record DCM (Debt Capital Market) fees through
                     marquee deals across diverse products and sectors, enabling clients
                     to raise debt financing from capital markets and loan markets at
@@ -557,30 +530,26 @@ const BusinessOverview = () => {
                     Services (CMS) and Transaction Banking, steadily increasing the
                     proportion of non-risk revenues and enhancing Return on Equity
                     through a more favourable earnings mix.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Liability Growth
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We continued our digital-first, solution-oriented approach in CMS,
                     driving strong increase in transaction volumes and growth in Current
                     Account balances. Product-led innovations and the enhanced CMS
                     technology stack have helped us penetrate customer segments
                     such as mutual funds and payment aggregators. Tax payments grew
                     strongly, with ~2x growth in value processed.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Digital Initiatives
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     This year, there was an increased focus on digitisation of
                     transactions for better customer experience, improved productivity
                     and reduced TATs. Kotak fyn, the Bank’s integrated portal for
@@ -589,78 +558,85 @@ const BusinessOverview = () => {
                     the introduction of new products, service requests and DIY journeys.
                     Its omni-channel proposition was further strengthened through
                     introduction of Trade Approvals on the fyn App.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     For the merchant ecosystem, we have developed the ‘Sampark Setu’
                     platform, a Bank-level unified platform, designed in-house to include
                     all digital payment modes.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     The Cash Management Services technology stack was enhanced
                     by making available native APIs. This has helped the wholesale
                     bank penetrate high CMS volume clients in the BFSI and payment
                     aggregator space.
-                    <br />
-                    <br />
                 </p>
+
                 <div className='flex lg:flex-row flex-col gap-5 justify-between'>
                     <div>
                         <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             11%<sup className="text-red-600 text-sm ml-1">▲</sup>
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>Growth in Wholesale
-                            Banking book</p>
+                        <p className='text-[#58595b] text-md font-normal'>
+                            Growth in Wholesale
+                            Banking book
+                        </p>
                     </div>
                     <div>
                         <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             31%<sup className="text-red-600 text-sm ml-1">▲</sup>
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>Growth in fund-based
-                            SME Loan book</p>
+                        <p className='text-[#58595b] text-md font-normal'>
+                            Growth in fund-based
+                            SME Loan book
+                        </p>
                     </div>
                     <div>
                         <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             26%<sup className="text-red-600 text-sm ml-1">▲</sup>
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>Growth in new-to-bank
-                            customers in SME business</p>
+                        <p className='text-[#58595b] text-md font-normal'>
+                            Growth in new-to-bank
+                            customers in SME business
+                        </p>
                     </div>
                 </div>
+
             </div>
+
             <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY</i></h1>
 
             <Heading heading={'Custodial Services'} icon='BusinessOverview\Page-16-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Recognised as one of India’s leading domestic custodians,
                     offering integrated custody, clearing and fund accounting
                     services to both domestic and international clients—tailored to
                     meet their evolving needs.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We cater to both domestic and international asset managers, with
                     a focus on clients from regions including the Middle East, North
                     America, Europe, the United Kingdom, Mauritius and the Far East.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Robust Capital Markets: Continued Growth and Expansion
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We benefitted from a steady rise in domestic flows through the
                     addition of large clients, including PMS funds and Domestic AIFs.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     We prioritised product development to enhance capacity of our
                     clearing platform, enabling it to efficiently handle high transaction
                     volumes. In addition, we expanded our clearing capabilities to
@@ -668,75 +644,70 @@ const BusinessOverview = () => {
                     GIFT exchange, strengthening our market presence. One of the key
                     initiatives was the launch of commodity clearing service on our
                     existing platform for FPIs in the BSE derivative segment.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     In FY 2024-25, we secured a license in GIFT City to provide Global
                     Custody Services, expanding our capability to provide custodial
                     services for assets held internationally.
-                    <br />
-                    <br />
                 </p>
+
             </div>
+
 
             <Heading heading={'Private Banking'} icon='BusinessOverview\Page-16-Icon-3.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     A premium proposition offering, designed to cater to the
                     sophisticated needs of our UHNI and HNI clients—entrepreneurs,
                     business families and professionals. A trusted partner
                     for client families for their diverse wealth creation and
                     preservation needs.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Offers an open architecture proposition through its comprehensive
                     platform, covering a wide array of products and services through
                     product partners, providers and internal group companies. These
                     include Investment Advisory*, Discretionary solutions*, Investments,
                     Family Office*, Estate Planning** and Banking Solutions.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Two Decades of Trust: A Lifetime of Commitment
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Completed 20 years of serving clients and have crossed USD 100
                     billion in Relationship Value^^ during FY 2024-25.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Expanding Horizons: Commitment to the Global Indian
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We are strengthening our presence to serve the ‘Global Indian’. We
                     have developed platforms and propositions for resident Indians to
                     invest globally and NR Indians to invest in the domestic markets.
-                    <br />
-                    <br />
-                    This is facilitated through our Bank branches at DIFC and GIFT City.
-                    These branches complement Kotak Private Banking with thier ability
-                    to advise and arrange investment products globally and in India.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <p className='mb-3'>
+                    This is facilitated through our Bank branches at DIFC and GIFT City.
+                    These branches complement Kotak Private Banking with their ability
+                    to advise and arrange investment products globally and in India.
+                </p>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Enhancing Client Relationships through Technological
                     Advancements
-                    <br />
-                    <br />
                 </h1>
+
                 <div className="flex items-start gap-2 mb-3">
                     <div className="icon-dot mt-1" />
                     <p>
@@ -746,6 +717,7 @@ const BusinessOverview = () => {
                         improve customer experience.
                     </p>
                 </div>
+
                 <div className="flex items-start gap-2 mb-3">
                     <div className="icon-dot mt-1" />
                     <p>
@@ -755,46 +727,54 @@ const BusinessOverview = () => {
                         personalised propositions.
                     </p>
                 </div>
+
                 <div className='flex lg:flex-row flex-col gap-15 mt-10 text-[#212b7e]'>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             60%<sup className="text-red-600 text-sm ml-1">▲</sup>
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>of India’s top 100 families are
+                        <p className='text-[#58595b] text-md font-normal'>
+                            of India’s top 100 families are
                             managed by Kotak Private
-                            Banking^</p>
+                            Banking^
+                        </p>
                     </div>
 
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             ₹920,000 cr+
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>Relationship Value^^ as on 31st
-                            Mar, 2025y</p>
+                        <p className='text-[#58595b] text-md font-normal'>
+                            Relationship Value^^ as on 31st
+                            Mar, 2025
+                        </p>
                     </div>
+
                 </div>
+
             </div>
+
             <h1 className='pt-3'><i>*Offered by Kotak Alternate Asset Managers Ltd. | **Offered by Kotak Mahindra Trusteeship Services Ltd. | ^Derived from Forbes India Rich List 2024 |
                 ^^Relationship Value of Private Banking + Priority</i></h1>
 
 
             <Heading heading={'Asset Reconstruction Division'} icon='BusinessOverview\Page-16-Icon-2.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Addresses potential turnaround cases and structured funding
                     opportunities, backed by commensurate cash flows and
                     collaterals, additionally considers opportunities in the corporate,
                     SME and retail stressed assets space, based on strong resolution
                     expertise built over the years.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     One of the few banks in India that looks at opportunities and takes
                     exposure in distressed/Non-Performing Assets (‘NPA’) accounts
                     through Security Receipts investments, Stressed/NPA Loan/
@@ -802,15 +782,13 @@ const BusinessOverview = () => {
                     in the distressed asset buyouts and investments space for almost
                     two decades. We provide structured funding, need-based priority
                     funding and working capital in potential turnaround those accounts.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Changing Environment Creates Opportunities
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     In FY 2024–25, we recorded the highest-ever profitability. The
                     resolution of stressed accounts gained momentum, supported by
                     improved judicial and enforcement mechanisms. Despite headwinds
@@ -821,139 +799,150 @@ const BusinessOverview = () => {
                     Our diversified approach enables lender exits, provides revival
                     financing to companies, while providing strong RoE for investors and
                     overall value creation for the Bank.
-                    <br />
-                    <br />
                 </p>
+
                 <div>
                     <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                         44
                     </h1>
-                    <p className='text-[#58595b] text-md font-normal'>Buyout Transactions</p>
+                    <p className='text-[#58595b] text-md font-normal'>
+                        Buyout Transactions
+                    </p>
                 </div>
+
             </div>
+
 
             <Heading heading={'Car and Two-Wheeler Loans'} subheading={'Kotak Mahindra Prime Limited'} icon='BusinessOverview\Page-17-Icon-1.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Provides financing to retail consumers and dealers in the
                     passenger vehicle and two-wheeler segments, as well as retail
                     consumers in the Loan Against Property (LAP) segment.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Products and Services
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    Offers financing of new, pre-owned passenger cars and two wheelers
-                    for retail consumers while also providing wholesale financing to
-                    automobile dealerships. The Company also offers loans under
-                    preferential financier relationships and tie-ups with various
-                    automobile manufacturers, along with Loans Against Property
-                    against both commercial and residential real estate.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Leveraging Technology to Drive Customer Value and
-                    Strengthen Compliance
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    We leverage advanced technologies to enhance operational
-                    efficiency, customer experience and compliance. The key initiatives
-                    included deploying Aadhaar-based eKYC with facial recognition
-                    to reduce impersonation risks, utilising data analytics for deeper
-                    customer insights and implementing a cloud-based compliance
-                    platform integrated with audit management tools to streamline
-                    risk monitoring. We also launched a loan origination platform for
-                    the Loan Against Property segment, significantly reducing the
-                    turnaround time for loan processing.
-                    <br />
-                    <br />
-                </p>
-                <div>
-                    <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
-                        16%<sup className="text-red-600 text-sm ml-1">▲</sup>
-                    </h1>
-                    <p className='text-[#58595b] text-md font-normal'>Assets under
-                        management </p>
+
+                {/* Row Start: 2 Headings + Image in xl:flex-row */}
+                <div className='xl:flex-row flex flex-col gap-5'>
+
+                    <div className='xl:w-1/2'>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Products and Services
+                        </h1>
+
+                        <p className='mb-3'>
+                            Offers financing of new, pre-owned passenger cars and two wheelers
+                            for retail consumers while also providing wholesale financing to
+                            automobile dealerships. The Company also offers loans under
+                            preferential financier relationships and tie-ups with various
+                            automobile manufacturers, along with Loans Against Property
+                            against both commercial and residential real estate.
+                        </p>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Leveraging Technology to Drive Customer Value and
+                            Strengthen Compliance
+                        </h1>
+
+                        <p className='mb-3'>
+                            We leverage advanced technologies to enhance operational
+                            efficiency, customer experience and compliance. The key initiatives
+                            included deploying Aadhaar-based eKYC with facial recognition
+                            to reduce impersonation risks, utilising data analytics for deeper
+                            customer insights and implementing a cloud-based compliance
+                            platform integrated with audit management tools to streamline
+                            risk monitoring. We also launched a loan origination platform for
+                            the Loan Against Property segment, significantly reducing the
+                            turnaround time for loan processing.
+                        </p>
+
+                        <div className='mb-3'>
+                            <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
+                                16%<sup className="text-red-600 text-sm ml-1">▲</sup>
+                            </h1>
+                            <p className='text-[#58595b] text-md font-normal'>
+                                Assets under management
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div className='xl:w-1/2 my-auto'>
+                        <img src="BusinessOverview/Page-17.webp" alt="" className='rounded-2xl w-full h-auto' />
+                    </div>
+
                 </div>
-                <img src="BusinessOverview\Page-17.webp" alt="" className='rounded-2xl mt-5' />
+
             </div>
+
+
 
             <Heading heading={'Lending and Investments'} subheading={'Kotak Mahindra Investments Limited'} icon='BusinessOverview\Page-17-Icon-2.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Primarily engaged in real estate developer finance, corporate
                     loans and other activities such as holding long-term
                     strategic investments.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Lends to developers across the entire spectrum of residential,
                     commercial and retail segments. For lending to other industries,
                     KMIL offers a trusted and dedicated platform with expertise in
                     complex transactions, thereby broadening their access to capital.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Stable Performance
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We are focused on expanding our real estate lending portfolio, along
                     with the corporate lending portfolio, which is diversified across
                     various sectors, including manufacturing, services, education and
                     NBFCs (including investments in pass-through certificates).
-                    <br />
-                    <br />
                 </p>
+
                 <div>
                     <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                         0.14%<sup className="text-red-600 text-sm ml-1">▲</sup>
                     </h1>
-                    <p className='text-[#58595b] text-md font-normal'>Net NPA on
-                        Customer Assets</p>
+                    <p className='text-[#58595b] text-md font-normal'>
+                        Net NPA on Customer Assets
+                    </p>
                 </div>
+
             </div>
+
 
             <Heading heading={'Infrastructure Financing'} subheading={'Kotak Infrastructure Debt Fund Limited'} icon='BusinessOverview\Page-17-Icon-3.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Provides long-term finance to infrastructure projects
                     that have completed at least one year of satisfactory
                     commercial operations.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Long-term finance (Loans as well as NCDs)
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Maintaining Pristine Asset Quality
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     In FY 2024-25, we expanded into emerging infrastructure segments
                     such as data centres while maintaining a strong focus on renewable
                     energy, which now accounts for approximately 70% of our total loan
@@ -961,108 +950,133 @@ const BusinessOverview = () => {
                     techniques, such as careful project selection, diversification and
                     stringent credit assessment, to mitigate associated risks and
                     maintain the highest level of asset quality.
-                    <br />
-                    <br />
                 </p>
+
                 <div className='flex lg:flex-row flex-col lg:gap-15 gap-5'>
+
                     <div>
                         <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             20%<sup className="text-red-600 text-sm ml-1">▲</sup>
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>Customer assets
-                            of ₹ 1,562 cr</p>
+                        <p className='text-[#58595b] text-md font-normal'>
+                            Customer assets of ₹ 1,562 cr
+                        </p>
                     </div>
+
                     <div>
-                        <h1 className='text-2xl text-[#212b7e] font-bold sm:text-xl'>Maintained highest Credit
-                            Rating of AAA/Stable by
-                            CRISIL and ICRA</h1>
+                        <h1 className='text-2xl text-[#212b7e] font-bold sm:text-xl'>
+                            Maintained highest Credit Rating of AAA/Stable by CRISIL and ICRA
+                        </h1>
                     </div>
+
                 </div>
+
             </div>
+
             <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY</i></h1>
             <Heading heading={'Stock Broking'} subheading={'Kotak Securities Limited'} icon='BusinessOverview\Page-18-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Full-service broker offering services to retail and institutional
                     investors across the Indian capital market.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Products and Services
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    The retail broking arm offers a wide array of services and
-                    products, including investment and trading in equities,
-                    derivatives (equities, commodities and currency) and mutual
-                    funds. It also provides Research Services, Margin Trading Facility,
-                    Depository Services and distribution of third-party products such
-                    as insurance, PMS and AIF.
-                    <br />
-                    <br />
-                    The institutional equities arm offers a wide range of services,
-                    including a full spectrum of comprehensive research and
-                    advisory services, corporate access and trade execution across
-                    cash, futures and options. It is one of the leading institutional
-                    brokers in India for IPOs, block trades, qualified institutional
-                    placements, share buybacks and offers-for-sale.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                {/* Products and Services + Image in Row */}
+                <div className='xl:flex-row flex flex-col gap-5'>
+
+                    <div className='xl:w-1/2'>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Products and Services
+                        </h1>
+
+                        <p className='mb-3'>
+                            The retail broking arm offers a wide array of services and
+                            products, including investment and trading in equities,
+                            derivatives (equities, commodities and currency) and mutual
+                            funds. It also provides Research Services, Margin Trading Facility,
+                            Depository Services and distribution of third-party products such
+                            as insurance, PMS and AIF.
+                        </p>
+
+                        <p className='mb-3'>
+                            The institutional equities arm offers a wide range of services,
+                            including a full spectrum of comprehensive research and
+                            advisory services, corporate access and trade execution across
+                            cash, futures and options. It is one of the leading institutional
+                            brokers in India for IPOs, block trades, qualified institutional
+                            placements, share buybacks and offers-for-sale.
+                        </p>
+
+                    </div>
+
+                    <div className='xl:w-1/2 my-auto'>
+                        <img src="BusinessOverview\Page-18.webp" alt="" className='rounded-2xl w-full h-auto' />
+                    </div>
+
+                </div>
+
+                {/* Digitising Trading and Investments Section - Row se bahar */}
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3 mt-8'>
                     Digitising Trading and Investments for Retail Segment
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Our next-gen platform Kotak Neo, powered by advanced tools,
                     has enhanced the trading and investing experience for DIY
                     clients with the addition of features including a revamped demat
-                    opening process with a fully native experience. Further, features
-                    such as Trade from Charts, Strategy Bot (a multi-leg trading tool)
+                    opening process with a fully native experience.
+                </p>
+
+                <p className='mb-3'>
+                    Further, features such as Trade from Charts, Strategy Bot (a multi-leg trading tool)
                     and simplified IPO and Mutual Fund investment journeys have
                     yielded strong results.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     In FY 2024-25, 98% of all orders were self-executed, reflecting
                     customers’ confidence in our tech capabilities. During the
                     year, trading volume through the Kotak Securities Mobile App
                     recorded 44% YoY* growth.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     We introduced competitively priced digital trading plans in the
                     following products - Trade Free Plans, Trade Free Youth Plan and
                     Trade Free Pro Plan, each targeted at the niche investor segment
                     to encourage them to conduct their transactions on the Kotak
                     Neo platform. These digital plans contributed 61% of the overall
                     new accounts acquired in FY 2024-25.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     Launched the brand campaign ‘Jo Tez Hain, Woh Aage Hain’,
                     featuring a series of TV Commercials, emphasising the speed and
                     simplicity of the Kotak Neo platform.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                {/* Baaki content waise hi rahega */}
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3 mt-8'>
                     India’s Dominant Institutional Broker
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We are a top tier broker for global and institutional investors;
                     working in collaboration with Kotak Mahindra Capital
                     (Investment Banking) for end-to-end ECM solutions.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     We executed 55 equity capital market transactions during FY
                     2024-25, including 24 block deals worth USD 6.7 billion. Our research covers 286 stocks, representing ~84% of India’s market
                     capitalisation. In FY 2024-25, we added 86 new institutional
                     investors, both global and local.
                 </p>
+
                 <div className='flex lg:flex-row flex-col justify-between lg:gap-10 gap-5 mt-10 text-[#212b7e]'>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             ₹ 1,640 cr<sup className="text-red-600 text-sm ml-1">▲</sup>
@@ -1094,135 +1108,161 @@ const BusinessOverview = () => {
                         <p className='text-[#58595b] text-md font-normal'>Overall Market Share
                             for FY 2024-25*</p>
                     </div>
+
                 </div>
-                <img src="BusinessOverview\Page-18.webp" alt="" className='rounded-2xl mt-5' />
+
             </div>
+
+
 
             <Heading heading={'Investment Banking'} subheading={'Kotak Mahindra Capital Company Limited'} icon='BusinessOverview\Page-18-Icon-2.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     A Year of Excellence in Equity Capital Markets
                     (ECM) and Advisory.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Comprehensive capital market and advisory solutions for Indian
                     and global clients.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     India’s #1 ECM House, Now in Top 10 Globally
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Kotak Investment Bank has maintained its position as India’s #1
                     ECM house for the third consecutive year and further reinforced
                     its leadership by topping Asia’s IPO league tables@ and breaking
                     into the LSEG global top 10 ranking.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     We successfully completed 31 ECM transactions, including
                     18 IPOs, 11 QIPs, 1 REIT QIP and 1 Rights Issue in FY 2024-25.
                     These include marquee transactions such as Hyundai (India’s
                     largest listing till date), Swiggy (Asia’s fourth-largest listing) and
                     Hexaware (largest Indian IT services IPO globally in a decade),
                     along with 15 other notable listings during the year.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     On the advisory side, we led several high-impact and complex
                     deals. Key among them were acting as a buy-side advisor and
                     managing the open offer for the acquisition of joint control in
                     Manappuram Finance by Bain Capital, serving as an exclusive financial advisor to the Godrej family in the re-alignment of
                     ownership within their group and providing buy-side advisory
                     to the Carlyle Group for the creation of a diversified global auto
-                    components platform. In addition, we executed eight other
-                    advisory transactions, further reinforcing our position as a
-                    trusted financial advisor in high-impact, complex deals
-                    <br />
-                    <br />
+                    components platform.
                 </p>
+
+                <p className='mb-3'>
+                    In addition, we executed eight other
+                    advisory transactions, further reinforcing our position as a
+                    trusted financial advisor in high-impact, complex deals.
+                </p>
+
                 <div className='flex lg:flex-row flex-col lg:gap-15 gap-5'>
+
                     <div>
                         <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             #1
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>ranking in ECM transactions
+                        <p className='text-[#58595b] text-md font-normal'>
+                            ranking in ECM transactions
                             for CY 2024 for the third
-                            consecutive year<sup>#</sup></p>
+                            consecutive year<sup>#</sup>
+                        </p>
                     </div>
+
                     <div>
                         <h1 className='text-3xl text-[#212b7e] font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             #1
                         </h1>
-                        <p className='text-[#58595b] text-md font-normal'>ranking in Advisory amongst
+                        <p className='text-[#58595b] text-md font-normal'>
+                            ranking in Advisory amongst
                             Investment Banks by deal
-                            value for FY2024-25**</p>
+                            value for FY2024-25**
+                        </p>
                     </div>
+
                 </div>
+
             </div>
+
             <h1 className='pt-3'><i>*Retail and institutional market share after excluding the proprietary segment. Based on notional turnover for equity futures and premium turnover for equity options segment.| #Source: Bloomberg | @League tables: Bloomberg LSEG, Dealogic – for CY 2024 </i></h1>
 
             <Heading heading={'Life Insurance'} subheading={'Kotak Mahindra Life Insurance Company Limited'} icon='BusinessOverview\Page-19-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
-                    Offers a wide range of life insurance solutions under
-                    individual and group platforms through a multi-channel
-                    distribution network. With a customer-first approach,
-                    the Company offers enhanced propositions across
-                    the value chain from policy purchasing to servicing
-                    and claim settlement.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Products and Services
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    Providing a diverse range of products across multiple platforms—
-                    Savings, Protection, Investment, Health and Annuity, tailored to
-                    meet the needs of all customer segments at different life stages.
-                    It ensures an omni-channel experience across the entire value
-                    chain, with immediate resolution of servicing requests.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Launched Innovative Products Offering Protection and
-                    Long-term Income
-                    <br />
-                    <br />
-                </h1>
-                <div className="flex items-start gap-2 mb-3">
-                    <div className="icon-dot mt-1" />
-                    <p>
-                        Unique multigenerational coverage products to serve the
-                        insured customers across two generations
-                    </p>
+
+                <div className='flex flex-col xl:flex-row md:gap-10'>
+
+                    <div className='md:w-2/3'>
+
+                        <p className='font-semibold mb-3'>
+                            Offers a wide range of life insurance solutions under
+                            individual and group platforms through a multi-channel
+                            distribution network. With a customer-first approach,
+                            the Company offers enhanced propositions across
+                            the value chain from policy purchasing to servicing
+                            and claim settlement.
+                        </p>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Products and Services
+                        </h1>
+
+                        <p className='mb-3'>
+                            Providing a diverse range of products across multiple platforms—
+                            Savings, Protection, Investment, Health and Annuity, tailored to
+                            meet the needs of all customer segments at different life stages.
+                            It ensures an omni-channel experience across the entire value
+                            chain, with immediate resolution of servicing requests.
+                        </p>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Launched Innovative Products Offering Protection and
+                            Long-term Income
+                        </h1>
+
+                        <div className="flex items-start gap-2 mb-3">
+                            <div className="icon-dot mt-1" />
+                            <p>
+                                Unique multigenerational coverage products to serve the
+                                insured customers across two generations
+                            </p>
+                        </div>
+
+                        <div className="flex items-start gap-2 mb-3">
+                            <div className="icon-dot mt-1" />
+                            <p>
+                                Unit-linked and a participating retirement products that
+                                helps individuals save for retirement
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div className='md:w-1/3'>
+                        <img src="BusinessOverview\Page-19-Unit.webp" alt="" className='rounded-2xl w-full md:max-w-md md:w-90' />
+                    </div>
+
                 </div>
-                <div className="flex items-start gap-2 mb-3">
-                    <div className="icon-dot mt-1" />
-                    <p>
-                        Unit-linked and a participating retirement products that
-                        helps individuals save for retirement
-                    </p>
-                </div>
+
+                {/* Digital Enhancements part ko xl:w-1/2 se bahar rakha hai */}
                 <div className='mt-5'>
-                    <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                    <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                         Digital Enhancements Driving Growth, Productivity and
                         Stakeholder Value
-                        <br />
-                        <br />
                     </h1>
+
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
@@ -1236,7 +1276,7 @@ const BusinessOverview = () => {
                     <div className="flex items-start gap-2 mb-3">
                         <div className="icon-dot mt-1" />
                         <p>
-                            <strong>HappyYou:</strong>An all-in-one health and wellness platform offering
+                            <strong>HappyYou:</strong> An all-in-one health and wellness platform offering
                             real-time health tracking, free teleconsultations across India,
                             discounted diagnostics, pharmacy and emergency services. It
                             streamlines medical record management and provides exclusive benefits and rewards for Kotak Group employees and Kotak Life customers to encourage proactive healthcare.
@@ -1255,8 +1295,11 @@ const BusinessOverview = () => {
                             over 2.5 million service requests annually.
                         </p>
                     </div>
+
                 </div>
+
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10 text-[#212b7e]'>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             ₹ 18,376 cr<sup className="text-red-600 text-sm ml-1">▲</sup>
@@ -1265,6 +1308,7 @@ const BusinessOverview = () => {
                             Gross written premium [3.8% YoY]
                         </p>
                     </div>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             ₹ 9,832 cr<sup className="text-red-600 text-sm ml-1">▲</sup>
@@ -1273,6 +1317,7 @@ const BusinessOverview = () => {
                             Individual renewal premium [12.5% YoY]
                         </p>
                     </div>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             25.0%
@@ -1281,6 +1326,7 @@ const BusinessOverview = () => {
                             Value of New Business (VNB) Margin
                         </p>
                     </div>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             15.6%<sup className="text-red-600 text-sm ml-1">▲</sup>
@@ -1289,6 +1335,7 @@ const BusinessOverview = () => {
                             Growth in Indian Embedded Value (IEV)^ at ₹ 17,612 cr
                         </p>
                     </div>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             ₹ 91,807 cr<sup className="text-red-600 text-sm ml-1">▲</sup>
@@ -1297,6 +1344,7 @@ const BusinessOverview = () => {
                             Assets Under Management [15.0% YoY]
                         </p>
                     </div>
+
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                             &gt;70% <sup className="text-red-600 text-sm ml-1">▲</sup>
@@ -1305,65 +1353,68 @@ const BusinessOverview = () => {
                             Growth in Indian Embedded Value (IEV)^ at ₹ 17,612 cr
                         </p>
                     </div>
+
                 </div>
-                <img src="BusinessOverview\Page-19-Unit.webp" alt="" className='rounded-2xl mt-5' />
+
             </div>
+
+
             <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY | ^Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | **Total deal value does not include the transactions where value is not disclosed, Bloomberg data as on 28th April 2025</i></h1>
 
 
             <Heading heading={'Mutual Fund'} subheading={'Kotak Mahindra Asset Management Company Limited'} icon='BusinessOverview\Page-20-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Serves investor requirements across both active and passive
                     funds on a continuing basis, focusing on the local and offshore
                     markets across debt, equity and commodities segments for
                     retail and institutional investors. Offers schemes that cater to
                     investors with varying risk-return profiles. We are India’s first
                     signatory to the PRI, supported by the United Nations.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     Diversified product portfolio across a wide range of equity, debt,
                     exchange-traded funds (ETFs), index funds and overseas funds.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Enhanced Distributor Engagement and Market
                     Awareness
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We have re-engineered the ‘Business Hub’ app, enhancing the UI/
                     UX for distributors’ seamless experience. The new features include
                     transaction management, SIP pause, KYC updates, feedback
                     submission and scheme-level AUM insights—boosting efficiency and
                     productivity. The distributor user base increased by 28% YoY.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     We launched the investor awareness campaign ‘Sapno Ko Skip Nahi,
                     SIP Karo’ to educate the public on Systematic Investment Plans
                     (SIPs). The campaign engaged over 257 million people via social
                     media and attracted more than 22 lakh website visits, empowering
                     individuals to take charge of their financial futures.
-                    <br />
-                    <br />
+                </p>
+
+                <p className='mb-3'>
                     Our continued efforts in investor education and digital engagement
                     have significantly reinforced our market presence:
-                    <br />
-                    <br />
-
                 </p>
+
                 <div className="flex flex-col xl:flex-row lg:gap-10">
+
                     <div className="flex-1">
+
                         <div className="mb-6 space-y-3">
+
                             <div className="flex items-start gap-2">
                                 <div className="icon-dot mt-1" />
                                 <p>
@@ -1371,6 +1422,7 @@ const BusinessOverview = () => {
                                     YoY growth in cumulative SIP count
                                 </p>
                             </div>
+
                             <div className="flex items-start gap-2">
                                 <div className="icon-dot mt-1" />
                                 <p>
@@ -1378,6 +1430,7 @@ const BusinessOverview = () => {
                                     YoY increase in unique investors
                                 </p>
                             </div>
+
                             <div className="flex items-start gap-2">
                                 <div className="icon-dot mt-1" />
                                 <p>
@@ -1385,9 +1438,11 @@ const BusinessOverview = () => {
                                     YoY increase in AAUM at ₹ 468,820 crore
                                 </p>
                             </div>
+
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:mt-20 text-[#212b7e]">
+
                             <div>
                                 <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
                                     5th
@@ -1402,12 +1457,15 @@ const BusinessOverview = () => {
                                     7.09%
                                 </h1>
                                 <p className="text-[#58595b] text-md font-normal">
-                                    Market share in AAUM<br />
+                                    Market share in AAUM
                                     (FY 2018-19: 6.14% and FY 2015-16: 4.32%)
                                 </p>
                             </div>
+
                         </div>
+
                     </div>
+
                     <div className="flex-1">
                         <img
                             src="BusinessOverview/Page-20.webp"
@@ -1415,44 +1473,44 @@ const BusinessOverview = () => {
                             className="rounded-2xl w-full max-w-xl mx-auto xl:mx-0 mt-6 xl:mt-0"
                         />
                     </div>
+
                 </div>
+
             </div>
+
             <Heading heading={'Pension Fund'} subheading={'Kotak Mahindra Pension Fund Limited'} icon='BusinessOverview\Page-20-Icon2.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <div className="flex flex-col xl:flex-row lg:gap-10">
+
                     <div className="flex-1">
-                        <p className='font-semibold'>
+
+                        <p className='font-semibold mb-3'>
                             Authorised as a pension fund management company under
-                            the National Pension System (NPS). managing nine schemes
+                            the National Pension System (NPS), managing nine schemes
                             across asset classes.
-                            <br />
-                            <br />
                         </p>
-                        <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                             Products and Services
-                            <br />
-                            <br />
                         </h1>
-                        <p>
+
+                        <p className='mb-3'>
                             Pension fund management.
-                            <br />
-                            <br />
                         </p>
-                        <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                             Enhanced Distributor Engagement and Market
                             Awareness
-                            <br />
-                            <br />
                         </h1>
-                        <p>
+
+                        <p className='mb-3'>
                             We are among the top two best-performing equity funds in the NPS
                             industry (NPS Tier 1) over 1 and 3-year periods as of 31st March, 2025.
-                            <br />
-                            <br />
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:mt-10 text-[#212b7e]">
+
                             <div>
                                 <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
                                     36%
@@ -1462,32 +1520,37 @@ const BusinessOverview = () => {
                                 </p>
                                 <p className='text-sm text-black'>(Source: NPS Trust Website)</p>
                             </div>
+
                         </div>
+
                     </div>
-                    <div className="">
+
+                    <div>
                         <img
-                            src="BusinessOverview\Page-20-2.webp"
+                            src="\BusinessOverview\Page20-2.jpg"
                             alt=""
                             className="rounded-2xl w-100 mx-auto xl:mx-0 mt-6 xl:mt-0"
                         />
                     </div>
+
                 </div>
+
             </div>
+
             <Heading heading={'Alternate Assets'} subheading={'Kotak Alternate Asset Managers Limited*'} icon='BusinessOverview\Page-21-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
+
+                <p className='font-semibold mb-3'>
                     Diversified multi-asset investment manager providing private
                     capital to Indian companies and advising discerning family
                     offices and HNIs on asset allocation.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
+
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
                     Products and Services
-                    <br />
-                    <br />
                 </h1>
-                <p>
+
+                <p className='mb-3'>
                     We are among the leading private markets investment managers,
                     with a strong presence across asset classes, including Private Credit,
                     Real Estate, Infrastructure and Private Equity. Our investment
@@ -1496,105 +1559,48 @@ const BusinessOverview = () => {
                     For retail investors, our digital investment platform, Kotak Cherry,
                     provides a seamless experience to invest in mutual funds, fixed
                     deposits and curated mutual fund baskets.
-                    <br />
-                    <br />
                 </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    A Leading Diversified Multi-asset Investment Manager
-                    <br />
-                    <br />
-                </h1>
-                <div className="">
-                    <div className="">
-                        <div className="mb-6 space-y-3">
-                            <div className="flex items-start gap-2">
-                                <div className="icon-dot mt-1" />
-                                <p>
-                                    During FY 2024-25, we attracted new capital commitments
-                                    ~₹ 12,200 crore across various funds and strategies, showing a
-                                    growth rate of 15% versus FY 2023-24.
-                                </p>
-                            </div>
-                            <div className="flex items-start gap-2">
-                                <div className="icon-dot mt-1" />
-                                <p>
-                                    Discretionary Solutions Platform offers bespoke investment
-                                    solutions, which include Kotak Iconic (complete Equity Portfolio
-                                    Solutions) and Kotak Optimus (Multi-Asset, Multi- Strategy
-                                    Portfolio Solution) suited for Ultra-High Net Worth Individuals
-                                    (UHNIs) and Family Offices. The platform manages an AUM of
-                                    over ₹ 6,000 crore, reflecting growing investor confidence.
-                                </p>
-                            </div>
-                            <div className="flex items-start gap-2">
-                                <div className="icon-dot mt-1" />
-                                <p>
-                                    We expanded our presence to cities beyond Tier 1 and Tier 2.
-                                    During FY 2024-25, the investment advisory practice crossed
-                                    ₹ 120,000 crore of assets under advice.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#212b7e]">
-                            <div>
-                                <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
-                                    USD 10.9 bn
-                                </h1>
-                                <p className="text-[#58595b] text-md font-normal">
-                                    Total funds raised since inception
-                                </p>
-                            </div>
-                        </div>
+                <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                    A Leading Diversified Multi-asset Investment Manager
+                </h1>
+
+                <div className="mb-6 space-y-3">
+
+                    <div className="flex items-start gap-2">
+                        <div className="icon-dot mt-1" />
+                        <p>
+                            During FY 2024-25, we attracted new capital commitments
+                            ~₹ 12,200 crore across various funds and strategies, showing a
+                            growth rate of 15% versus FY 2023-24.
+                        </p>
                     </div>
+
+                    <div className="flex items-start gap-2">
+                        <div className="icon-dot mt-1" />
+                        <p>
+                            Discretionary Solutions Platform offers bespoke investment
+                            solutions, which include Kotak Iconic (complete Equity Portfolio
+                            Solutions) and Kotak Optimus (Multi-Asset, Multi- Strategy
+                            Portfolio Solution) suited for Ultra-High Net Worth Individuals
+                            (UHNIs) and Family Offices. The platform manages an AUM of
+                            over ₹ 6,000 crore, reflecting growing investor confidence.
+                        </p>
+                    </div>
+
+                    <div className="flex items-start gap-2">
+                        <div className="icon-dot mt-1" />
+                        <p>
+                            We expanded our presence to cities beyond Tier 1 and Tier 2.
+                            During FY 2024-25, the investment advisory practice crossed
+                            ₹ 120,000 crore of assets under advice.
+                        </p>
+                    </div>
+
                 </div>
-            </div>
-            <Heading heading={'International Business'} subheading={'Kotak Mahindra (International) Limited, Kotak Mahindra (UK) Limited, Kotak Mahindra Inc., Kotak Mahindra Asset Management (Singapore) Pte Limited, Kotak Mahindra Financial Services Limited'} icon='BusinessOverview\Page-21-Icon-2.webp' />
-            <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
-                <p className='font-semibold'>
-                    Offers financial services across our offices in Singapore, London,
-                    New York, Dubai, Abu Dhabi and Mauritius.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Products and Services
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    Offerings include India-bound Asset Management, Investment
-                    Advisory and Alternate Assets, India-bound Institutional Equities and
-                    Prime Brokerage and International Wealth Management.
-                    <br />
-                    <br />
-                </p>
-                <h1 className='text-xl text-[#ed1c2f] font-semibold'>
-                    Promoting the India Story Internationally
-                    <br />
-                    <br />
-                </h1>
-                <p>
-                    Our ‘Kotak Fund- India Midcap Fund’, with an AUM of over approx.
-                    USD 3.3 billion, continues to be one of the largest#
-                    India focused
-                    offshore funds (actively managed with daily liquidity).
-                    <br />
-                    <br />
-                    Our International Business has expanded beyond active fund
-                    management to include passive investment strategies and
-                    successfully launched the ‘Kotak MSCI India ETF Fund’, raising an
-                    AUM in excess of USD 100 million within the first month of launch.
-                    This is in line with our broader strategy to scale up the asset
-                    management business.
-                    <br />
-                    <br />
-                    Further, the International Business initiated the launch of an appdriven wealth management platform with the capability to offer
-                    investment opportunities across 80+ markets globally.
-                    <br />
-                    <br />
-                </p>
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#212b7e]">
+
                     <div>
                         <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
                             USD 10.9 bn
@@ -1603,17 +1609,91 @@ const BusinessOverview = () => {
                             Total funds raised since inception
                         </p>
                     </div>
-                    <div>
-                        <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
-                            ~35%<sup className="text-red-600 text-sm ml-1">▲</sup>
-                        </h1>
-                        <p className="text-[#58595b] text-md font-normal">
-                            Growth in PAT
-                        </p>
-                    </div>
+
                 </div>
-                <img src="BusinessOverview\Page-21-Image.webp" alt="" className='rounded-2xl mt-5' />
+
             </div>
+
+            <Heading heading={'International Business'} subheading={'Kotak Mahindra (International) Limited, Kotak Mahindra (UK) Limited, Kotak Mahindra Inc., Kotak Mahindra Asset Management (Singapore) Pte Limited, Kotak Mahindra Financial Services Limited'} icon='BusinessOverview\Page-21-Icon-2.webp' />
+            <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
+
+                <div className='flex flex-col xl:flex-row md:gap-10'>
+
+                    <div className='xl:w-1/2'>
+
+                        <p className='font-semibold mb-3'>
+                            Offers financial services across our offices in Singapore, London,
+                            New York, Dubai, Abu Dhabi and Mauritius.
+                        </p>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Products and Services
+                        </h1>
+
+                        <p className='mb-3'>
+                            Offerings include India-bound Asset Management, Investment
+                            Advisory and Alternate Assets, India-bound Institutional Equities and
+                            Prime Brokerage and International Wealth Management.
+                        </p>
+
+                        <h1 className='text-xl text-[#ed1c2f] font-semibold mb-3'>
+                            Promoting the India Story Internationally
+                        </h1>
+
+                        <p className='mb-3'>
+                            Our ‘Kotak Fund- India Midcap Fund’, with an AUM of over approx.
+                            USD 3.3 billion, continues to be one of the largest# India focused
+                            offshore funds (actively managed with daily liquidity).
+                        </p>
+
+                        <p className='mb-3'>
+                            Our International Business has expanded beyond active fund
+                            management to include passive investment strategies and
+                            successfully launched the ‘Kotak MSCI India ETF Fund’, raising an
+                            AUM in excess of USD 100 million within the first month of launch.
+                            This is in line with our broader strategy to scale up the asset
+                            management business.
+                        </p>
+
+                        <p className='mb-3'>
+                            Further, the International Business initiated the launch of an app-driven
+                            wealth management platform with the capability to offer
+                            investment opportunities across 80+ markets globally.
+                        </p>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#212b7e]">
+
+                            <div>
+                                <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
+                                    USD 10.9 bn
+                                </h1>
+                                <p className="text-[#58595b] text-md font-normal">
+                                    Total funds raised since inception
+                                </p>
+                            </div>
+
+                            <div>
+                                <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
+                                    ~35%<sup className="text-red-600 text-sm ml-1">▲</sup>
+                                </h1>
+                                <p className="text-[#58595b] text-md font-normal">
+                                    Growth in PAT
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className='xl:w-1/2 my-auto'>
+                        <img src="BusinessOverview\Page-21-Image.webp" alt="" className='rounded-2xl w-full' />
+                    </div>
+
+                </div>
+
+            </div>
+
+
             <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY *Kotak Alternate Asset Managers Limited (formerly known as Kotak Investment Advisors Limited) | ^Portfolio of Data Centre has been
                 consolidated under Real estate; Portfolio of Strategic Situations has been consolidated under Private Credit | <sup>#</sup>Bloomberg</i></h1>
         </div >

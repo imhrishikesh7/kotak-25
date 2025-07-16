@@ -56,7 +56,7 @@ const DigitalPowerhouse = () => {
                     diverse needs of its chosen customer segments.
                 </p>
             </div>
-            <div className="bg-[url('/Digital/Page-24.webp')] mt-10 bg-cover bg-center min-h-screen">
+            <div className="bg-[url('/Digital/Page-24.webp')] mt-5 bg-cover bg-center min-h-screen">
                 {cardData.map((card, idx) => (
                     <Card key={idx} {...card} />
                 ))}

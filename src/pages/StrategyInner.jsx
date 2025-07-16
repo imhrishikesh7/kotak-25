@@ -9,29 +9,64 @@ const Strategy = () => {
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Strategy
       </div>
-      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-10">
+      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-5">
         Transforming for scale
       </h1>
-      <div className='mb-10 mt-10 text-xl'>
+      <div className='mb-10 text-xl'>
         Our strategic initiatives are designed with the customer at the centre of our focus. ‘Do right by
         the Customer’ is the guiding principle behind the ongoing evolution in our product propositions,
         customer service initiatives and customer experience journeys across physical, digital and voice
         interactions with the Bank.
       </div>
+      <div className="flex md:flex-row flex-col gap-8">
+
+        {/* Left Content - Strategic Themes List */}
+        <div className="md:w-1/2 bg-[#f1f8fe] rounded-3xl p-6">
+          <p className="mb-5 text-lg">
+            We designed our strategy across a set of seven strategic themes last year and continue to drive these initiatives forward:
+          </p>
+
+          <ul className="space-y-10 text-lg">
+            {[
+              "Scale – Powered by organic initiatives, partnerships and inorganic initiatives.",
+              "One Kotak – Meeting the holistic needs of the customer by drawing on the capabilities of the Group.",
+              "Prudent Risk Management – Ensuring a sustainable risk-reward relationship.",
+              "Technology at the Core – Ensuring that systems and platforms are best-in-class.",
+              "Empowered Colleagues – A diverse, engaged and productive workforce.",
+              "Execution Excellence at Scale – Driving efficiency.",
+              "Driving Inclusive and Responsible Growth – Driven by the highest standards of compliance and ESG."
+            ].map((text, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <div className="w-6 h-6 aspect-square bg-[#ed1c2f] text-white rounded-full flex items-center justify-center text-base font-bold">
+                  {index + 1}
+                </div>
+                <div>
+                  <span className="text-lg text-[#202a7d] font-semibold">
+                    {text.split(" – ")[0]}
+                  </span> – {text.split(" – ")[1]}
+                </div>
+              </li>
+            ))}
+          </ul>
+
+        </div>
+
+        <div className="md:w-1/2 flex flex-col justify-between">
+
+          <p className="text-lg mb-5">
+            The progress of the Bank in its strategic initiatives is reflected through the value delivered to
+            all of our stakeholders i.e., <span className="text-[#ed1c2f] font-semibold">C</span>ustomers, <span className="text-[#ed1c2f] font-semibold">C</span>ompany, <span className="text-[#ed1c2f] font-semibold">C</span>olleagues and <span className="text-[#ed1c2f] font-semibold">C</span>ommunity. We measure
+            this progress through the <strong>‘4<span className="text-[#ed1c2f] font-semibold">C</span> framework’</strong> as outlined subsequently in this section.
+          </p>
+
+          <div className="w-full">
+            <img src="/StrategyInner/Image-40.png" alt="4C Framework" className="w-full h-auto object-contain mx-auto" />
+          </div>
+
+        </div>
+
+      </div>
       <div>
-        <div>
-          <StrategyThemes />
-        </div>
-        <div className='flex md:flex-row flex-col'>
-          <div className='mt-5 md:w-4/5 '>
-            <p>The progress of the Bank in its strategic initiatives is reflected through the value delivered to
-              all of our stakeholders i.e., <span className='text-[#ed1c2f] font-semibold'>C</span>ustomers, <span className='text-[#ed1c2f] font-semibold'>C</span>ompany, <span className='text-[#ed1c2f] font-semibold'>C</span>olleagues and <span className='text-[#ed1c2f] font-semibold'>C</span>ommunity. We measure
-              this progress through the <strong>‘4<span className='text-[#ed1c2f] font-semibold'>C</span> framework’</strong> as outlined subsequently in this section.</p>
-          </div>
-          <div className='mt-5 md:w-1/5'>
-            <img src="\StrategyInner\Image-40.png" alt="" className='w-200 mx-auto' />
-          </div>
-        </div>
         <div className='space-y-4'>
           <StrategyCard
             icon="\StrategyInner\Icon-41.png"

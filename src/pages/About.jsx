@@ -5,36 +5,44 @@ const About = () => {
     return (
         <div className="marginal text-lg">
             <div className="mb-4">
-                <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
-                    About us
+                <div className="md:flex items-start gap-10 mt-10">
+                    <div className="md:w-7/12">
+                        <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
+                            About us
+                        </div>
+                        <h1 className="text-3xl font-bold text-[#ed1c2f]">
+                            One Kotak - Unlocking synergies for growth
+                        </h1>
+                        <p className="text-[#000000] mt-5 mb-3">
+                            Established in 1985, Kotak is one of India’s leading diversified and integrated financial
+                            services conglomerates, providing a wide range of financial solutions across customer and
+                            geographic segments within India. As a Group, Kotak also operates in overseas markets through
+                            international subsidiaries and branches in key geographies.<sup>1</sup>
+                        </p>
+                        <p className='mb-3'>
+                            Kotak has been built on the ethos of trust, governance, prudent risk management practices,
+                            product expertise, innovation in its offerings and a talented management team with an
+                            entrepreneurial mindset. This confluence of elements has resulted in the creation of the robust
+                            financial conglomerate structure that it is today. We have done this, keeping in mind, the long-
+                            term interest of our stakeholders for sustainable growth. We are uniquely positioned to serve
+                            our customers across every spectrum of their financials needs.
+                        </p>
+                        <p className='mb-3'>
+                            We are a <strong>₹ 8.8 trillion institution*</strong> with a market capitalisation of <strong>₹ 4.3 trillion,</strong> as of 31<sup>st</sup> March, 2025.
+                        </p>
+                        <p className='mb-3'>
+                            At Kotak, we offer virtually every financial services product. This is evident across our diversified
+                            financial conglomerate, which is akin to a plane with four engines — banking and lending,
+                            capital markets, asset management and protection, all of which provides us with counter
+                            cyclical benefits.
+                        </p>
+                    </div>
+
+                    <div className="md:w-5/12 my-auto">
+                        <img src="\AboutUs\Plane2.jpg" alt="" className='rounded-3xl w-full' />
+                    </div>
                 </div>
-                <h1 className="text-3xl font-bold text-[#ed1c2f]">
-                    One Kotak - Unlocking synergies for growth
-                </h1>
-                <p className="text-[#000000] mt-5 mb-3">
-                    Established in 1985, Kotak is one of India’s leading diversified and integrated financial
-                    services conglomerates, providing a wide range of financial solutions across customer and
-                    geographic segments within India. As a Group, Kotak also operates in overseas markets through
-                    international subsidiaries and branches in key geographies.<sup>1</sup>
-                </p>
-                <p className='mb-3'>
-                    Kotak has been built on the ethos of trust, governance, prudent risk management practices,
-                    product expertise, innovation in its offerings and a talented management team with an
-                    entrepreneurial mindset. This confluence of elements has resulted in the creation of the robust
-                    financial conglomerate structure that it is today. We have done this, keeping in mind, the long-
-                    term interest of our stakeholders for sustainable growth. We are uniquely positioned to serve
-                    our customers across every spectrum of their financials needs.
-                </p>
-                <p className='mb-3'>
-                    We are a <strong>₹ 8.8 trillion institution*</strong> with a market capitalisation of <strong>₹ 4.3 trillion,</strong> as of 31<sup>st</sup> March, 2025.
-                </p>
-                <p className='mb-3'>
-                    At Kotak, we offer virtually every financial services product. This is evident across our diversified
-                    financial conglomerate, which is akin to a plane with four engines — banking and lending,
-                    capital markets, asset management and protection, all of which provides us with counter
-                    cyclical benefits.
-                </p>
-                <img src="AboutUs/page2.webp" alt="" className='rounded-4xl' />
+
                 <HeadingPill heading='Kotak Universe<sup>#</sup>' />
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold">
 

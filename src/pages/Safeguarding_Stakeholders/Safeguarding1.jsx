@@ -401,7 +401,7 @@ const Safeguarding1 = () => {
         </div>
         <div className='mb-5'>
           <p className='mb-2'>Technology risks can be further detailed into two below domains i.e. core technology risks and risks associated with
-emerging technologies.</p>
+            emerging technologies.</p>
           <div className='mb-6'>
             <h1 className='font-bold text-black mb-2'>Core Technology risks</h1>
             <RiskTable risks={coreData} />
@@ -431,7 +431,7 @@ emerging technologies.</p>
             <img src="/Safeguarding_Stakeholder/Safeguarding20.webp" alt="" />
           </div>
         </div>
-        <Cyber/>
+        <Cyber />
         <div className='mb-4'>
           <div className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full w-fit font-semibold mb-2">
             <div className="bg-[#2c2d83] w-6 h-6 rounded-full flex items-center justify-center text-sm">

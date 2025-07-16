@@ -11,7 +11,7 @@ const StrategyCard = ({
 }) => {
     return (
         <div className="border border-[#ed1c2f] rounded-xl p-4 md:flex items-center gap-4 mt-10">
-            <div className="md:w-1/3 w-full mb-4 md:mb-0">
+            <div className="md:w-1/3 w-full h-full mb-4 md:mb-0">
                 <img
                     src={image || "/fallback-image.png"}
                     alt={title}

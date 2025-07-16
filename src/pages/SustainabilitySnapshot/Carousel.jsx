@@ -17,8 +17,8 @@ const cardData = [
       "$Grievance redressal$ Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen",
     ],
     footnotes: [
-    "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "
-  ]
+      "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "
+    ]
   },
   {
     title: "Colleague",
@@ -35,7 +35,7 @@ const cardData = [
       "$ISO 45001:2018$ certified offices - eight",
       "$Diversity$ Initiatives such as Women re-launch programme",
     ],
-    footnotes:[" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
+    footnotes: [" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
   },
   {
     title: "Company",
@@ -53,11 +53,11 @@ const cardData = [
 
       "$Open acces$ Renewable energy to power some of our larger office premises and rooftop solar to power five bank-owned premises",
     ],
-    footnotes:[
+    footnotes: [
       "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
     ]
   },
-  
+
   {
     title: "Community",
     image: "/home/Pic4.webp",
@@ -73,7 +73,7 @@ const cardData = [
       "$15$ women-specific CSR programmes",
       "$6$ Flagship Institutions / Programmes built and/or under development",
     ],
-    footnotes:[
+    footnotes: [
       "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
     ]
   },
@@ -99,7 +99,11 @@ export default function InteractiveCards() {
 
   return (
     <div className="marginal text-lg mb-5">
-      {/* Top Image Cards */}
+      
+      <div className="text-2xl text-[#ed1c2f] font-bold border-b-3 w-fit mb-10 pb-1">
+        Sustainability Snapshot
+      </div>
+
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
         {cardData.map((card, index) => {
           const firstChar = card.title.charAt(0);
@@ -111,15 +115,15 @@ export default function InteractiveCards() {
               key={index}
               onClick={() => setActiveIndex(index)}
               className={`rounded-xl overflow-hidden border-2 transition duration-200 flex flex-col items-center hover:cursor-pointer ${
-                isActive ? "border-blue-600 shadow-lg" : "border-transparent "
+                isActive ? "border-blue-600 shadow-lg" : "border-transparent"
               }`}
             >
-                <div className="w-60 h-60">
-              <img
-                src={card.image}
-                alt={card.title}
-                className="object-cover w-full "
-              />
+              <div className="w-60 h-60">
+                <img
+                  src={card.image}
+                  alt={card.title}
+                  className="object-cover w-full rounded-3xl "
+                />
               </div>
               <div className="mt-2 text-xl font-semibold">
                 <span className="text-red-600">{firstChar}</span>
@@ -150,13 +154,14 @@ export default function InteractiveCards() {
           </ul>
         </div>
       </div>
+
       {cardData[activeIndex].footnotes?.length > 0 && (
-  <div className="mt-4 text-sm text-gray-600 space-y-1">
-    {cardData[activeIndex].footnotes.map((note, i) => (
-      <div key={i}>{note}</div>
-    ))}
-  </div>
-)}
+        <div className="mt-4 text-sm text-gray-600 space-y-1">
+          {cardData[activeIndex].footnotes.map((note, i) => (
+            <div key={i}>{note}</div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

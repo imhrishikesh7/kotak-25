@@ -64,12 +64,10 @@ const Empowering1 = () => {
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Empowering Colleagues
       </div>
-      <h1 className="text-3xl font-bold text-[#ed1c2f]">
+      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-3">
         Colleagues at the Core
-        <br />
-        <br />
       </h1>
-      <h1 className='text-xl  mb-2'>Our colleagues* are the backbone of our organisation, driving innovation and fueling future
+      <h1 className='text-xl mb-2'>Our colleagues* are the backbone of our organisation, driving innovation and fueling future
         growth. We foster an inclusive culture that prioritises colleague well-being, diversity and
         opportunities for professional development, enabling each individual to thrive and reach
         their full potential.</h1>
@@ -175,18 +173,17 @@ const Empowering1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Our Growing Workforce</h1>
-        <div className='md:w-[50%] mb-5'>
+        <div className='md:w-[50%] mb-5 mx-auto bg-gray-50 rounded-3xl p-4'>
           <img src="/Empowering/Empowering1.webp" alt="" />
         </div>
         <div>
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
-          <p>We recognise the critical role of technology in driving growth
+          <p className='mb-3'>We recognise the critical role of technology in driving growth
             and innovation. We are committed to investing in professionals
             who share our vision for harnessing the latest digital tools and
             capabilities to deliver exceptional customer experiences.
-            <br />
-            <br />
-            Our talent acquisition strategy, centered around the Hire-Train-
+          </p>
+          <p className='mb-3'>Our talent acquisition strategy, centered around the Hire-Train-
             Deploy (HTD) model, drives a robust pipeline of role-ready talent.
             We have expanded our sourcing channels through off-campus
             and lateral hires from top-tier organisations by introducing
@@ -200,8 +197,6 @@ const Empowering1 = () => {
             of women by targeting to hire women with diverse qualifications
             and backgrounds and fostering an inclusive environment that
             attracts and retains top talent.
-            <br />
-            <br />
           </p>
         </div>
         <div className='mb-5'>
@@ -235,14 +230,14 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#ef3e4c] mb-2'>Colleague Development</h1>
+        <h1 className='text-xl text-[#ef3e4c] mb-2 font-semibold'>Colleague Development</h1>
         <div className='mb-2 font-bold'>
           We foster a culture of ongoing development by offering diverse learning opportunities that empower colleagues to grow at
           every stage of their careers. Through structured programmes, digital platforms and on-the-job experiences, we ensure that our
           people are equipped to thrive in a dynamic environment and seize new opportunities as they emerge.
         </div>
         <div className='mb-4'>
-          <h1 className='text-xl text-[#252f80] mb-2'>Attracting the Right Talent</h1>
+          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
           <p className='mb-2'>
             We recognize the critical role of technology in driving growth
             and innovation. We are committed to investing in professionals
@@ -266,7 +261,7 @@ const Empowering1 = () => {
           </p>
         </div>
         <div className='mb-4'>
-          <h1 className='text-xl text-[#252f80] mb-2'>
+          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Empowering our Colleagues
           </h1>
           <p className='mb-5'>
@@ -313,12 +308,12 @@ const Empowering1 = () => {
                 assessments, resulting in promotions for approximately 10% of our permanent workforce.<sup>3</sup>
               </p>
             </div>
-            <p className='text-xs text-gray-700 mb-5'>
+            <p className='text-sm text-gray-700 mb-5'>
               <sup>3</sup> BRSR Section C, Principle 3, Essential Indicator 9
             </p>
           </div>
           <div className='mb-5'>
-            <h1 className='text-xl mb-2 text-[#252f80]'>
+            <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
               Training and Development
             </h1>
             <p className='mb-3'>
@@ -332,7 +327,7 @@ const Empowering1 = () => {
             </div>
           </div>
           <div className='mb-5'>
-            <h1 className='text-xl mb-2 text-[#252f80]'>
+            <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
               Kotak MyLearn
             </h1>
             <p className='mb-2'>
@@ -429,7 +424,7 @@ const Empowering1 = () => {
           </div>
         </div>
       </div>
-      <p className='text-xs text-gray-700 mb-5'>
+      <p className='text-sm border-t-1 pt-1 mb-5 text-gray-700'>
         <sup>4</sup>GRI 404-2, BRSR Section C, Principle 1, Essential Indicator 1 | <sup>5</sup>GRI 404-1 | <sup>6</sup>The costs include cost of training staff, subscription for e-learning modules and
         conferences. | <sup>7</sup>GRI 205-2
       </p>
@@ -437,7 +432,7 @@ const Empowering1 = () => {
         <h1 className='font-bold text-black mb-3'>
           Testimonials on Kotak MyLearn from learners
         </h1>
-        <div className="bg-blue-100 rounded-xl p-6   shadow-sm">
+        <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
           {/* Quotation Icons */}
           <div className="text-red-600 text-4xl mb-2">❝</div>
 
@@ -461,7 +456,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-8 text-xl'>
-        <div className="bg-blue-100 rounded-xl p-6   shadow-sm">
+        <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
           {/* Quotation Icons */}
           <div className="text-red-600 text-4xl mb-2">❝</div>
 
@@ -489,7 +484,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Leadership Programmes
         </h1>
         <p className='font-bold mb-2'>
@@ -515,7 +510,7 @@ const Empowering1 = () => {
           </div>
         </div>
         <div className='mb-5 text-xl'>
-          <div className="bg-blue-100 rounded-xl p-6   shadow-sm">
+          <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
             {/* Quotation Icons */}
             <div className="text-red-600 text-4xl mb-2">❝</div>
 
@@ -624,7 +619,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-3'>
+        <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
           Managerial Effectiveness Programmes
         </h1>
         <p className='mb-2'>
@@ -668,7 +663,7 @@ const Empowering1 = () => {
         <div className="  p-6 border-2 border-dotted border-red-500 rounded-2xl space-y-6 bg-white mb-5">
           {/* Programme Title and Description */}
           <div>
-            <h3 className=" text-xl text-[#252f80] mb-2">
+            <h3 className=" text-xl text-[#252f80] mb-2 font-semibold">
               Customer Centricity Programme
             </h3>
             <p className=" mb-4">
@@ -695,7 +690,7 @@ const Empowering1 = () => {
           </div>
         </div>
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
-          <h2 className="text-xl  text-blue-800 mb-2">Succession Planning</h2>
+          <h2 className="text-xl  text-blue-800 mb-2 font-semibold">Succession Planning</h2>
           <p className="">
             The Bank has a robust succession planning policy, reviewed by the Nomination and Remuneration
             Committee (NRC), to ensure smooth leadership transitions across key roles. It identifies and
@@ -724,7 +719,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-4'>
-        <h1 className='text-xl text-[#252f80] mb-3'>
+        <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
           Diversity and Inclusion <sup>8</sup>
         </h1>
         <p className='mb-2'>
@@ -741,7 +736,7 @@ const Empowering1 = () => {
           actively promote women’s participation through targeted
           hiring initiatives.
         </p>
-        <p className='mb-5 text-xs text-gray-700'>
+        <p className='mb-5 text-sm text-gray-700'>
           <sup>8</sup>GRI 3-3, GRI 405-1, BRSR Section A-20
         </p>
       </div>
@@ -865,241 +860,16 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#ef3e4c] mb-2'>
+        <h1 className='text-xl text-[#ef3e4c] mb-2 font-semibold'>
           Colleague Value Proposition
         </h1>
         <p className='mb-2 font-bold'>
-          Kotak remains committed to building a purpose-driven
-          and inclusive workplace. In FY 2024-25, we introduced
-          targeted initiatives to enhance colleague engagement,
-          foster professional growth and strengthen our culture of
-          recognition and well-being. these efforts reflect our ongoing
-          investment in developing talent and reinforcing the pride
-          of being a kotakite. We promote awareness through regular
-          training and communications, equipping colleagues with the
-          tools to foster inclusive workplaces.
-          We promote awareness through regular diversity and
-          inclusion training and communications, equipping colleagues
-          with the tools to foster inclusive workplaces.
-        </p>
-      </div>
-      <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#252f80]'>
-          Culture of Inclusivity and Beyond Bias
-        </h1>
-        <p className='mb-2'>
-          We are committed to fostering an inclusive culture through focused DEIB initiatives. The “Culture of Inclusivity and Beyond Biases”
-          initiative was launched to strengthen awareness of DEIB across the Bank. Through structured modules, colleagues explored visible
-          and invisible aspects of diversity, biases, inclusive mindsets, emotional intelligence and allyship. In FY 2024-25, over 27,000 employees
-          completed the program, advancing our commitment to building an inclusive, empathetic and equitable workplace.
-        </p>
-      </div>
-      <div className='mb-5'>
-        <h1 className='font-bold text-black mb-2'>
-          Testimonials of Culture of Inclusivity and Beyond Biases
-        </h1>
-        <div className='mb-5 text-xl'>
-          <div className="bg-blue-100 rounded-xl p-6   shadow-sm">
-            {/* Quotation Icons */}
-            <div className="text-red-600 text-4xl mb-2">❝</div>
-
-            {/* Testimonial Text */}
-            <p className="text-[#252f80]  ">
-              As a manager I should not be biased towards
-              any team member. This session taught us
-              how to identify different types of biases,
-              improve our awareness, and avoid them in
-              day-to-day life.
-            </p>
-
-            {/* Closing quote */}
-            <div className="text-red-600 text-4xl text-right mt-2">❞</div>
-
-            {/* Name and Title */}
-            <div className="mt-4">
-              <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
-                Ambili A Nair
-              </p>
-              <p className=" mt-1 italic">
-                (Associate Vice President, WBG HO / IPO / CIP•WISE)
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='mb-5 text-xl'>
-          <div className="bg-blue-100 rounded-xl p-6   shadow-sm">
-            {/* Quotation Icons */}
-            <div className="text-red-600 text-4xl mb-2">❝</div>
-
-            {/* Testimonial Text */}
-            <p className="text-[#252f80]  ">
-              Recognising, understanding, and respecting
-              differences in cultural backgrounds, values,
-              beliefs and practices is essential. Creating
-              an environment that encourages meaningful
-              participation from people of all backgrounds
-              is key to fostering inclusivity.
-            </p>
-
-            {/* Closing quote */}
-            <div className="text-red-600 text-4xl text-right mt-2">❞</div>
-
-            {/* Name and Title */}
-            <div className="mt-4">
-              <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
-                Srikrishna Moorthy Sivakumar
-              </p>
-              <p className=" mt-1 italic">
-                (Executive Vice President, Digital Banking Kotak 811- Regional Sales)
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
-          Health and Wellness <sup>9</sup>
-        </h1>
-        <p className='mb-2'>
-          Employee health and wellness are core to our enhanced
-          colleague value proposition. By supporting physical, emotional
-          and mental well-being, we drive productivity and long-term
-          organisational resilience. Our annual health check programme
-          is available to all eligible Bank employees, offering a range of
-          preventive health screenings. These services are facilitated
-          through partnerships with diagnostic centres nationwide. For
-          colleagues and their families who are not covered under the
-          eligibility criteria, the screenings are offered at discounted rates,
-          ensuring access to health management solutions for all.
-        </p>
-        <p className='mb-2'>
-          <span className='font-bold '> Integrated Health Solutions-
-          </span>
-
-          The Kotak Worklife App now
-          features annual health screening, enabling colleagues to book
-          appointments, access telemedicine and receive personalized
-          nutrition guidance promoting holistic well-being for them and
-          their families.
-        </p>
-        <p className='mb-2'>
-          <span className='font-bold '> Promoting Work-Life Balance and Wellness -
-          </span>
-
-          Regular webinars
-          and weekly activities such as yoga, desk exercises and wellness
-          games, promote emotional, social, mental and physical well-
-          being among colleagues.
-        </p>
-        <p className='mb-2'>
-          <span className='font-bold '> Stepathon Challenge –
-          </span>
-          A Walk for a Cause Initiative - In
-          December 2024, we launched a 3-month fitness challenge
-          encouraging daily activity via a tracking app. Colleagues
-          collectively worked toward the symbolic goal of reaching the
-          moon and back, promoting a culture of health and well-being.
-        </p>
-        <div className='mb-3'>
-          <img src="/Empowering/Empowering8.webp" alt="" />
-          <p className='md:text-white md:text-3xl transform md:translate-y-[-220%] md:translate-x-[10%]'>Finding harmony through sounds on Yoga Day</p>
-        </div>
-        <p>
-          We conducted specialised health camps addressing diverse
-          wellness needs, including breast cancer screenings, vaccinations
-          and other critical health programmes. These initiatives
-          reflect our commitment to holistic employee well-being and
-          a culture of care.
-        </p>
-        <p className='text-sm border-t-1 pt-1 mt-5 text-gray-700 mb-5'>
-          <sup>9</sup>GRI 403-6
-        </p>
-      </div>
-      <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#252f80]'>
-          Employee Volunteering
-        </h1>
-        <p className='mb-4'>
-          Volunteering remained a key pillar of employee engagement at
-          Kotak. In FY 2024-25, at the Bank, 6,634 employees volunteered
-          across 20 initiatives nationwide, reflecting our strong commitment
-          to community impact and social responsibility.
-          Brief about volunteering activities organised in FY 2024-25 -
-        </p>
-        <div className='md:flex gap-5 mb-3'>
-          <div className=''>
-            <span className="inline-block bg-red-600 text-white  font-semibold px-4 py-1 rounded-full mb-2">
-              Theme: Education
-            </span>
-            <div className='mb-5'>
-              <p className='mb-2'>
-                <span className='font-bold'> Light a Life - </span> Building Solar Lamps: Volunteers learned about
-                electricity usage while assembling solar lamps, which were
-                donated to underprivileged children for community welfare.
-              </p>
-              <p className='mb-2'>
-                <span className='font-bold'> Educard: </span> Volunteers created engaging educational cards with
-                new words, images and educational concepts. These child-
-                friendly cards were donated to underprivileged children to
-                support their learning.
-              </p>
-              <p className='mb-2'>
-                <span className='font-bold'> Jenga Blocks: </span>  Volunteers customized Jenga blocks with fun
-                challenges on Math, GK, and English, making learning playful.
-                These were donated to underprivileged children.
-              </p>
-              <p className='mb-2'>
-                <span className='font-bold'> Donation Drive: </span>  During Daan Utsav and Secret Santa,
-                colleagues donated educational items for students of the Kotak
-                Education Foundation.
-              </p>
-            </div>
-          </div>
-          <div className='md:mt-10'>
-            <img src="/Empowering/Empowering10.webp" alt="" />
-          </div>
-        </div>
-        <div className=''>
-          <span className="inline-block bg-red-600 text-white  font-semibold px-4 py-1 rounded-full mb-2">
-            Theme: Relief and Rehabilitation
-          </span>
-          <div className='mb-5'>
-            <p className='mb-2'>
-              <span className='font-bold'> Relief and First Aid Kits: </span> In response to the devastating
-              landslides and floods in Wayanad, Kotak provided Relief and
-              First Aid Kits to support displaced families.
-            </p>
-          </div>
-        </div>
-        <div className='md:fle gap-5 '>
-          <div className=''>
-            <span className="inline-block bg-red-600 text-white  font-semibold px-4 py-1 rounded-full mb-2">
-              Theme: Livelihood
-            </span>
-            <div className='mb-5'>
-              <p className='mb-2'>
-                <span className='font-bold'> Diya Painting: </span> Across 75 offices, Kotak volunteers
-                painted 26,265 diyas to spread festive cheer and support
-                underprivileged children and women from Self Help Groups.
-              </p>
-            </div>
-          </div>
-          <div className='p-4 bg-gray-100 '>
-            <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering9.webp" alt="" />
-          </div>
-        </div>
-      </div>
-      <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#ef3e4c]'>
-          Best of Kotak for Kotakites<sup>10</sup>
-        </h1>
-        <p className='mb-4 font-bold'>
           We are extending the great benefits we offer our customers
           to our Kotakites at exclusive employee rates, while
           streamlining policies to make access and usage of these
           benefits to be simpler and efficient.
         </p>
-        <h1 className='text-xl mb-2 text-[#252f80]'>
+        <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
           Kotakites Health and Well-being
         </h1>
         <h2 className='font-bold text-black'>
@@ -1127,12 +897,12 @@ const Empowering1 = () => {
           </div>
         </div>
       </div>
-      <p className='mb-5 text-xs text-gray-700'>
+      <p className='mb-5 text-sm border-t-1 pt-1 text-gray-700'>
         <sup>10</sup>GRI 401-2, BRSR Section C, Principle 3, Essential Indicator 1a | <sup>#</sup>Applicable for the Bank and select subsidiaries|
         <sup>11</sup>GRI 403-6
       </p>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Supporting Kotakites to Take Care of Their Families#
         </h1>
         <p className='mb-2'>
@@ -1147,7 +917,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Encouraging Kotakites to Take Time-off#
         </h1>
         <p className='mb-2'>
@@ -1160,7 +930,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Kotakites Achieving Their Dreams#
         </h1>
         <p className='mb-2'>
@@ -1173,7 +943,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-2'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Enabling Kotakites to Plan for Retirement#
         </h1>
         <p className='mb-4'>
@@ -1223,12 +993,12 @@ const Empowering1 = () => {
           programme offers group therapy, peer support and guidance to
           ease the transition back to work.
         </p>
-        <p className='text-xs text-gray-700 mb-5'>
+        <p className='text-sm text-gray-700 mb-5'>
           <sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
         </p>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#ef3e4c]'>
+        <h1 className='text-xl text-[#ef3e4c] mb-2 font-semibold'>
           Culture of Appreciation
         </h1>
         <p className='font-bold mb-2'>
@@ -1268,16 +1038,16 @@ const Empowering1 = () => {
           We celebrate individuals driving positive change through our
           infinity annual awards, recognising champions of diversity
           and inclusion. KLIFE fosters engagement through onboarding
-          programmes, recognition initiatives and AI-driven support for
+          programme, recognition initiatives and AI-driven support for
           11,000+ employees. KSL’s people-first culture earned it the Great
           Place to Work certification.
         </div>
-        <p className='text-xs text-gray-700 mb-5'>
+        <p className='text-sm text-gray-700 mb-5'>
           <sup>*</sup>Out of the employees who took the survey, 78% say Kotak Mahindra Bank is a great place to work and take pride in being a part of the Bank.
         </p>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#ef3e4c] mb-2'>
+        <h1 className='text-xl text-[#ef3e4c] mb-2 font-semibold'>
           Transparent Communication
         </h1>
         <p className='mb-2 font-bold text-black'>
@@ -1313,7 +1083,7 @@ const Empowering1 = () => {
           thoughts and feedback in a structured and confidential manner.
         </p>
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
-          <h1 className='text-xl text-[#252f80] mb-2'>
+          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Occupational Health and Safety <sup>12,13</sup>
           </h1>
           <div className="">
@@ -1361,7 +1131,7 @@ const Empowering1 = () => {
           </div>
         </div>
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
-          <h1 className='text-xl text-[#252f80] mb-2'>
+          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Human Rights
           </h1>
           <div className="">
@@ -1401,7 +1171,7 @@ const Empowering1 = () => {
           At Kotak, our people are the foundation of our success. We invest in their growth through robust talent development, digital transformation, inclusive culture and wellness initiatives, empowering every Kotakite to thrive and drive sustainable and future-ready growth.
         </div>
       </div>
-      <p className='text-xs mb-5 text=gray-700'>
+      <p className='text-sm mb-5 text-gray-700'>
         <sup>12</sup>GRI 403-1,GRI 3-3, BRSR Section C, Principle 3, Essential Indicator 10 | <sup>13</sup>GRI 403-1,GRI 3-3, BRSR Section C, Principle 3, Essential Indicator 10 | <sup>14</sup>GRI 403-8 |
         <sup>15</sup>GRI 403-2 , GRI 403-3, GRI 403-9 | <sup>16</sup>GRI 403-7, GRI 403-3 | <sup>17</sup>GRI 403-4, GRI 403-5 | <sup>18</sup>GRI 2-30, BRSR Section C, Principle 3, Essential Indicator 7 |
         <sup>19</sup>BRSR Section C, Principle 5, Essential Indicator 1 | <sup>20</sup>GRI 2-25, GRI 2-26, BRSR Section C, Principle 3, Essential Indicator 6

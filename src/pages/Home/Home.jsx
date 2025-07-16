@@ -12,7 +12,7 @@ import Technology from '../../Components/Home/Technology'
 import IPhone from '../../Components/Home/Iphone'
 import KPIHome from '../../Components/Home/KPIHome'
 import Strategy from '../../Components/Home/StrategyHome'
-import VCModel from '../../Components/Home/VCModel'
+import VCModel2 from '../../Components/VCModel2'
 import DownloadCenter from '../../Components/Home/DownloadCenter'
 import AwardsSlider from '../../Components/Home/AwardsSlider'
 import SusSnapshots from '../../Components/Home/SusSnapshots'
@@ -48,7 +48,7 @@ const Home = () => {
             <IPhone />
             <KPIHome />
             <Strategy />
-            <VCModel />
+            <VCModel2 />
             <SusSnapshots />
             <AwardsSlider />
             <DownloadCenter />

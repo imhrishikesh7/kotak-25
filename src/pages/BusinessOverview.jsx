@@ -18,6 +18,9 @@ const BusinessOverview = () => {
                     digital platforms to enable scale, increase efficiencies and provide better customer experiences.
                 </p>
             </div>
+            <div className='border-t-1 mt-2 pt-1 text-sm'>
+                <i><sup>1</sup>GRI 2-6</i>
+            </div>
             <h1 className='mt-5 text-xl text-[#ed1c2f] font-bold'>Kotak Mahindra Bank Limited</h1>
             <Heading heading={'Consumer Banking'} icon='BusinessOverview/Page-12-Icon.webp' />
             <div className='mt-10 text-lg'>
@@ -875,6 +878,7 @@ const BusinessOverview = () => {
                 </div>
 
             </div>
+            <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY </i></h1>
 
 
 
@@ -968,10 +972,9 @@ const BusinessOverview = () => {
                             Maintained highest Credit Rating of AAA/Stable by CRISIL and ICRA
                         </h1>
                     </div>
-
                 </div>
-
             </div>
+
 
             <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY</i></h1>
             <Heading heading={'Stock Broking'} subheading={'Kotak Securities Limited'} icon='BusinessOverview\Page-18-Icon.webp' />
@@ -1461,9 +1464,7 @@ const BusinessOverview = () => {
                                     (FY 2018-19: 6.14% and FY 2015-16: 4.32%)
                                 </p>
                             </div>
-
                         </div>
-
                     </div>
 
                     <div className="flex-1">
@@ -1473,10 +1474,9 @@ const BusinessOverview = () => {
                             className="rounded-2xl w-full max-w-xl mx-auto xl:mx-0 mt-6 xl:mt-0"
                         />
                     </div>
-
                 </div>
-
             </div>
+            <h1 className='pt-3'><span className="text-red-600 text-sm ml-1">▲</span><i>YoY </i></h1>
 
             <Heading heading={'Pension Fund'} subheading={'Kotak Mahindra Pension Fund Limited'} icon='BusinessOverview\Page-20-Icon2.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>

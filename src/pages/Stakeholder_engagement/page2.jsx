@@ -172,7 +172,7 @@ const page2 = () => {
         <sup>1</sup>GRI 3-1
       </p>
       <div className='mb-5'>
-        <img src="\Stakeholders\IMG_6426.webp" alt="" className='rounded-3xl' />
+        <img src="/Stakeholders/1.jpg" alt="" className='rounded-3xl' />
       </div>
       <div className='text-lg'>
         <h1 className='text-xl text-[#252f80] mb-1 font-semibold'>
@@ -307,7 +307,7 @@ const page2 = () => {
             <div>
               <img src="/Stakeholder/Page5-1.webp" alt="" />
             </div>
-            
+
           </div>
 
         </div>

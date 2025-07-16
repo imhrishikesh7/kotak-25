@@ -149,7 +149,7 @@ const Safeguarding1 = () => {
       <h1 className="text-3xl font-bold text-[#ed1c2f]">
         Safeguarding stakeholder interests
       </h1>
-      <div className='mb-10 mt-10 text-xl'>
+      <div className='mb-5 mt-5 text-xl'>
         We consider risk management as a cornerstone of strategic planning and a core competence.
         Ensuring sound management of risks through timely identification, assessment and
         management is of utmost importance to us. Risk Management is integral to our operations and
@@ -185,7 +185,7 @@ const Safeguarding1 = () => {
       </div>
       <div className='mt-5 mb-5'>
         <div className=''>
-          <img src="./SafeguardingStakeholders/Safeguarding1.webp" alt="" />
+          <img src="/SafeguardingStakeholders/Safeguarding1.webp" alt="" />
         </div>
         <div className='md:flex gap-5'>
 
@@ -432,7 +432,7 @@ const Safeguarding1 = () => {
           </div>
         </div>
         <Cyber />
-        <div className='mb-4'>
+        <div className='mb-4 mt-5'>
           <div className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full w-fit font-semibold mb-2">
             <div className="bg-[#2c2d83] w-6 h-6 rounded-full flex items-center justify-center text-sm">
               C

@@ -1,8 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const wasteCategories = [
   {
@@ -64,39 +60,22 @@ const wasteCategories = [
   },
 ];
 
-const WasteSlider = () => {
+const WasteDisplay = () => {
   return (
     <div className="w-full bg-white px-2 py-2">
-      <Swiper
-        loop={true}
-        spaceBetween={20}
-        autoplay={{
-          delay: 1,
-          disableOnInteraction: false,
-        }}
-        speed={6000}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-        modules={[Autoplay, Pagination]}
-        className="pb-12"
-      >
+      <div className="grid grid-cols-1 gap-5">
         {wasteCategories.map((item, index) => (
-          <SwiperSlide key={index}>
-            <div className="md:h-[500px] h-[550px] p-4 border border-red-500 rounded-[20px] bg-white shadow-md flex flex-col justify-start">
-              <h3 className=" font-semibold mb-2">{item.title}</h3>
-              <p className="">{item.text}</p>
-            </div>
-          </SwiperSlide>
+          <div
+            key={index}
+            className="p-4 border border-red-500 rounded-[20px] bg-white shadow-md flex flex-col justify-start"
+          >
+            <h3 className=" font-semibold mb-2">{item.title}</h3>
+            <p className="">{item.text}</p>
+          </div>
         ))}
-      </Swiper>
+      </div>
     </div>
   );
 };
 
-export default WasteSlider;
+export default WasteDisplay;

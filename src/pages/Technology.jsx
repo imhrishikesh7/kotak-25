@@ -10,19 +10,10 @@ const Technology = () => {
 
     const toggleCard = (cardId) => {
         setExpandedCard(expandedCard === cardId ? null : cardId);
-        
-        // Rotate image 360 degrees on card toggle
-        if (imageRef.current) {
-            gsap.to(imageRef.current, {
-                rotation: "+=360",
-                duration: 0.8,
-                ease: "power2.inOut"
-            });
-        }
     };
 
     return (
-        <div className='marginal'>
+        <div className='marginal text-lg'>
             <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
                 Technology
             </div>
@@ -30,7 +21,7 @@ const Technology = () => {
                 Strengthening our technology backbone
             </h1>
             <div className='mt-5'>
-                <p className='text-2xl mb-3'>
+                <p className='text-2xl font-light mb-3'>
                     Kotak Mahindra Bank's transformation journey is anchored in technology as a
                     key enabler, guided by a customer-centric philosophy and strategically focused
                     on achieving scale.
@@ -55,20 +46,85 @@ const Technology = () => {
 
             {/* Desktop Layout */}
             <div className="mt-8 hidden md:block">
-                {/* Image - Centered */}
-                <div className="flex justify-center mb-8">
-                    <div ref={imageRef} className="w-[300px] h-[300px]">
+                {/* Image and First Card in Row */}
+                <div className="flex md:flex-row gap-8 mb-8 px-8">
+                    <div ref={imageRef} className="w-[300px] h-[300px] flex-shrink-0">
                         <img
                             src="/home/technology-swirl.webp"
                             alt="Technology Swirl"
                             className="w-full h-auto object-contain"
                         />
                     </div>
+                    
+                    {/* First Card */}
+                    <div className="flex-1">
+                        <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
+                            <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
+                                Upgradation of Core Banking Solution
+                            </h2>
+                            
+                            <div className="overflow-hidden">
+                                <p className="text-[#000000] mb-4">
+                                    We have made significant efforts to upgrade our Core Banking Solution (CBS), which has led to load reduction, improvements in monitoring and ensuring that critical services remain available with near-zero unplanned downtime. We have also strengthened the IT governance and risk management practices with an emphasis on cybersecurity, data encryption standards and enhanced user access controls.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                {/* Cards in Row */}
+                {/* Remaining Cards in Row */}
                 <div className="px-8">
-                    <TechnologyContent expandedCard={expandedCard} toggleCard={toggleCard} />
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
+                            <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
+                                Leveraging Data and Analytics
+                            </h2>
+                            
+                            <div className="overflow-hidden">
+                                <p className="text-[#000000] mb-4">
+                                    The Bank has advanced its capabilities in predictive analytics, customer behaviour modelling and operational efficiency. AI and ML are embedded across various layers, from intelligent automation in backend processes to personalised experiences in customer-facing applications. The development of advanced data analytics frameworks has empowered the Bank to derive actionable insights, supporting business decisions and scalable growth.
+                                </p>
+                                
+                                <div className="mt-4">
+                                    <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
+                                    <p className="text-[#000000]">
+                                        The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
+                            <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
+                                Creation of Unified and Interoperable Platforms
+                            </h2>
+                            
+                            <div className="overflow-hidden">
+                                <p className="text-[#000000] mb-4">
+                                    These platforms are designed to modernise the core infrastructure and serve as a robust foundation for powering front-end applications. They enable seamless integration, faster development cycles and consistent performance across channels. Key ones being:
+                                </p>
+                                
+                                <div className="mt-4 space-y-4">
+                                    <div>
+                                        <h3 className='text-xl text-[#212b7e] mb-2'>Data EXchange (DEX) Platform</h3>
+                                        <p className="text-[#000000] mb-2">
+                                            A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
+                                        </p>
+                                        <p className="text-[#000000]">
+                                            It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
+                                        </p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
+                                        <p className="text-[#000000]">
+                                            The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -82,15 +138,15 @@ const Technology = () => {
                     />
                 </div>
                 <div className="px-4">
-                    <TechnologyContent expandedCard={expandedCard} toggleCard={toggleCard} />
+                    <TechnologyContent />
                 </div>
             </div>
         </div>
     );
 };
 
-const TechnologyContent = ({ expandedCard, toggleCard }) => (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+const TechnologyContent = () => (
+    <div className="grid grid-cols-1 gap-6">
         <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
             <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
                 Upgradation of Core Banking Solution
@@ -98,19 +154,9 @@ const TechnologyContent = ({ expandedCard, toggleCard }) => (
             
             <div className="overflow-hidden">
                 <p className="text-[#000000] mb-4">
-                    {expandedCard === 'core-banking' 
-                        ? `We have made significant efforts to upgrade our Core Banking Solution (CBS), which has led to load reduction, improvements in monitoring and ensuring that critical services remain available with near-zero unplanned downtime. We have also strengthened the IT governance and risk management practices with an emphasis on cybersecurity, data encryption standards and enhanced user access controls.`
-                        : `We have made significant efforts to upgrade our Core Banking Solution (CBS), which has led to load reduction...`
-                    }
+                    We have made significant efforts to upgrade our Core Banking Solution (CBS), which has led to load reduction, improvements in monitoring and ensuring that critical services remain available with near-zero unplanned downtime. We have also strengthened the IT governance and risk management practices with an emphasis on cybersecurity, data encryption standards and enhanced user access controls.
                 </p>
             </div>
-            
-            <button 
-                onClick={() => toggleCard('core-banking')}
-                className="mt-4 px-4 py-2 bg-[#ed1c2f] text-white rounded-lg hover:bg-[#d41829] transition-colors duration-200 text-sm font-medium"
-            >
-                {expandedCard === 'core-banking' ? 'Read Less' : 'Read More'}
-            </button>
         </div>
 
         <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
@@ -120,28 +166,16 @@ const TechnologyContent = ({ expandedCard, toggleCard }) => (
             
             <div className="overflow-hidden">
                 <p className="text-[#000000] mb-4">
-                    {expandedCard === 'data-analytics' 
-                        ? `The Bank has advanced its capabilities in predictive analytics, customer behaviour modelling and operational efficiency. AI and ML are embedded across various layers, from intelligent automation in backend processes to personalised experiences in customer-facing applications. The development of advanced data analytics frameworks has empowered the Bank to derive actionable insights, supporting business decisions and scalable growth.`
-                        : `The Bank has advanced its capabilities in predictive analytics, customer behaviour modelling...`
-                    }
+                    The Bank has advanced its capabilities in predictive analytics, customer behaviour modelling and operational efficiency. AI and ML are embedded across various layers, from intelligent automation in backend processes to personalised experiences in customer-facing applications. The development of advanced data analytics frameworks has empowered the Bank to derive actionable insights, supporting business decisions and scalable growth.
                 </p>
                 
-                {expandedCard === 'data-analytics' && (
-                    <div className="mt-4">
-                        <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
-                        <p className="text-[#000000]">
-                            The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
-                        </p>
-                    </div>
-                )}
+                <div className="mt-4">
+                    <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
+                    <p className="text-[#000000]">
+                        The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                    </p>
+                </div>
             </div>
-            
-            <button 
-                onClick={() => toggleCard('data-analytics')}
-                className="mt-4 px-4 py-2 bg-[#ed1c2f] text-white rounded-lg hover:bg-[#d41829] transition-colors duration-200 text-sm font-medium"
-            >
-                {expandedCard === 'data-analytics' ? 'Read Less' : 'Read More'}
-            </button>
         </div>
 
         <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
@@ -151,42 +185,30 @@ const TechnologyContent = ({ expandedCard, toggleCard }) => (
             
             <div className="overflow-hidden">
                 <p className="text-[#000000] mb-4">
-                    {expandedCard === 'unified-platforms' 
-                        ? `These platforms are designed to modernise the core infrastructure and serve as a robust foundation for powering front-end applications. They enable seamless integration, faster development cycles and consistent performance across channels. Key ones being:`
-                        : `These platforms are designed to modernise the core infrastructure and serve as a robust foundation...`
-                    }
+                    These platforms are designed to modernise the core infrastructure and serve as a robust foundation for powering front-end applications. They enable seamless integration, faster development cycles and consistent performance across channels. Key ones being:
                 </p>
                 
-                {expandedCard === 'unified-platforms' && (
-                    <div className="mt-4 space-y-4">
-                        <div>
-                            <h3 className='text-xl text-[#212b7e] mb-2'>Data EXchange (DEX) Platform</h3>
-                            <p className="text-[#000000] mb-2">
-                                A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
-                            </p>
-                            <p className="text-[#000000]">
-                                It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
-                            </p>
-                        </div>
-                        
-                        <div>
-                            <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
-                            <p className="text-[#000000]">
-                                The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
-                            </p>
-                        </div>
+                <div className="mt-4 space-y-4">
+                    <div>
+                        <h3 className='text-xl text-[#212b7e] mb-2'>Data EXchange (DEX) Platform</h3>
+                        <p className="text-[#000000] mb-2">
+                            A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
+                        </p>
+                        <p className="text-[#000000]">
+                            It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
+                        </p>
                     </div>
-                )}
+                    
+                    <div>
+                        <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
+                        <p className="text-[#000000]">
+                            The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                        </p>
+                    </div>
+                </div>
             </div>
-            
-            <button 
-                onClick={() => toggleCard('unified-platforms')}
-                className="mt-4 px-4 py-2 bg-[#ed1c2f] text-white rounded-lg hover:bg-[#d41829] transition-colors duration-200 text-sm font-medium"
-            >
-                {expandedCard === 'unified-platforms' ? 'Read Less' : 'Read More'}
-            </button>
         </div>
     </div>
 );
 
-export default Technology;  
+export default Technology;

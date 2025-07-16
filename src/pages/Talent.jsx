@@ -25,13 +25,14 @@ const Talent = () => {
             </div>
 
             <SectionHeading heading={'Best of Kotak for Kotakites'} icon={'/Talent/Page-26-Icon-2.webp'} />
-            <div>
-                <p className='text-lg'>We offered value propositions and benefits to our colleagues on
+            {/* Flex container for content and image */}
+            <div className='md:flex md:flex-row flex-col gap-5'>
+                <p className='text-lg md:w-1/2 mt-5'>We offered value propositions and benefits to our colleagues on
                     preferential terms. In FY 2024-25, we launched Kotak Staff Home
                     Loan Policy with the objective to provide home loan benefits to
                     Kotak Bank colleagues at preferential rates.
                 </p>
-                <img src="/Talent/Page-26-Image.webp" alt="" className='rounded-3xl mt-5' />
+                <img src="/Talent/Page-26-Image.webp" alt="" className='rounded-3xl mt-5 md:mt-0 md:w-1/2' />
             </div>
 
             <SectionHeading heading={'Colleague Development'} icon={'/Talent/Page-26-Icon-2.webp'} />
@@ -110,13 +111,14 @@ const Talent = () => {
             </div>
 
             <SectionHeading heading={'Transparent Communication'} icon={'/Talent/Page-27-Icon-3.webp'} />
-            <div>
-                <p className='text-lg'>Open dialogue is at the heart of our culture. Amber, the AI-powered feedback platform, captures real-time sentiment from
+            {/* Flex container for content and image */}
+            <div className='md:flex md:flex-row flex-col gap-5'>
+                <p className='text-lg md:w-1/2 mt-5'>Open dialogue is at the heart of our culture. Amber, the AI-powered feedback platform, captures real-time sentiment from
                     colleagues across the Bank, while <i>My Kotak My Say</i> is a Bank-wide survey conducted in partnership with Great Place to Work<sup>®</sup>.
                     Together, they ensure every voice is heard and can provide
                     insights that directly shape our people strategies.
                 </p>
-                <img src="/Talent/Page-27-Image.webp" alt="" className='rounded-3xl mt-5' />
+                <img src="/Talent/Page-27-Image.webp" alt="" className='rounded-3xl mt-5 md:mt-0 md:w-1/2' />
             </div>
 
             <SectionHeading heading={'Enhanced Colleague Value Proposition'} icon={'/Talent/Page-27-Icon-2.webp'} />

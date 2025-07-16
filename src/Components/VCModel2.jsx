@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import Reveal from '../Reveal';
+import Reveal from './Reveal';
 
 export default function VCModel() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -100,7 +100,7 @@ export default function VCModel() {
   return (
     <div className="min-h-screen bg-white px-4">
       <div className="marginal mx-auto">
-        {/* <div className='mb-10 mx-auto text-center'>
+        <div className='mb-10 mx-auto text-center'>
           <Reveal animation="slide-up">
             <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Value Creation Model</h3>
           </Reveal>
@@ -109,14 +109,8 @@ export default function VCModel() {
               Perceiving value through the 4C framework
             </h1>
           </Reveal>
-        </div> */}
-        <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
-                Value Creation Model
-            </div>
-            <h1 className="text-3xl font-bold text-[#ed1c2f] mb-5">
-                Perceiving value through the 4C framework
-            </h1>
-
+        </div>
+        
         {/* Image Container */}
         <div className="relative group">
           {/* Scrollable Image */}

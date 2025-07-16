@@ -6,7 +6,7 @@ const AshokMessage = () => {
             <div className="text-xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
                 Message from Ashok Vaswani<sup>1</sup>
             </div>
-            <h1 className="text-4xl font-normal text-[#ed1c2f]">
+            <h1 className="text-4xl font-bold text-[#ed1c2f]">
                 Transforming for scale
             </h1>
             <div className='mt-5'>

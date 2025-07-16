@@ -6,7 +6,7 @@ const cardData = [
     image: "/home/Pic1.webp",
     achievements: [
       "$28%$ Reduction YoY in net complaints* at the Bank",
-      "$30%$ Of Bank’s ATMs are differentlyabled friendly",
+      "$30%$ Of Bank's ATMs are differentlyabled friendly",
       "$>40%$ Improvement in RNPS® scores of Affluent and NR Customers** at the Bank",
       "$40%$ Of service requests automated for faster complaint resolution at the Bank",
     ],
@@ -17,7 +17,7 @@ const cardData = [
       "$Grievance redressal$ Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen",
     ],
     footnotes: [
-      "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "
+      "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "
     ]
   },
   {
@@ -35,14 +35,14 @@ const cardData = [
       "$ISO 45001:2018$ certified offices - eight",
       "$Diversity$ Initiatives such as Women re-launch programme",
     ],
-    footnotes: [" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further ‘Digital Powerhouse’ section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
+    footnotes: [" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
   },
   {
     title: "Company",
     image: "/home/Pic2.webp",
     achievements: [
       "$27%$ Board gender diversity",
-      "$>20% $ Of Bank’s workforce operating from ISO 45001:2018 certified premises",
+      "$>20% $ Of Bank's workforce operating from ISO 45001:2018 certified premises",
       "$₹ 7,900+ cr$ Green assets* as on 31st March 2025 at the Bank",
       "$~20 years$ Average tenure of leadership team with the Group",
     ],
@@ -50,14 +50,12 @@ const cardData = [
       "$ISO 27001$ Certified Information Security and Management Systems of the Bank",
       "$Integrating ESG$ Considerations in Credit and Risk management processes",
       "$5.5%$ Share of renewable electricity used by the Bank",
-
       "$Open acces$ Renewable energy to power some of our larger office premises and rooftop solar to power five bank-owned premises",
     ],
     footnotes: [
-      "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
+      "* As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
     ]
   },
-
   {
     title: "Community",
     image: "/home/Pic4.webp",
@@ -68,16 +66,17 @@ const cardData = [
       "$11,000+$$ Cancer patients supported",
     ],
     initiatives: [
-      "$Kotak BizLabs$ Bank’s flagship initiative and an accelerator program for early-revenue stage startups in India",
+      "$Kotak BizLabs$ Bank's flagship initiative and an accelerator program for early-revenue stage startups in India",
       "$1.5 Lakh+$ Kotak Education Foundation supported children from schools and colleges",
       "$15$ women-specific CSR programmes",
       "$6$ Flagship Institutions / Programmes built and/or under development",
     ],
     footnotes: [
-      "* As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
+      "* As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
     ]
   },
 ];
+
 function formatTextWithHighlights(text) {
   const parts = text.split(/(\$[^$]+\$)/); // Split on $...$
   return parts.map((part, index) => {
@@ -93,75 +92,70 @@ function formatTextWithHighlights(text) {
   });
 }
 
-
-export default function InteractiveCards() {
-  const [activeIndex, setActiveIndex] = useState(0);
-
+export default function SustainabilityCards() {
   return (
-    <div className="marginal text-lg mb-5">
-      
-      <div className="text-2xl text-[#ed1c2f] font-bold border-b-3 w-fit mb-10 pb-1">
+    <div className="p-6 max-w-7xl mx-auto">
+      <h2 className="text-[#ed1c2f] text-2xl font-bold border-b-2 w-fit mb-10">
         Sustainability Snapshot
-      </div>
+      </h2>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-        {cardData.map((card, index) => {
-          const firstChar = card.title.charAt(0);
-          const restTitle = card.title.slice(1);
-          const isActive = activeIndex === index;
+      {cardData.map((card, index) => {
+        const isImageRight = index % 2 === 0;
 
-          return (
-            <button
-              key={index}
-              onClick={() => setActiveIndex(index)}
-              className={`rounded-xl overflow-hidden border-2 transition duration-200 flex flex-col items-center hover:cursor-pointer ${
-                isActive ? "border-blue-600 shadow-lg" : "border-transparent"
-              }`}
-            >
-              <div className="w-60 h-60">
-                <img
-                  src={card.image}
-                  alt={card.title}
-                  className="object-cover w-full rounded-3xl "
-                />
+        return (
+          <div
+            key={index}
+            className={`grid md:grid-cols-2 gap-8 mb-12 items-center ${
+              !isImageRight ? "md:flex-row-reverse" : ""
+            }`}
+          >
+            {/* Textual Data */}
+            <div>
+              <h1 className="text-4xl font-light text-[#283182] mb-6">
+                {card.title}
+              </h1>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <h3 className="text-red-600 font-bold text-xl mb-2">
+                    Achievements
+                  </h3>
+                  <ul className="text-lg border-r border-dashed pr-3 border-gray-400 space-y-5">
+                    {card.achievements.map((item, i) => (
+                      <li key={i}>{formatTextWithHighlights(item)}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-red-600 font-bold text-xl mb-2">
+                    Initiatives
+                  </h3>
+                  <ul className=" text-lg space-y-5">
+                    {card.initiatives.map((item, i) => (
+                      <li key={i}>{formatTextWithHighlights(item)}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="mt-2 text-xl font-semibold">
-                <span className="text-red-600">{firstChar}</span>
-                <span className="text-blue-800">{restTitle}</span>
-              </div>
-            </button>
-          );
-        })}
-      </div>
+              {card.footnotes?.length > 0 && (
+                <div className="mt-4 text-sm text-gray-600 space-y-1">
+                  {card.footnotes.map((note, i) => (
+                    <div key={i}>{note}</div>
+                  ))}
+                </div>
+              )}
+            </div>
 
-      {/* Active Details: Horizontal Split */}
-      <div className="bg-white rounded-xl shadow-md p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
-          <h3 className="text-red-600 font-bold text-lg mb-2">Achievements</h3>
-          <ul className="list-disc pl-6 space-y-1 ">
-            {cardData[activeIndex].achievements.map((item, i) => (
-              <li key={i}>{formatTextWithHighlights(item)}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <h3 className="text-red-600 font-bold text-lg mb-2">Initiatives</h3>
-          <ul className="list-disc pl-6 space-y-1 ">
-            {cardData[activeIndex].initiatives.map((item, i) => (
-              <li key={i}>{formatTextWithHighlights(item)}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      {cardData[activeIndex].footnotes?.length > 0 && (
-        <div className="mt-4 text-sm text-gray-600 space-y-1">
-          {cardData[activeIndex].footnotes.map((note, i) => (
-            <div key={i}>{note}</div>
-          ))}
-        </div>
-      )}
+            {/* Image */}
+            <div className="w-full h-full">
+              <img
+                src={card.image}
+                alt={card.title}
+                className="rounded-xl shadow-md w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

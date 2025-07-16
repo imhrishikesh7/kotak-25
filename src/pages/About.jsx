@@ -37,7 +37,7 @@ const About = () => {
                             cyclical benefits.
                         </p>
                     </div>
-                        <img src="\AboutUs\Plane3.jpg" alt="" className='rounded-3xl w-full' />
+                    <img src="\AboutUs\Plane3.jpg" alt="" className='rounded-3xl w-full' />
                 </div>
 
                 <HeadingPill heading='Kotak Universe<sup>#</sup>' />
@@ -125,60 +125,60 @@ const About = () => {
                     <img src="AboutUs/page2A.webp" alt="" className='rounded-3xl' />
                 </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 text-[#1d267d] font-bold">
 
-                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">2,148</h2>
                     <p className="text-[#000000] text-md font-normal">Bank branches<sup>*</sup></p>
                 </div>
 
-                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">3,295</h2>
                     <p className="text-[#000000] text-md font-normal">Bank ATMs<sup>**</sup></p>
                 </div>
 
-                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">961</h2>
                     <p className="text-[#000000] text-md font-normal">Pan-India operating
                         locations
                         of the Bank</p>
                 </div>
 
-                <div className='bg-gray-200 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">5,378</h2>
                     <p className="text-[#000000] text-md font-normal">Group branch network
                         in India<sup>*</sup></p>
                 </div>
             </div>
             <h1 className='text-xl text-[#212b7e] font-semibold mt-5'>Group Branch Network in India</h1>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold'>
-                <div>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 text-[#1d267d] font-bold'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">159</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak Mahindra
                         Prime</p>
                 </div>
 
-                <div>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">1,143</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak Securities<sup>#</sup></p>
                 </div>
 
-                <div>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">323</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak Mahindra
                         Life Insurance</p>
                 </div>
-                <div>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">106</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak
                         Mahindra Asset
                         Management</p>
                 </div>
-                <div>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">878</h2>
                     <p className="text-[#000000] text-md font-normal">BSS Microfinance</p>
                 </div>
-                <div>
+                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">621</h2>
                     <p className="text-[#000000] text-md font-normal">Sonata Finance</p>
                 </div>

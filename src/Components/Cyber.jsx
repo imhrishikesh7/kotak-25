@@ -18,7 +18,7 @@ const CybersecurityCaseStudy = () => {
               />
               <h3 className="text-[#004d9d] text-lg font-semibold">Incident</h3>
             </div>
-            <p className="text-sm leading-relaxed text-[#333]">
+            <p className="text-lg leading-relaxed text-[#333]">
               The Bank had received an order dated 24<sup>th</sup> April, 2024
               ("Order") from the RBI, inter alia, directing the Bank to cease
               and desist, with effect from 24<sup>th</sup> April, 2024, from
@@ -40,7 +40,7 @@ const CybersecurityCaseStudy = () => {
               />
               <h3 className="text-[#004d9d] text-lg font-semibold">Response</h3>
             </div>
-            <p className="text-sm leading-relaxed text-[#333]">
+            <p className="text-lg leading-relaxed text-[#333]">
               In view of the above, the Bank undertook a series of strategic
               initiatives to enhance its cybersecurity posture. Senior industry
               experts were onboarded to guide these efforts and comprehensive
@@ -87,7 +87,7 @@ const CybersecurityCaseStudy = () => {
               />
               <h3 className="text-[#004d9d] text-lg font-semibold">Impact</h3>
             </div>
-            <p className="text-sm leading-relaxed text-[#333]">
+            <p className="text-lg leading-relaxed text-[#333]">
               Risk monitoring has been significantly strengthened through timely
               vulnerability management, RED team exercises, tabletop
               simulations and third-party assessments, which have validated the
@@ -103,7 +103,7 @@ const CybersecurityCaseStudy = () => {
               (including the report of the external Auditor).
             </p>
             <img
-              src="/your-path/impact-image.webp"
+              src=""
               alt="Impact Visual"
               className="w-full rounded-xl mt-4"
             />

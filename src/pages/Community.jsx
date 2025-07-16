@@ -62,7 +62,7 @@ const Community = () => {
           <img src="\Community\IMG-112.png" alt="" />
         </div>
       </div>
-      <div className='border-t-1 pt-1 text-sm mt-3'>
+      <div className='border-t-1 pt-1  mt-3'>
         <i>*We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique</i>
       </div>
       <div className='mt-5 flex md:flex-row flex-col gap-5 bg-white p-5'>
@@ -73,7 +73,7 @@ const Community = () => {
           <img src="\Community\IMG-2-113.png" alt="" />
         </div>
       </div>
-      <div className='border-t-1 pt-1 text-sm'>
+      <div className='border-t-1 pt-1 '>
         <i>*The breakdown of actual CSR expenditure (excluding overheads and impact assessment costs) towards various themes is given above.</i>
       </div>
       <div className='mt-5'>
@@ -291,13 +291,221 @@ const Community = () => {
       </div>
 
 
-<div>
-<div>
-  {/* <img src="\Community\IMG-114.png" alt="" /> */}
-</div>
-</div>
+      <div className='flex md:flex-row flex-col mt-10 gap-5'>
+        <div className='md:w-1/2'>
+          <img src="\Community\IMG-114.png" alt="" />
+          <div className='mt-10'>
+            <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto">
+              {/* Header with Icon */}
+              <div className="w-fit mb-4">
+                <div className="bg-red-500 p-2 absolute translate-y-[-90%] rounded-full">
+                  <img
+                    src="/icons/smile-icon-white.png"
+                    alt="Icon"
+                    className="w-10 h-10"
+                  />
+                </div>
+              </div>
+              <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Income Resilience</h2>
+            </div>
+          </div>
+          <div className='mt-5'>
+            <h2 className='font-bold text-lg mb-4'>Livestock Development</h2>
+            <div className='flex items-start gap-3 mb-3'>
+              <div className='icon-dot mt-1' />
+              <p>27,000+ cattle under livestock programmes benefitting
+                marginal and landless farmers.</p>
+            </div>
+            <p className='mb-3'>
+              Our livestock development programmes support creation of a
+              steady secondary income source for farmers. The programme
+              provides doorstep breeding services and access to veterinary
+              services and Government schemes.
+            </p>
+            <div className='bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto'>
+              {/* <div className="rounded-xl overflow-hidden mb-3 ">
+              <img
+                src="/Community/WaterDam.png" 
+                alt="Water Conservation"
+                className="w-full h-auto object-cover"
+              />
+            </div> */}
+              <h2 className='font-bold text-lg mb-4'>Sustainable Agriculture</h2>
+              <ul className='mb-3 space-y-3'>
+                <li className="text-red-500">✦ <span className="text-black">7,900+ marginal farmers trained</span></li>
+                <li className="text-red-500">✦ <span className="text-black">6,700+ acres of farm land poised to benefit</span></li>
+              </ul>
+              <p className='mb-3'>
+                Under our sustainable agriculture initiatives, we provided
+                training and support for better agri-input, value chain
+                development, irrigation, crop diversification to strengthen
+                Farmer Producer Organisation and other collectives.
+                Cumulatively, our efforts aim to enhance agricultural
+                production and income through better yield, reduced input
+                cost and better water availability.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto">
+            <div className="w-fit mb-4">
+              <div className="bg-red-500 p-2 absolute translate-y-[-90%] rounded-full">
+                <img
+                  src="/icons/smile-icon-white.png"
+                  alt="Icon"
+                  className="w-10 h-10"
+                />
+              </div>
+            </div>
+            <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Climate Resilience</h2>
 
+            <ul className='mb-3 space-y-3'>
+              <li className="text-red-500">✦ <span className="text-black">11,000+ farmers and households in water
+                stressed regions supported</span></li>
+              <li className="text-red-500">✦ <span className="text-black">16 lakh+ KL water harvesting capacity created and
+                9,500+ acres of land positively impacted</span></li>
+            </ul>
 
+            <div className="  space-y-3 mb-4">
+              <p>
+                We work towards ensuring water security and better crop yield through soil and water conservation measures
+                that include building and reviving water harvesting structures and de-siltation of traditional water tanks.
+                The structural barriers and conservation measures that we have supported are expected to reduce water stress
+                over a period of time.
+              </p>
+              <p>
+                Our efforts in natural resource management and ecosystem restoration were complemented by our demand-side
+                interventions with farmers. We supported trainings on yield increase, reduction in input cost and integrating
+                micro-irrigation practices. Further, income diversification efforts are expected to significantly improve
+                farmer incomes. We also support policy-influencing research on farming practices, high-value crops, farm
+                produce and value chains for improving farmer income capabilities.
+              </p>
+            </div>
+
+            {/* Image */}
+            <div className="rounded-xl overflow-hidden">
+              <img
+                src="/Community/WaterDam.png" // Replace with actual image path
+                alt="Water Conservation"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='mt-5'>
+        <div className='bg-[#eaf6ff] rounded-2xl p-6  mx-auto'>
+          <div className="flex md:flex-row flex-col gap-5 justify-around">
+            <div className='md:w-1/2'>
+              <h2 className='font-bold text-lg mb-4'>Skill Development</h2>
+              <ul className='mb-3 space-y-3'>
+                <li className="text-red-500">✦ <span className="text-black">11,000+ youth trained (~70% placed)</span></li>
+
+              </ul>
+              <p className='mb-3'>
+                We support sector specific short-term courses that offer
+                professional and life skills training, spoken English, personality
+                development, work readiness and placement assistance for a
+                secure career in these trades: BFSI, Customer Relationship and
+                Sales, Hospitality, Heavy machinery operator, etc.
+              </p>
+              <h2 className='font-bold text-lg mb-4'>Nano Entrepreneurship</h2>
+              <ul className='mb-3 space-y-3'>
+                <li className="text-red-500">✦ <span className="text-black">1,400+ Nano entrepreneurs supported</span></li>
+
+              </ul>
+              <p className='mb-3'>
+                We supported entrepreneurs in rural and semi-urban areas
+                to facilitate upward mobility for marginalised groups such as
+                women, small or landless farmers and self-employed people.
+                The projects facilitate access to credit, mentorship, market
+                linkages and bridging the gap of innovation and digitalisation.
+              </p>
+            </div>
+            <div className="rounded-xl overflow-hidden md:w-1/2">
+              <img
+                src="/Community/WaterDam.png" // Replace with actual image path
+                alt="Water Conservation"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div className='mt-10'>
+        <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl">
+          <div className="w-fit mb-4">
+            <div className="bg-red-500 p-2 absolute translate-y-[-90%] rounded-full">
+              <img
+                src="/icons/smile-icon-white.png"
+                alt="Icon"
+                className="w-10 h-10"
+              />
+            </div>
+          </div>
+          <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Restoring Habitats</h2>
+        </div>
+      </div>
+      <div className='mt-5'>
+        <h2 className='font-bold text-lg mb-4'>Livestock Development</h2>
+        <div className='flex items-start gap-3 mb-3'>
+          <div className='icon-dot mt-1' />
+          <p>1.5 lakh+ saplings planted</p>
+        </div>
+        <div className='flex items-start gap-3 mb-3'>
+          <div className='icon-dot mt-1' />
+          <p>Restoration work on 11 waterbodies initiated</p>
+        </div>
+        <p className='mb-3'>
+          We supported afforestation on barren lands restoring them
+          into micro-habitats for biodiversity to flourish. Over the past
+          three years, we have planted three lakh+ saplings over 30 acres
+          across seven cities.
+        </p>
+        <p className='mb-3'>
+          Since FY 2022-23, we have also supported restoration of 13
+          lakes. Around 400 acres of lake and drain area was restored by
+          clearing waste and silt and was fenced. Cumulatively, the water
+          harvesting capacity of these waterbodies was increased by
+          ~18 lakh KL. This restoration safeguards waterbodies from the
+          risk of encroachment, illegal waste dumping and degradation.
+          In FY 2024-25, we extended support for restoration of 11
+          additional waterbodies.
+        </p>
+        <p className='mb-3'>
+          Apart from the long-term impact on biodiversity, microclimatic
+          conditions and carbon sequestration potential, such green
+          spaces also act as recreational spaces for local communities
+          to connect with nature that stays protected against risks of
+          encroachment and waste dumping.
+        </p>
+        <p className='mb-3'>
+          Key implementing agencies: Watershed Organisation Trust,
+          Professional Assistance for Development Action, Green Yatra
+          Trust and Environmentalist Foundation of India.
+        </p>
+      </div>
+      <div className='mt-5'>
+            <div className='border border-[#ed1c2f] p-5 rounded-3xl'>
+              <div className='flex md:flex-row flex-col gap-5 justify-around '>
+                <div className='flex flex-col text-center items-center'>
+                  <h1 className='text-4xl font-bold text-[#212b7e]'>19,000+</h1>
+                  <h2 className='text-[#58595b]'>Farmers reached</h2>
+                </div>
+                <div className='flex flex-col text-center items-center'>
+                  <h1 className='text-4xl font-bold text-[#212b7e]'>16,300+</h1>
+                  <h2 className='text-[#58595b]'>Acres of land</h2>
+                </div>
+                <div className='flex flex-col text-center items-center'>
+                  <h1 className='text-4xl font-bold text-[#212b7e]'>16,000+</h1>
+                  <h2 className='text-[#58595b]'>Youth benefitted</h2>
+                </div>
+              </div>
+            </div>
+          </div>
 
       <div className='mt-10'>
         <img src="\Community\IMG--118.png" alt="" className='lg:w-[35%] md:w-[50%] mb-3' />
@@ -511,7 +719,7 @@ const Community = () => {
         <p>
           We supported around 15 women-focused programmes across
           livelihood, education and healthcare. Women inclusion is also
-          ensured in all other programmes
+          ensured in all other programmes.
         </p>
       </div>
       <div className='mt-10'>

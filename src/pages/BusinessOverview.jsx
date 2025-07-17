@@ -143,7 +143,7 @@ const BusinessOverview = () => {
                     <p className='text-[#58595b] text-md font-normal'>Growth in Consumer Assets</p>
                 </div>
             </div>
-            <Heading heading={'Consumer Banking'} icon='BusinessOverview\Page-13-Icon.webp' />
+            <Heading heading={'Kotak811'} icon='BusinessOverview\Page-13-Icon.webp' />
             <div className='mt-10 text-lg border-b-2 border-[#b6b8ba] pb-5'>
                 <p className='font-semibold mb-3'>
                     A full-stack digital banking proposition that aims to

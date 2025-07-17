@@ -683,7 +683,7 @@ const Empowering1 = () => {
               <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
                 Prashant Bharadwaj
               </p>
-              <p className="text-sm text-gray-800">
+              <p className="text-sm ">
                 (Senior Manager, Business Loans-Sales, Consumer Bank)
               </p>
             </div>
@@ -874,37 +874,201 @@ const Empowering1 = () => {
           training and communications, equipping colleagues with the
           tools to foster inclusive workplaces.
         </p>
+        <p className='mb-3 font-bold'>
+          We promote awareness through regular diversity and
+          inclusion training and communications, equipping colleagues
+          with the tools to foster inclusive workplaces.
+        </p>
         <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
-          Kotakites Health and Well-being
+          Culture of Inclusivity and Beyond Bias
         </h1>
-        <h2 className='font-bold text-black'>
-          Caring for well-being of Kotakites#
-        </h2>
-        <div className='md:flex gap-5'>
-          <div className='md:w-[50%]'>
-            <img src="/Empowering/Empowering11.webp" alt="" />
-          </div>
-          <div className='md:w-[50%]'>
-            <p className='mb-3'> We offer a comprehensive suite of benefits to support the well-
-              being and growth of our employees at the Bank. Comprehensive
-              employee benefits include insurance coverage, voluntary
-              parental insurance, corporate perks such as corporate credit
-              card and business car for certain grades, fitness and relocation
-              allowances, learning programmes and wellness initiatives
-              ensuring holistic well-being and growth for all Kotakites.
+        <p>
+          We are committed to fostering an inclusive culture through focused DEIB initiatives. The ‘Culture of Inclusivity and Beyond Biases’
+          initiative was launched to strengthen awareness of DEIB across the Bank. Through structured modules, colleagues explored visible
+          and invisible aspects of diversity, biases, inclusive mindsets, emotional intelligence and allyship. In FY 2024-25, over 27,000 employees
+          completed the programme, advancing our commitment to building an inclusive, empathetic and equitable workplace.
+        </p>
+        <h1 className='text-xl font-semibold mt-3 mb-3'>
+          Testimonials of Culture of Inclusivity and Beyond Biases
+        </h1>
+        <div className="bg-blue-100 rounded-xl p-4">
+          <p className="text-[#252f80] font-semibold">
+            As a manager I should not be biased towards
+            any team member. This session taught us
+            how to identify different types of biases,
+            improve our awareness and avoid them in
+            day-to-day life.
+          </p>
+          <div className="mt-4">
+            <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
+              Ambili A Nair
             </p>
-            From energising yoga and Zumba sessions to fun quizzes and
-            social events, we bring wellness to life both online and on-site.
-            Our ‘Health to the Power Infinity’ platform offers easy access
-            to doctors, nutritionists, emotional support and exclusive
-            pharmacy discounts.
-            <sup>11</sup>
+            <p className="text-sm ">
+              (Associate Vice President, Cluster Manager - Wholesale Bank)
+            </p>
+          </div>
+        </div>
+        <div className="bg-blue-100 rounded-xl p-4 mt-3">
+          <p className="text-[#252f80] font-semibold">
+            Recognising, understanding and respecting
+            differences in cultural backgrounds, values,
+            beliefs and practices is essential. Creating
+            an environment that encourages meaningful
+            participation from people of all backgrounds
+            is key to fostering inclusivity.
+          </p>
+          <div className="mt-4">
+            <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
+              Srikrishna Moorthy Sivakumar
+            </p>
+            <p className="text-sm ">
+              (Executive Vice President, Lead-Acquisition & Digital Marketing - Consumer Bank)
+            </p>
+          </div>
+        </div>
+        <div className='flex md:flex-row flex-col gap-5'>
+          <div className='md:w-2/3'>
+            <h1 className='font-semibold text-xl text-[#13206b] mt-3 mb-3'>
+              Health and Wellness<sup>9</sup>
+            </h1>
+            <p className='mb-3'>
+              Employee health and wellness are core to our enhanced
+              colleague value proposition. By supporting physical, emotional
+              and mental well-being, we drive productivity and long-term
+              organisational resilience. Our annual health check programme
+              is available to all eligible Bank employees, offering a range of
+              preventive health screenings. These services are facilitated
+              through partnerships with diagnostic centres nationwide. For
+              colleagues and their families who are not covered under the
+              eligibility criteria, the screenings are offered at discounted rates,
+              ensuring access to health management solutions for all.
+            </p>
+            <p className='mb-3'>
+              <strong>Integrated Health Solutions -</strong> The Kotak Worklife App now
+              features annual health screening, enabling colleagues to book
+              appointments, access telemedicine and receive personalised
+              nutrition guidance promoting holistic well-being for them and
+              their families.
+            </p>
+            <p className='mb-3'>
+              <strong>Promoting Work-Life Balance and Wellness -</strong>Regular webinars
+              and weekly activities such as yoga, desk exercises and wellness
+              games, promote emotional, social, mental and physical wellbeing among colleagues.
+            </p>
+            <p className='mb-3'>
+              <strong>Stepathon Challenge -</strong> A Walk for a Cause Initiative - In
+              December 2024, we launched a 3-month fitness challenge
+              encouraging daily activity via a tracking app. Colleagues
+              collectively worked toward the symbolic goal of reaching the
+              moon and back, promoting a culture of health and well-being.
+            </p>
+          </div>
+          <div className='my-auto md:w-1/3'>
+            <img src="\Empowering\IMG-2-107.png" alt="" className='' />
+          </div>
+        </div>
+        <div>
+          <h1 className='font-semibold text-xl text-[#13206b] mt-3 mb-3'>Employee Volunteering</h1>
+          <p>
+            Volunteering remained a key pillar of employee engagement at
+            Kotak. In FY 2024-25, at the Bank, 6,634 employees volunteered
+            across 20 initiatives nationwide, reflecting our strong commitment
+            to community impact and social responsibility.
+          </p>
+          <div className='flex md:flex-row flex-col gap-5 mt-5'>
+            <div className='md:w-1/2'>
+              <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mt-5 mb-3'>
+                Theme: Education
+              </h2>
+              <p className='mb-3'>
+                <strong>Light a Life: </strong>Building Solar Lamps: Volunteers learned about
+                electricity usage while assembling solar lamps, which were
+                donated to underprivileged children for community welfare.
+              </p>
+              <p className='mb-3'>
+                <strong>Educard: </strong> Volunteers created engaging educational cards with
+                new words, images and educational concepts. These childfriendly cards were donated to underprivileged children to
+                support their learning.
+              </p>
+              <p className='mb-3'>
+                <strong>Jenga Blocks: </strong>  Volunteers customised Jenga blocks with fun
+                challenges on Math, GK and English, making learning playful.
+                These were donated to underprivileged children.
+              </p>
+              <p className='mb-3'>
+                <strong>Donation Drive: </strong> During Daan Utsav and Secret Santa,
+                colleagues donated educational items for students of the Kotak
+                Education Foundation.
+              </p>
+            </div>
+            <div className='md:w-1/2'>
+              <img src="\Empowering\Image2-108.png" alt="" className='rounded-3xl' />
+            </div>
+          </div>
+        </div>
+        <div className='flex md:flex-row flex-col gap-5 mt-5'>
+          <div className='md:w-1/2'>
+            <img src="\Empowering\Diya.png" alt="" className='rounded-3xl' />
+          </div>
+          <div className='md:w-1/2'>
+            <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-3'>
+              Theme: Relief and Rehabilitation
+            </h2>
+            <p className='mb-3'>
+              <strong>Relief and First Aid Kits: </strong>In response to the devastating
+              landslides and floods in Wayanad, Kotak provided Relief and
+              First Aid Kits to support displaced families.
+            </p>
+            <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-3'>
+              Theme: Livelihood
+            </h2>
+            <p className='mb-3'>
+              <strong>Diya Painting: </strong>Across 75 offices, Kotak volunteers
+              painted 26,265 diyas to spread festive cheer and support
+              underprivileged children and women from Self Help Groups.
+            </p>
+          </div>
+        </div>
+        <div className='mt-5 mb-5 border-dashed border-b-2 w-fit border-[#a6a8ab]'>
+          <h1 className='text-xl font-semibold text-[#ed1c2f]'>Best of Kotak for Kotakites<sup>10</sup></h1>
+        </div>
+        <div className='md:flex gap-5'>
+          <div className='md:w-[7 0%]'>
+            <p className='mb-3 font-bold'> We are extending the great benefits we offer our customers
+              to our Kotakites at exclusive employee rates, while
+              streamlining policies to make access and usage of these
+              benefits to be simpler and efficient.
+            </p>
+            <h1 className='text-xl font-semibold text-[#212b7e] mb-5'>
+              Kotakites Health and Well-being
+            </h1>
+            <h1 className='font-semibold'>
+              Caring for well-being of Kotakites
+              <sup>#</sup>
+            </h1>
+          </div>
+          <div className='md:w-[30%] mx-auto'>
+            <img src="/Empowering/Empowering11.webp" alt="" />
           </div>
         </div>
       </div>
       <p className='mb-5 text-sm border-t-1 pt-1 text-gray-700'>
-        <sup>10</sup>GRI 401-2, BRSR Section C, Principle 3, Essential Indicator 1a | <sup>#</sup>Applicable for the Bank and select subsidiaries|
-        <sup>11</sup>GRI 403-6
+        <sup>9</sup>GRI 403-6 | <sup>10</sup>GRI 401-2, BRSR Section C, Principle 3, Essential Indicator 1a | <sup>#</sup>Applicable for the Bank and select subsidiaries
+      </p>
+      <p className='mb-3'>
+        We offer a comprehensive suite of benefits to support the wellbeing and growth of our employees at the Bank. Comprehensive
+        employee benefits include insurance coverage, voluntary
+        parental insurance, corporate perks such as corporate credit
+        card and business car for certain grades, fitness and relocation
+        allowances, learning programmes and wellness initiatives that
+        ensure holistic well-being and growth for all Kotakites.
+      </p>
+      <p className='mb-3'>
+        From energising yoga and Zumba sessions to fun quizzes and
+        social events, we bring wellness to life both online and on-site.
+        Our ‘Health to the Power Infinity’ platform offers easy access
+        to doctors, nutritionists, emotional support and exclusive
+        pharmacy discounts.<sup>11</sup>
       </p>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
@@ -999,7 +1163,7 @@ const Empowering1 = () => {
           ease the transition back to work.
         </p>
         <p className='text-sm text-gray-700 mb-5'>
-          <sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
+          <sup>11</sup>GRI 403-6|<sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
         </p>
       </div>
       <div className='mb-5'>
@@ -1007,9 +1171,9 @@ const Empowering1 = () => {
           Culture of Appreciation
         </h1>
         <p className='font-bold mb-2'>
-          In partnership with the Great Place to Work® Institute, we conduct annual engagement survey that continues to reflect the
-          strength of our workplace culture. We are proud to share that 78% <sup>*</sup> of our employees who responded, believe Kotak is truly a
-          Great Place to Work.
+          In partnership with the Great Place to Work® (GPTW) Institute, we conduct annual engagement survey that continues to reflect
+          the strength of our workplace culture. We are proud to share that 78%* of our employees who responded believe Kotak is truly
+          a Great Place to Work.
         </p>
         <div className=" w-full  rounded-xl overflow-hidden mb-4">
           {/* Main Image */}

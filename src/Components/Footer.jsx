@@ -16,14 +16,6 @@ const Footer = () => {
             © {new Date().getFullYear()}  Kotak Mahindra Bank Limited. All rights reserved.
           </div>
           
-          {/* Developer Logo */}
-          <div className="flex items-center text-sm text-gray-400">
-            <span className="mr-2">Built by</span>
-            <div className="w-6 h-6 bg-gray-700 rounded-full flex items-center justify-center mr-1">
-              <a href="https://www.kalolwala.com" target="_blank"><img src="/k&a logo.webp" alt="" /></a>
-            </div>
-            
-          </div>
           
         </div>
       </div>

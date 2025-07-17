@@ -41,39 +41,39 @@ const About = () => {
                 </div>
 
                 <HeadingPill heading='Kotak Universe<sup>#</sup>' />
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 text-[#1d267d] font-bold">
+                <div className="flex flex-wrap gap-6 mt-8 text-[#1d267d] font-bold">
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">₹ 879,774 cr</h2>
                         <p className="text-[#000000] text-md font-normal">Total assets</p>
                     </div>
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">₹ 486,166 cr</h2>
                         <p className="text-[#000000] text-md font-normal">Total advances</p>
                     </div>
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">₹ 494,707 cr</h2>
                         <p className="text-[#000000] text-md font-normal">Total deposits</p>
                     </div>
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">₹ 669,885 cr</h2>
                         <p className="text-[#000000] text-md font-normal">Assets under management</p>
                     </div>
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">₹ 920,000 cr+</h2>
                         <p className="text-[#000000] text-md font-normal">Relationship value<sup>**</sup></p>
                     </div>
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">114,000+</h2>
                         <p className="text-[#000000] text-md font-normal">Full-time employees</p>
                     </div>
 
-                    <div>
+                    <div className='bg-gray-50 p-6 rounded-2xl'>
                         <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">5.3 cr</h2>
                         <p className="text-[#000000] text-md font-normal">Number of customers of the Bank</p>
                     </div>
@@ -86,11 +86,14 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className='mt-10 flex flex-col md:flex-row gap-10'>
-                <div className='md:w-3/4 mx-auto'>
-                    <h2 className="text-xl font-semibold text-[#ed1c2f] mb-3">Orchestrating Cohesive User Experiences Across Multiple Platforms</h2>
+            <div className="mt-10 grid md:grid-cols-4 gap-10">
+                {/* Text Block: spans 3 of 4 columns */}
+                <div className="md:col-span-3">
+                    <h2 className="text-xl font-semibold text-[#ed1c2f] mb-3">
+                        Orchestrating Cohesive User Experiences Across Multiple Platforms
+                    </h2>
                     <div className="text-lg text-[#000000]">
-                        <p className='mb-3'>
+                        <p className="mb-3">
                             Our commitment to delivering a seamless customer experience across
                             physical, digital and voice channels remains a core strategic priority. Kotak
                             continues to play an active role in India’s digital transformation, consistently
@@ -104,7 +107,7 @@ const About = () => {
                             chatbots, voice bots and self-service kiosks, ensuring a consistent and
                             convenient experience across all touchpoints.
                         </p>
-                        <p className='mb-3'>
+                        <p className="mb-3">
                             While we will explore our digital footprint in greater detail later, it is worth
                             noting that our digital ecosystem is supported by a resilient and scalable
                             technology architecture. This foundation enables us to deliver agile, secure
@@ -112,8 +115,10 @@ const About = () => {
                             and customer-centric.
                         </p>
                     </div>
-                    <h1 className='text-xl font-semibold text-[#ed1c2f] mb-3 mt-10'>Physical Footprint</h1>
-                    <p className='text-lg text-[#000000]'>
+                    <h1 className="text-xl font-semibold text-[#ed1c2f] mb-3 mt-10">
+                        Physical Footprint
+                    </h1>
+                    <p className="text-lg text-[#000000]">
                         Our pan-India distribution network, comprising branches and franchisees,
                         enables us to serve a large customer base. We also have an international
                         banking unit in Gujarat International Finance Tec-City (GIFT City), a Bank
@@ -121,64 +126,71 @@ const About = () => {
                         offices in New York, London, Mauritius, Dubai, Singapore and Abu Dhabi.
                     </p>
                 </div>
-                <div className='md:w-1/4 mx-auto'>
-                    <img src="AboutUs/page2A.webp" alt="" className='rounded-3xl' />
+
+                {/* Image Block: 1 of 4 columns */}
+                <div className="md:col-span-1">
+                    <img
+                        src="AboutUs/page2A.webp"
+                        alt=""
+                        className="rounded-3xl object-cover w-full h-full"
+                    />
                 </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 text-[#1d267d] font-bold">
 
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+            <div className="flex flex-wrap gap-6 mt-8 text-[#1d267d] font-bold">
+
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">2,148</h2>
                     <p className="text-[#000000] text-md font-normal">Bank branches<sup>*</sup></p>
                 </div>
 
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">3,295</h2>
                     <p className="text-[#000000] text-md font-normal">Bank ATMs<sup>**</sup></p>
                 </div>
 
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">961</h2>
                     <p className="text-[#000000] text-md font-normal">Pan-India operating
                         locations
                         of the Bank</p>
                 </div>
 
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">5,378</h2>
                     <p className="text-[#000000] text-md font-normal">Group branch network
                         in India<sup>*</sup></p>
                 </div>
             </div>
             <h1 className='text-xl text-[#212b7e] font-semibold mt-5'>Group Branch Network in India</h1>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 text-[#1d267d] font-bold'>
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+            <div className='flex flex-wrap gap-6 mt-8 text-[#1d267d] font-bold'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">159</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak Mahindra
                         Prime</p>
                 </div>
 
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">1,143</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak Securities<sup>#</sup></p>
                 </div>
 
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">323</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak Mahindra
                         Life Insurance</p>
                 </div>
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">106</h2>
                     <p className="text-[#000000] text-md font-normal">Kotak
                         Mahindra Asset
                         Management</p>
                 </div>
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">878</h2>
                     <p className="text-[#000000] text-md font-normal">BSS Microfinance</p>
                 </div>
-                <div className='bg-gray-50 w-fit rounded-2xl p-2'>
+                <div className='bg-gray-50 w-fit rounded-2xl p-4'>
                     <h2 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">621</h2>
                     <p className="text-[#000000] text-md font-normal">Sonata Finance</p>
                 </div>

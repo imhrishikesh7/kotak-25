@@ -20,7 +20,7 @@ const BOD = () => {
     ];
 
     const renderRow = (members) => (
-        <div className="flex flex-wrap gap-10 md:gap-16 mt-4">
+        <div className="flex flex-wrap gap-5 md:gap-10 mt-4">
             {members.map((person, index) => (
                 <div key={index} className="min-w-[200px]">
                     <h3 className="text-[#ed1c2f] font-semibold">{person.name}</h3>

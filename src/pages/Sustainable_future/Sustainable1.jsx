@@ -35,10 +35,10 @@ const Sustainable1 = () => {
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Embracing Sustainability
       </div>
-      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-10">
+      <h1 className="text-3xl font-bold text-[#ed1c2f] ">
         Transforming For a Sustainable Future
       </h1>
-      <div className='mb-10 mt-10 text-xl'>
+      <div className='mb-5 mt-5 text-xl'>
         Our approach towards ESG integration goes beyond compliance and is geared towards
         long-term value creation through responsible finance, inclusive growth and environmental
         management. We are conscious of our environmental footprint and are actively assessing and
@@ -84,16 +84,16 @@ const Sustainable1 = () => {
         </sup>As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping.
       </p>
       <div className='mt-5 mb-5 md:flex gap-5'>
-        <div className='bg-gray-100 p-2 rounded-2xl'>
+        {/* <div className='bg-gray-100 p-2 rounded-2xl'>
           <img src="/Sustainability/Sustainability1.webp" alt="" className='md:w-[50%] mx-auto' />
-        </div>
+        </div> */}
         <div className='mb-2'>
-          <p className='mb-2'>
+          <p className='mb-3'>
             We integrate social and environmental considerations into
             our strategic vision and operational practices through a
             comprehensive ESG Policy Framework, supported by subsidiaryspecific ESG policies.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             In FY 2024–25, we reviewed our material topics to ensure
             that our KPIs continue to be impact-oriented, ensuring our
             strategy continues to be resilient, responsive and relevant.
@@ -107,11 +107,11 @@ const Sustainable1 = () => {
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
-        <div className='md:w-[50%]'>
+        <div className='md:w-[70%]'>
           <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
             ESG Governance and Oversight
           </h1>
-          <p className='mb-2'>
+          <p className='mb-3'>
             Our ESG agenda is governed through Board level Corporate
             Social Responsibility and Environmental Social Governance
             Committee (CSR and ESG Committee), which provides strategic
@@ -140,28 +140,28 @@ const Sustainable1 = () => {
             </p>
           </div>
         </div>
-        <div className='md:w-[50%] md:mt-6'>
+        <div className='md:w-[30%] md:mt-6 mx-auto'>
           <img src="/Sustainability/Sustainability10.webp" alt="" />
         </div>
 
       </div>
       <div className=' md:flex gap-5'>
         <div className='md:w-[50%]'>
-          <p className='mb-2'>
+          <p className='mb-3'>
             We have a dedicated ESG function that is responsible for
             implementing the ESG Policy Framework, analysing ESG
             performance and reporting progress to stakeholders. We also
             have an ESG taskforce, comprising representatives from key
             functions and group companies that supports implementation.
           </p>
-          <p className='mb-2'>
+          <p className='mb-3'>
             The ESG Policy Framework is aligned to national and global best
             practices and is anchored in six focus areas which guides our
             strategies, processes and disclosures. The focus areas address
             material issues relevant to our industry and organization
             and are stated below:
           </p>
-          <p className='mb-2'>
+          <p className='mb-3'>
             Each focus area is underpinned by key performance indicators
             (KPIs) and monitored through a structured governance
             mechanism. Over the past years we have reviewed select
@@ -172,7 +172,7 @@ const Sustainable1 = () => {
           <img className='' src="/Sustainability/Sustainability2.webp" alt="" />
         </div>
       </div>
-      <p className='mb-2'> and practices with best practices. More details
+      <p className='mb-3'> and practices with best practices. More details
         into each focus area can be found in our Environment, Social
         and Governance Policy Framework document through this link
         <a
@@ -207,38 +207,40 @@ const Sustainable1 = () => {
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Kotak Mahindra Bank
           </h1>
-          Our ESG Management Systems Plan (EMSP or the Plan) was
-          originally modelled on IFC Performance Standards and enables
-          us to systematically identify, assess and mitigate ESG risks in
-          our lending portfolio. The EMSP outlines the framework for
-          conducting due diligence and evaluating eligible borrowers
-          through an from an ESG perspective. It classifies borrowers
-          based on their sector of operation, extent of business operation’s
-          impact on social and environmental factors and includes
-          tailored assessment checklists depending on the nature and
-          risk classification of each transaction. The Plan applies to loans
-          exceeding pre-specified thresholds of quantum and tenure
-          and for specific end uses. Scoring is based on tailored ESG
-          evaluation questionnaires, which are incorporated in the credit
-          assessment note - for borrowers identified as high risk, the
-          score is to be adjusted downward. Furthermore, the Plan also
-          features an exclusion list, which is currently being reinforced for
-          implementation and monitoring. In summary, EMSP includes
-          sectoral risk categorisation, ESG due diligence protocols and
-          an exclusion list, ensuring that our capital deployment aligns
-          with sustainability principles. In FY 2024-25, we have revamped
-          the EMSP questionnaire by updating it in the context of current
-          ESG standards and incorporating practical insights from
-          pilot implementation.
-          <br />
-          <br />
-          Through our Board approved Green and Sustainable Finance
-          Frameworks, we have commenced efforts to channel capital
-          toward projects with measurable environmental and social
-          impact. Our green asset portfolio was ₹ 7,900+ crore, as per
-          green activities and projects indicated in the RBI’s ‘Framework
-          for acceptance of Green deposits’ issued in April, 2023, based on
-          internal mapping.
+          <p className='mb-3'>
+            Our ESG Management Systems Plan (EMSP or the Plan) was
+            originally modelled on IFC Performance Standards and enables
+            us to systematically identify, assess and mitigate ESG risks in
+            our lending portfolio. The EMSP outlines the framework for
+            conducting due diligence and evaluating eligible borrowers
+            through an from an ESG perspective. It classifies borrowers
+            based on their sector of operation, extent of business operation’s
+            impact on social and environmental factors and includes
+            tailored assessment checklists depending on the nature and
+            risk classification of each transaction. The Plan applies to loans
+            exceeding pre-specified thresholds of quantum and tenure
+            and for specific end uses. Scoring is based on tailored ESG
+            evaluation questionnaires, which are incorporated in the credit
+            assessment note - for borrowers identified as high risk, the
+            score is to be adjusted downward. Furthermore, the Plan also
+            features an exclusion list, which is currently being reinforced for
+            implementation and monitoring. In summary, EMSP includes
+            sectoral risk categorisation, ESG due diligence protocols and
+            an exclusion list, ensuring that our capital deployment aligns
+            with sustainability principles. In FY 2024-25, we have revamped
+            the EMSP questionnaire by updating it in the context of current
+            ESG standards and incorporating practical insights from
+            pilot implementation.
+          </p>
+          <p className='mb-3'>
+            Through our Board approved Green and Sustainable Finance
+            Frameworks, we have commenced efforts to channel capital
+            toward projects with measurable environmental and social
+            impact. Our green asset portfolio was ₹ 7,900+ crore, as per
+            green activities and projects indicated in the RBI’s ‘Framework
+            for acceptance of Green deposits’ issued in April, 2023, based on
+            internal mapping.
+          </p>
         </div>
         <div className='md:w-[40%] md:mt-8'>
           <img src="/Sustainability/Sustainability3.webp" alt="" />
@@ -278,13 +280,13 @@ const Sustainable1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>Kotak Mahindra Asset Management Company (KMAMC)</h1>
-        <div className='mb-3'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Kotak Mahindra Asset Management Company (KMAMC)</h1>
+        <p className='mb-3'>
           KMAMC is the first Indian asset management company to have become a signatory to the United Nations-supported Principles for
           Responsible Investment (PRI). KMAMC uses an ESG framework based on the 3E strategy – Evaluation, Engagement and Exclusion
           -- as part of its fundamental analysis. This comprehensive framework is tailored to address specific mandates for exclusionary
           strategies while being applicable across all stocks under its scope of coverage.
-        </div>
+        </p>
         <div className=''>
           <img src="/Sustainability/Sustainability5.webp" alt="" />
         </div>
@@ -294,13 +296,13 @@ const Sustainable1 = () => {
           <img className='rounded-3xl' src="\Sustainability\IMG-81.png" alt="" />
         </div>
         <div className='md:w-[70%]'>
-          <p className='mb-2'>
+          <p className='mb-3'>
             KMAMC is also a signatory to Climate Action 100+, an investorled initiative that works with prominent contributors to GHG
             emissions. As a member, KMAMC’s senior management engages
             with companies on the implementation and progress of their
             climate change mitigation strategies.
           </p>
-          <p className='mb-2'>
+          <p className='mb-3'>
             KMAMC has established an equity fund, ‘Kotak ESG Exclusionary
             Strategy Fund’, with Assets Under Management (AUM)
             ₹ 847.62 crore as of 31st March, 2025. This fund focuses on ESG
@@ -323,7 +325,7 @@ const Sustainable1 = () => {
         <div className='md:w-[50%]'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold '>Kotak Mahindra Asset Management
             Singapore (KMAMS)</h1>
-          <p className=''>
+          <p className='mb-3'>
             KMAMS, as the international arm of KMAMC, is also a signatory to
             PRI, a member of Climate Action 100+ and uses the 3E strategy.
             In its named ESG funds, KMAMS maintains strict investment
@@ -342,17 +344,17 @@ const Sustainable1 = () => {
           </p>
 
         </div>
-        <div className='md:w-[35%] mt-5 mx-auto'>
-          <img src="/Sustainability/Sustainability6.webp" alt="" />
+        <div className='md:w-[38%] mt-5 mx-auto'>
+          <img src="\Safeguarding_Stakeholder\82-img.png" alt="" className='rounded-3xl' />
         </div>
       </div>
       <div className=' md:flex gap-5 mt-10'>
-        <div className='md:w-[25%] md:mt-7 '>
-          <img src="/Sustainability/Sustainability7.webp" alt="" />
+        <div className='md:w-[50%] md:mt-7 '>
+          <img src="\Safeguarding_Stakeholder\82-2-IMG.png" alt="" className='rounded-3xl'/>
         </div>
-        <div className='md:w-[65%]'>
+        <div className='md:w-[50%]'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Kotak Alternate Asset Managers Limited (KAAML)</h1>
-          <p className='mb-2'>
+          <p className='mb-3'>
             KAAML has established a governance framework to promote
             responsible investing practices. An ESG Committee oversees
             strategic direction, ensures policy execution, consistency across
@@ -367,7 +369,9 @@ const Sustainable1 = () => {
             Environmental and Social Management Systems (ESMS) tailored
             to their specific needs.
           </p>
-          <p className='mb-2'>
+        </div>
+      </div>
+      <p className='mb-3'>
             The Kotak Infrastructure Investment Fund (KIIF), managed by
             KAAML, has developed its own ESG Policy and ESMS. This system
             outlines the integration of ESG practices into the investment process
@@ -383,54 +387,52 @@ const Sustainable1 = () => {
             implement strategies to mitigate the ESG related risks. ESAP is
             monitored periodically following the closure of a deal.
           </p>
-        </div>
-
-      </div>
-
       <div className='mb-5 mt-10'>
-        <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Kotak Mahindra Prime Limited (KMPL)
         </h1>
-        <div className='mb-3'>
+        <p className='mb-3'>
           KMPL, our vehicular financing subsidiary, is expanding its green portfolio by providing finance for electric, hybrid and energy-
           efficient four and two-wheeler vehicles. In FY 2024-25, we saw a notable increase in lending to electric vehicles, with a growth of
           66% in terms of units.
-        </div>
-        <div className='p-4 bg-gray-100 mb-3 rounded-3xl'>
-          <img className='md:w-[90%] mx-auto rounded-3xl' src="\Sustainability\82-2-IMG.png" alt="" />
+        </p>
+        <div className='rounded-3xl'>
+          <img className='rounded-3xl' src="\Safeguarding_Stakeholder\Car.png" alt="" />
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
 
 
-        <div className='md:w-2/3'>
+        <div className='md:w-1/2'>
           <h1 className='text-xl text-[#252f80] mb-2'>Kotak Life Insurance (KLI)</h1>
-          KLI has launched its comprehensive ESG
-          Policy and Climate Risk Management
-          Framework in FY 2024-25, developed
-          in-line with IRDAI directives. KLI has also
-          formed an ESG Steering Committee and a
-          dedicated nodal team to oversee various
-          ESG initiatives and proactively implement
-          measures guided by its Climate Risk
-          Management Framework.
+          <p className='mb-3'>
+            KLI has launched its comprehensive ESG
+            Policy and Climate Risk Management
+            Framework in FY 2024-25, developed
+            in-line with IRDAI directives. KLI has also
+            formed an ESG Steering Committee and a
+            dedicated nodal team to oversee various
+            ESG initiatives and proactively implement
+            measures guided by its Climate Risk
+            Management Framework.
+          </p>
         </div>
-        <div className='p-4 bg-gray-100 rounded-2xl md:w-1/3'>
-          <img className='md:w-[80%] mx-auto rounded-2xl' src="/Sustainability/Sustainability9.webp" alt="" />
+        <div className=' rounded-2xl md:w-1/3 mx-auto'>
+          <img className='rounded-2xl' src="/Sustainability/Sustainability9.webp" alt="" />
         </div>
       </div>
       <div className='mb-5'>
         <h1 className='mb-2 text-xl text-[#ed2133] font-semibold'>Financial Inclusion</h1>
         <div className=''>
-          <p className='mb-2'>
-            AAdvancing financial inclusion remains a focus area for us. We
+          <p className='mb-3'>
+            Advancing financial inclusion remains a focus area for us. We
             continued to design and deliver targeted solutions for
             under-served communities including small and marginal
             farmers, women borrowers, micro-enterprises and underbanked
             regions, ensuring equitable access to financial services that
             foster long-term economic empowerment.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             In alignment with our commitment to inclusive banking and
             digital empowerment, our Bank, with the approval of UIDAI, had
             launched the ‘Aadhaar on Wheels’ (AOW) initiative—an innovative
@@ -446,8 +448,8 @@ const Sustainable1 = () => {
             23 Aadhaar on Wheels vans across 23 locations nationwide and
             successfully provided 74,341 Aadhaar enrolment and update
             transaction services.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             We continue to deepen our distribution footprint by extending
             access beyond traditional branches. Through the establishment
             of independent Business Correspondent (BC) and Business
@@ -456,8 +458,8 @@ const Sustainable1 = () => {
             in underserved areas. As of 31st March, 2025, we had over 18,800
             BC/BF agents, reinforcing our commitment to inclusive and
             community-driven financial outreach.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             In FY 2024-25, the Bank significantly enhanced its indigenous
             digital platform, Kotak Saarthi, which is a comprehensive
             solution for managing the BC and BF agent network. This
@@ -487,11 +489,8 @@ const Sustainable1 = () => {
         <div className='md:w-[60%]'>
           <h1 className='text-xl text-[#252f80] font-semibold'>
             Women centered financial inclusion
-            <br />
-            <br />
-
           </h1>
-          <p className='mb-2'>
+          <p className='mb-3'>
             We expand our microcredit reach by focusing on women
             borrowers through the Bank’s Joint Liability Group (JLG)
             loans offering. The entire lending base of Sonata and BSS
@@ -499,8 +498,8 @@ const Sustainable1 = () => {
             borrowers (including Sonata and BSS) as of 31st March, 2025
             at the Group was ~23 lakh and 99% of loans disbursed therein
             were for income generating purposes.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             Sonata remains deeply committed to advancing women’s
             financial inclusion by providing financial support to ~ 9 lakh
             women clients, with over 68% of its loan portfolio located
@@ -508,17 +507,13 @@ const Sustainable1 = () => {
             accessibility, Sonata has fully digitised its loan management
             system, from sourcing to disbursement, reinforcing its
             commitment to inclusive and technology-enabled banking.
-            <br />
-            <br />
-
           </p>
-
         </div>
         <div className='md:w-[40%] my-auto'>
           <img src="/Sustainability/Sustainability11.webp" alt="" />
         </div>
       </div>
-      <p>BSS is driving meaningful socio-economic transformation by
+      <p className='mb-3'>BSS is driving meaningful socio-economic transformation by
         extending microcredit services to women in underserved rural
         and semi-urban areas, enabling them to engage in income-
         generating activities and achieve financial independence.
@@ -527,24 +522,23 @@ const Sustainable1 = () => {
         families, prioritising women’s financial empowerment as
         a catalyst for breaking cycles of poverty and strengthening
         community resilience.
-        <br />
-        <br /></p>
+      </p>
       <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
+        <h1 className='text-xl text-[#252f80] font-semibold'>
           Participation in Government Schemes
         </h1>
-        <div className='mb-2'>
+        <p className='mb-3'>
           Our Bank actively participates in various government initiatives
           such as opening accounts under Jandhan scheme, facilitating
           uptake of insurance, pension and lending schemes. During FY
           2024-25, we undertook the following key initiatives:
-        </div>
+        </p>
 
         <div className="border border-dotted border-red-500 p-4 rounded-xl mb-3">
           <h3 className="font-semibold text-red-600 mb-2 underline underline-offset-2">
             PM Street Vendor’s Atma Nirbhar Nidhi (PMSVANIDHI):
           </h3>
-          <p className="">
+          <p className="mb-3">
             Our bank actively participated in PMSVANIDHI scheme,
             by providing collateral free working capital loan for street
             vendors. As on 31st March, 2025, the Bank disbursed over 18,000
@@ -555,7 +549,7 @@ const Sustainable1 = () => {
           <h3 className="font-semibold text-red-600 mb-2 underline underline-offset-2">
             Pradhan Mantri Mudra Yojana (PMMY) Scheme:
           </h3>
-          <p className="">
+          <p className="mb-3">
             Our Bank, through Kotak Saarthi, opened over 2.32 lakh
             accounts under PMJDY, a National Mission for financial inclusion
             to ensure access to financial services, through a basic savings
@@ -566,7 +560,7 @@ const Sustainable1 = () => {
           <h3 className="font-semibold text-red-600 mb-2 underline underline-offset-2">
             Atal Pension Yojana (APY) scheme:
           </h3>
-          <p className="">
+          <p className="mb-3">
             The scheme aims to provide financial stability to the
             unorganised sector after retirement with pension amount of
             ₹ 1,000 to ₹ 5,000 per month. As on 31st March, 2025, we had a
@@ -581,7 +575,7 @@ const Sustainable1 = () => {
               <h3 className="font-semibold text-red-600 mb-2 underline underline-offset-2">
                 Pradhan Mantri Mudra Yojana (PMMY) Scheme:
               </h3>
-              <p className="">
+              <p className="mb-3">
                 The Bank disbursed over ₹ 3,000 crore under the PMMY Scheme,
                 which focuses on income generation and employment creation
                 in manufacturing, services, retail and agri-allied activities.
@@ -591,7 +585,7 @@ const Sustainable1 = () => {
               <h3 className="font-semibold text-red-600 mb-2 underline underline-offset-2">
                 Stand up India:
               </h3>
-              <p className="">
+              <p className="mb-3">
                 The Bank actively participated in Stand up India, a government-
                 driven lending scheme for providing entrepreneurship
                 support to Schedule Caste, Schedule Tribe and women
@@ -609,7 +603,7 @@ const Sustainable1 = () => {
       <div className='mb-10 md:flex gap-5'>
         <div className='md:w-[70%]'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Financial literacy</h1>
-          <p className='mb-2'>
+          <p className='mb-3'>
             Financial literacy is a cornerstone of meaningful financial
             inclusion, empowering individuals to make informed decisions
             and fully benefit from formal banking services. In FY 2024–25,
@@ -623,7 +617,7 @@ const Sustainable1 = () => {
             reflect our ongoing efforts to build a financially aware and
             empowered customer base.
           </p>
-          <p className='mb-2'>
+          <p className='mb-3'>
             Sonata provides comprehensive training programmes at the
             time of loan disbursement, covering essential topics such
             as the significance of financial discipline, cultivating saving
@@ -643,12 +637,12 @@ const Sustainable1 = () => {
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
-        <div className='md:w-[45%]'>
+        <div className='md:w-[30%]'>
           <img src="/Sustainability/Sustainability12.webp" alt="" />
         </div>
-        <div className='md:w-[55%]'>
+        <div className='md:w-[60%] mx-auto'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Priority Sector Lending</h1>
-          <p className='mb-2'>
+          <p className='mb-3'>
             We view Priority Sector Lending (PSL) as a strategic lever to
             advance financial inclusion and support key segments of
             India’s economy. Our approach is rooted in the belief that PSL
@@ -656,7 +650,7 @@ const Sustainable1 = () => {
             communities and sectors that are fundamental to the nation’s
             socio-economic fabric.
           </p>
-          <p className='mb-2'>
+          <p className='mb-3'>
             In FY 2024-25, the Bank achieved an annual average PSL
             contribution of 45.09% of the applicable Adjusted Net
             Bank Credit (ANBC), including the purchase and sale of PSL
@@ -679,7 +673,7 @@ const Sustainable1 = () => {
         </h1>
         <div className='md:flex gap-5'>
           <div className='md:w-[70%]'>
-            <p className='mb-2'>
+            <p className='mb-3'>
               We recognise the growing threat of climate change and its far-
               reaching implications for our planet and society. We are committed
               to proactively addressing this challenge through integrating
@@ -695,23 +689,20 @@ const Sustainable1 = () => {
               friendly initiatives have been introduced over the years across
               our corporate offices, branches and ATM network to minimise our
               carbon footprint.
-              <br />
-              <br />
+            </p>
+            <p className='mb-3'>
               Our approach to minimising our operational environmental
               footprint is built on four key pillars, which are designed to reduce
               our impact on the environment. Some of our key corporate offices
               serve as common premises with the subsidiaries. Therefore, the data
               from these premises includes data from the subsidiaries.
-              <br />
-              <br />
-
             </p>
           </div>
           <div className='p-4 bg-gray-100 md:w-[30%] my-auto rounded-3xl'>
             <img className='' src="/Sustainability/Sustainability14.webp" alt="" />
           </div>
         </div>
-        <p className='mb-2'>
+        <p className='mb-3'>
           We have 16 key corporate office premises that hold LEED/IGBC
           certifications. Seven additional premises are currently undergoing
           the certification process, targeted for completion in FY 2025-26. These
@@ -719,10 +710,8 @@ const Sustainable1 = () => {
           healthier indoor environments, which is crucial for employee well-
           being. About 25% of the Bank’s full time employees operate from
           these certified premises.
-          <br />
-          <br />
         </p>
-        <p className='mb-2'>
+        <p className='mb-3'>
           Over FY 2024-25, we have refined our data collection
           methodologies, enabling us to provide more accurate reporting
           on key environmental metrics. We remain committed to exploring
@@ -733,7 +722,7 @@ const Sustainable1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-2xl text-[#ed2133] mb-3 font-semibold'>Energy Management</h1>
-        <p className='mb-2'>
+        <p className='mb-3'>
           Our corporate offices, branches, offsite ATMs and subsidiary
           premises are primarily powered by electricity sourced from the
           grid. In instances of power disruptions, diesel-powered generators
@@ -742,8 +731,8 @@ const Sustainable1 = () => {
           energy requirements. The energy consumption for the Group for
           FY 2024-25 was primarily from grid electricity. We sourced 5,28,347
           GJ from the grid and 19,352 GJ <sup>2</sup> from diesel-powered generators.
-          <br />
-          <br />
+        </p>
+        <p className='mb-3'>
           The reporting boundary for electricity covers 220 corporate offices,
           2,151 <sup>#</sup> bank branches, 924 offsite ATMs which are managed by
           the Bank and 2,192<sup>**</sup> premises managed by the subsidiaries.
@@ -752,8 +741,8 @@ const Sustainable1 = () => {
           corporate offices. Bank’s energy intensity for FY 2024-25 was 7.01
           GJ/₹crore revenue <sup>3</sup>, which has decreased from 8.58 GJ/₹crore
           revenue for FY 2023-24.
-          <br />
-          <br />
+        </p>
+        <p className='mb-3'>
           We regularly carry out evaluation of energy consumption and
           resource utilisation across major premises to find avenues for
           conservation. During FY 2024-25, a comprehensive energy audit
@@ -761,8 +750,8 @@ const Sustainable1 = () => {
           collaboration with experts from the Indian Institute of Technology
           (IIT) Mumbai, providing valuable insights into our current energy
           usage patterns, trends and areas for improvement.
-          <br />
-          <br />
+        </p>
+        <p className='mb-3'>
           Targeted initiatives are implemented, aimed at optimising energy
           consumption and reducing emissions from our operations. Over
           the past few years, we had completely transitioned to using
@@ -786,7 +775,7 @@ const Sustainable1 = () => {
         <h1 className='font-bold text-black'>
           Group’s Electricity Consumption - MWh
         </h1>
-        <div className='mb-5 md:w-[60%]'>
+        <div className='mb-5 md:w-[60%] mx-auto bg-gray-50 rounded-3xl p-4'>
           <img src="/Sustainability/Sustainability15.webp" alt="" />
         </div>
         <div className="bg-white p-6 rounded-md shadow-sm mb-5">
@@ -898,7 +887,7 @@ const Sustainable1 = () => {
           <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
             Green House Gas (GHG) Emissions
           </h1>
-          <div className='mb-2'>
+          <p className='mb-3'>
             The GHG emissions reporting boundary includes premises
             under our operational control, encompassing offices, branches
             and ATMs. To accurately assess our emissions, we utilise actual
@@ -909,7 +898,7 @@ const Sustainable1 = () => {
             reporting is in-line with the GHG Protocol and Intergovernmental
             Panel on Climate Change methodologies to ensure accuracy,
             consistency and compliance with global standards.
-          </div>
+          </p>
         </div>
         <div className='mb-5'>
           <div className="flex items-center border border-red-500 rounded-full w-fit overflow-hidden mb-3">
@@ -921,7 +910,7 @@ const Sustainable1 = () => {
             {/* Right empty half (just spacing) */}
             <div className="md:px-50 py-1"></div>
           </div>
-          <div className='mb-5'>
+          <p className='mb-3'>
             Scope 1 emissions from Bank managed premises, includes
             corporate offices, branches and offsite ATMs and emissions from
             subsidiary premises. The Scope 1 emissions<sup>7</sup> encompass diesel
@@ -941,8 +930,8 @@ const Sustainable1 = () => {
             while fire extinguishers were replaced either on usage or expiry,
             which can be from 1 to 5 years, as a result of which emissions
             vary significantly year to year.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             We track performance over multiple years to understand
             emission trends. The scope of reporting was broadened for
             FY 2024-25 to include 13 new corporate offices, 201 additional
@@ -951,12 +940,12 @@ const Sustainable1 = () => {
             evaluation of our environmental footprint. Please refer BRSR
             Principle 6 Essential Indicator 7 page 491 for details of Scope 1
             emissions for the Bank.
-          </div>
+          </p>
           <div className='mb-5'>
             <h1 className='font-bold text-black mb-2'>
               Group’s Scope 1 Emissions - tCO2e
             </h1>
-            <div className='mb-5 md:w-[60%]'>
+            <div className='mb-5 md:w-[60%] mx-auto bg-gray-50 p-2 rounded-2xl'>
               <img src="/Sustainability/Sustainability17.webp" alt="" />
             </div>
           </div>
@@ -1050,7 +1039,7 @@ const Sustainable1 = () => {
             <div className="md:px-50 py-1"></div>
           </div>
           <div className='mb-4'>
-            <p className='mb-2'>
+            <p className='mb-3'>
               Our Scope 2 emissions encompass those generated from grid
               electricity, diesel consumption from third party managed
               generators which power Kotak premises and electricity
@@ -1068,13 +1057,13 @@ const Sustainable1 = () => {
               fuelled generators managed by lessors of select premises and
               emissions generated from solar rooftop related energy intake.
             </p>
-            <p className='mb-2'>
+            <p className='mb-3'>
               In FY 2023-24, we had expanded the reporting boundary for
               Scope 2 to include electricity consumption-related emissions
               from offsite ATMs. We retained the same methodology for FY
               2024-25 as well. For financial years prior to FY 2023-24, these
               emissions were reported under the ‘Upstream Leased Assets’
-              subcategory of Scope 3. As of FY 2024-25, our total Scope 2
+              sub-category of Scope 3. As of FY 2024-25, our total Scope 2
               emissions from purchased electricity for corporate offices,
               branches, independently managed subsidiary premises as well
               as ATMs operated by the Bank, stand at 1,01,643 tCO<sub>2</sub>e <sup>10</sup>. In FY
@@ -1086,7 +1075,7 @@ const Sustainable1 = () => {
               accounted previously. The total Scope 1 and Scope 2 emissions
               for the Group was 1,17,152 tCO<sub>2</sub>e.
             </p>
-            <p className='mb-2'>
+            <p className='mb-3'>
               Since FY 2023-24, emissions from third party managed offsite
               ATMs are being reported under the ‘Purchased Goods and
               Services’ subcategory of Scope 3, which continued in FY 2024-25.
@@ -1097,7 +1086,8 @@ const Sustainable1 = () => {
           <h1 className='font-bold text-black mb-2'>
             Group’s Scope 1 and 2 emissions - tCO2e
           </h1>
-          <div className=' md:w-[60%]'>
+          <div className=' md:w-[60%] mx-auto bg-gray-50 p-2 rounded-2xl
+'>
             <img src="/Sustainability/Sustainability18.webp" alt="" />
           </div>
         </div>
@@ -1162,7 +1152,7 @@ const Sustainable1 = () => {
           {/* Right empty half (just spacing) */}
           <div className="md:px-50 md:py-1"></div>
         </div>
-        <div className='mb-4'>
+        <p className='mb-3'>
           The emission intensity per FTE for the Group was 1.02, while for
           the Bank it was 1.35. As the Group embraced automation and
           increased the use of technology, the energy requirements were
@@ -1174,32 +1164,32 @@ const Sustainable1 = () => {
           decreased to 1.10 in FY 2024-25 from 1.20 in FY 2023-24. Refer
           BRSR Principle 6 Essential Indicator 7, page 491 for more details
           on GHG Emission intensity information related to the Bank.
-        </div>
+        </p>
         <div className='mb-5'>
           <h1 className='font-bold text-black mb-2'>Bank’s Emission Intensity per crore revenue (tCO<sub>2</sub>e/J crore)</h1>
-          <div className='md:w-[70%]'>
+          <div className='md:w-[70%] mx-auto bg-gray-50 p-2 rounded-2xl'>
             <img src="/Sustainability/Sustainability19.webp" alt="" />
           </div>
         </div>
         <div className='mb-5'>
           <h1 className='font-bold text-black mb-2'>Bank’s Emisson Intensity per FTE (tCO2e/FTE)</h1>
-          <div className='md:w-[70%]'>
+          <div className='md:w-[70%] mx-auto bg-gray-50 p-2 rounded-2xl'>
             <img src="/Sustainability/Sustainability20.webp" alt="" />
           </div>
         </div>
         <div className='mb-5'>
           <h1 className='font-bold text-black mb-2'>Group Emission Intensity per crore of revenue (tCO₂e/J crore)</h1>
-          <div className='md:w-[70%]'>
+          <div className='md:w-[70%] mx-auto bg-gray-50 p-2 rounded-2xl'>
             <img src="/Sustainability/Sustainability21.webp" alt="" />
           </div>
         </div>
         <div className='mb-3'>
           <h1 className='font-bold text-black mb-2'>Group’s Emission Intensity per FTE (tCO2e/FTE)</h1>
-          <div className='md:w-[70%]'>
+          <div className='md:w-[70%] mx-auto bg-gray-50 p-2 rounded-2xl'>
             <img src="/Sustainability/Sustainability22.webp" alt="" />
           </div>
         </div>
-        <div className='mb-5'>
+        <p className='mb-3'>
           In FY 2022-23, we conducted a comprehensive scenario
           analysis to project our Scope 1 and Scope 2 emissions over
           short, medium and long-term horizons. This exercise enabled
@@ -1211,19 +1201,19 @@ const Sustainable1 = () => {
           made investments in solar power infrastructure, installing
           a total capacity of 102 KVA rooftop solar systems across
           five owned premises.
-        </div>
+        </p>
 
         <div className='mb-5'>
           <div className="flex items-center border border-red-500 rounded-full w-fit overflow-hidden mb-3">
             {/* Left red half */}
-            <div className="bg-[#e30613] text-white px-4 py-1 font-semibold  rounded-l-full">
+            <div className="bg-[#e30613] text-white px-4 py-1 font-semibold  rounded-full">
               Scope 3<sup className="  ml-[1px]">12</sup>
             </div>
 
             {/* Right empty half (just spacing) */}
             <div className="md:px-50 md:py-1"></div>
           </div>
-          <div className='mb-5'>
+          <p className='mb-3'>
             We report Scope 3 emissions across six key categories: capital
             goods, fuel and energy-related emissions, purchased goods
             and services, business travel, employee commute and waste.
@@ -1239,7 +1229,7 @@ const Sustainable1 = () => {
             understanding of opportunities for reduction. Refer BRSR Principle
             6 Leadership Indicator 2, page 495 for more details on Scope 3
             emissions of the Bank.
-          </div>
+          </p>
           <div className='md:flex gap-5'>
             <div className='md:w-[65%]'>
               <img src="/Sustainability/Sustainability23.webp" alt="" />
@@ -1254,37 +1244,41 @@ const Sustainable1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#252f80]'>
+        <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
           Scope 3 categories explained
         </h1>
         <CategorySlider />
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl mb-2 text-[#ed2133]'>Effective Water Management</h1>
+        <h1 className='text-xl mb-2 text-[#ed2133] font-semibold'>Effective Water Management</h1>
         <div className='md:flex gap-5 mb-2'>
-          <div className='md:w-[60%]'>Given India’s vulnerability to water scarcity, we place significant
-            emphasis on prudent water management. To address this
-            challenge, we have implemented various measures to optimise
-            water usage and reduce our environmental footprint. Municipal
-            corporations and tanker services were our primary source<sup>14 </sup>
-            of water in urban areas and the majority of water usage was
-            for human consumption and washrooms. Our approach
-            for estimating water usage aligns with the ‘Indian Standard
-            1172: Code of Basic Requirements for Water Supply, Drainage
-            and Sanitation (1993)’. We estimated water usage at our key
-            corporate offices wherever actual data was not available.
-            This estimation was based on employee count and average
-            number of working days in FY 2024-25, considering daily
-            consumption rate of 45 litres per person/day as recommended
-            in the SEBI’s latest circular on Sustainable Reporting for BRSR
-            Core. In addition to our efforts to optimise water usage, we also
-            implemented measures to manage wastewater discharge in a
-            responsible manner.</div>
+          <div className='md:w-[60%]'>
+            <p className='mb-3'>
+              Given India’s vulnerability to water scarcity, we place significant
+              emphasis on prudent water management. To address this
+              challenge, we have implemented various measures to optimise
+              water usage and reduce our environmental footprint. Municipal
+              corporations and tanker services were our primary source<sup>14 </sup>
+              of water in urban areas and the majority of water usage was
+              for human consumption and washrooms. Our approach
+              for estimating water usage aligns with the ‘Indian Standard
+              1172: Code of Basic Requirements for Water Supply, Drainage
+              and Sanitation (1993)’. We estimated water usage at our key
+              corporate offices wherever actual data was not available.
+              This estimation was based on employee count and average
+              number of working days in FY 2024-25, considering daily
+              consumption rate of 45 litres per person/day as recommended
+              in the SEBI’s latest circular on Sustainable Reporting for BRSR
+              Core. In addition to our efforts to optimise water usage, we also
+              implemented measures to manage wastewater discharge in a
+              responsible manner.
+            </p>
+          </div>
           <div className='md:w-[35%] p-4 bg-gray-100 rounded-3xl'>
             <img src="/Sustainability/Sustainability26.webp" alt="" />
           </div>
         </div>
-        <p className='mb-2'>
+        <p className='mb-3'>
           Three of our key corporate offices are Zero Liquid Discharge <sup>15</sup>
           (ZLD) premises, with sewage treatment plants (STPs) enabling
           treatment and reuse of wastewater, thereby eliminating <sup>16</sup>
@@ -1313,7 +1307,7 @@ const Sustainable1 = () => {
         <div className='text-sm text-gray-700 mb-3 border-t-1 pt-1'>
           <sup>14</sup>GRI 303-1 | <sup>15</sup>GRI 303-1 | <sup>16</sup>GRI 303-2 | <sup>17</sup>GRI 303-2 | <sup>18</sup>GRI 303-3
         </div>
-        <p className=''>
+        <p className='mb-3'>
           We have installed low-flow plumbing fixtures, which enable
           efficient use of water without compromising functionality or
           user experience. Additionally, we promote a culture of water
@@ -1331,27 +1325,31 @@ const Sustainable1 = () => {
       <div className='mb-5'>
         <h1 className='text-xl mb-2 text-[#ed2133] font-semibold'>Waste Management <sup>21</sup></h1>
         <div className='md:flex gap-5 mb-2'>
-          <div className='md:w-[50%]'>We prioritised sustainable practices across all our premises, with
-            a focus on efficient waste management. Our efforts concentrate
-            on critical areas such as electronic waste (e-waste), battery
-            waste, office supplies (including paper and stationery items),
-            and organic waste generated from our canteens. Although
-            certain categories like construction waste, plastic waste, scrap
-            metal, wood and glass may not be directly applicable to the
-            financial services sector, we acknowledge the importance of
-            their safe disposal and are committed to minimising them
-            wherever feasible. To ensure effective waste segregation, we
-            have dedicated collection facilities for both dry and wet waste.
-            Through partnerships with authorised vendors, we ensured
-            responsible disposal of e-waste, battery waste, hazardous
-            materials, used oil generated from generator set maintenance
-            and sludge generated from sewage treatment plants (STPs) and
-            other types of wastes.</div>
+          <div className='md:w-[50%]'>
+            <p className='mb-3'>
+              We prioritised sustainable practices across all our premises, with
+              a focus on efficient waste management. Our efforts concentrate
+              on critical areas such as electronic waste (e-waste), battery
+              waste, office supplies (including paper and stationery items),
+              and organic waste generated from our canteens. Although
+              certain categories like construction waste, plastic waste, scrap
+              metal, wood and glass may not be directly applicable to the
+              financial services sector, we acknowledge the importance of
+              their safe disposal and are committed to minimising them
+              wherever feasible. To ensure effective waste segregation, we
+              have dedicated collection facilities for both dry and wet waste.
+              Through partnerships with authorised vendors, we ensured
+              responsible disposal of e-waste, battery waste, hazardous
+              materials, used oil generated from generator set maintenance
+              and sludge generated from sewage treatment plants (STPs) and
+              other types of wastes.
+            </p>
+          </div>
           <div className='md:w-[50%] p-4 bg-gray-100 my-auto'>
             <img src="/Sustainability/Sustainability25.webp" alt="" />
           </div>
         </div>
-        <p className='mb-2'>
+        <p className='mb-3'>
           We have organic waste converters (OWCs) at six corporate
           office premises that process food waste into nutrient-rich
           manure, which was utilised for landscaping and beautification
@@ -1364,12 +1362,12 @@ const Sustainable1 = () => {
           was minimal and it was disposed through authorised vendors to
           ensure safe disposal.<sup>24</sup>
         </p>
-        <p className=''>
+        <p className='mb-3'>
           The overall waste generation was 1,536.8 metric tonnes <sup>22</sup> across
           our key corporate offices for FY 2024-25. Of this, about 735 metric
           tonnes <sup>22</sup> of the generated waste was either reused or recycled.
           The hazardous waste, including used oil, e-waste, and batteries,
-          amounted to 72.8 metric tonnes and was recycled through authorised vendors, except bio-medical waste which was incinerated.
+          amoun ted to 72.8 metric tonnes and was recycled through authorised vendors, except bio-medical waste which was incinerated.
           Additionally, 250.4 metric tonnes of non-hazardous organic
           waste (food) was composted through onsite OWCs and authorised
           vendors, while 411.7 metric tonnes of non-hazardous waste like plastic, paper, and metal was recycled through authorised vendors.
@@ -1397,14 +1395,14 @@ const Sustainable1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>Methodology for Waste Calculation</h1>
-        <div className='mb-3'>
+        <p className='mb-3'>
           In FY 2023-24, the data for various categories of waste was primarily reported for select corporate offices and bank branches based on
           available actual recorded data and associated estimation. In line with evolving sustainability reporting standards, we have adopted
           an updated methodology and revised the estimation methodology in FY 2024-25 to provide more comprehensive and accurate
           information. In FY 2024-25, Kotak expanded its waste management coverage to include sanitary waste and STP sludge. This expansion
           contributed to an increase in our total waste disposal figures. Details of the waste categories, scope and boundary and methodology
           for calculation are mentioned below <sup>28</sup>:
-        </div>
+        </p>
         <WasteSlider />
       </div>
       <p className='mb-5 text-sm text-gray-700'>
@@ -1413,29 +1411,31 @@ const Sustainable1 = () => {
       <div className='mb-5'>
         <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>Waste Management Initiatives at
           Kotak Mahindra Bank</h1>
-        <p className='mb-2'>
+        <p className='mb-3'>
           The Bank is committed to minimising its environmental footprint while promoting sustainable practices in all aspects of its
           operations. Some of the waste management initiatives undertaken include:
         </p>
         <ManagementCard />
         <div className='border-1 border-[#ed2133] rounded-xl p-4 mt-5'>
-          These initiatives contribute towards our overall sustainability goals and demonstrate our commitment to reducing our ecological
-          footprint while promoting a culture of environmental responsibility within Kotak.
+          <p className='mb-3'>
+            These initiatives contribute towards our overall sustainability goals and demonstrate our commitment to reducing our ecological
+            footprint while promoting a culture of environmental responsibility within Kotak.
+          </p>
         </div>
 
       </div >
       <div className='mb-5'>
         <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>Resource Management</h1>
         <div className='mb-5'>
-          <p className='mb-2'>
+          <p className='mb-3'>
             With a strong focus on responsible resource utilisation, we have
             undertaken initiatives aimed at reducing paper usage. In
             FY 2024-25, we successfully achieved a reduction of
             approximately 47 lakh A4 sheets through the implementation
             of duplex printing and the migration of physical bank account
             statements to electronic statements.
-            <br />
-            <br />
+          </p>
+          <p className='mb-3'>
             In FY 2024-25, we adopted an initiative to utilise recycled
             paper, which was implemented at select key corporate offices,
             resulting in a total savings of about 7.6 tons of virgin paper
@@ -1449,15 +1449,13 @@ const Sustainable1 = () => {
             in the number of physical registers maintained at branches.
             These efforts aim to further reduce paper consumption and
             contribute to a more sustainable business practice within Kotak.
-            <br />
-            <br />
           </p>
           <div className='flex md:flex-row flex-col gap-5 mb-5'>
-            <div>
-              <img src="" alt="" />
+            <div className='md:w-1/2'>
+              <img src="\Safeguarding_Stakeholder\IMG-96.png" alt="" className='rounded-3xl' />
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className='md:w-1/2'>
+              <img src="\Safeguarding_Stakeholder\IMG-97.png" alt="" className='rounded-3xl' />
             </div>
           </div>
           <div>
@@ -1498,7 +1496,7 @@ const Sustainable1 = () => {
             </div>
 
           </div>
-          <div>
+          <p className='mb-3'>
             We are committed to implementing our comprehensive
             ESG Policy Framework across various sustainability-focused
             initiatives, with an aim to drive significant positive impact. We
@@ -1514,7 +1512,7 @@ const Sustainable1 = () => {
             practices, ultimately contributing to long-term value creation
             for our stakeholders as we work towards minimising our
             environmental footprint.
-          </div>
+          </p>
         </div>
       </div>
     </div>

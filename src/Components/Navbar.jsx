@@ -18,10 +18,11 @@ const navItems = [
                     { label: "Technology", link: "/our-enablers/technology" },
                     { label: "Digital Powerhouse", link: "/our-enablers/digital-powerhouse" },
                     { label: "Talent", link: "/our-enablers/talent" },
-                    { label: "Key Performance Indicators", link: "/our-enablers/key-performance-indicators" },
-                    { label: "Stakeholder Engagement and Materiality Assessment", link: "/our-enablers/stakeholder-engagement" }
+
                 ]
             },
+            { label: "Key Performance Indicators", link: "/our-enablers/key-performance-indicators" },
+            { label: "Stakeholder Engagement and Materiality Assessment", link: "/our-enablers/stakeholder-engagement" },
             { label: "Strategy", link: "/strategy" },
             { label: "Value Creation Model", link: "/value-creation-model" },
             { label: "Awards and Accolades", link: "/awards-and-accolades" }
@@ -196,10 +197,10 @@ const Navbar = () => {
 
     // Desktop submenu renderer with nested support and smart positioning
     const renderDesktopSubmenu = (items, level = 0) => {
-        const baseClasses = level === 0 
-            ? 'top-full left-0' 
+        const baseClasses = level === 0
+            ? 'top-full left-0'
             : 'top-0 left-full submenu-nested';
-        
+
         return (
             <div className={`absolute ${baseClasses} bg-[#222] mt-2 py-3 px-4 rounded shadow-lg w-64 z-[60]`}>
                 {items.map((sub) => (
@@ -282,7 +283,7 @@ const Navbar = () => {
                                 )}
                             </Link>
 
-                            {item.submenu && active === item.label && 
+                            {item.submenu && active === item.label &&
                                 renderDesktopSubmenu(item.submenu)
                             }
                         </div>

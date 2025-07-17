@@ -149,7 +149,7 @@ const Safeguarding1 = () => {
       <h1 className="text-3xl font-bold text-[#ed1c2f]">
         Safeguarding stakeholder interests
       </h1>
-      <div className='mb-10 mt-10 text-xl'>
+      <div className='mb-5 mt-5 text-xl'>
         We consider risk management as a cornerstone of strategic planning and a core competence.
         Ensuring sound management of risks through timely identification, assessment and
         management is of utmost importance to us. Risk Management is integral to our operations and
@@ -185,7 +185,7 @@ const Safeguarding1 = () => {
       </div>
       <div className='mt-5 mb-5'>
         <div className=''>
-          <img src="./SafeguardingStakeholders/Safeguarding1.webp" alt="" />
+          <img src="/SafeguardingStakeholders/Safeguarding1.webp" alt="" />
         </div>
         <div className='md:flex gap-5'>
 
@@ -401,7 +401,7 @@ const Safeguarding1 = () => {
         </div>
         <div className='mb-5'>
           <p className='mb-2'>Technology risks can be further detailed into two below domains i.e. core technology risks and risks associated with
-emerging technologies.</p>
+            emerging technologies.</p>
           <div className='mb-6'>
             <h1 className='font-bold text-black mb-2'>Core Technology risks</h1>
             <RiskTable risks={coreData} />
@@ -431,17 +431,17 @@ emerging technologies.</p>
             <img src="/Safeguarding_Stakeholder/Safeguarding20.webp" alt="" />
           </div>
         </div>
-        <Cyber/>
-        <div className='mb-4'>
+        <Cyber />
+        <div className='mb-4 mt-5'>
           <div className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-full w-fit font-semibold mb-2">
             <div className="bg-[#2c2d83] w-6 h-6 rounded-full flex items-center justify-center text-sm">
               C
             </div>
-            ESG Risk & Climate Risk
+            ESG Risk & Climate Risk<sup>1</sup>
           </div>
           <div className='md:flex gap-5'>
-            <div className='md:w-[25%]'>
-              <img src="/Safeguarding_Stakeholder/Safeguarding21.webp" alt="" />
+            <div className='md:w-[35%]'>
+              <img src="\Safeguarding_Stakeholder\IMG-76.png" alt="" className='rounded-3xl' />
             </div>
             <div className='md:w-[85%]'>
               <p className='mb-2'>
@@ -490,11 +490,11 @@ emerging technologies.</p>
           <div className="bg-[#f8f8f8] p-5 rounded-2xl border border-gray-200 shadow-sm ">
             <div className="flex items-start gap-4">
               {/* Icon */}
-              <div className="bg-red-600 p-2 rounded-full shrink-0 -mt-2 ">
+              <div className=" rounded-full shrink-0 -mt-2 ">
                 <img
                   src="/Safeguarding_Stakeholder/Safeguarding24.webp" // 🔁 Update path to your actual icon
                   alt="Climate Risk Icon"
-                  className="w-10 h-10"
+                  className="w-15 h-15"
                 />
               </div>
 
@@ -524,11 +524,11 @@ emerging technologies.</p>
           <div className="bg-[#f8f8f8] p-5 rounded-2xl border border-gray-200 shadow-sm ">
             <div className="flex items-start gap-4">
               {/* Icon */}
-              <div className="bg-red-600 p-2 rounded-full shrink-0 -mt-2 ">
+              <div className="rounded-full shrink-0 -mt-2 ">
                 <img
                   src="/Safeguarding_Stakeholder/Safeguarding25.webp" // 🔁 Update path to your actual icon
                   alt="Climate Risk Icon"
-                  className="w-10 h-10"
+                  className="w-15 h-15"
                 />
               </div>
 

@@ -1,8 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const categories = [
   {
@@ -31,40 +27,22 @@ const categories = [
   },
 ];
 
-const CategorySlider = () => {
+const CategoryDisplay = () => {
   return (
     <div className="w-full bg-white px-4 py-3">
-      <Swiper
-        loop={true}
-        spaceBetween={20}
-        slidesPerView={1}
-        autoplay={{
-          delay: 1,
-          disableOnInteraction: false,
-        }}
-        speed={6000}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-        modules={[Autoplay, Pagination]}
-        className="pb-12" // padding bottom for dots
-      >
+      <div className="grid grid-cols-1 gap-5">
         {categories.map((item, index) => (
-          <SwiperSlide key={index}>
-            <div className="bg-[#fefefe] text-black h-[550px] border border-red-500 p-4 rounded-[20px] shadow-sm flex flex-col justify-start">
-              <h4 className="font-bold mb-2">{item.title}</h4>
-              <p className="">{item.text}</p>
-            </div>
-          </SwiperSlide>
+          <div
+            key={index}
+            className="bg-[#fefefe] text-black border border-red-500 p-4 rounded-[20px] shadow-sm flex flex-col justify-start"
+          >
+            <h4 className="font-bold mb-2">{item.title}</h4>
+            <p className="">{item.text}</p>
+          </div>
         ))}
-      </Swiper>
+      </div>
     </div>
   );
 };
 
-export default CategorySlider;
+export default CategoryDisplay;

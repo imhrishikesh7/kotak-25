@@ -27,6 +27,7 @@ import StrategyInner from './pages/StrategyInner';
 import SusSnapshots from './Components/Home/SusSnapshots';
 import VCModel from './Components/Home/VCModel';
 import Awards from './pages/Awards';
+import Community from './pages/Community';
 
 function App() {
   return (
@@ -66,6 +67,8 @@ function App() {
         <Route path="/analytics/transactions" element={<Carousel />} />
         <Route path="/analytics/reports" element={<Carousel />} />
         <Route path="/sustainability/embracing-sustainability" element={<Sustainable1 />} />
+        <Route path="/sustainability/community" element={<Community />} />
+        
 
 
         {/* Excellence */}

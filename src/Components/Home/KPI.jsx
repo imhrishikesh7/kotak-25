@@ -355,7 +355,7 @@ const KPI = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <div className="min-h-screen marginal bg-gray-50 p-6">
       {/* Header */}
       <div className="mb-8">
         <div className="flex space-x-4 mb-6">

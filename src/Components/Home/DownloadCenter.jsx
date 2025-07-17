@@ -20,6 +20,7 @@ const DownloadCenter = () => {
     {
       id: 1,
       title: "Independent Auditor's Report on Consolidated Financial Statements",
+      link: "./documents/Kotak AR 2024-25-Independent Auditor's Report on Consolidated Financial Statements.pdf",
       category: "financial",
       pages: 127,
       icon: <FiShield className="w-4 h-4" />
@@ -27,6 +28,7 @@ const DownloadCenter = () => {
     {
       id: 2,
       title: "Consolidated Financial Statements",
+      link: "./documents/Kotak AR 2024-25-Consolidated Financial Statements.pdf",
       category: "financial",
       pages: 140,
       icon: <FiBarChart2 className="w-4 h-4" />
@@ -35,6 +37,7 @@ const DownloadCenter = () => {
       id: 3,
       title: "Financial Information of Subsidiaries and Basel III (Pillar 3) Disclosures",
       category: "financial",
+      link: "./documents/Kotak AR 2024-25-Financial Information of Subsidiaries.pdf",
       pages: 201,
       icon: <FiHome className="w-4 h-4" />
     },
@@ -42,6 +45,7 @@ const DownloadCenter = () => {
       id: 4,
       title: "Independent Auditor's Report on Standalone Financial Statements",
       category: "financial",
+      link: "./documents/Kotak AR 2024-25-Independent Auditor's Report on Standalone Financial Statements.pdf",
       pages: 203,
       icon: <FiShield className="w-4 h-4" />
     },
@@ -49,6 +53,7 @@ const DownloadCenter = () => {
       id: 5,
       title: "Standalone Financial Statements",
       category: "financial",
+      link: "./documents/Kotak AR 2024-25-Standalone Financial Statements.pdf",
       pages: 210,
       icon: <FiBarChart2 className="w-4 h-4" />
     },
@@ -56,6 +61,7 @@ const DownloadCenter = () => {
       id: 6,
       title: "Directors' Report and Annexures",
       category: "statutory",
+      link: "./documents/Kotak AR 2024-25-Director's Report.pdf",
       pages: 296,
       icon: <FiUsers className="w-4 h-4" />
     },
@@ -63,6 +69,7 @@ const DownloadCenter = () => {
       id: 7,
       title: "Report on Corporate Governance",
       category: "statutory",
+      link: "./documents/Kotak AR 2024-25-Report on Corporate Governance.pdf",
       pages: 349,
       icon: <FiHome className="w-4 h-4" />
     },
@@ -70,6 +77,7 @@ const DownloadCenter = () => {
       id: 8,
       title: "Management's Discussion and Analysis",
       category: "statutory",
+      link: "./documents/Kotak AR 2024-25-Management's Discussion and Analysis.pdf",
       pages: 402,
       icon: <FiBarChart2 className="w-4 h-4" />
     },
@@ -77,6 +85,7 @@ const DownloadCenter = () => {
       id: 9,
       title: "Business Responsibility and Sustainability Report (BRSR)",
       category: "statutory",
+      link: ".public/documents/Kotak AR 2024-BRSR.pdf",
       pages: 456,
       icon: <FiFileText className="w-4 h-4" />
     },
@@ -84,6 +93,7 @@ const DownloadCenter = () => {
       id: 10,
       title: "ESG Data Tables",
       category: "annexures",
+      link:"./documents/Kotak AR 2024-25-ESG Data Tables.pdf",
       pages: 507,
       icon: <FiBarChart2 className="w-4 h-4" />
     },
@@ -91,6 +101,7 @@ const DownloadCenter = () => {
       id: 11,
       title: "GRI Content Index",
       category: "annexures",
+      link:"./documents/Kotak AR 2024-25-GRI Content Index.pdf",
       pages: 512,
       icon: <FiFileText className="w-4 h-4" />
     },
@@ -98,6 +109,7 @@ const DownloadCenter = () => {
       id: 12,
       title: "Assurance Statements",
       category: "annexures",
+      link:"./documents/Kotak AR 2024-25-Assurance Statements.pdf",
       pages: 514,
       icon: <FiShield className="w-4 h-4" />
     }
@@ -195,13 +207,15 @@ const DownloadCenter = () => {
                   </div>
                 </div>
               </div>
-              <button
+              <a
+                href={document.link}
+                target='_blank'
                 onClick={() => handleDownload(document)}
                 className="bg-blue-900 text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap flex-shrink-0"
               >
                 <FiDownload className="w-4 h-4" />
                 Download
-              </button>
+              </a>
             </div>
           </div>
         ))}

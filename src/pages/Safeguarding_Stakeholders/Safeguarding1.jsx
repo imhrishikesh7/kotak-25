@@ -437,11 +437,11 @@ const Safeguarding1 = () => {
             <div className="bg-[#2c2d83] w-6 h-6 rounded-full flex items-center justify-center text-sm">
               C
             </div>
-            ESG Risk & Climate Risk
+            ESG Risk & Climate Risk<sup>1</sup>
           </div>
           <div className='md:flex gap-5'>
-            <div className='md:w-[25%]'>
-              <img src="/Safeguarding_Stakeholder/Safeguarding21.webp" alt="" />
+            <div className='md:w-[35%]'>
+              <img src="\Safeguarding_Stakeholder\IMG-76.png" alt="" className='rounded-3xl' />
             </div>
             <div className='md:w-[85%]'>
               <p className='mb-2'>
@@ -490,11 +490,11 @@ const Safeguarding1 = () => {
           <div className="bg-[#f8f8f8] p-5 rounded-2xl border border-gray-200 shadow-sm ">
             <div className="flex items-start gap-4">
               {/* Icon */}
-              <div className="bg-red-600 p-2 rounded-full shrink-0 -mt-2 ">
+              <div className=" rounded-full shrink-0 -mt-2 ">
                 <img
                   src="/Safeguarding_Stakeholder/Safeguarding24.webp" // 🔁 Update path to your actual icon
                   alt="Climate Risk Icon"
-                  className="w-10 h-10"
+                  className="w-15 h-15"
                 />
               </div>
 
@@ -524,11 +524,11 @@ const Safeguarding1 = () => {
           <div className="bg-[#f8f8f8] p-5 rounded-2xl border border-gray-200 shadow-sm ">
             <div className="flex items-start gap-4">
               {/* Icon */}
-              <div className="bg-red-600 p-2 rounded-full shrink-0 -mt-2 ">
+              <div className="rounded-full shrink-0 -mt-2 ">
                 <img
                   src="/Safeguarding_Stakeholder/Safeguarding25.webp" // 🔁 Update path to your actual icon
                   alt="Climate Risk Icon"
-                  className="w-10 h-10"
+                  className="w-15 h-15"
                 />
               </div>
 

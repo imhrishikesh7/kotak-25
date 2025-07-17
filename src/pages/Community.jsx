@@ -292,17 +292,68 @@ const Community = () => {
 
 
       <div className='flex md:flex-row flex-col mt-10 gap-5'>
-        <div className='md:w-1/2'>
+        <div>
+          <div className='max-w-2xl mx-auto'>
+            <div className='mx-auto mb-13'>
           <img src="\Community\IMG-114.png" alt="" />
+
+          </div>
+            <div className="bg-[#eaf6ff] rounded-2xl p-6 ">
+              <div className="w-fit mb-4">
+                <div className="absolute translate-y-[-90%] rounded-full">
+                  <img
+                    src="\Community\IMG-1-116.png"
+                    alt="Icon"
+                    className="w-15 h-15"
+                  />
+                </div>
+              </div>
+              <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Climate Resilience</h2>
+
+              <ul className='mb-3 space-y-3'>
+                <li className="text-red-500">✦ <span className="text-black">11,000+ farmers and households in water
+                  stressed regions supported</span></li>
+                <li className="text-red-500">✦ <span className="text-black">16 lakh+ KL water harvesting capacity created and
+                  9,500+ acres of land positively impacted</span></li>
+              </ul>
+
+              <div className="  space-y-3 mb-4">
+                <p>
+                  We work towards ensuring water security and better crop yield through soil and water conservation measures
+                  that include building and reviving water harvesting structures and de-siltation of traditional water tanks.
+                  The structural barriers and conservation measures that we have supported are expected to reduce water stress
+                  over a period of time.
+                </p>
+                <p>
+                  Our efforts in natural resource management and ecosystem restoration were complemented by our demand-side
+                  interventions with farmers. We supported trainings on yield increase, reduction in input cost and integrating
+                  micro-irrigation practices. Further, income diversification efforts are expected to significantly improve
+                  farmer incomes. We also support policy-influencing research on farming practices, high-value crops, farm
+                  produce and value chains for improving farmer income capabilities.
+                </p>
+              </div>
+
+              <div className="rounded-xl overflow-hidden">
+                <img
+                  src="\Community\IMG-2-116.png"
+                  alt="Water Conservation"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div className='md:w-1/2'>
           <div className='mt-10'>
             <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto">
               {/* Header with Icon */}
               <div className="w-fit mb-4">
-                <div className="bg-red-500 p-2 absolute translate-y-[-90%] rounded-full">
+                <div className=" absolute translate-y-[-90%] rounded-full">
                   <img
-                    src="/icons/smile-icon-white.png"
+                    src="\Community\IMG-2-117.png"
                     alt="Icon"
-                    className="w-10 h-10"
+                    className="w-15 h-15"
                   />
                 </div>
               </div>
@@ -323,13 +374,13 @@ const Community = () => {
               services and Government schemes.
             </p>
             <div className='bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto'>
-              {/* <div className="rounded-xl overflow-hidden mb-3 ">
-              <img
-                src="/Community/WaterDam.png" 
-                alt="Water Conservation"
-                className="w-full h-auto object-cover"
-              />
-            </div> */}
+              <div className="rounded-xl overflow-hidden mb-3 ">
+                <img
+                  src="\Community\Trees.jpg"
+                  alt="Water Conservation"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
               <h2 className='font-bold text-lg mb-4'>Sustainable Agriculture</h2>
               <ul className='mb-3 space-y-3'>
                 <li className="text-red-500">✦ <span className="text-black">7,900+ marginal farmers trained</span></li>
@@ -344,52 +395,6 @@ const Community = () => {
                 production and income through better yield, reduced input
                 cost and better water availability.
               </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto">
-            <div className="w-fit mb-4">
-              <div className="bg-red-500 p-2 absolute translate-y-[-90%] rounded-full">
-                <img
-                  src="/icons/smile-icon-white.png"
-                  alt="Icon"
-                  className="w-10 h-10"
-                />
-              </div>
-            </div>
-            <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Climate Resilience</h2>
-
-            <ul className='mb-3 space-y-3'>
-              <li className="text-red-500">✦ <span className="text-black">11,000+ farmers and households in water
-                stressed regions supported</span></li>
-              <li className="text-red-500">✦ <span className="text-black">16 lakh+ KL water harvesting capacity created and
-                9,500+ acres of land positively impacted</span></li>
-            </ul>
-
-            <div className="  space-y-3 mb-4">
-              <p>
-                We work towards ensuring water security and better crop yield through soil and water conservation measures
-                that include building and reviving water harvesting structures and de-siltation of traditional water tanks.
-                The structural barriers and conservation measures that we have supported are expected to reduce water stress
-                over a period of time.
-              </p>
-              <p>
-                Our efforts in natural resource management and ecosystem restoration were complemented by our demand-side
-                interventions with farmers. We supported trainings on yield increase, reduction in input cost and integrating
-                micro-irrigation practices. Further, income diversification efforts are expected to significantly improve
-                farmer incomes. We also support policy-influencing research on farming practices, high-value crops, farm
-                produce and value chains for improving farmer income capabilities.
-              </p>
-            </div>
-
-            {/* Image */}
-            <div className="rounded-xl overflow-hidden">
-              <img
-                src="/Community/WaterDam.png" // Replace with actual image path
-                alt="Water Conservation"
-                className="w-full h-auto object-cover"
-              />
             </div>
           </div>
         </div>
@@ -426,9 +431,9 @@ const Community = () => {
             </div>
             <div className="rounded-xl overflow-hidden md:w-1/2">
               <img
-                src="/Community/WaterDam.png" // Replace with actual image path
+                src="\Community\117-IMG.png"
                 alt="Water Conservation"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover rounded-3xl"
               />
             </div>
           </div>
@@ -438,11 +443,11 @@ const Community = () => {
       <div className='mt-10'>
         <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl">
           <div className="w-fit mb-4">
-            <div className="bg-red-500 p-2 absolute translate-y-[-90%] rounded-full">
+            <div className=" absolute translate-y-[-90%] rounded-full">
               <img
-                src="/icons/smile-icon-white.png"
+                src="\Community\IMG-2-117.png"
                 alt="Icon"
-                className="w-10 h-10"
+                className="w-15 h-15"
               />
             </div>
           </div>
@@ -489,23 +494,23 @@ const Community = () => {
         </p>
       </div>
       <div className='mt-5'>
-            <div className='border border-[#ed1c2f] p-5 rounded-3xl'>
-              <div className='flex md:flex-row flex-col gap-5 justify-around '>
-                <div className='flex flex-col text-center items-center'>
-                  <h1 className='text-4xl font-bold text-[#212b7e]'>19,000+</h1>
-                  <h2 className='text-[#58595b]'>Farmers reached</h2>
-                </div>
-                <div className='flex flex-col text-center items-center'>
-                  <h1 className='text-4xl font-bold text-[#212b7e]'>16,300+</h1>
-                  <h2 className='text-[#58595b]'>Acres of land</h2>
-                </div>
-                <div className='flex flex-col text-center items-center'>
-                  <h1 className='text-4xl font-bold text-[#212b7e]'>16,000+</h1>
-                  <h2 className='text-[#58595b]'>Youth benefitted</h2>
-                </div>
-              </div>
+        <div className='border border-[#ed1c2f] p-5 rounded-3xl'>
+          <div className='flex md:flex-row flex-col gap-5 justify-around '>
+            <div className='flex flex-col text-center items-center'>
+              <h1 className='text-4xl font-bold text-[#212b7e]'>19,000+</h1>
+              <h2 className='text-[#58595b]'>Farmers reached</h2>
+            </div>
+            <div className='flex flex-col text-center items-center'>
+              <h1 className='text-4xl font-bold text-[#212b7e]'>16,300+</h1>
+              <h2 className='text-[#58595b]'>Acres of land</h2>
+            </div>
+            <div className='flex flex-col text-center items-center'>
+              <h1 className='text-4xl font-bold text-[#212b7e]'>16,000+</h1>
+              <h2 className='text-[#58595b]'>Youth benefitted</h2>
             </div>
           </div>
+        </div>
+      </div>
 
       <div className='mt-10'>
         <img src="\Community\IMG--118.png" alt="" className='lg:w-[35%] md:w-[50%] mb-3' />

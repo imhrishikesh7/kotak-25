@@ -252,7 +252,7 @@ const Strategy = () => {
 
         <div className='space-y-4'>
           <StrategyCard
-            icon="\StrategyInner\Icon-42.png"
+            icon="\Stakeholders\Icon4-42.png"
             title="Prudent Risk Management"
             description="Ensuring a Sustainable Risk-Reward Relationship"
             image="/StrategyInner/shutterstock_2424777017.jpg"
@@ -303,7 +303,7 @@ const Strategy = () => {
 
         <div className='space-y-4'>
           <StrategyCard
-            icon="\StrategyInner\Icon-42.png"
+            icon="\Stakeholders\Icon-43.png"
             title="Technology at the Core"
             description="Ensuring that Systems and Platforms are Best-in-Class"
             image="/StrategyInner/Frame 24_05.07.25.jpg"
@@ -367,7 +367,7 @@ const Strategy = () => {
       </div>
       <div className='space-y-4'>
         <StrategyCard
-          icon="\StrategyInner\Icon-41.png"
+          icon="\Stakeholders\Icon-3-43.png"
           title="Empowered Colleagues"
           description="A Diverse, Engaged and Productive Workforce"
           image="\StrategyInner\Untitled-1.jpg"
@@ -472,7 +472,7 @@ const Strategy = () => {
 
       <div className='space-y-4'>
         <StrategyCard
-          icon="\StrategyInner\Icon-42.png"
+          icon="\Stakeholders\Icon-44.png"
           title="Execution Excellence at Scale"
           description="Driving Efficiency"
           image="\StrategyInner\Untitled-2.jpg"
@@ -544,10 +544,10 @@ const Strategy = () => {
 
       <div className='space-y-4'>
         <StrategyCard
-          icon="\StrategyInner\Icon-42.png"
+          icon="\Stakeholders\Icon-45.png"
           title="Driving Inclusive and Responsible Growth"
           description="Driven by Highest Standards of Compliance and ESG"
-          image="\StrategyInner\Untitled-3.jpg"
+          image="\StrategyInner\Forest.jpg"
           materialTopics={[
             "Regulatory Compliance ",
             "Promoting Green Finance",

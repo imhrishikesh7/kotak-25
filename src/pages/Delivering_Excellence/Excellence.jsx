@@ -12,7 +12,7 @@ const Excellence = () => {
         Our Guiding Principles
       </h1>
       <div className='md:flex gap-5 mb-7 mt-10'>
-        <div className='md:w-[50%] p-4 bg-gray-100 mb-3'>
+        <div className='md:w-[50%] p-4 bg-gray-100 mb-3 rounded-3xl'>
           <p className='mb-3'>
             We believe effective corporate governance is
             the solid foundation upon which organisational
@@ -28,7 +28,7 @@ const Excellence = () => {
           </p>
         </div>
         <div className='md:w-[50%] mb-3'>
-          <img src="/Delivery_Excellence/Delivery1.webp" alt="" />
+          <img src="\Delivery_Excellence\Team.JPG" alt="" className='rounded-3xl' />
         </div>
       </div>
       <Key

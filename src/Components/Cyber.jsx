@@ -6,10 +6,7 @@ const CybersecurityCaseStudy = () => {
       <h2 className="text-[#004d9d] text-xl md:text-2xl font-semibold mb-4">
         Strengthening Cybersecurity and IT Risk Management: A case study
       </h2>
-
-      <div className="flex flex-col md:flex-row gap-8">
-        <div className="flex-1 space-y-6">
-          <div className="bg-[#e3f1fd] p-5 rounded-3xl space-y-4">
+<div className="bg-[#e3f1fd] p-5 rounded-3xl space-y-4 mb-5">
             <div className="flex items-center gap-3">
               <img
                 src="\All_Icons\Icon-75.png"
@@ -29,7 +26,8 @@ const CybersecurityCaseStudy = () => {
               years 2022 and 2023.
             </p>
           </div>
-
+      <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex-1 space-y-6">
           {/* Response */}
           <div className="bg-[#e3f1fd] p-5 rounded-3xl space-y-4">
             <div className="flex items-center gap-3">
@@ -40,7 +38,7 @@ const CybersecurityCaseStudy = () => {
               />
               <h3 className="text-[#004d9d] text-lg font-semibold">Response</h3>
             </div>
-            <p className="text-lg leading-relaxed text-[#333]">
+            <p className="text-lg leading-relaxed text-[#333] mb-3">
               In view of the above, the Bank undertook a series of strategic
               initiatives to enhance its cybersecurity posture. Senior industry
               experts were onboarded to guide these efforts and comprehensive
@@ -51,8 +49,8 @@ const CybersecurityCaseStudy = () => {
               published and shared with senior management and security
               committees, enabling improved visibility and informed
               decision-making.
-              <br />
-              <br />
+            </p>
+            <p className="text-lg leading-relaxed text-[#333] mb-3">
               All policies and standards were reviewed and updated and
               regulatory advisories are tracked and addressed promptly by a
               dedicated team. To further strengthen governance, the Bank has
@@ -65,8 +63,8 @@ const CybersecurityCaseStudy = () => {
               security awareness has been reinforced through regular mailers and
               phishing simulation exercises, fostering a strong culture of
               cybersecurity across the organisation.
-              <br />
-              <br />
+            </p>
+            <p className="text-lg leading-relaxed text-[#333]">
               The Bank also regularly monitors Key Risk Indicators (KRIs) and
               conducts thematic assessments across key risk areas which are
               reviewed in various management and committee forums to ensure
@@ -87,14 +85,14 @@ const CybersecurityCaseStudy = () => {
               />
               <h3 className="text-[#004d9d] text-lg font-semibold">Impact</h3>
             </div>
-            <p className="text-lg leading-relaxed text-[#333]">
+            <p className="text-lg leading-relaxed text-[#333] mb-3">
               Risk monitoring has been significantly strengthened through timely
               vulnerability management, RED team exercises, tabletop
               simulations and third-party assessments, which have validated the
               effectiveness of cybersecurity controls and identified areas for
               enhancement.
-              <br />
-              <br />
+            </p>
+            <p className="text-lg leading-relaxed text-[#333]">
               The RBI, vide its letter dated 12<sup>th</sup> February, 2025,
               communicated its decision to the Bank to lift the aforementioned
               restrictions placed on the Bank, having satisfied itself of the
@@ -103,7 +101,7 @@ const CybersecurityCaseStudy = () => {
               (including the report of the external Auditor).
             </p>
             <img
-              src=""
+              src="\All_Icons\Meeting.jpg"
               alt="Impact Visual"
               className="w-full rounded-xl mt-4"
             />

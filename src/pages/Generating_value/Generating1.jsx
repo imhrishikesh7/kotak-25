@@ -251,7 +251,7 @@ const Generating1 = () => {
             <div className='w-10 h-10'>
               <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
-            <div>
+            <div className='font-semibold text-[#ed1d24]'>
               Technology
             </div>
           </div>
@@ -266,7 +266,7 @@ const Generating1 = () => {
             <div className='w-10 h-10'>
               <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
             </div>
-            <div>
+            <div className='font-semibold text-[#003974]'>
               Responsible debt collection
             </div>
           </div>
@@ -283,7 +283,7 @@ const Generating1 = () => {
             <div className='w-10 h-10'>
               <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
-            <div>
+            <div className='font-semibold text-[#ed1d24]'>
               Service quality monitoring
             </div>
           </div>
@@ -299,7 +299,7 @@ const Generating1 = () => {
             <div className='w-10 h-10'>
               <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
             </div>
-            <div>
+            <div className='font-semibold text-[#003974]'>
               Personalised customer journey
             </div>
           </div>
@@ -323,7 +323,7 @@ const Generating1 = () => {
             <div className='w-10 h-10'>
               <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
-            <div>
+            <div className='font-semibold text-[#ed1d24]'>
               Responsible advertising
             </div>
           </div>
@@ -347,7 +347,7 @@ const Generating1 = () => {
               <div className='w-10 h-10'>
                 <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
               </div>
-              <div>
+              <div className='font-semibold text-[#003974]'>
                 Proactive prevention of Fraud
               </div>
             </div>
@@ -378,7 +378,7 @@ const Generating1 = () => {
                 </p>
               </div>
               <div className='md:w-[40%]'>
-                <img src="/Generating/Generating7.webp" alt="" />
+                <img src="\Generating\SuperiorService\Handshake.JPG" alt="" className='rounded-3xl'/>
               </div>
             </div>
             <h1 className='text-xl text-[#ed2133] mb-3 font-semibold'>Customer stories </h1>

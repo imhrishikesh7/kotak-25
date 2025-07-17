@@ -59,7 +59,6 @@ const DigitalPowerhouse = () => {
 
             <div className="bg-[#013367] mt-5 rounded-3xl min-h-screen">
                 <div className="hidden md:block">
-                    {/* Background Image and First Card in Flex Row */}
                     <div className="flex flex-row px-4 py-6">
                         <div className="flex-shrink-0">
                             <div className="w-150 h-140 bg-[url('/Digital/Page-24.webp')] bg-cover bg-center rounded-xl"></div>
@@ -71,7 +70,7 @@ const DigitalPowerhouse = () => {
 
                     {/* Remaining Cards Below in Flex Col */}
                     <div className="px-4 pb-6">
-                        <div className="flex flex-col gap-6">
+                        <div className="flex flex-col gap-2">
                             {cardData.slice(1).map((card, idx) => (
                                 <Card key={idx + 1} {...card} />
                             ))}
@@ -87,16 +86,16 @@ const DigitalPowerhouse = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row mt-6">
-                <div>
-                    <img src="/Digital/QR-Page-24.webp" alt="" className="w-60" />
-                </div>
+            <div className="flex md:flex-row flex-col mt-6">
                 <div className="bg-[#d4effc] rounded-2xl border-dashed ml-4 p-4">
                     <h1 className="text-lg text-[#212b7e] font-bold">
                         These apps for our chosen customer segments are fundamental to deepen our digital engagement with
                         customers. Along with back-end tech upgrades, a significant focus has been placed on enhancing the UI/
                         UX and core features of these apps.
                     </h1>
+                </div>
+                <div>
+                    <img src="/Digital/QR-Page-24.webp" alt="" className="w-60 mx-auto" />
                 </div>
             </div>
         </div>

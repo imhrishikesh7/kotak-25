@@ -864,10 +864,15 @@ const Empowering1 = () => {
           Colleague Value Proposition
         </h1>
         <p className='mb-2 font-bold'>
-          We are extending the great benefits we offer our customers
-          to our Kotakites at exclusive employee rates, while
-          streamlining policies to make access and usage of these
-          benefits to be simpler and efficient.
+          Kotak remains committed to building a purpose-driven
+          and inclusive workplace. In FY 2024-25, we introduced
+          targeted initiatives to enhance colleague engagement,
+          foster professional growth and strengthen our culture of
+          recognition and well-being. These efforts reflect our ongoing
+          investment in developing talent and reinforcing the pride
+          of being a Kotakite. We promote awareness through regular
+          training and communications, equipping colleagues with the
+          tools to foster inclusive workplaces.
         </p>
         <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
           Kotakites Health and Well-being

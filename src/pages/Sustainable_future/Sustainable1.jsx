@@ -84,9 +84,9 @@ const Sustainable1 = () => {
         </sup>As per green activities/projects indicated in RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping.
       </p>
       <div className='mt-5 mb-5 md:flex gap-5'>
-        <div className='bg-gray-100 p-2 rounded-2xl'>
+        {/* <div className='bg-gray-100 p-2 rounded-2xl'>
           <img src="/Sustainability/Sustainability1.webp" alt="" className='md:w-[50%] mx-auto' />
-        </div>
+        </div> */}
         <div className='mb-2'>
           <p className='mb-3'>
             We integrate social and environmental considerations into
@@ -107,7 +107,7 @@ const Sustainable1 = () => {
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
-        <div className='md:w-[50%]'>
+        <div className='md:w-[70%]'>
           <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
             ESG Governance and Oversight
           </h1>
@@ -140,7 +140,7 @@ const Sustainable1 = () => {
             </p>
           </div>
         </div>
-        <div className='md:w-[50%] md:mt-6'>
+        <div className='md:w-[30%] md:mt-6 mx-auto'>
           <img src="/Sustainability/Sustainability10.webp" alt="" />
         </div>
 
@@ -344,15 +344,15 @@ const Sustainable1 = () => {
           </p>
 
         </div>
-        <div className='md:w-[35%] mt-5 mx-auto'>
-          <img src="/Sustainability/Sustainability6.webp" alt="" />
+        <div className='md:w-[38%] mt-5 mx-auto'>
+          <img src="\Safeguarding_Stakeholder\82-img.png" alt="" className='rounded-3xl' />
         </div>
       </div>
       <div className=' md:flex gap-5 mt-10'>
-        <div className='md:w-[25%] md:mt-7 '>
-          <img src="/Sustainability/Sustainability7.webp" alt="" />
+        <div className='md:w-[50%] md:mt-7 '>
+          <img src="\Safeguarding_Stakeholder\82-2-IMG.png" alt="" className='rounded-3xl'/>
         </div>
-        <div className='md:w-[65%]'>
+        <div className='md:w-[50%]'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Kotak Alternate Asset Managers Limited (KAAML)</h1>
           <p className='mb-3'>
             KAAML has established a governance framework to promote
@@ -369,7 +369,9 @@ const Sustainable1 = () => {
             Environmental and Social Management Systems (ESMS) tailored
             to their specific needs.
           </p>
-          <p className='mb-3'>
+        </div>
+      </div>
+      <p className='mb-3'>
             The Kotak Infrastructure Investment Fund (KIIF), managed by
             KAAML, has developed its own ESG Policy and ESMS. This system
             outlines the integration of ESG practices into the investment process
@@ -385,8 +387,6 @@ const Sustainable1 = () => {
             implement strategies to mitigate the ESG related risks. ESAP is
             monitored periodically following the closure of a deal.
           </p>
-        </div>
-      </div>
       <div className='mb-5 mt-10'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Kotak Mahindra Prime Limited (KMPL)
@@ -396,14 +396,14 @@ const Sustainable1 = () => {
           efficient four and two-wheeler vehicles. In FY 2024-25, we saw a notable increase in lending to electric vehicles, with a growth of
           66% in terms of units.
         </p>
-        <div className='p-4 bg-gray-100 mb-3 rounded-3xl'>
-          <img className='md:w-[90%] mx-auto rounded-3xl' src="\Sustainability\82-2-IMG.png" alt="" />
+        <div className='rounded-3xl'>
+          <img className='rounded-3xl' src="\Safeguarding_Stakeholder\Car.png" alt="" />
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
 
 
-        <div className='md:w-2/3'>
+        <div className='md:w-1/2'>
           <h1 className='text-xl text-[#252f80] mb-2'>Kotak Life Insurance (KLI)</h1>
           <p className='mb-3'>
             KLI has launched its comprehensive ESG
@@ -417,15 +417,15 @@ const Sustainable1 = () => {
             Management Framework.
           </p>
         </div>
-        <div className='p-4 bg-gray-100 rounded-2xl md:w-1/3'>
-          <img className='md:w-[80%] mx-auto rounded-2xl' src="/Sustainability/Sustainability9.webp" alt="" />
+        <div className=' rounded-2xl md:w-1/3 mx-auto'>
+          <img className='rounded-2xl' src="/Sustainability/Sustainability9.webp" alt="" />
         </div>
       </div>
       <div className='mb-5'>
         <h1 className='mb-2 text-xl text-[#ed2133] font-semibold'>Financial Inclusion</h1>
         <div className=''>
           <p className='mb-3'>
-            AAdvancing financial inclusion remains a focus area for us. We
+            Advancing financial inclusion remains a focus area for us. We
             continued to design and deliver targeted solutions for
             under-served communities including small and marginal
             farmers, women borrowers, micro-enterprises and underbanked
@@ -637,10 +637,10 @@ const Sustainable1 = () => {
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
-        <div className='md:w-[45%]'>
+        <div className='md:w-[30%]'>
           <img src="/Sustainability/Sustainability12.webp" alt="" />
         </div>
-        <div className='md:w-[55%]'>
+        <div className='md:w-[60%] mx-auto'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Priority Sector Lending</h1>
           <p className='mb-3'>
             We view Priority Sector Lending (PSL) as a strategic lever to
@@ -1451,11 +1451,11 @@ const Sustainable1 = () => {
             contribute to a more sustainable business practice within Kotak.
           </p>
           <div className='flex md:flex-row flex-col gap-5 mb-5'>
-            <div>
-              <img src="" alt="" />
+            <div className='md:w-1/2'>
+              <img src="\Safeguarding_Stakeholder\IMG-96.png" alt="" className='rounded-3xl' />
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className='md:w-1/2'>
+              <img src="\Safeguarding_Stakeholder\IMG-97.png" alt="" className='rounded-3xl' />
             </div>
           </div>
           <div>

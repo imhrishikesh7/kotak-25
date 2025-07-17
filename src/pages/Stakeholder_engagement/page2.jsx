@@ -59,7 +59,7 @@ const page2 = () => {
               />
             </div>
 
-            <div className="md:w-1/2 w-full flex items-center p-8 bg-white/90">
+            <div className="md:w-1/2 w-full p-8 bg-white/90">
               <div>
                 <h2 className="text-3xl md:text-4xl font-light mb-6">
                   Creating value <br /> and nurturing relationships
@@ -90,7 +90,7 @@ const page2 = () => {
           </div>
         </div>
       </div>
-      <div className='text-lg mb-4 '>
+      <div className='text-lg md:mb-4 md:mt-0 mt-80'>
         At Kotak, we are committed to transparent and meaningful
         engagement with our stakeholders to build trust and create
         shared value. In an evolving business landscape, understanding

@@ -112,11 +112,8 @@ const Generating1 = () => {
         </div>
       </div>
 
-      <div className='mb-5'>
-        <h1 className='font-bold mb-3'>
-          Kotak generates and delivers value to its customers through three strategic levers:
-        </h1>
-        <div className='p-4 bg-gray-100 mb-5'>
+      <div className='mb-5 mt-5   '>
+        <div className='mb-5'>
           <img src="\Generating\Image2-55.png" alt="" />
         </div>
       </div>

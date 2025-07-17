@@ -17,14 +17,14 @@ const cardData = [
       "$Grievance redressal$ Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen",
     ],
     footnotes: [
-      "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "
+      " "
     ]
   },
   {
     title: "Colleague",
     image: "/home/Pic3.webp",
     achievements: [
-      "$26%$ Gender diversity at the Group",
+      "$26.4%$ Gender diversity at the Group",
       "$16%$ YoY reduction in employee turnover at the Bank",
       "$78%$ Employees## take pride in being a part of the Bank ",
       "$49.5 hrs$ Average person hours of training at the Bank",
@@ -53,7 +53,7 @@ const cardData = [
       "$Open acces$ Renewable energy to power some of our larger office premises and rooftop solar to power five bank-owned premises",
     ],
     footnotes: [
-      "* As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping. | $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
+      ""
     ]
   },
   {

@@ -71,13 +71,30 @@ const Sustainable1 = () => {
         sdgs={[
           "/All_Icons/10.webp",
           "/All_Icons/11.webp",
-          "/All_Icons/12.webp",
+          "/All_Icons/image.png",
           "/All_Icons/13.webp",
           "/All_Icons/14.webp",
           "/All_Icons/15.webp",
           "/All_Icons/16.webp",
         ]}
       />
+      <div className="border border-[#ed1c2f] rounded-xl p-6 relative  text-[17px] mt-5 text-[#333]">
+        <div className="text-[#ed1c2f] text-3xl mb-4">❝</div>
+        <p className='text-lg'>
+          The ESG lens offers us a distinct perspective and we are leveraging it to mobilise our efforts across relevant areas. We pursue environmental sustainability by investing in our physical spaces, making them cleaner and greener. We have an ongoing commitment to improve gender diversity at the Bank. Our focus on enhancing colleague value proposition aims to build careers and reduce attrition. Through CSR, we are partnering with premier academic institutions to shape the workforce and organisations of tomorrow. We are contributing to nation building by supporting entrepreneurs, enabling livelihoods and empowering women. We have demonstrated our commitment to enhancing customer experience by reimagining our IT systems and strengthening data security architecture.
+        </p>
+        <div className="text-[#ed1c2f] text-3xl mt-4 text-right">❞</div>
+
+        <div className="mt-6">
+          <div className="bg-[#ed1c2f] text-white font-semibold inline-block px-3 py-1 rounded-sm">
+            Shanti Ekambaram
+          </div>
+          <div className="text-[#ed1c2f] text-sm mt-1">
+            Deputy Managing Director <br />
+            <span className="text-[#333]">Kotak Mahindra Bank Limited</span>
+          </div>
+        </div>
+      </div>
       <p className='font-sm text-sm text-gray-700 mb-5'>
         <sup>
           *
@@ -350,7 +367,7 @@ const Sustainable1 = () => {
       </div>
       <div className=' md:flex gap-5 mt-10'>
         <div className='md:w-[50%] md:mt-7 '>
-          <img src="\Safeguarding_Stakeholder\82-2-IMG.png" alt="" className='rounded-3xl'/>
+          <img src="\Safeguarding_Stakeholder\82-2-IMG.png" alt="" className='rounded-3xl' />
         </div>
         <div className='md:w-[50%]'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Kotak Alternate Asset Managers Limited (KAAML)</h1>
@@ -372,21 +389,21 @@ const Sustainable1 = () => {
         </div>
       </div>
       <p className='mb-3'>
-            The Kotak Infrastructure Investment Fund (KIIF), managed by
-            KAAML, has developed its own ESG Policy and ESMS. This system
-            outlines the integration of ESG practices into the investment process
-            and mandates the engagement of external third-party ESG experts
-            to conduct an ESG due diligence (DD) for prospective investments.
-            Every potential investment under KIIF undergoes ESG DD as per
-            the relevant requirements set forth by Indian Legal regulations and
-            various applicable investor safeguards such as IFC Performance
-            Standards, AIIB E&S Framework and ADB Safeguard Policy
-            Framework. The due diligence assesses ESG aspects of potential
-            investee companies, which are documented in an Environmental
-            and Social Action Plan (ESAP) enabling investee companies to
-            implement strategies to mitigate the ESG related risks. ESAP is
-            monitored periodically following the closure of a deal.
-          </p>
+        The Kotak Infrastructure Investment Fund (KIIF), managed by
+        KAAML, has developed its own ESG Policy and ESMS. This system
+        outlines the integration of ESG practices into the investment process
+        and mandates the engagement of external third-party ESG experts
+        to conduct an ESG due diligence (DD) for prospective investments.
+        Every potential investment under KIIF undergoes ESG DD as per
+        the relevant requirements set forth by Indian Legal regulations and
+        various applicable investor safeguards such as IFC Performance
+        Standards, AIIB E&S Framework and ADB Safeguard Policy
+        Framework. The due diligence assesses ESG aspects of potential
+        investee companies, which are documented in an Environmental
+        and Social Action Plan (ESAP) enabling investee companies to
+        implement strategies to mitigate the ESG related risks. ESAP is
+        monitored periodically following the closure of a deal.
+      </p>
       <div className='mb-5 mt-10'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Kotak Mahindra Prime Limited (KMPL)
@@ -690,6 +707,7 @@ const Sustainable1 = () => {
               our corporate offices, branches and ATM network to minimise our
               carbon footprint.
             </p>
+
             <p className='mb-3'>
               Our approach to minimising our operational environmental
               footprint is built on four key pillars, which are designed to reduce
@@ -741,6 +759,18 @@ const Sustainable1 = () => {
           corporate offices. Bank’s energy intensity for FY 2024-25 was 7.01
           GJ/₹crore revenue <sup>3</sup>, which has decreased from 8.58 GJ/₹crore
           revenue for FY 2023-24.
+        </p>
+        <p className='mb-3'>
+          Renewable energy partially powered three of our key corporate
+          offices that accommodated about 10% of the Bank’s workforce.
+          We had implemented rooftop solar installations at select locations
+          in FY 2023-24, as pilot to assess impact on decarbonisation
+          of branch network. The 62 KVA rooftop solar installation that
+          was operational for most of FY 2024-25, generated 23 MWh.
+          Additionally, in FY 2024-25 we commissioned another 40 KVA
+          rooftop solar. The total renewable energy consumption during
+          FY 2024-25 was 25,109 GJ and accounted for around 5.5% of the
+          total purchased electricity at the Bank.
         </p>
         <p className='mb-3'>
           We regularly carry out evaluation of energy consumption and

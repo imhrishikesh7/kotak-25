@@ -1176,19 +1176,7 @@ const Empowering1 = () => {
           a Great Place to Work.
         </p>
         <div className=" w-full  rounded-xl overflow-hidden mb-4">
-          {/* Main Image */}
-          <img src="/Empowering/Empowering20.webp" alt="Award Ceremony" className="w-full object-cover" />
-
-          {/* Bottom Red Banner with White Text */}
-          <div className=" w-full bg-red-600 text-white px-6 py-4  rounded-2xl">
-            <p className="font-semibold mb-2">Our employee-first approach has earned us top honors:</p>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Among top 50 in India’s Best Workplaces in BFSI 2025</li>
-              <li>Ranked 75<sup>th</sup> in India’s Top 100 Best Companies to Work For 2024</li>
-              <li>India’s Best Employers among Nation Builders 2024</li>
-              <li>India’s Best Workplaces for Women 2024</li>
-            </ul>
-          </div>
+          <img src="\Empowering\IMG-110.png" alt="Award Ceremony" className="w-full object-cover" />
         </div>
         <div className='mb-3'>
           “Celebrating You” is our recognition framework that integrates

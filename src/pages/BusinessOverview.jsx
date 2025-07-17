@@ -1665,7 +1665,7 @@ const BusinessOverview = () => {
 
                             <div>
                                 <h1 className="text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1">
-                                    USD 10.9 bn
+                                    USD 5.5 bn
                                 </h1>
                                 <p className="text-[#58595b] text-md font-normal">
                                     Total funds raised since inception

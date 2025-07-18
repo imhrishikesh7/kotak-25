@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { FiDownload } from 'react-icons/fi';
 
 const navItems = [
     {
@@ -255,10 +256,23 @@ const Navbar = () => {
                     z-index: 70;
                 }
             `}</style>
-            <nav className="bg-[#013367]/90 backdrop-blur-[20px] relative text-white md:px-16 px-6 py-6 flex justify-between items-center">
+            <nav className="bg-[#013367]/90 backdrop-blur-[20px] relative text-white md:px-16 px-6 py-4 flex justify-between items-center">
                 <Link to="/" className="text-xl font-bold w-32">
                     <img src="/Kotak-White-Version.webp" alt="Logo" />
                 </Link>
+
+            <div className="text-white flex justify-center gap-2 py-1 px-3 rounded-xl">
+  <a href="#download-center" className="cursor-pointer">Download Center</a> 
+  | 
+  <a 
+    href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf" 
+    target="_blank" 
+    className="flex items-center gap-2"
+  >
+    Download Full Report <FiDownload />
+  </a>
+</div>
+
 
                 {/* Desktop Nav */}
                 <div

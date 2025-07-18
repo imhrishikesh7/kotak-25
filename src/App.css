@@ -49,3 +49,6 @@ html {
 .custom-arrow {
   @apply bg-pink-100 text-pink-800 hover:bg-pink-200 p-2 rounded-full cursor-pointer text-lg;
 }
+html {
+  scroll-behavior: smooth;
+}

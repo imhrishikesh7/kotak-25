@@ -36,7 +36,9 @@ const Home = () => {
             <VCModel />
             {/* <SusSnapshots /> */}
             <AwardsSlider />
+            <div id="download-center" >
             <DownloadCenter />
+            </div>
         </div>
     )
 }

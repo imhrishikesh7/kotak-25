@@ -13,20 +13,20 @@ const StrategyCard = ({
         <div className="border border-[#ed1c2f] rounded-xl p-4 md:flex items-center gap-4 mt-10">
             <div className="md:w-1/3 w-full h-full mb-4 md:mb-0">
                 <img
-                    src={image || "/fallback-image.png"}
+                    src={image || "/fallback-image.webp"}
                     alt={title}
                     className="rounded-xl w-full object-cover"
-                    onError={(e) => { e.target.src = "/fallback-image.png" }}
+                    onError={(e) => { e.target.src = "/fallback-image.webp" }}
                 />
             </div>
 
             <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
                     <img
-                        src={icon || "/fallback-icon.png"}
+                        src={icon || "/fallback-icon.webp"}
                         alt="icon"
                         className="w-10 h-10"
-                        onError={(e) => { e.target.src = "/fallback-icon.png" }}
+                        onError={(e) => { e.target.src = "/fallback-icon.webp" }}
                     />
                     <h3 className="text-[#00386b] font-semibold text-xl">{title}</h3>
                 </div>
@@ -55,7 +55,7 @@ const StrategyCard = ({
                                     src={sdg}
                                     alt={`SDG ${idx}`}
                                     className="w-15 h-15"
-                                    onError={(e) => { e.target.src = "/fallback-sdg.png" }}
+                                    onError={(e) => { e.target.src = "/fallback-sdg.webp" }}
                                 />
                             )) : <span className="text-gray-500">No SDGs</span>}
                         </div>
@@ -70,7 +70,7 @@ const StrategyCard = ({
                                         src={item.icon}
                                         alt="Capital Icon"
                                         className="w-10 h-10"
-                                        onError={(e) => { e.target.src = "/fallback-capital.png" }}
+                                        onError={(e) => { e.target.src = "/fallback-capital.webp" }}
                                     />
                                     <span className="italic text-gray-700">{item.text}</span>
                                 </div>

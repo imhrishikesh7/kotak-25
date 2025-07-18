@@ -28,7 +28,7 @@ const Excellence = () => {
           </p>
         </div>
         <div className='md:w-[50%] mb-3'>
-          <img src="\Delivery_Excellence\Team.JPG" alt="" className='rounded-3xl' />
+          <img src="\Delivery_Excellence\Team.webp" alt="" className='rounded-3xl' />
         </div>
       </div>
       <Key
@@ -225,7 +225,7 @@ const Excellence = () => {
             </p>
           </div>
           <div className='md:w-[40%] mb-3'>
-            <img className='w-full h-full object-cover rounded-4xl' src="\Delivery_Excellence\Image-64.png" alt="" />
+            <img className='w-full h-full object-cover rounded-4xl' src="\Delivery_Excellence\Image-64.webp" alt="" />
           </div>
         </div>
       </div>
@@ -249,7 +249,7 @@ const Excellence = () => {
       </div>
       <div className='flex md:flex-row flex-col gap-5 mb-3'>
         <div className='md:w-[31.5%] mx-auto mb-3'>
-          <img src="\Delivery_Excellence\Image-65.png" alt="" />
+          <img src="\Delivery_Excellence\Image-65.webp" alt="" />
         </div>
         <div className='md:w-[50%] mx-auto mb-3'>
           <img src="/Delivery_Excellence/Delivery4.webp" alt="" />
@@ -438,7 +438,7 @@ const Excellence = () => {
             </p>
           </div>
           <div className='md:w-1/2'>
-            <img src="\Delivery_Excellence\Image-67.png" alt="" className='rounded-3xl w-full h-full object-cover' />
+            <img src="\Delivery_Excellence\Image-67.webp" alt="" className='rounded-3xl w-full h-full object-cover' />
           </div>
         </div>
       </div>

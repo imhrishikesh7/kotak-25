@@ -108,13 +108,13 @@ const Generating1 = () => {
           </p>
         </div>
         <div className='md:w-[40%] mb-2 rounded-2xl'>
-          <img className='mx-auto my-auto rounded-2xl' src="\Generating\Image-55.png" alt="" />
+          <img className='mx-auto my-auto rounded-2xl' src="\Generating\Image-55.webp" alt="" />
         </div>
       </div>
 
       <div className='mb-5 mt-5   '>
         <div className='mb-5'>
-          <img src="\Generating\Image2-55.png" alt="" />
+          <img src="\Generating\Image2-55.webp" alt="" />
         </div>
       </div>
       <div className='mb-5'>
@@ -148,7 +148,7 @@ const Generating1 = () => {
             </p>
           </div>
           <div className='md:w-1/2'>
-            <img src="\Generating\warehouse.jpg" alt="" className='rounded-3xl' />
+            <img src="\Generating\warehouse.webp" alt="" className='rounded-3xl' />
           </div>
         </div>
         <div>
@@ -375,7 +375,7 @@ const Generating1 = () => {
                 </p>
               </div>
               <div className='md:w-[40%]'>
-                <img src="\Generating\SuperiorService\Handshake.JPG" alt="" className='rounded-3xl'/>
+                <img src="\Generating\SuperiorService\Handshake.webp" alt="" className='rounded-3xl'/>
               </div>
             </div>
             <h1 className='text-xl text-[#ed2133] mb-3 font-semibold'>Customer stories </h1>
@@ -493,7 +493,7 @@ const Generating1 = () => {
               <div className="md:flex gap-5 mb-5 md:h-[400px]">
                 <div className="md:w-[50%] h-full ">
                   <img
-                    src="\Generating\Image-59.png"
+                    src="\Generating\Image-59.webp"
                     alt=""
                     className="w-full h-full object-cover rounded-2xl"
                   />
@@ -574,7 +574,7 @@ const Generating1 = () => {
                   </p>
                 </div>
                 <div className='md:w-[40%]'>
-                  <img className='mx-auto rounded-3xl' src="\Generating\generating11.png" alt="" />
+                  <img className='mx-auto rounded-3xl' src="\Generating\generating11.webp" alt="" />
                 </div>
               </div>
               <p className='mb-3'>

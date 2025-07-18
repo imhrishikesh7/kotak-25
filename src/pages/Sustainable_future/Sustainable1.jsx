@@ -71,7 +71,7 @@ const Sustainable1 = () => {
         sdgs={[
           "/All_Icons/10.webp",
           "/All_Icons/11.webp",
-          "/All_Icons/image.png",
+          "/All_Icons/image.webp",
           "/All_Icons/13.webp",
           "/All_Icons/14.webp",
           "/All_Icons/15.webp",
@@ -310,7 +310,7 @@ const Sustainable1 = () => {
       </div>
       <div className='mb-5 md:flex gap-5'>
         <div className='md:w-[43%] mt-3'>
-          <img className='rounded-3xl' src="\Sustainability\IMG-81.png" alt="" />
+          <img className='rounded-3xl' src="\Sustainability\IMG-81.webp" alt="" />
         </div>
         <div className='md:w-[70%]'>
           <p className='mb-3'>
@@ -362,12 +362,12 @@ const Sustainable1 = () => {
 
         </div>
         <div className='md:w-[38%] mt-5 mx-auto'>
-          <img src="\Safeguarding_Stakeholder\82-img.png" alt="" className='rounded-3xl' />
+          <img src="\Safeguarding_Stakeholder\82-img.webp" alt="" className='rounded-3xl' />
         </div>
       </div>
       <div className=' md:flex gap-5 mt-10'>
         <div className='md:w-[50%] md:mt-7 '>
-          <img src="\Safeguarding_Stakeholder\82-2-IMG.png" alt="" className='rounded-3xl' />
+          <img src="\Safeguarding_Stakeholder\82-2-IMG.webp" alt="" className='rounded-3xl' />
         </div>
         <div className='md:w-[50%]'>
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Kotak Alternate Asset Managers Limited (KAAML)</h1>
@@ -414,7 +414,7 @@ const Sustainable1 = () => {
           66% in terms of units.
         </p>
         <div className='rounded-3xl'>
-          <img className='rounded-3xl' src="\Safeguarding_Stakeholder\Car.png" alt="" />
+          <img className='rounded-3xl' src="\Safeguarding_Stakeholder\Car.webp" alt="" />
         </div>
       </div>
       <div className='mb-5 md:flex gap-5'>
@@ -1482,10 +1482,10 @@ const Sustainable1 = () => {
           </p>
           <div className='flex md:flex-row flex-col gap-5 mb-5'>
             <div className='md:w-1/2'>
-              <img src="\Safeguarding_Stakeholder\IMG-96.png" alt="" className='rounded-3xl' />
+              <img src="\Safeguarding_Stakeholder\IMG-96.webp" alt="" className='rounded-3xl' />
             </div>
             <div className='md:w-1/2'>
-              <img src="\Safeguarding_Stakeholder\IMG-97.png" alt="" className='rounded-3xl' />
+              <img src="\Safeguarding_Stakeholder\IMG-97.webp" alt="" className='rounded-3xl' />
             </div>
           </div>
           <div>

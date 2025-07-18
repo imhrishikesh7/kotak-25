@@ -941,7 +941,7 @@ const Empowering1 = () => {
             </p>
           </div>
           <div className='my-auto md:w-1/3'>
-            <img src="\Empowering\IMG-2-107.png" alt="" className='' />
+            <img src="\Empowering\IMG-2-107.webp" alt="" className='' />
           </div>
         </div>
         <div>
@@ -979,13 +979,13 @@ const Empowering1 = () => {
               </p>
             </div>
             <div className='md:w-1/2'>
-              <img src="\Empowering\Image2-108.png" alt="" className='rounded-3xl' />
+              <img src="\Empowering\Image2-108.webp" alt="" className='rounded-3xl' />
             </div>
           </div>
         </div>
         <div className='flex md:flex-row flex-col gap-5 mt-5'>
           <div className='md:w-1/2'>
-            <img src="\Empowering\Diya.png" alt="" className='rounded-3xl' />
+            <img src="\Empowering\Diya.webp" alt="" className='rounded-3xl' />
           </div>
           <div className='md:w-1/2'>
             <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-3'>
@@ -1153,7 +1153,7 @@ const Empowering1 = () => {
           a Great Place to Work.
         </p>
         <div className=" w-full  rounded-xl overflow-hidden mb-4">
-          <img src="\Empowering\IMG-110.png" alt="Award Ceremony" className="w-full object-cover" />
+          <img src="\Empowering\IMG-110.webp" alt="Award Ceremony" className="w-full object-cover" />
         </div>
         <div className='mb-3'>
           “Celebrating You” is our recognition framework that integrates

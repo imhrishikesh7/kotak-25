@@ -1,75 +1,161 @@
-// components/TotalAssetsChart.jsx
-
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import Slider from 'react-slick';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { HiOutlineArrowSmallLeft, HiOutlineArrowSmallRight } from "react-icons/hi2";
 import Reveal from '../Reveal';
-import KnowMore from '../KnowMore';
 
-const data = [
-    { year: 'FY 21', value: 478854, color: 'bg-gray-200' },
-    { year: 'FY 22', value: 546498, color: 'bg-gray-400' },
-    { year: 'FY 23', value: 620430, color: 'bg-gray-500' },
-    { year: 'FY 24', value: 767667, color: 'bg-purple-300' },
-    { year: 'FY 25', value: 879774, color: 'bg-purple-500' },
-];
 
-const max = Math.max(...data.map(d => d.value));
+gsap.registerPlugin(ScrollTrigger);
+
+// Updated image data
+const chartImages = {
+    'Operational Metrics': [
+        './charts/c11.png',
+        './charts/c12.png',
+        './charts/c13.png',
+        './charts/c14.png',
+        './charts/c15.png',
+        './charts/c16.png',
+        './charts/c17.png',
+        './charts/c18.png',
+        './charts/c19.png',
+        './charts/c110.png',
+        './charts/c111.png',
+        './charts/c112.png',
+    ],
+    'Group Company Metrics': [
+        './charts/c21.png',
+        './charts/c22.png',
+        './charts/c23.png',
+        './charts/c24.png',
+        './charts/c25.png',
+        './charts/c26.png',
+    ],
+    'Valuation Metrics': ['./charts/c31.png', './charts/c32.png'],
+};
+
+// Custom arrow components
+const Arrow = ({ onClick, direction }) => (
+    <div
+        className={`absolute bottom-4 ${direction === 'left' ? 'right-16 cursor-pointer' : 'right-4'} cursor-pointer bg-[#ed1c25] text-white w-8 h-8 flex items-center justify-center rounded-full`}
+        onClick={onClick}
+    >
+        {direction === 'left' ? <HiOutlineArrowSmallLeft />
+            : <HiOutlineArrowSmallRight />
+        }
+    </div>
+);
 
 const KPIHome = () => {
+    const [activeTab, setActiveTab] = useState('Operational Metrics');
+    const imageRefs = useRef([]);
+
+    const sliderRef = useRef(null);
+
+    const sliderSettings = {
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024, // tablets
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 640, // mobile
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    };
+
+
+    useEffect(() => {
+        imageRefs.current.forEach((el) => {
+            if (el) {
+                gsap.fromTo(
+                    el,
+                    { clipPath: 'inset(0 100% 0 0)' },
+                    {
+                        clipPath: 'inset(0 0% 0 0)',
+                        duration: 1.2,
+                        ease: 'power2.out',
+                        scrollTrigger: {
+                            trigger: el,
+                            start: 'top 90%',
+                            toggleActions: 'play none none none',
+                        },
+                    }
+                );
+            }
+        });
+    }, [activeTab]);
+
     return (
-        <div className='bg-[#F1EFEC]'>
-        <div className='marginal '>
-            <div className='w-fit mt-8 mb-10 mx-auto text-center'>
+        <div className="bg-[#F2F2F2] overflow-hidden py-10 px-4">
+            <div className='w-fit mx-auto mb-6 text-center'>
                 <Reveal animation="slide-up">
-                    <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Key Performance Indicators</h3>
+                    <h3 className="text-2xl mb-2 font-bold text-[#ed1c25]">Key Performance Indicators</h3>
                 </Reveal>
+                <div className='flex w-[50px] mx-auto'>
+                    <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
+                    <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
+                </div>
                 <Reveal animation="slide-up">
                     <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Responsible growth, resilient performance</h1>
                 </Reveal>
+                <Reveal animation="slide-up" className={"text-lg  leading-6 w-7xl"}>
+                    <p>
+                        All numbers are on a consolidated, basis except where stated
+                    </p>
+                </Reveal>
             </div>
-            <div className="bg-[#ffff] mb-4 md:mb-12 mx-auto rounded-xl p-6 w-full max-w-xl">
-                <h2 className="text-lg font-semibold text-black mb-1">Total Assets</h2>
-                <p className="text-sm text-gray-600 mb-4">(₹ in crore)</p>
+            {/* Tabs */}
+            <div className="flex justify-center gap-6 mb-10">
+                {Object.keys(chartImages).map((tab) => (
+                    <button
+                        key={tab}
+                        className={`px-5 py-2 cursor-pointer rounded-full border transition-all duration-300 text-sm md:text-base ${activeTab === tab
+                            ? 'bg-[#ed1c25] text-white font-semibold border-[#ed1c25]'
+                            : 'bg-white text-gray-600 border-gray-300 hover:border-[#ed1c25] hover:text-[#ed1c25]'
+                            }`}
+                        onClick={() => setActiveTab(tab)}
+                    >
+                        {tab}
+                    </button>
+                ))}
+            </div>
 
-                <div className="flex items-center mb-4">
-                    <p className="text-2xl font-bold text-black mr-2">CAGR 16%</p>
-                    <div className="w-5 h-5 bg-purple-300 rounded-full flex items-center justify-center rotate-180">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="black"
-                            className="w-3 h-3"
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
-                        </svg>
-                    </div>
-                </div>
-
-                <div className="space-y-3">
-                    {data.map((item, index) => {
-                        const barWidth = `${(item.value / max) * 100}%`;
-                        return (
-                            <div key={index} className="flex items-center justify-between text-sm">
-                                <span className="w-12 text-gray-700">{item.year}</span>
-                                <div className="flex-1 mx-2 relative">
-                                    <div
-                                        className={`h-4 rounded-full ${item.color}`}
-                                        style={{ width: barWidth }}
-                                    ></div>
-                                </div>
-                                <span className="text-black font-medium">
-                                    {item.value.toLocaleString('en-IN')}
-                                </span>
+            {/* Slider with Fixed Arrows */}
+            <div className="relative bg-white rounded-2xl p-6 md:h-[350px] overflow-hidden max-w-5xl mx-auto">
+                <Slider ref={sliderRef} {...sliderSettings}>
+                    {chartImages[activeTab].map((src, index) => (
+                        <div key={index}>
+                            <div
+                                className="overflow-hidden"
+                                ref={(el) => (imageRefs.current[index] = el)}
+                            >
+                                <img
+                                    src={src}
+                                    alt={`Slide ${index}`}
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
-                        );
-                    })}
-                </div>
+                        </div>
+                    ))}
+                </Slider>
+
+                {/* Custom Arrows */}
+                <Arrow direction="left" onClick={() => sliderRef.current?.slickPrev()} />
+                <Arrow direction="right" onClick={() => sliderRef.current?.slickNext()} />
             </div>
-            <div className='mx-auto w-fit'>
-                <KnowMore to={"/our-enablers/key-performance-indicators"}/>
-            </div>
-        </div>
         </div>
     );
 };

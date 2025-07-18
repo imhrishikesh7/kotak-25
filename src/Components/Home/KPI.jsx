@@ -13,7 +13,7 @@ const AnimatedBar = ({ value, maxValue, color, delay = 0, children }) => {
 
   return (
     <div className="relative">
-      <div className="h-6 bg-gray-200 rounded-full overflow-hidden">
+      <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
         <div 
           className={`h-full rounded-full transition-all duration-1000 ease-out ${color}`}
           style={{ width: `${width}%` }}
@@ -43,10 +43,10 @@ const MetricCard = ({ title, cagr, cagrIcon, data, color, unit = "₹ in crore",
         </div>
       </div>
       
-      <div className="space-y-3">
+      <div className="space-y-1">
         {data.map((item, index) => (
           <div key={item.year} className="flex items-center justify-between">
-            <div className="w-12 text-sm text-gray-600">{item.year}</div>
+            <div className="w- text-sm text-gray-600">{item.year}</div>
             <div className="flex-1 mx-4">
               <AnimatedBar 
                 value={item.value} 
@@ -75,9 +75,9 @@ const DualMetricCard = ({ title, data1, data2, color1, color2, label1, label2, u
         <div className="text-sm text-gray-500">{unit}</div>
       </div>
       
-      <div className="space-y-3">
+      <div className="space-y-1">
         {data1.map((item, index) => (
-          <div key={item.year} className="space-y-2">
+          <div key={item.year} className="space-y-">
             <div className="flex items-center justify-between">
               <div className="w-12 text-sm text-gray-600">{item.year}</div>
               <div className="flex-1 mx-4">
@@ -355,7 +355,7 @@ const KPI = () => {
   ];
 
   return (
-    <div className="min-h-screen marginal bg-gray-50 p-6">
+    <div className="min-h-screen bg-gray-50 p-6">
       {/* Header */}
       <div className="mb-8">
         <div className="flex space-x-4 mb-6">

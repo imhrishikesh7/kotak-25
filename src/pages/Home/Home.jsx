@@ -12,44 +12,29 @@ import Technology from '../../Components/Home/Technology'
 import IPhone from '../../Components/Home/Iphone'
 import KPIHome from '../../Components/Home/KPIHome'
 import Strategy from '../../Components/Home/StrategyHome'
-import VCModel2 from '../../Components/VCModel2'
+import VCModel from '../../Components/Home/VCModel'
 import DownloadCenter from '../../Components/Home/DownloadCenter'
 import AwardsSlider from '../../Components/Home/AwardsSlider'
 import SusSnapshots from '../../Components/Home/SusSnapshots'
+import TransformingForScale from '../../Components/Home/TransformingForScale'
+import SEMA from '../../Components/Home/SEMA'
 
 const Home = () => {
     return (
-        <div className=' overflow-hidden'>
+        <div className='overflow-hidden'>
             <Cover />
+            <TransformingForScale/>
             <Aboutus />
-            <div className='flex md:flex-row md:h-[90vh] gap-4 flex-col'>
-                <div className='md:w-[40%] bg-gray-200 md:rounded-r-4xl p-6 md:px-10 flex flex-col justify-center items-cente'>
-                    <Reveal animation="slide-up">
-                        <p className='text-2xl md:text-left text-center'>
-                            We are a <span className='text-2xl font-bold text-[#013367]'>₹ 8.8 trillion</span> institution* with a market capitalisation of <span className='text-2xl font-bold text-[#013367] '>₹ 4.3 trillion</span>, as of 31st March, 2025.
-                        </p>
-                    </Reveal>
-                    <div className='my-10'>
-                        <Reveal animation="slide-up">
-                            <h3 className="text-2xl text-cente mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Kotak Universe</h3>
-                        </Reveal>
-                        <KeyHighlights />
-                    </div>
-                    <KnowMore />
-                </div>
-                <div className='md:w-[60%]'>
-                    <Airplane />
-                </div>
-            </div>
             <BOD />
             <Message />
-            <BusinessOverview />
-            <Technology />
+            {/* <BusinessOverview /> */}
+            {/* <Technology /> */}
             <IPhone />
             <KPIHome />
-            <Strategy />
-            <VCModel2 />
-            <SusSnapshots />
+            <SEMA/>
+            {/* <Strategy /> */}
+            <VCModel />
+            {/* <SusSnapshots /> */}
             <AwardsSlider />
             <DownloadCenter />
         </div>

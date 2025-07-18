@@ -299,6 +299,7 @@ const Excellence = () => {
             Protection Act (DPDPA), 2023.
           </p>
         </div>
+        <img src="/Delivery_Excellence/Chart-Kotak.png" alt="" className='mb-3' />
         <div className='mb-3'>
           <h1 className='text-xl text-[#252f80] font-semibold mb-3'>
             Prevention through focused initiatives

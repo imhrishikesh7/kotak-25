@@ -25,6 +25,7 @@ const chartImages = {
         './charts/c110.webp',
         './charts/c111.webp',
         './charts/c112.webp',
+
     ],
     'Group Company Metrics': [
         './charts/c21.webp',
@@ -33,8 +34,16 @@ const chartImages = {
         './charts/c24.webp',
         './charts/c25.webp',
         './charts/c26.webp',
+        './charts/kc1.webp',
+        './charts/kc2.webp'
     ],
-    'Valuation Metrics': ['./charts/c31.webp', './charts/c32.webp'],
+    'Valuation Metrics': [
+        './charts/c31.webp', 
+        './charts/c32.webp',
+        './charts/kc3.webp',
+        './charts/kc4.webp',
+        './charts/kc5.webp',
+    ],
 };
 
 // Custom arrow components
@@ -113,7 +122,7 @@ const KPIHome = () => {
                 </Reveal>
                 <Reveal animation="slide-up" className={"text-lg  leading-6 w-7xl"}>
                     <p>
-                        All numbers are on a consolidated, basis except where stated
+                        All numbers are on a consolidated basis except where stated
                     </p>
                 </Reveal>
             </div>
@@ -155,6 +164,16 @@ const KPIHome = () => {
                 {/* Custom Arrows */}
                 <Arrow direction="left" onClick={() => sliderRef.current?.slickPrev()} />
                 <Arrow direction="right" onClick={() => sliderRef.current?.slickNext()} />
+            </div>
+
+            <div className='mt-6 w-5xl mx-auto'>
+                <p className='text-xs mb-1'>
+                    4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
+                </p>
+                <p className='text-xs'>
+                    4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
+                    **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
+                </p>
             </div>
         </div>
     );

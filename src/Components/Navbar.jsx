@@ -261,17 +261,17 @@ const Navbar = () => {
                     <img src="/Kotak-White-Version.webp" alt="Logo" />
                 </Link>
 
-            <div className="text-white flex justify-center gap-2 py-1 px-3 rounded-xl">
-  <a href="#download-center" className="cursor-pointer">Download Center</a> 
-  | 
-  <a 
-    href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf" 
-    target="_blank" 
-    className="flex items-center gap-2"
-  >
-    Download Full Report <FiDownload />
-  </a>
-</div>
+                <div className="text-slate-300 flex justify-center gap-2 py-1 px-3 rounded-xl">
+                    <a href="#download-center" className="cursor-pointer text-slate-300 hover:text-white transition-all duration-300">Download Center</a>
+                    |
+                    <a
+                        href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
+                        target="_blank"
+                        className="flex items-center hover:text-white transition-all duration-300 gap-2"
+                    >
+                        Download Full Report <FiDownload />
+                    </a>
+                </div>
 
 
                 {/* Desktop Nav */}

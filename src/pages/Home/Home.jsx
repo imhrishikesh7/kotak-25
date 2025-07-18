@@ -7,7 +7,6 @@ import KnowMore from '../../Components/KnowMore'
 import BOD from '../../Components/Home/BOD'
 import Message from '../../Components/Home/Message'
 import BusinessOverview from '../../Components/Home/BusinessOverview'
-import Technology from '../../Components/Home/Technology'
 // import Scene from '../../Components/Home/Scene'
 import IPhone from '../../Components/Home/Iphone'
 import KPIHome from '../../Components/Home/KPIHome'
@@ -18,6 +17,8 @@ import AwardsSlider from '../../Components/Home/AwardsSlider'
 import SusSnapshots from '../../Components/Home/SusSnapshots'
 import TransformingForScale from '../../Components/Home/TransformingForScale'
 import SEMA from '../../Components/Home/SEMA'
+import TechnologyHome from '../../Components/Home/TechnologyHome'
+import TalentHome from '../../Components/Home/TalentHome'
 
 const Home = () => {
     return (
@@ -27,14 +28,15 @@ const Home = () => {
             <Aboutus />
             <BOD />
             <Message />
-            {/* <BusinessOverview /> */}
-            {/* <Technology /> */}
+            <BusinessOverview />
+            <TechnologyHome />
             <IPhone />
+            <TalentHome/>
             <KPIHome />
             <SEMA/>
             {/* <Strategy /> */}
             <VCModel />
-            {/* <SusSnapshots /> */}
+            <SusSnapshots />
             <AwardsSlider />
             <div id="download-center" >
             <DownloadCenter />

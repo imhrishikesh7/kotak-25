@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import KnowMore from '../KnowMore';
+import { useEffect, useRef } from 'react';
+
 
 const TransformingForScale = () => {
     const containerRef = useRef(null);
@@ -26,11 +26,11 @@ const TransformingForScale = () => {
             });
 
             // Timeline
-            tl = gsap.timeline({ delay: 0.6 });
+            tl = gsap.timeline({ delay: 0 });
 
             tl.to(clipRef.current, {
                 clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
-                duration: 1.8,
+                duration: 1.2,
                 ease: 'expo.inOut'
             }).to(textRef.current, {
                 opacity: 1,

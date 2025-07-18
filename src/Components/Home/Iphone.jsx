@@ -169,7 +169,7 @@ export default function IPhone() {
           </div>
         </div>
       </div>
-      <div id="phone-section" className=" relative hidden md:flex mt-12 flex-col items-center justify-center">
+      <div id="phone-section" className=" relative hidden md:flex flex-col items-center justify-center">
 
         <div className="w-full h-[800px] bg-gradient-to-br from-[#ed1c25] to-[#013367] relative">
           <div className='w-fit absolute marginal left-1/2 md:-translate-x-1/2 text-center'>

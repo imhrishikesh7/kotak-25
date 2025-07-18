@@ -5,7 +5,7 @@ const highlights = [
     { value: "₹ 486,166 cr", label: "Total advances" },
     { value: "₹ 494,707 cr", label: "Total deposits" },
     { value: "₹ 669,885 cr", label: "Assets under management" },
-    { value: "₹ 920,000 cr+", label: "Relationship value**", note: "**Relationship value of Private Banking + Priority as of 31st March, 2025 | 1 GRI 2-1" },
+    { value: "₹ 920,000 cr+", label: "Relationship value*", note: "*Relationship value of Private Banking + Priority as of 31st March, 2025" },
     { value: "114,000+", label: "Full-time employees" },
     { value: "5.3 cr", label: "Number of customers of the Bank" },
 ];
@@ -19,7 +19,7 @@ const KeyHighlights = () => {
                     {highlights.map((item, index) => (
                         <div
                             key={index}
-                            className="mx-6 bg-white w-[350px] h-[240px] p-8 rounded-3xl flex flex-col justify-center-safe text-[#1d257e]"
+                            className="mx-6 bg-white w-[350px] h-[180px] p-8 rounded-3xl flex flex-col justify-center-safe text-[#1d257e]"
                         >
                             <div className="text-xl md:text-4xl font-bold">{item.value}</div>
                             <div className="text-xs md:text-xl text-gray-600 border-t border-red-500 w-full mt-1 pt-1">
@@ -32,7 +32,7 @@ const KeyHighlights = () => {
                     ))}
                 </Marquee>
             </div>
-            <p className="mt-6 text-center">*Consolidated Assets | #All numbers are on a consolidated basis except where stated</p>
+            <p className="mt-6 text-center">*Consolidated Assets | <sup>#</sup>All numbers are on a consolidated basis except where stated</p>
         </div>
     );
 };

@@ -21,7 +21,7 @@ const Awards = () => {
 
                 <img src="\Awards\5.png" alt="" />
 
-                <img src="\Awards\66.png" alt="" />
+                <img src="\Awards\6.png" alt="" />
             </div>
         </div>
     )

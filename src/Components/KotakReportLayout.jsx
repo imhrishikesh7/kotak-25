@@ -112,11 +112,13 @@ const KotakReportLayout = () => {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <i>*Improvement in score over the period July 2023 to March 2025</i>
+            </div>
             <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]">
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
-                        <img src="favicon.webp" alt="" className='w-15'/>
+                        <img src="favicon.webp" alt="" className='w-15' />
                     </div>
 
                     <div className="flex-1">

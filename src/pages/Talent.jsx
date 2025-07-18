@@ -151,7 +151,11 @@ const Talent = () => {
                     role transitions for Kotakites in early career stages across
                     Consumer and Commercial bank.
                 </p>
-
+                <p className='text-lg mt-5'>
+                    The Kotak <i>ReLaunch</i> programme, launched last year, supports
+                    women returning to the workforce with structured second-career
+                    opportunities at the Bank.
+                </p>
                 <p className='text-lg mt-5'>
                     Additionally, the top 10% performers in mid- to senior grades
                     were covered through a special share-linked grant to strengthen

@@ -295,7 +295,7 @@ const Community = () => {
         <div>
           <div className='max-w-2xl mx-auto'>
             <div className='mx-auto mb-13'>
-          <img src="\Community\IMG-114.png" alt="" />
+          <img src="\Community\IMG-116.png" alt="" />
 
           </div>
             <div className="bg-[#eaf6ff] rounded-2xl p-6 ">

@@ -61,6 +61,16 @@ const riskData = [
     mitigationFull:
       "Fraud risk management is a Board approved policy and is supported by a system called which enables timely triggers to identify anomalies. An unusual event can be raised by a user, based on systems trigger or observation, which is thoroughly investigated to identify any process gaps that can be exploited by fraudsters. The Bank effectively manages fraud risk by deploying proactive, preventive, detective approaches and leverages enterprise level fraud risk management system, machine learning models, market intelligence and in house early warning triggers in the approach. We also have a Whistle blower policy and platform, which is open to employees and vendors for raising their concerns, with full confidentiality, on any fraud, malpractice or any other untoward activity or event.",
   },
+  {
+    icon: '/Safeguarding_Stakeholder/Icon/6.webp',
+    riskTitle: 'Operational Risk',
+    riskFull:
+      "Risk of loss or damage arising from weaknesses in internal processes, personnel, technology and external factors that affect the Bank’s ability to conduct its operations effectively."
+    ,
+    mitigationShort: 'A Risk and Control Self-Assessment (RCSA) process identifies operational risks....',
+    mitigationFull:
+      "A Risk and Control Self-Assessment (RCSA) process identifies operational risks and Key Risk Indicators (KRIs), which are tracked to monitor trends in key operational risk parameters. A group-wide IT security programme ARISTI, has been launched to ensure robust data security and integrity. Disaster Recovery (DR) and Business Continuity Plans (BCP) ensure continuity of operations. Risk transfer via insurance is used as one of the key strategies, to mitigate operational risk. Third party risk assessment is undertaken through a Board approved Outsourcing policy which is aligned with the RBI Guidelines on outsourcing of financial services. In FY 2024- 25, our Bank has strengthened the framework relating to Digital Payment Products by amplifying existing controls and implementing additional controls in place for Digital Payment Security. Further, we have also strengthened the processes for a detailed review of product and process documentation to ensure robust product operating procedures.",
+  },
   // Add more entries as needed
 ];
 const coreData =
@@ -175,9 +185,8 @@ const Safeguarding1 = () => {
           },
         ]}
         sdgs={[
-          "/All_Icons/5.webp",
           "/All_Icons/6.webp",
-          "/All_Icons/7.webp",
+          "/All_Icons/16.webp",
         ]}
       />
       <div className='text-sm text-gray-700 mb-5'>

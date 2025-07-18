@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+ font-family: "Source Sans 3", sans-serif;
+}
+
 .icon-dot {
   width: 20px;
   height: 20px;
@@ -20,4 +24,31 @@
 .swiper-pagination {
   margin-top: 1.5rem; /* 6 = 24px space below cards */
   position: relative !important;
+}
+.overlay-curtain {
+  clip-path: inset(100% 0 0 0);
+  opacity: 0;
+  transition: clip-path 0.7s ease, opacity 0.5s ease;
+}
+
+.group:hover .overlay-curtain {
+  clip-path: inset(0 0 0 0);
+  opacity: 1;
+}
+/* Force slick-slide and its children to align top */
+/* .slick-slide {
+  display: flex !important;
+  align-items: flex-start !important;
+  height: auto !important;
+}
+.slick-track {
+  display: flex !important;
+  align-items: flex-start !important;
+} */
+/* In your global CSS or inside tailwind.config.js extend section if needed */
+.custom-arrow {
+  @apply bg-pink-100 text-pink-800 hover:bg-pink-200 p-2 rounded-full cursor-pointer text-lg;
+}
+html {
+  scroll-behavior: smooth;
 }

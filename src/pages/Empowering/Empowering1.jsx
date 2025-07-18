@@ -215,9 +215,7 @@ const Empowering1 = () => {
             long-term engagement.
           </p>
           <div className='mb-5'>
-            <h1 className='mb-2 text-xl text-[#252f80] font-semibold mt-10'>
-              Five Pillars of Talent Engagement
-            </h1>
+
             <div className='mb-5'>
               <img className='' src="/All_Icons/24.webp" alt="" />
             </div>
@@ -236,30 +234,7 @@ const Empowering1 = () => {
           every stage of their careers. Through structured programmes, digital platforms and on-the-job experiences, we ensure that our
           people are equipped to thrive in a dynamic environment and seize new opportunities as they emerge.
         </div>
-        <div className='mb-4'>
-          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
-          <p className='mb-2'>
-            We recognize the critical role of technology in driving growth
-            and innovation. We are committed to investing in professionals
-            who share our vision for harnessing the latest digital tools and
-            capabilities to deliver exceptional customer experiences.
-          </p>
-          <p className='mb-2'>
-            Our talent acquisition strategy, centered around the Hire-Train-
-            Deploy (HTD) model, drives a robust pipeline of role-ready talent.
-            We have expanded our sourcing channels through off-campus
-            and lateral hires from top-tier organisations by introducing
-            innovative programmes such as the Kotak NextGen Bankers
-            Programme (in partnership with Manipal Academy of BFSI). To
-            further strengthen our digital capabilities, we have launched
-            initiatives to enhance intake of STEM (Science, Technology,
-            Engineering, Mathematics) professionals and reorganise roles
-            with a focus on digital transformation. We intend to create a
-            more diverse workforce by specifically increasing representation of women by targeting to hire women with diverse qualifications
-            and backgrounds and fostering an inclusive environment that
-            attracts and retains top talent.
-          </p>
-        </div>
+
         <div className='mb-4'>
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Empowering our Colleagues
@@ -296,7 +271,7 @@ const Empowering1 = () => {
               <h3 className="font-bold text-lg text-black mb-2">
                 Performance Management System – Praise
               </h3>
-              <p className="">
+              <p className="mb-3">
                 At the Bank, PRAISE is our goal-setting and performance management system, designed to align
                 organisational objectives with personal aspirations and inspiring individuals to shape their own
                 paths to achievement. Built on four key pillars, growth, transparency, collaboration and fairness,
@@ -306,6 +281,14 @@ const Empowering1 = () => {
                 of performance rating. We also provide tools for personal growth and equip first-time managers with
                 skills to mentor and appraise. In FY 2024–25, all eligible employees underwent comprehensive
                 assessments, resulting in promotions for approximately 10% of our permanent workforce.<sup>3</sup>
+              </p>
+              <p>
+                We have begun including ESG considerations in our leadership
+                team’s performance appraisals. This was implemented through
+                incorporating the 4C framework – Customers, Company,
+                Colleagues and Community, wherein gender diversity features
+                under Colleagues. Details of the 4C framework can be found in
+                the ‘Strategy’ section on pages 46-47.
               </p>
             </div>
             <p className='text-sm text-gray-700 mb-5'>
@@ -378,9 +361,6 @@ const Empowering1 = () => {
         <h2 className="text-lg font-semibold mb-6">
           Highlights of the Bank’s training efforts in FY 2024-25
         </h2>
-
-
-        {/* Card 1 */}
         <div>
           <p className="text-3xl font-bold text-indigo-900">49.5</p>
           <p className="  mb-4">
@@ -417,7 +397,7 @@ const Empowering1 = () => {
 
           {/* Bottom full-width card */}
           <div className="mb-4">
-            <p className="text-2xl font-bold text-indigo-900">Over 1 million</p>
+            <p className="text-2xl font-bold text-indigo-900">Over 1 mn hours</p>
             <p className="">
               training hours completed by Bank’s employees on anticorruption policies such as AML standards and KYC norms for Banking and Insurance <sup>7</sup>
             </p>
@@ -462,11 +442,10 @@ const Empowering1 = () => {
 
           {/* Testimonial Text */}
           <p className="text-[#252f80]  ">
-            An eye-opening session! I realised that planning
-            is just as important as investing. I learned about
-            the financial tools available to us at KMBL. This
-            session was truly enriching. Looking forward to
-            more Refueling Hour sessions!
+            Kotak MyLearn platform has been
+            incredibly helpful in familiarising me with
+            the organisation’s policies, culture and
+            overall functioning.
           </p>
 
           {/* Closing quote */}
@@ -475,10 +454,10 @@ const Empowering1 = () => {
           {/* Name and Title */}
           <div className="mt-4">
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
-              Foram Mamtura
+              Sunil Sharma
             </p>
             <p className=" mt-1 italic">
-              Manager, Corporate-Support Division-Internal Audit)
+              (Principal-Technical Programme Management, Data and Analytics)
             </p>
           </div>
         </div>
@@ -597,7 +576,7 @@ const Empowering1 = () => {
             with skills aligned to business goals.
           </p>
         </div>
-        <div className="bg-white p-4 rounded-xl shadow-sm  border border-gray-200 mb-5">
+        <div className="bg-blue-100 p-4 rounded-xl shadow-sm  border border-gray-200 mb-5">
           {/* Opening Quotes */}
           <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
 
@@ -722,7 +701,7 @@ const Empowering1 = () => {
         <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
           Diversity and Inclusion <sup>8</sup>
         </h1>
-        <p className='mb-2'>
+        <p className='mb-2 '>
           We are committed to fostering a diverse, inclusive and equitable
           workplace. We aspire to have women represent at least a third
           of the Bank’s workforce. We have established a Diversity, Equity,
@@ -748,18 +727,16 @@ const Empowering1 = () => {
           <img className='md:w-[50%] mx-auto' src="/Empowering/Empowering12.webp" alt="" />
         </div>
       </div>
-      <div class="md:flex bg-white rounded-xl border-2 border-red-500 overflow-hidden shadow-md mb-5  ">
-
-        <div class="md:w-[30%]">
-          <img src="/Empowering/Empowering6.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
-        </div>
+      <div class="md:flex bg-white rounded-xl border-2 border-red-500 overflow-hidden shadow-md mb-5 ">
 
 
-        <div class="md:w-[70%] p-6 relative flex flex-col justify-between">
+
+
+        <div class="p-6 relative flex flex-col justify-between">
           <div class="absolute top-2 left-2 text-red-500 text-2xl font-bold">❝</div>
 
 
-          <p class="mt-6">
+          <p class="mt-6 text-3xl font-light">
             We are building a workplace where
             everyone is seen, heard and valued
             -not despite our differences but
@@ -772,7 +749,7 @@ const Empowering1 = () => {
 
 
           <div class="mt-4 border-t pt-4">
-            <p class="font-bold text-red-600">Paritosh Kashyap</p>
+            <p class="font-bold text-white w-fit p-2 rounded-lg bg-red-600">Paritosh Kashyap</p>
             <p class=" font-semibold">Chairperson – DEIB Council, Group President and Head – Wholesale Bank</p>
 
           </div>
@@ -964,7 +941,7 @@ const Empowering1 = () => {
             </p>
           </div>
           <div className='my-auto md:w-1/3'>
-            <img src="\Empowering\IMG-2-107.png" alt="" className='' />
+            <img src="\Empowering\IMG-2-107.webp" alt="" className='' />
           </div>
         </div>
         <div>
@@ -1002,13 +979,13 @@ const Empowering1 = () => {
               </p>
             </div>
             <div className='md:w-1/2'>
-              <img src="\Empowering\Image2-108.png" alt="" className='rounded-3xl' />
+              <img src="\Empowering\Image2-108.webp" alt="" className='rounded-3xl' />
             </div>
           </div>
         </div>
         <div className='flex md:flex-row flex-col gap-5 mt-5'>
           <div className='md:w-1/2'>
-            <img src="\Empowering\Diya.png" alt="" className='rounded-3xl' />
+            <img src="\Empowering\Diya.webp" alt="" className='rounded-3xl' />
           </div>
           <div className='md:w-1/2'>
             <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-3'>
@@ -1176,7 +1153,7 @@ const Empowering1 = () => {
           a Great Place to Work.
         </p>
         <div className=" w-full  rounded-xl overflow-hidden mb-4">
-          <img src="\Empowering\IMG-110.png" alt="Award Ceremony" className="w-full object-cover" />
+          <img src="\Empowering\IMG-110.webp" alt="Award Ceremony" className="w-full object-cover" />
         </div>
         <div className='mb-3'>
           “Celebrating You” is our recognition framework that integrates
@@ -1325,7 +1302,13 @@ const Empowering1 = () => {
           </div>
         </div>
         <div className="  p-5 border border-red-300 rounded-lg text-black ">
-          At Kotak, our people are the foundation of our success. We invest in their growth through robust talent development, digital transformation, inclusive culture and wellness initiatives, empowering every Kotakite to thrive and drive sustainable and future-ready growth.
+          Our people are the foundation of our
+          success. We invest in their growth
+          through robust talent development,
+          digital transformation, inclusive culture
+          and wellness initiatives, empowering
+          every Kotakite to thrive and drive
+          sustainable and future-ready growth.
         </div>
       </div>
       <p className='text-sm mb-5 text-gray-700'>

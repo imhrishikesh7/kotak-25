@@ -34,7 +34,7 @@ const Community = () => {
         </div>
       </div>
       <div className='mb-8 mt-5'>
-        <img src="\Community\image.png" alt="" className='max-h-screen rounded-4xl' />
+        <img src="\Community\image.webp" alt="" className='max-h-screen rounded-4xl' />
       </div>
       <div className='flex md:flex-row flex-col gap-5'>
         <div>
@@ -59,7 +59,7 @@ const Community = () => {
           </p>
         </div>
         <div>
-          <img src="\Community\IMG-112.png" alt="" />
+          <img src="\Community\IMG-112.webp" alt="" />
         </div>
       </div>
       <div className='border-t-1 pt-1  mt-3'>
@@ -67,10 +67,10 @@ const Community = () => {
       </div>
       <div className='mt-5 flex md:flex-row flex-col gap-5 bg-white p-5'>
         <div>
-          <img src="\Community\IMG-113.png" alt="" />
+          <img src="\Community\IMG-113.webp" alt="" />
         </div>
         <div>
-          <img src="\Community\IMG-2-113.png" alt="" />
+          <img src="\Community\IMG-2-113.webp" alt="" />
         </div>
       </div>
       <div className='border-t-1 pt-1 '>
@@ -79,20 +79,20 @@ const Community = () => {
       <div className='mt-5'>
         <h1 className='text-xl text-[#ed1c2f] font-semibold'>Pillars of Kotak’s CSR Philosophy</h1>
         <div className='mt-5 mb-5'>
-          <img src="\Community\IMG-3-113.png" alt="" />
+          <img src="\Community\IMG-3-113.webp" alt="" />
         </div>
         <div className='flex md:flex-row flex-col md:gap-10 gap-5 my-auto'>
           <div className='my-auto'>
-            <img src="\Community\IMG-114.png" alt="" className='md:w-[80%] mx-auto' />
+            <img src="\Community\IMG-114.webp" alt="" className='md:w-[80%] mx-auto' />
           </div>
           <div>
-            <img src="\Community\IMG-2-114.png" alt="" className='md:w-[80%] mx-auto' />
+            <img src="\Community\IMG-2-114.webp" alt="" className='md:w-[80%] mx-auto' />
           </div>
         </div>
       </div>
       <div className='flex xl:flex-row flex-col gap-10 mt-5'>
         <div>
-          <img src="\Community\1.png" alt="" className='rounded-4xl' />
+          <img src="\Community\1.webp" alt="" className='rounded-4xl' />
           <div className='mt-10 border border-[#ed1c2f] p-5 rounded-3xl md:mx-auto'>
             <div className='flex md:flex-row flex-col gap-5 mx-auto '>
               <div className='flex flex-col text-center items-center'>
@@ -173,7 +173,7 @@ const Community = () => {
       </div>
       <div className='flex md:flex-row flex-col mt-10 gap-5'>
         <div className='md:w-1/2 '>
-          <img src="\Community\IMG-115.png" alt="" className='md:w-[80%] mx-auto' />
+          <img src="\Community\IMG-115.webp" alt="" className='md:w-[80%] mx-auto' />
         </div>
         <div className='md:w-1/2'>
           <div>
@@ -237,7 +237,7 @@ const Community = () => {
           </div>
         </div>
         <div className='md:w-1/2 '>
-          <img src="\Community\115-3-img.png" alt="" className='md:w-[80%] mx-auto rounded-3xl' />
+          <img src="\Community\115-3-img.webp" alt="" className='md:w-[80%] mx-auto rounded-3xl' />
         </div>
       </div>
       <div className='mt-5'>
@@ -295,14 +295,14 @@ const Community = () => {
         <div>
           <div className='max-w-2xl mx-auto'>
             <div className='mx-auto mb-13'>
-          <img src="\Community\IMG-114.png" alt="" />
+          <img src="\Community\IMG-116.webp" alt="" />
 
           </div>
             <div className="bg-[#eaf6ff] rounded-2xl p-6 ">
               <div className="w-fit mb-4">
                 <div className="absolute translate-y-[-90%] rounded-full">
                   <img
-                    src="\Community\IMG-1-116.png"
+                    src="\Community\IMG-1-116.webp"
                     alt="Icon"
                     className="w-15 h-15"
                   />
@@ -335,7 +335,7 @@ const Community = () => {
 
               <div className="rounded-xl overflow-hidden">
                 <img
-                  src="\Community\IMG-2-116.png"
+                  src="\Community\IMG-2-116.webp"
                   alt="Water Conservation"
                   className="w-full h-auto object-cover"
                 />
@@ -351,7 +351,7 @@ const Community = () => {
               <div className="w-fit mb-4">
                 <div className=" absolute translate-y-[-90%] rounded-full">
                   <img
-                    src="\Community\IMG-2-117.png"
+                    src="\Community\IMG-2-117.webp"
                     alt="Icon"
                     className="w-15 h-15"
                   />
@@ -376,7 +376,7 @@ const Community = () => {
             <div className='bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto'>
               <div className="rounded-xl overflow-hidden mb-3 ">
                 <img
-                  src="\Community\Trees.jpg"
+                  src="\Community\Trees.webp"
                   alt="Water Conservation"
                   className="w-full h-auto object-cover"
                 />
@@ -431,7 +431,7 @@ const Community = () => {
             </div>
             <div className="rounded-xl overflow-hidden md:w-1/2">
               <img
-                src="\Community\117-IMG.png"
+                src="\Community\117-IMG.webp"
                 alt="Water Conservation"
                 className="w-full h-auto object-cover rounded-3xl"
               />
@@ -445,7 +445,7 @@ const Community = () => {
           <div className="w-fit mb-4">
             <div className=" absolute translate-y-[-90%] rounded-full">
               <img
-                src="\Community\IMG-2-117.png"
+                src="\Community\IMG-2-117.webp"
                 alt="Icon"
                 className="w-15 h-15"
               />
@@ -513,7 +513,7 @@ const Community = () => {
       </div>
 
       <div className='mt-10'>
-        <img src="\Community\IMG--118.png" alt="" className='lg:w-[35%] md:w-[50%] mb-3' />
+        <img src="\Community\IMG--118.webp" alt="" className='lg:w-[35%] md:w-[50%] mb-3' />
         <p>Through our CSR interventions, we support institutions that create impact and can render benefits to the society over a long period of
           time. We have supported the creation of aspirational institutions and programmes, many of which are in partnership with prestigious
           institutions in India.</p>
@@ -557,7 +557,7 @@ const Community = () => {
           </div>
         </div>
         <div>
-          <img src="\Community\Badminton.png" alt="" className='rounded-3xl' />
+          <img src="\Community\Badminton.webp" alt="" className='rounded-3xl' />
         </div>
       </div>
 
@@ -618,7 +618,7 @@ const Community = () => {
         </div>
       </div>
       <div className='mt-5'>
-        <img src="\Community\IMG-1-119.png" alt="" className='md:w-[80%] mx-auto' />
+        <img src="\Community\IMG-1-119.webp" alt="" className='md:w-[80%] mx-auto' />
       </div>
       <div className='mt-5'>
         <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
@@ -653,14 +653,14 @@ const Community = () => {
               </p>
             </div>
             <div className='md:w-[40%] my-auto'>
-              <img src="\Community\confrence.png" alt="" className='rounded-3xl' />
+              <img src="\Community\confrence.webp" alt="" className='rounded-3xl' />
             </div>
           </div>
         </div>
       </div>
       <div className='mt-10'>
-        <img src="\Community\IMG-120.png" alt="" className='lg:w-[35%] md:w-[50%] mb-10' />
-        <img src="\Community\ICON-1-120.png" alt="" className='w-15 mb-3' />
+        <img src="\Community\IMG-120.webp" alt="" className='lg:w-[35%] md:w-[50%] mb-10' />
+        <img src="\Community\ICON-1-120.webp" alt="" className='w-15 mb-3' />
         <h1 className='text-xl text-[#212b7e] font-bold'>People with Disability (PWD)</h1>
         <div className='flex items-start gap-3 mb-3 mt-3'>
           <div className='icon-dot mt-1' />
@@ -697,7 +697,7 @@ const Community = () => {
         </p>
       </div>
       <div className='mt-10'>
-        <img src="\Community\ICON-2-120.png" alt="" className='w-15 mb-3' />
+        <img src="\Community\ICON-2-120.webp" alt="" className='w-15 mb-3' />
         <h1 className='text-xl text-[#212b7e] font-bold'>Gender Diversity</h1>
         <div className='flex items-start gap-3 mb-3 mt-3'>
           <div className='icon-dot mt-1' />
@@ -729,7 +729,7 @@ const Community = () => {
       </div>
       <div className='mt-10'>
         <p className='mb-3'>Key implementing agencies: NSRCEL, KEF, Sarthak Educational Trust, Y4J and Anushkaa Foundation</p>
-        <img src="\Community\IMG-1-120.png" alt="" className='rounded-3xl md:w-[90%] mx-auto' />
+        <img src="\Community\IMG-1-120.webp" alt="" className='rounded-3xl md:w-[90%] mx-auto' />
         <p className='mt-3'>Kotak is committed to aiding transformation of communities it serves through meaningful CSR initiatives. By implementing
           programmes and fostering partnerships with a diverse network of non-governmental organisations, Kotak aims to deliver
           measurable and positive change for communities across the nation.</p>

@@ -189,21 +189,17 @@ const DownloadCenter = () => {
           >
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-start gap-3 flex-1 min-w-0">
-                <div className={`p-2 rounded-lg ${getCategoryColor(document.category)}`}>
+                {/* <div className={`p-2 rounded-lg ${getCategoryColor(document.category)}`}>
                   {document.icon}
-                </div>
+                </div> */}
                 <div className="flex-1 min-w-0">
                   <h3 className="text-sm font-medium text-gray-900 line-clamp-2 sm:line-clamp-1">
                     {document.title}
                   </h3>
                   <div className="flex items-center gap-3 mt-1">
-                    <span className={`inline-block px-2 py-1 rounded-md text-xs font-medium ${getCategoryColor(document.category)}`}>
+                    {/* <span className={`inline-block px-2 py-1 rounded-md text-xs font-medium ${getCategoryColor(document.category)}`}>
                       {document.category.charAt(0).toUpperCase() + document.category.slice(1)}
-                    </span>
-                    <span className="text-xs text-gray-500 flex items-center gap-1">
-                      <FiFileText className="w-3 h-3" />
-                      {document.pages} pages
-                    </span>
+                    </span> */}
                   </div>
                 </div>
               </div>
@@ -211,10 +207,10 @@ const DownloadCenter = () => {
                 href={document.link}
                 target='_blank'
                 onClick={() => handleDownload(document)}
-                className="bg-blue-900 text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap flex-shrink-0"
+                className="bg-blue-900 text-white px-2 py-2 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap flex-shrink-0"
               >
                 <FiDownload className="w-4 h-4" />
-                Download
+                
               </a>
             </div>
           </div>

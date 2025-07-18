@@ -7,7 +7,7 @@ const HauslaCarousel = () => {
   const stories = [
     {
       id: 1,
-      image: "/Community/IMG-121.png",
+      image: "/Community/IMG-121.webp",
       text: "The support I received, particularly for strawberry tissue culture and goats, has transformed my life...",
       author: "- Pushpa Devi, Sarthu Devi",
       details: "Gandhariya hamlet, Dedi block, Jharkhand"

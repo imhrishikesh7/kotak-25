@@ -1,18 +1,22 @@
-const getCardLayout = (index) => {
-    switch (index) {
-      case 0:
-        return "md:col-span-1 md:row-span-2";
-      case 1:
-        return "md:col-span-1 md:row-span-1";
-      case 2:
-        return "md:col-span-1 md:row-span-1";
-      case 3:
-        return "md:col-span-2 md:row-span-1";
-      default:
-        return "md:col-span-1 md:row-span-1";
-    }
-  };import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Reveal from '../Reveal';
+import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
+
+
+const getCardLayout = (index) => {
+  switch (index) {
+    case 0:
+      return "md:col-span-1 md:row-span-2";
+    case 1:
+      return "md:col-span-1 md:row-span-1";
+    case 2:
+      return "md:col-span-1 md:row-span-1";
+    case 3:
+      return "md:col-span-2 md:row-span-1";
+    default:
+      return "md:col-span-1 md:row-span-1";
+  }
+};
 
 const BusinessOverview = () => {
   const [visibleCards, setVisibleCards] = useState(new Set());
@@ -102,30 +106,30 @@ const BusinessOverview = () => {
   };
 
   return (
-    <div className="min-h-scree bg-gray-100 p-6">
+    <div className="min-h-scree bg-gray-100 z-0 p-6">
       <div className="max-w-7xl mx-auto">
         <div className='marginal mx-auto text-center'>
-             <Reveal animation="slide-up">
-                    <h3 className="text-2xl mb-2 font-bold text-[#ed1c25]">Business Overview</h3>
-                </Reveal>
-                <div className='flex w-[50px] mx-auto'>
-                    <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
-                    <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
-                </div>
-                <Reveal animation="slide-up">
-                    <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Diversified businesses with a unified vision</h1>
-                </Reveal>
+          <Reveal animation="slide-up">
+            <h3 className="text-2xl mb-2 font-bold text-[#ed1c25]">Business Overview</h3>
+          </Reveal>
+          <div className='flex w-[50px] mx-auto'>
+            <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
+            <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
+          </div>
+          <Reveal animation="slide-up">
+            <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Diversified businesses with a unified vision</h1>
+          </Reveal>
         </div>
-        <div className="flex md:flex-row flex-col gap-6 h-scree">
+        <div className=" flex md:flex-row flex-col gap-6 h-scree">
           {/* Left Column - Banking and Lending */}
           <div
             ref={(el) => (cardRefs.current[0] = el)}
             data-card-index={0}
             className={`md:w-[40%]
-              relative overflow-hidden rounded-2xl p-8 text-white
+              relative overflow-hidde  rounded-2xl p-8 text-white
               transform transition-all bg-cover bg-no-repeat duration-700 ease-out
-              ${visibleCards.has(0) 
-                ? 'translate-y-0 opacity-100 scale-100' 
+              ${visibleCards.has(0)
+                ? 'translate-y-0 opacity-100 scale-100'
                 : 'translate-y-8 opacity-0 scale-95'
               }
             `}
@@ -135,8 +139,8 @@ const BusinessOverview = () => {
             }}
           >
             {/* Background overlay for better text readability */}
-            <div className="absolute inset-0 bg-black/60 bg-opacity-40"></div>
-            
+            <div className="absolute rounded-2xl inset-0 bg-black/60 bg-opacity-40"></div>
+
             {/* Content */}
             <div className="relative z-10 h-full flex flex-col">
               <div className="mb-6">
@@ -145,7 +149,7 @@ const BusinessOverview = () => {
                 </h2>
                 <div className="w-12 h-1 bg-red-500 rounded-full"></div>
               </div>
-              
+
               <div className="flex-1 overflow-y-auto">
                 <div className="space-y-3">
                   {services[0].items.map((item, itemIndex) => (
@@ -161,8 +165,19 @@ const BusinessOverview = () => {
                 </div>
               </div>
             </div>
-            
-        
+
+            <div className="absolute top-[20%] left-full transform -translate-y-1/2 z-[111] flex items-center">
+              {/* Left half of the dotted line */}
+              <div className="w-[10px] h-[1px] border-t-3 border-dotted border-black"></div>
+
+              {/* Arrowhead pointing right */}
+              <div className="w-4 h-4 text-black flex items-center justify-center">
+                <IoIosArrowForward size={16} />
+              </div>
+
+              {/* Right half of the dotted line */}
+              <div className="w-[10px] h-[1px] border-t-3  border-dotted border-black"></div>
+            </div>
           </div>
 
           {/* Right Column */}
@@ -174,10 +189,10 @@ const BusinessOverview = () => {
                 ref={(el) => (cardRefs.current[1] = el)}
                 data-card-index={1}
                 className={`
-                  relative overflow-hidden bg-cover bg-no-repeat rounded-2xl p-8 text-white
+                  relative overflow-hidde bg-cover bg-no-repeat rounded-2xl p-8 text-white
                   transform transition-all duration-700 ease-out
-                  ${visibleCards.has(1) 
-                    ? 'translate-y-0 opacity-100 scale-100' 
+                  ${visibleCards.has(1)
+                    ? 'translate-y-0 opacity-100 scale-100'
                     : 'translate-y-8 opacity-0 scale-95'
                   }
                   // bg-gradient-to-br from-gray-800 via-gray-900 to-blue-900
@@ -188,8 +203,8 @@ const BusinessOverview = () => {
                 }}
               >
                 {/* Background overlay for better text readability */}
-                <div className="absolute inset-0 bg-black/50 bg-opacity-40"></div>
-                
+                <div className="absolute rounded-2xl inset-0 bg-black/50 bg-opacity-40"></div>
+
                 {/* Content */}
                 <div className="relative z-10 h-full flex flex-col">
                   <div className="mb-6">
@@ -198,7 +213,7 @@ const BusinessOverview = () => {
                     </h2>
                     <div className="w-12 h-1 bg-red-500 rounded-full"></div>
                   </div>
-                  
+
                   <div className="flex-1 overflow-y-auto">
                     <div className="space-y-3">
                       {services[1].items.map((item, itemIndex) => (
@@ -214,7 +229,18 @@ const BusinessOverview = () => {
                     </div>
                   </div>
                 </div>
-      
+                <div className="absolute top-1/2 left-full transform -translate-y-1/2 z-[111] flex items-center">
+                  {/* Left half of the dotted line */}
+                  <div className="w-[10px] h-[1px] border-t-3  border-dotted border-black"></div>
+
+                  {/* Arrowhead pointing right */}
+                  <div className="w-4 h-4 text-black flex items-center justify-center">
+                    <IoIosArrowForward size={16} />
+                  </div>
+
+                  {/* Right half of the dotted line */}
+                  <div className="w-[10px] h-[1px] border-t-3  border-dotted border-black"></div>
+                </div>
               </div>
 
               {/* Protection */}
@@ -222,10 +248,10 @@ const BusinessOverview = () => {
                 ref={(el) => (cardRefs.current[2] = el)}
                 data-card-index={2}
                 className={`
-                  relative overflow-hidden bg-cover bg-no-repeat rounded-2xl p-8 text-white
+                  relative overflow-hidde bg-cover bg-no-repeat rounded-2xl p-8 text-white
                   transform transition-all duration-700 ease-out
-                  ${visibleCards.has(2) 
-                    ? 'translate-y-0 opacity-100 scale-100' 
+                  ${visibleCards.has(2)
+                    ? 'translate-y-0 opacity-100 scale-100'
                     : 'translate-y-8 opacity-0 scale-95'
                   }
                   // bg-gradient-to-br from-gray-900 via-purple-900 to-blue-900
@@ -236,8 +262,8 @@ const BusinessOverview = () => {
                 }}
               >
                 {/* Background overlay for better text readability */}
-                <div className="absolute inset-0 bg-black/50 bg-opacity-40"></div>
-                
+                <div className="absolute rounded-2xl inset-0 bg-black/50 bg-opacity-40"></div>
+
                 {/* Content */}
                 <div className="relative z-10 h-full flex flex-col">
                   <div className="mb-6">
@@ -246,7 +272,7 @@ const BusinessOverview = () => {
                     </h2>
                     <div className="w-12 h-1 bg-red-500 rounded-full"></div>
                   </div>
-                  
+
                   <div className="flex-1 overflow-y-auto">
                     <div className="space-y-3">
                       {services[2].items.map((item, itemIndex) => (
@@ -262,8 +288,23 @@ const BusinessOverview = () => {
                     </div>
                   </div>
                 </div>
-                
-     
+
+
+                <div className="absolute top-full left-1/2 transform -translate-x-1/2 z-[111] flex flex-col items-center">
+                  {/* Top half of the dotted line */}
+                  <div className="h-[10px] w-[1px] border-l-2 border-dotted border-black"></div>
+
+                  {/* Arrowhead pointing down */}
+                  <div className=" text-black flex items-center justify-center">
+                    <IoIosArrowDown size={16} />
+                  </div>
+
+                  {/* Bottom half of the dotted line */}
+                  <div className="h-[10px] w-[1px] border-l-2 border-dotted border-black"></div>
+                </div>
+
+
+
               </div>
             </div>
 
@@ -275,8 +316,8 @@ const BusinessOverview = () => {
                 className={`
                   relative overflow-hidden bg-cover bg-no-repeat rounded-2xl p-8 text-white h-full
                   transform transition-all duration-700 ease-out
-                  ${visibleCards.has(3) 
-                    ? 'translate-y-0 opacity-100 scale-100' 
+                  ${visibleCards.has(3)
+                    ? 'translate-y-0 opacity-100 scale-100'
                     : 'translate-y-8 opacity-0 scale-95'
                   }
                   // bg-gradient-to-br from-gray-800 via-blue-900 to-purple-900
@@ -287,8 +328,8 @@ const BusinessOverview = () => {
                 }}
               >
                 {/* Background overlay for better text readability */}
-                <div className="absolute inset-0 bg-black/50 bg-opacity-40"></div>
-                
+                <div className="absolute rounded-2xl inset-0 bg-black/50 bg-opacity-40"></div>
+
                 {/* Content */}
                 <div className="relative z-10 h-full flex flex-col">
                   <div className="mb-6">
@@ -297,7 +338,7 @@ const BusinessOverview = () => {
                     </h2>
                     <div className="w-12 h-1 bg-red-500 rounded-full"></div>
                   </div>
-                  
+
                   <div className="flex-1 overflow-y-auto">
                     <div className="space-y-3">
                       {services[3].items.map((item, itemIndex) => (

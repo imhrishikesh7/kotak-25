@@ -1,11 +1,13 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Slider from 'react-slick';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { HiOutlineArrowSmallLeft, HiOutlineArrowSmallRight } from "react-icons/hi2";
+import { IoMdArrowDropupCircle } from "react-icons/io";
 import Reveal from '../Reveal';
+
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -38,7 +40,7 @@ const chartImages = {
         './charts/kc2.webp'
     ],
     'Valuation Metrics': [
-        './charts/c31.webp', 
+        './charts/c31.webp',
         './charts/c32.webp',
         './charts/kc3.webp',
         './charts/kc4.webp',
@@ -49,7 +51,7 @@ const chartImages = {
 // Custom arrow components
 const Arrow = ({ onClick, direction }) => (
     <div
-        className={`absolute bottom-4 ${direction === 'left' ? 'right-16 cursor-pointer' : 'right-4'} cursor-pointer bg-[#ed1c25] text-white w-8 h-8 flex items-center justify-center rounded-full`}
+        className={`absolute bottom-4 ${direction === 'left' ? 'right-16 cursor-pointer' : 'right-4'} cursor-pointer bg-gradient-to-br from-[#9f0910] to-[#ed1c25] text-white w-8 h-8 flex items-center justify-center rounded-full`}
         onClick={onClick}
     >
         {direction === 'left' ? <HiOutlineArrowSmallLeft />
@@ -132,7 +134,7 @@ const KPIHome = () => {
                     <button
                         key={tab}
                         className={`px-5 py-2 cursor-pointer rounded-full border transition-all duration-300 text-sm md:text-base ${activeTab === tab
-                            ? 'bg-[#ed1c25] text-white font-semibold border-[#ed1c25]'
+                            ? 'bg-gradient-to-br from-[#9f0910] to-[#ed1c25] text-white font-semibold border-[#ed1c25]'
                             : 'bg-white text-gray-600 border-gray-300 hover:border-[#ed1c25] hover:text-[#ed1c25]'
                             }`}
                         onClick={() => setActiveTab(tab)}
@@ -165,16 +167,21 @@ const KPIHome = () => {
                 <Arrow direction="left" onClick={() => sliderRef.current?.slickPrev()} />
                 <Arrow direction="right" onClick={() => sliderRef.current?.slickNext()} />
             </div>
-
             <div className='mt-6 w-5xl mx-auto'>
-                <p className='text-xs mb-1'>
-                    4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
-                </p>
-                <p className='text-xs'>
-                    4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
-                    **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
-                </p>
+                {activeTab === 'Operational Metrics' && (
+                    <p className="text-xs flex items-start gap-1">
+                       <span><IoMdArrowDropupCircle className='mt-[1px]'/></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
+                    </p>
+                )}
+
+                {activeTab === 'Group Company Metrics' && (
+                    <p className="text-xs flex items-start gap-1">
+                        <span><IoMdArrowDropupCircle className='mt-[1px]'/></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
+                        **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
+                    </p>
+                )}
             </div>
+
         </div>
     );
 };

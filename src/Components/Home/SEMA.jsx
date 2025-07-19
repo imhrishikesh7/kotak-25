@@ -70,7 +70,7 @@ const SEMA = () => {
         <div className="margina">
             <div
                 ref={containerRef}
-                className="overflow-hidden h-[700px] object-contain relative"
+                className="overflow-hidden h-[90vh] scale-0 object-contain relative"
                 style={{
                     backgroundImage: 'url(./home/hausla.webp)',
                     backgroundSize: 'contain',
@@ -91,15 +91,15 @@ const SEMA = () => {
                 {/* Text Content - Only visible on desktop */}
                 <div
                     ref={textRef}
-                    className="hidden lg:flex absolute right-8 top-1/2 transform !-translate-y-1/2 w-2/5 flex-col"
+                    className="hidden lg:flex absolute right-24 top-[25%] w-[40vw] border flex-col"
                 >
-                     <p animation="slide-up">
-              <h3 className="text-2xl mb-3 font-bold text-white">Stakeholder Engagement and Materiality Assessment</h3>
-            </p>
-            <div className='flex w-[50px] mb-4'>
-              <div className='h-[2px] bg-white w-1/2 mx-auto' />
-              <div className='h-[2px] bg-white w-1/2 mx-auto' />
-            </div>
+                    <p animation="slide-up">
+                        <h3 className="text-2xl mb-3 font-bold text-white">Stakeholder Engagement and Materiality Assessment</h3>
+                    </p>
+                    <div className='flex w-[50px] mb-4'>
+                        <div className='h-[2px] bg-white w-1/2 mx-auto' />
+                        <div className='h-[2px] bg-white w-1/2 mx-auto' />
+                    </div>
                     <h2 className="text-4xl font-light text-white mb-4 drop-shadow-lg">
                         Creating Value and Nurturing Relationships
                     </h2>

@@ -34,7 +34,7 @@ const Home = () => {
             <TalentHome/>
             <KPIHome />
             <SEMA/>
-            {/* <Strategy /> */}
+            <Strategy />
             <VCModel />
             <SusSnapshots />
             <AwardsSlider />

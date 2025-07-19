@@ -82,7 +82,7 @@ const AwardsSlider = () => {
                 >
                   {/* Trophy icon with enhanced styling */}
                   <div className="relative bg- mb-">
-                    <div className="trophy-icon w-20 h-20 flex items-center justify-center rounded-full bg-gradient-to-br from-[#013367] to-[#ed1c25] transition-all duration-300 ease-out">
+                    <div className="trophy-icon w-20 h-20 flex items-center justify-center rounded-full bg-gradient-to-br from-[#9f0910] to-[#ed1c25] transition-all duration-300 ease-out">
                       {/* <FaTrophy className="text-white w-8 h-8 transition-transform duration-300 ease-out" /> */}
                       <img src={award.icon} className='w-10' alt="" />
                     </div>

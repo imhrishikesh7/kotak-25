@@ -42,7 +42,7 @@ const BOD = () => {
             <HeadingPill2 heading='Standing Left to Right' />
             {renderRow(standing)}
 
-            <div className="mt-8">
+                <div className="mt-8">
                 <HeadingPill2 heading='Sitting Left to Right' />
                 {renderRow(sitting)}
             </div>

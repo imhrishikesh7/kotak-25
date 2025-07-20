@@ -8,7 +8,7 @@ const BusinessOverview = () => {
                 Business Overview<sup>1</sup>
             </div>
             <h1 className="text-3xl font-bold text-[#ed1c2f]">
-                Diversified businesses with a unified vision
+         Diversified businesses with a unified vision
             </h1>
             <div className='mt-5'>
                 <p className='text-2xl'>

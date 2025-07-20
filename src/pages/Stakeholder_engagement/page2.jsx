@@ -172,7 +172,7 @@ const page2 = () => {
         <sup>1</sup>GRI 3-1
       </p>
       <div className='mb-5'>
-        <img src="/Stakeholders/1.jpg" alt="" className='rounded-3xl' />
+        <img src="/Stakeholders/1.webp" alt="" className='rounded-3xl' />
       </div>
       <div className='text-lg'>
         <h1 className='text-xl text-[#252f80] mb-1 font-semibold'>
@@ -284,7 +284,7 @@ const page2 = () => {
             <img src="/Stakeholders/Page3-1.webp" alt="" />
           </div>
           <div>
-            <img src="/Stakeholders/Image-34-Box.png" alt="" />
+            <img src="/Stakeholders/Image-34-Box.webp" alt="" />
           </div>
         </div>
 
@@ -295,7 +295,7 @@ const page2 = () => {
             <img src="/Stakeholders/Page4-1.webp" alt="" />
           </div>
           <div>
-            <img src="\Stakeholders\Image-35-Box.png" alt="" />
+            <img src="\Stakeholders\Image-35-Box.webp" alt="" />
           </div>
         </div>
 
@@ -317,7 +317,7 @@ const page2 = () => {
               <img src="/Stakeholders/Page6-1.webp" alt="" />
             </div>
             <div>
-              <img src="\Stakeholders\Image-36-Box.png" alt="" />
+              <img src="\Stakeholders\Image-36-Box.webp" alt="" />
             </div>
           </div>
 
@@ -328,7 +328,7 @@ const page2 = () => {
               <img src="/Stakeholders/Page7-1.webp" alt="" />
             </div>
             <div>
-              <img src="\Stakeholders\Image-37-Box.png" alt="" />
+              <img src="\Stakeholders\Image-37-Box.webp" alt="" />
             </div>
           </div>
 
@@ -339,7 +339,7 @@ const page2 = () => {
               <img src="/Stakeholders/Page8-1.webp" alt="" />
             </div>
             <div>
-              <img src="\Stakeholders\Image-38-Box.png" alt="" />
+              <img src="\Stakeholders\Image-38-Box.webp" alt="" />
             </div>
           </div>
 
@@ -350,7 +350,7 @@ const page2 = () => {
               <img src="/Stakeholders/Page8-1.webp" alt="" />
             </div>
             <div>
-              <img src="\Stakeholders\Image-39-Box.png" alt="" />
+              <img src="\Stakeholders\Image-39-Box.webp" alt="" />
             </div>
           </div>
         </div>

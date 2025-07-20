@@ -1527,7 +1527,7 @@ const BusinessOverview = () => {
 
                     <div>
                         <img
-                            src="\BusinessOverview\Page20-2.jpg"
+                            src="\BusinessOverview\Page20-2.webp"
                             alt=""
                             className="rounded-2xl w-100 mx-auto xl:mx-0 mt-6 xl:mt-0"
                         />

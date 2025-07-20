@@ -11,17 +11,17 @@ const Awards = () => {
                 Recognition of Excellence
             </h1>
             <div className='space-y-5'>
-                <img src="\Awards\1.png" alt="" />
+                <img src="\Awards\1.webp" alt="" />
 
-                <img src="\Awards\2.png" alt="" />
+                <img src="\Awards\2.webp" alt="" />
 
-                <img src="\Awards\3.png" alt="" />
+                <img src="\Awards\3.webp" alt="" />
 
-                <img src="\Awards\4.png" alt="" />
+                <img src="\Awards\4.webp" alt="" />
 
-                <img src="\Awards\5.png" alt="" />
+                <img src="\Awards\5.webp" alt="" />
 
-                <img src="\Awards\6.png" alt="" />
+                <img src="\Awards\6.webp" alt="" />
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ const CybersecurityCaseStudy = () => {
 <div className="bg-[#e3f1fd] p-5 rounded-3xl space-y-4 mb-5">
             <div className="flex items-center gap-3">
               <img
-                src="\All_Icons\Icon-75.png"
+                src="\All_Icons\Icon-75.webp"
                 alt="Incident Icon"
                 className="w-10 h-10"
               />
@@ -32,7 +32,7 @@ const CybersecurityCaseStudy = () => {
           <div className="bg-[#e3f1fd] p-5 rounded-3xl space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="\All_Icons\Icon3-75.png"
+                src="\All_Icons\Icon3-75.webp"
                 alt="Response Icon"
                 className="w-10 h-10"
               />
@@ -79,7 +79,7 @@ const CybersecurityCaseStudy = () => {
           <div className="bg-[#e3f1fd] p-5 rounded-3xl space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="\All_Icons\Icon4-75.png"
+                src="\All_Icons\Icon4-75.webp"
                 alt="Impact Icon"
                 className="w-10 h-10"
               />
@@ -101,7 +101,7 @@ const CybersecurityCaseStudy = () => {
               (including the report of the external Auditor).
             </p>
             <img
-              src="\All_Icons\Meeting.jpg"
+              src="\All_Icons\Meeting.webp"
               alt="Impact Visual"
               className="w-full rounded-xl mt-4"
             />

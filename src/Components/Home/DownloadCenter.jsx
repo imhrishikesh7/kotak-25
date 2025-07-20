@@ -21,7 +21,7 @@ const DownloadCenter = () => {
       id: 1,
       title: "Independent Auditor's Report on Consolidated Financial Statements",
       link: "./documents/Kotak AR 2024-25-Independent Auditor's Report on Consolidated Financial Statements.pdf",
-      category: "financial",
+      category: "financial-statements",
       pages: 127,
       icon: <FiShield className="w-4 h-4" />
     },
@@ -29,14 +29,14 @@ const DownloadCenter = () => {
       id: 2,
       title: "Consolidated Financial Statements",
       link: "./documents/Kotak AR 2024-25-Consolidated Financial Statements.pdf",
-      category: "financial",
+      category: "financial-statements",
       pages: 140,
       icon: <FiBarChart2 className="w-4 h-4" />
     },
     {
       id: 3,
       title: "Financial Information of Subsidiaries and Basel III (Pillar 3) Disclosures",
-      category: "financial",
+      category: "financial-statements",
       link: "./documents/Kotak AR 2024-25-Financial Information of Subsidiaries.pdf",
       pages: 201,
       icon: <FiHome className="w-4 h-4" />
@@ -44,7 +44,7 @@ const DownloadCenter = () => {
     {
       id: 4,
       title: "Independent Auditor's Report on Standalone Financial Statements",
-      category: "financial",
+      category: "financial-statements",
       link: "./documents/Kotak AR 2024-25-Independent Auditor's Report on Standalone Financial Statements.pdf",
       pages: 203,
       icon: <FiShield className="w-4 h-4" />
@@ -52,7 +52,7 @@ const DownloadCenter = () => {
     {
       id: 5,
       title: "Standalone Financial Statements",
-      category: "financial",
+      category: "financial-statements",
       link: "./documents/Kotak AR 2024-25-Standalone Financial Statements.pdf",
       pages: 210,
       icon: <FiBarChart2 className="w-4 h-4" />
@@ -60,7 +60,7 @@ const DownloadCenter = () => {
     {
       id: 6,
       title: "Directors' Report and Annexures",
-      category: "statutory",
+      category: "statutory-reports",
       link: "./documents/Kotak AR 2024-25-Director's Report.pdf",
       pages: 296,
       icon: <FiUsers className="w-4 h-4" />
@@ -68,7 +68,7 @@ const DownloadCenter = () => {
     {
       id: 7,
       title: "Report on Corporate Governance",
-      category: "statutory",
+      category: "statutory-reports",
       link: "./documents/Kotak AR 2024-25-Report on Corporate Governance.pdf",
       pages: 349,
       icon: <FiHome className="w-4 h-4" />
@@ -76,7 +76,7 @@ const DownloadCenter = () => {
     {
       id: 8,
       title: "Management's Discussion and Analysis",
-      category: "statutory",
+      category: "statutory-reports",
       link: "./documents/Kotak AR 2024-25-Management's Discussion and Analysis.pdf",
       pages: 402,
       icon: <FiBarChart2 className="w-4 h-4" />
@@ -84,7 +84,7 @@ const DownloadCenter = () => {
     {
       id: 9,
       title: "Business Responsibility and Sustainability Report (BRSR)",
-      category: "statutory",
+      category: "statutory-reports",
       link: ".public/documents/Kotak AR 2024-BRSR.pdf",
       pages: 456,
       icon: <FiFileText className="w-4 h-4" />
@@ -93,7 +93,7 @@ const DownloadCenter = () => {
       id: 10,
       title: "ESG Data Tables",
       category: "annexures",
-      link:"./documents/Kotak AR 2024-25-ESG Data Tables.pdf",
+      link: "./documents/Kotak AR 2024-25-ESG Data Tables.pdf",
       pages: 507,
       icon: <FiBarChart2 className="w-4 h-4" />
     },
@@ -101,7 +101,7 @@ const DownloadCenter = () => {
       id: 11,
       title: "GRI Content Index",
       category: "annexures",
-      link:"./documents/Kotak AR 2024-25-GRI Content Index.pdf",
+      link: "./documents/Kotak AR 2024-25-GRI Content Index.pdf",
       pages: 512,
       icon: <FiFileText className="w-4 h-4" />
     },
@@ -109,17 +109,143 @@ const DownloadCenter = () => {
       id: 12,
       title: "Assurance Statements",
       category: "annexures",
-      link:"./documents/Kotak AR 2024-25-Assurance Statements.pdf",
-      pages: 514,
-      icon: <FiShield className="w-4 h-4" />
-    }
+      link: "./documents/Kotak AR 2024-25-Assurance Statements.pdf",
+    },
+    {
+      id: 13,
+      title: "Kotak Mahindra Prime Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Prime-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 14,
+      title: "Kotak Mahindra Investments Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Investments-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 15,
+      title: "Kotak Infrastructure Debt Fund Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Infrastructure-Debt-Fund-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 16,
+      title: "Kotak Securities Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Securities-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 17,
+      title: "Kotak Mahindra Capital Company Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Capital-Company-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 18,
+      title: "Kotak Mahindra Life Insurance Company Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Life-Insurance-Company-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 19,
+      title: "Kotak Mahindra Asset Management Company Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Asset-Management-Company-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 20,
+      title: "Kotak Mahindra Trustee Company Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Trustee-Company-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 21,
+      title: "Kotak Alternate Asset Managers Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Alternate-Asset-Managers-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 22,
+      title: "Kotak Mahindra Trusteeship Services Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Trusteeship-Services-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 23,
+      title: "Kotak Mahindra (International) Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-International-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 24,
+      title: "Kotak Mahindra (UK) Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-UK-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 25,
+      title: "Kotak Mahindra, Inc.",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Inc_FY2024-25.pdf",
+    },
+    {
+      id: 26,
+      title: "Kotak Mahindra Asset Management (Singapore) Pte. Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Asset-Management-Singapore-Pte-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 27,
+      title: "Kotak Mahindra Financial Services Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Financial-Services-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 28,
+      title: "Kotak Mahindra Pension Fund Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Mahindra-Pension-Fund-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 29,
+      title: "BSS Microfinance Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/BSS-Microfinance-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 30,
+      title: "Sonata Finance Private Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Sonata-Finance-Private-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 31,
+      title: "IVY Product Intermediaries Limited",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/IVY-Product-Intermediaries-Limited_FY2024-25.pdf",
+    },
+    {
+      id: 32,
+      title: "Kotak Karma Foundation",
+      category: "Subsidiaries",
+      link: "https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/subsidiaries/Kotak-Karma-Foundation_FY2024-25.pdf",
+    },
+    {
+      id: 33,
+      title: "Consolidated and Standalone",
+      category: "financial-highlights",
+      link: "./documents/Kotak Karma Foundation.pdf",
+    },
   ];
 
   const categories = [
     { id: 'all', name: 'All', count: documents.length },
-    { id: 'financial', name: 'Financial', count: documents.filter(d => d.category === 'financial').length },
-    { id: 'statutory', name: 'Statutory', count: documents.filter(d => d.category === 'statutory').length },
-    { id: 'annexures', name: 'Annexures', count: documents.filter(d => d.category === 'annexures').length }
+    { id: 'financial-highlights', name: 'Financial Highlights', count: documents.filter(d => d.category === 'financial-highlights').length },
+    { id: 'financial-statements', name: 'Financial Statements', count: documents.filter(d => d.category === 'financial-statements').length },
+    { id: 'statutory-reports', name: 'Statutory Reports', count: documents.filter(d => d.category === 'statutory-reports').length },
+    { id: 'annexures', name: 'Annexures', count: documents.filter(d => d.category === 'annexures').length },
+    { id: 'Subsidiaries', name: 'Subsidiaries', count: documents.filter(d => d.category === 'Subsidiaries').length }
   ];
 
   const filteredDocuments = documents.filter(doc => {
@@ -170,7 +296,7 @@ const DownloadCenter = () => {
               key={category.id}
               onClick={() => setSelectedCategory(category.id)}
               className={`px-3 py-2 cursor-pointer rounded-lg text-sm font-medium transition-colors ${selectedCategory === category.id
-                ? 'bg-blue-900 text-white'
+                ? 'bg-gradient-to-br from-[#9f0910] to-[#ed1c25] text-white'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
             >
@@ -189,21 +315,17 @@ const DownloadCenter = () => {
           >
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-start gap-3 flex-1 min-w-0">
-                <div className={`p-2 rounded-lg ${getCategoryColor(document.category)}`}>
+                {/* <div className={`p-2 rounded-lg ${getCategoryColor(document.category)}`}>
                   {document.icon}
-                </div>
+                </div> */}
                 <div className="flex-1 min-w-0">
                   <h3 className="text-sm font-medium text-gray-900 line-clamp-2 sm:line-clamp-1">
                     {document.title}
                   </h3>
                   <div className="flex items-center gap-3 mt-1">
-                    <span className={`inline-block px-2 py-1 rounded-md text-xs font-medium ${getCategoryColor(document.category)}`}>
+                    {/* <span className={`inline-block px-2 py-1 rounded-md text-xs font-medium ${getCategoryColor(document.category)}`}>
                       {document.category.charAt(0).toUpperCase() + document.category.slice(1)}
-                    </span>
-                    <span className="text-xs text-gray-500 flex items-center gap-1">
-                      <FiFileText className="w-3 h-3" />
-                      {document.pages} pages
-                    </span>
+                    </span> */}
                   </div>
                 </div>
               </div>
@@ -211,10 +333,10 @@ const DownloadCenter = () => {
                 href={document.link}
                 target='_blank'
                 onClick={() => handleDownload(document)}
-                className="bg-blue-900 text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap flex-shrink-0"
+                className="bg-gradient-to-br from-[#9f0910] to-[#ed1c25] text-white px-2 py-2 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors flex items-center gap-1 whitespace-nowrap flex-shrink-0"
               >
                 <FiDownload className="w-4 h-4" />
-                Download
+
               </a>
             </div>
           </div>

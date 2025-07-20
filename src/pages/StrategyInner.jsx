@@ -60,7 +60,7 @@ const Strategy = () => {
           </p>
 
           <div className="w-full">
-            <img src="/StrategyInner/Image-40.png" alt="4C Framework" className="w-full h-auto object-contain mx-auto" />
+            <img src="/StrategyInner/Image-40.webp" alt="4C Framework" className="w-full h-auto object-contain mx-auto" />
           </div>
 
         </div>
@@ -69,10 +69,10 @@ const Strategy = () => {
       <div>
         <div className='space-y-4'>
           <StrategyCard
-            icon="\StrategyInner\Icon-41.png"
+            icon="\StrategyInner\Icon-41.webp"
             title="Scale"
             description="Powered by Organic Initiatives, Partnerships and Inorganic Initiatives"
-            image="\StrategyInner\Image-41.png"
+            image="\StrategyInner\Image-41.webp"
             materialTopics={[
               "Customer Centricity",
               "Brand Recognition",
@@ -83,7 +83,7 @@ const Strategy = () => {
               "/All_Icons/2.webp"
             ]}
             capitalLinkage={[{
-              icon: "All_Icons/Icon8-45.png",
+              icon: "All_Icons/Icon8-45.webp",
               text: "Financial capital"
             }]}
           />
@@ -217,10 +217,10 @@ const Strategy = () => {
 
         <div className='space-y-4'>
           <StrategyCard
-            icon="\StrategyInner\Icon-42.png"
+            icon="\StrategyInner\Icon-42.webp"
             title="One Kotak"
             description="Meeting the Holistic Needs of the Customer"
-            image="\StrategyInner\Image-42 copy.png"
+            image="\StrategyInner\Image-42 copy.webp"
             materialTopics={[
               "Customer Centricity",
               "Brand Recognition",
@@ -230,7 +230,7 @@ const Strategy = () => {
               "/All_Icons/2.webp"
             ]}
             capitalLinkage={[
-              { icon: "All_Icons/Icon8-45.png", text: "Financial capital" }]}
+              { icon: "All_Icons/Icon8-45.webp", text: "Financial capital" }]}
           />
           <p>We have identified certain high value customer segments and
             seek to meet their needs holistically</p>
@@ -252,10 +252,10 @@ const Strategy = () => {
 
         <div className='space-y-4'>
           <StrategyCard
-            icon="\Stakeholders\Icon4-42.png"
+            icon="\Stakeholders\Icon4-42.webp"
             title="Prudent Risk Management"
             description="Ensuring a Sustainable Risk-Reward Relationship"
-            image="/StrategyInner/shutterstock_2424777017.jpg"
+            image="/StrategyInner/shutterstock_2424777017.webp"
             materialTopics={[
               "Data Security and Resilient IT Systems",
               "Data Privacy",
@@ -266,8 +266,8 @@ const Strategy = () => {
               "/All_Icons/16.webp"
             ]}
             capitalLinkage={[
-              { icon: "All_Icons/Icon8-45.png", text: "Financial capital" },
-              { icon: "All_Icons/Icon7-42.png", text: "Intellectual capital" }
+              { icon: "All_Icons/Icon8-45.webp", text: "Financial capital" },
+              { icon: "All_Icons/Icon7-42.webp", text: "Intellectual capital" }
             ]}
 
           />
@@ -303,10 +303,10 @@ const Strategy = () => {
 
         <div className='space-y-4'>
           <StrategyCard
-            icon="\Stakeholders\Icon-43.png"
+            icon="\Stakeholders\Icon-43.webp"
             title="Technology at the Core"
             description="Ensuring that Systems and Platforms are Best-in-Class"
-            image="/StrategyInner/Frame 24_05.07.25.jpg"
+            image="/StrategyInner/Frame 24_05.07.25.webp"
             materialTopics={[
               "Data Security and Resilient IT Systems",
               "Data Privacy",
@@ -316,7 +316,7 @@ const Strategy = () => {
               "/All_Icons/2.webp"
             ]}
             capitalLinkage={[{
-              icon: "All_Icons/Icon7-42.png", text: "Intellectual capital"
+              icon: "All_Icons/Icon7-42.webp", text: "Intellectual capital"
             }]}
           />
           <p>We will continue our journey to provide best-in-class digital
@@ -367,10 +367,10 @@ const Strategy = () => {
       </div>
       <div className='space-y-4'>
         <StrategyCard
-          icon="\Stakeholders\Icon-3-43.png"
+          icon="\Stakeholders\Icon-3-43.webp"
           title="Empowered Colleagues"
           description="A Diverse, Engaged and Productive Workforce"
-          image="\StrategyInner\Untitled-1.jpg"
+          image="\StrategyInner\Untitled-1.webp"
           materialTopics={[
             "Employee Health and Well-being",
             "Employee Development and Engagement",
@@ -378,12 +378,12 @@ const Strategy = () => {
           ]}
           sdgs={[
             "/All_Icons/5.webp",
-            "/All_Icons/Icon-7-43.png",
+            "/All_Icons/Icon-7-43.webp",
             "/All_Icons/1.webp",
             "/All_Icons/2.webp",
           ]}
           capitalLinkage={[{
-            icon: "/All_Icons/Icon-11-43.png",
+            icon: "/All_Icons/Icon-11-43.webp",
             text: "Human capital"
           }]}
         />
@@ -472,10 +472,10 @@ const Strategy = () => {
 
       <div className='space-y-4'>
         <StrategyCard
-          icon="\Stakeholders\Icon-44.png"
+          icon="\Stakeholders\Icon-44.webp"
           title="Execution Excellence at Scale"
           description="Driving Efficiency"
-          image="\StrategyInner\Untitled-2.jpg"
+          image="\StrategyInner\Untitled-2.webp"
           materialTopics={[
             "Regulatory Compliance ",
             "Customer Centricity",
@@ -486,7 +486,7 @@ const Strategy = () => {
             "/All_Icons/1.webp"
           ]}
           capitalLinkage={[{
-            icon: "All_Icons/Icon7-42.png", text: "Intellectual capital"
+            icon: "All_Icons/Icon7-42.webp", text: "Intellectual capital"
           }]}
         />
         <p>
@@ -544,10 +544,10 @@ const Strategy = () => {
 
       <div className='space-y-4'>
         <StrategyCard
-          icon="\Stakeholders\Icon-45.png"
+          icon="\Stakeholders\Icon-45.webp"
           title="Driving Inclusive and Responsible Growth"
           description="Driven by Highest Standards of Compliance and ESG"
-          image="\StrategyInner\Forest.jpg"
+          image="\StrategyInner\Forest.webp"
           materialTopics={[
             "Regulatory Compliance ",
             "Promoting Green Finance",
@@ -564,7 +564,7 @@ const Strategy = () => {
             "/All_Icons/16.webp",
             "/All_Icons/3.webp",
           ]}
-          capitalLinkage={[{ icon: "All_Icons/Icon8-45.png", text: "Financial capital" }, { icon: "All_Icons/Icon9-45.png", text: "Natural capital" }, { icon: "All_Icons/Icon10-45.png", text: "Social and Relationship Capital capital", }]}
+          capitalLinkage={[{ icon: "All_Icons/Icon8-45.webp", text: "Financial capital" }, { icon: "All_Icons/Icon9-45.webp", text: "Natural capital" }, { icon: "All_Icons/Icon10-45.webp", text: "Social and Relationship Capital capital", }]}
         />
         <p>
           We will continue to strengthen the compliance
@@ -616,7 +616,7 @@ const Strategy = () => {
             the <strong>‘4<span className='text-[#ed1b2f]'>C</span> framework’</strong></p>
         </div>
         <div className=''>
-          <img src="\StrategyInner\box-46.png" alt="" className='mt-5 md:mt-0' />
+          <img src="\StrategyInner\box-46.webp" alt="" className='mt-5 md:mt-0' />
         </div>
       </div>
       <div>

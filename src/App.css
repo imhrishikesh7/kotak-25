@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+ font-family: "Source Sans 3", sans-serif;
+}
+
 .icon-dot {
   width: 20px;
   height: 20px;
@@ -9,7 +13,6 @@
   background-position: center;
   flex-shrink: 0;
 }
-
 
 .marginal {
     width: 86%;
@@ -21,3 +24,98 @@
   margin-top: 1.5rem; /* 6 = 24px space below cards */
   position: relative !important;
 }
+.overlay-curtain {
+  clip-path: inset(100% 0 0 0);
+  opacity: 0;
+  transition: clip-path 0.7s ease, opacity 0.5s ease;
+}
+
+.group:hover .overlay-curtain {
+  clip-path: inset(0 0 0 0);
+  opacity: 1;
+}
+/* Force slick-slide and its children to align top */
+/* .slick-slide {
+  display: flex !important;
+  align-items: flex-start !important;
+  height: auto !important;
+}
+.slick-track {
+  display: flex !important;
+  align-items: flex-start !important;
+} */
+.custom-arrow {
+  @apply bg-pink-100 text-pink-800 hover:bg-pink-200 p-2 rounded-full cursor-pointer text-lg;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+ const cardData = [
+    {
+      id: 1,
+      title: "Customers",
+      achievements: [
+        { value: "28%", desc: "Reduction YoY in net complaints at the Bank" },
+        { value: "30%", desc: "Of Bank's ATMs are differently-abled friendly" },
+        { value: "> 40%", desc: "Improvement in RNPS scores of Affluent and NR Customers at the Bank" },
+        { value: "40%", desc: "Of service requests automated for faster complaint resolution at the Bank" }
+      ],
+      initiatives: [
+        { title: "Customer", desc: "Centric initiatives such as 811, Customer 360 and Voice channel" },
+        { title: "Care Index", desc: "For service quality monitoring through key channels" },
+        { title: "Training", desc: "Front-line staff for proactive prevention of fraud" },
+        { title: "Grievance Redressal", desc: "Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen" }
+      ]
+    },
+    {
+      id: 2,
+      title: "Colleagues",
+      achievements: [
+        { value: "26.4%", desc: "Gender diversity at the Group" },
+        { value: "16%", desc: "YoY reduction in employee turnover at the Bank" },
+        { value: "78%", desc: "Employees take pride in being a part of the Bank" },
+        { value: "49.5 Hours", desc: "Average person hours of training at the Bank" }
+      ],
+      initiatives: [
+        { title: "Aspiration", desc: "To have women represent one-third of our workforce" },
+        { title: "5 pillars", desc: "of employee development through talent engagement" },
+        { title: "ISO 45001:2018", desc: "certified offices - eight" },
+        { title: "Diversity", desc: "Initiatives such as Women re-launch programme" }
+      ]
+    },
+    {
+      id: 3,
+      title: "Company",
+      achievements: [
+        { value: "27%", desc: "Board gender diversity" },
+        { value: "> 20%", desc: "Of Bank's workforce operating from ISO 45001:2018 certified premises" },
+        { value: "₹ 7,900+ cr", desc: "Green assets as on 31st March 2025 at the Bank" },
+        { value: "20 years", desc: "Average tenure of leadership team with the Group" }
+      ],
+      initiatives: [
+        { title: "ISO 27001", desc: "Certified Information Security and Management Systems of the Bank" },
+        { title: "Integrating ESG", desc: "Considerations in Credit and Risk management processes" },
+        { title: "5.5%", desc: "Share of renewable electricity used by the Bank" },
+        { title: "Open Access", desc: "Renewable energy to power some of the larger office premises and rooftop solar to power five bank-owned premises" }
+      ]
+    },
+    {
+      id: 4,
+      title: "Community",
+      achievements: [
+        { value: "2 lakh+", desc: "Children from schools and colleges supported by Kotak Education Foundation" },
+        { value: "7,600+", desc: "Scholarships awarded for continuation of education of school and college students" },
+        { value: "~19,000", desc: "Differently abled beneficiaries for better education, healthcare & livelihood" },
+        { value: "11,000+", desc: "Cancer patients supported" }
+      ],
+      initiatives: [
+        { title: "Kotak BizLabs", desc: "accelerator programme for early-revenue stage startups in India" },
+        { title: "1.5 lakh+", desc: "Saplings creating mini forests" },
+        { title: "15", desc: "Women-specific CSR programmes" },
+        { title: "6", desc: "Flagship Institutions / Programmes built and/or under development" }
+      ]
+    }
+  ];
+*/

@@ -450,7 +450,7 @@ const Safeguarding1 = () => {
           </div>
           <div className='md:flex gap-5'>
             <div className='md:w-[35%]'>
-              <img src="\Safeguarding_Stakeholder\IMG-76.png" alt="" className='rounded-3xl' />
+              <img src="\Safeguarding_Stakeholder\IMG-76.webp" alt="" className='rounded-3xl' />
             </div>
             <div className='md:w-[85%]'>
               <p className='mb-2'>
@@ -568,7 +568,7 @@ const Safeguarding1 = () => {
         <p className='font-xs text-gray-700 mb-5'><sup>1</sup>GRI 201-2</p>
         <div className='mb-5 md:flex gap-5'>
           <div className='md:w-[30%] mt-2'>
-            <img src="\Safeguarding_Stakeholder\image77.png" alt="" className='rounded-3xl' />
+            <img src="\Safeguarding_Stakeholder\image77.webp" alt="" className='rounded-3xl' />
           </div>
           <div className='md:w-[70%] '>
             <p className='mb-2'> We are in the process of drafting a comprehensive Climate

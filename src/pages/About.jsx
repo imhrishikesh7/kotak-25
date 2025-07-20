@@ -37,7 +37,7 @@ const About = () => {
                             cyclical benefits.
                         </p>
                     </div>
-                    <img src="\AboutUs\Plane3.jpg" alt="" className='rounded-3xl w-full' />
+                    <img src="\AboutUs\Plane3.webp" alt="" className='rounded-3xl w-full' />
                 </div>
 
                 <HeadingPill heading='Kotak Universe<sup>#</sup>' />

@@ -22,7 +22,7 @@ import Technology from './pages/Technology';
 import DigitalPowerhouse from './pages/DigitalPowerhouse';
 import Talent from './pages/Talent';
 import ScrollToTop from './Components/ScrollToTop';
-import KPI from './Components/Home/KPI';
+import KPIInner from './pages/KPIInner';
 import StrategyInner from './pages/StrategyInner';
 import SusSnapshots from './Components/Home/SusSnapshots';
 import VCModel from './Components/Home/VCModel';
@@ -50,7 +50,7 @@ function App() {
         {/* Stakeholder Engagement */}
         <Route path="/page1" element={<Page1 />} />
         <Route path="/page2" element={<Page2 />} />
-        <Route path="/our-enablers/key-performance-indicators" element={<KPI />} />
+        <Route path="/our-enablers/key-performance-indicators" element={<KPIInner />} />
         <Route path="/our-enablers/technology" element={<Technology />} />
         <Route path="/our-enablers/digital-powerhouse" element={<DigitalPowerhouse />} />
         <Route path="/our-enablers/talent" element={<Talent />} />

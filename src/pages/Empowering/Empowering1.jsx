@@ -64,7 +64,7 @@ const Empowering1 = () => {
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Empowering Colleagues
       </div>
-      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-3">
+      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-2">
         Colleagues at the Core
       </h1>
       <h1 className='text-xl mb-2'>Our colleagues* are the backbone of our organisation, driving innovation and fueling future
@@ -126,7 +126,7 @@ const Empowering1 = () => {
       </p>
       <div className='mb-5'>
         <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
-          Overview of Our Workforce <sup>1</sup>
+          Overview of Our Workforce 
         </h1>
         <p className='mb-2'>
           The Group’s total employee strength was over 1.39 lakh,
@@ -153,7 +153,7 @@ const Empowering1 = () => {
         <p className='mb-2'>
           Employee retention improved with attrition rates for
           permanent employees at the Bank declining 16%, from
-          39.6% in FY 2023-24 to 33.3% in FY 2024-25 <sup>2</sup>. There was
+          39.6% in FY 2023-24 to 33.3% in FY 2024-25 . There was
           a marked drop in attrition for women from 39.7% in FY
           2023-24 to 32.1% in FY 2024-25. The attrition for mid- and
           senior-management level empolyees was significantly
@@ -167,7 +167,7 @@ const Empowering1 = () => {
           Tables, pages 507-510.
         </p>
         <div className='text-sm border-t-1 pt-1 mb-5 text-gray-700'>
-          <sup>1</sup>GRI 3-3, GRI 2-7, BRSR, Section A, Question 20.| <sup>2</sup>GRI 401-1|
+          BRSR, Section A, Question 20.|
           <sup>*</sup>Due to nature of business, Kotak Mahindra Life Insurance Limited (KLI) has hired insurance brokers, which are primarily contractual.
         </div>
       </div>
@@ -178,12 +178,12 @@ const Empowering1 = () => {
         </div>
         <div>
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
-          <p className='mb-3'>We recognise the critical role of technology in driving growth
+          <p className='mb-2'>We recognise the critical role of technology in driving growth
             and innovation. We are committed to investing in professionals
             who share our vision for harnessing the latest digital tools and
             capabilities to deliver exceptional customer experiences.
           </p>
-          <p className='mb-3'>Our talent acquisition strategy, centered around the Hire-Train-
+          <p className='mb-2'>Our talent acquisition strategy, centered around the Hire-Train-
             Deploy (HTD) model, drives a robust pipeline of role-ready talent.
             We have expanded our sourcing channels through off-campus
             and lateral hires from top-tier organisations by introducing
@@ -271,7 +271,7 @@ const Empowering1 = () => {
               <h3 className="font-bold text-lg text-black mb-2">
                 Performance Management System – Praise
               </h3>
-              <p className="mb-3">
+              <p className="mb-2">
                 At the Bank, PRAISE is our goal-setting and performance management system, designed to align
                 organisational objectives with personal aspirations and inspiring individuals to shape their own
                 paths to achievement. Built on four key pillars, growth, transparency, collaboration and fairness,
@@ -299,13 +299,13 @@ const Empowering1 = () => {
             <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
               Training and Development
             </h1>
-            <p className='mb-3'>
+            <p className='mb-2'>
               At Kotak, learning is a continuous journey, supporting employees
               from onboarding to leadership. Every initiative is aligned with
               our business strategy and talent philosophy. Our learning
               framework is built around four pillars:
             </p>
-            <div className='mb-3 p-4 bg-gray-100 rounded-2xl'>
+            <div className='mb-2 p-4 bg-gray-100 rounded-2xl'>
               <img className='md:w-[50%] mx-auto ' src="/Empowering/Empowering7.webp" alt="" />
             </div>
           </div>
@@ -405,11 +405,11 @@ const Empowering1 = () => {
         </div>
       </div>
       <p className='text-sm border-t-1 pt-1 mb-5 text-gray-700'>
-        <sup>4</sup>GRI 404-2, BRSR Section C, Principle 1, Essential Indicator 1 | <sup>5</sup>GRI 404-1 | <sup>6</sup>The costs include cost of training staff, subscription for e-learning modules and
-        conferences. | <sup>7</sup>GRI 205-2
+         BRSR Section C, Principle 1, Essential Indicator 1 |<sup>6</sup>The costs include cost of training staff, subscription for e-learning modules and
+        conferences. |
       </p>
       <div className='mb-5 text-xl'>
-        <h1 className='font-bold text-black mb-3'>
+        <h1 className='font-bold text-black mb-2'>
           Testimonials on Kotak MyLearn from learners
         </h1>
         <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
@@ -469,7 +469,7 @@ const Empowering1 = () => {
         <p className='font-bold mb-2'>
           Kotak Young Leaders Council (KYLC)
         </p>
-        <p className='mb-3'>
+        <p className='mb-2'>
           The year-long KYLC programme develops future leaders through immersive learning, cross-functional projects and mentoring. High-
           potential talent gain hands-on experience with strategic challenges while building leadership skills aligned with Kotak’s priorities. The
           KYLC programme has shaped 107 careers till FY 2023-24. In FY 2024-25, it was expanded to Group companies and 84 promising young
@@ -598,7 +598,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Managerial Effectiveness Programmes
         </h1>
         <p className='mb-2'>
@@ -698,7 +698,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-4'>
-        <h1 className='text-xl text-[#252f80] mb-3 font-semibold'>
+        <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
           Diversity and Inclusion <sup>8</sup>
         </h1>
         <p className='mb-2 '>
@@ -716,11 +716,11 @@ const Empowering1 = () => {
           hiring initiatives.
         </p>
         <p className='mb-5 text-sm text-gray-700'>
-          <sup>8</sup>GRI 3-3, GRI 405-1, BRSR Section A-20
+          BRSR Section A-20
         </p>
       </div>
       <div className='mb-5' >
-        <h1 className=' font-bold  mb-3'>
+        <h1 className=' font-bold  mb-2'>
           Our Women Workforce at the Group:
         </h1>
         <div className='p-4 bg-gray-100'>
@@ -798,7 +798,7 @@ const Empowering1 = () => {
         </div>
       </div>
       <div className='mb-5'>
-        <p className='mb-3'>
+        <p className='mb-2'>
           Our women’s networks provide vital support, mentorship and
           inspiration, while new recognitions aligned with International
           Women’s Day further reinforce our commitment. Through
@@ -851,7 +851,7 @@ const Empowering1 = () => {
           training and communications, equipping colleagues with the
           tools to foster inclusive workplaces.
         </p>
-        <p className='mb-3 font-bold'>
+        <p className='mb-2 font-bold'>
           We promote awareness through regular diversity and
           inclusion training and communications, equipping colleagues
           with the tools to foster inclusive workplaces.
@@ -865,7 +865,7 @@ const Empowering1 = () => {
           and invisible aspects of diversity, biases, inclusive mindsets, emotional intelligence and allyship. In FY 2024-25, over 27,000 employees
           completed the programme, advancing our commitment to building an inclusive, empathetic and equitable workplace.
         </p>
-        <h1 className='text-xl font-semibold mt-3 mb-3'>
+        <h1 className='text-xl font-semibold mt-3 mb-2'>
           Testimonials of Culture of Inclusivity and Beyond Biases
         </h1>
         <div className="bg-blue-100 rounded-xl p-4">
@@ -905,10 +905,10 @@ const Empowering1 = () => {
         </div>
         <div className='flex md:flex-row flex-col gap-5'>
           <div className='md:w-2/3'>
-            <h1 className='font-semibold text-xl text-[#13206b] mt-3 mb-3'>
-              Health and Wellness<sup>9</sup>
+            <h1 className='font-semibold text-xl text-[#13206b] mt-3 mb-2'>
+              Health and Wellness
             </h1>
-            <p className='mb-3'>
+            <p className='mb-2'>
               Employee health and wellness are core to our enhanced
               colleague value proposition. By supporting physical, emotional
               and mental well-being, we drive productivity and long-term
@@ -920,19 +920,19 @@ const Empowering1 = () => {
               eligibility criteria, the screenings are offered at discounted rates,
               ensuring access to health management solutions for all.
             </p>
-            <p className='mb-3'>
+            <p className='mb-2'>
               <strong>Integrated Health Solutions -</strong> The Kotak Worklife App now
               features annual health screening, enabling colleagues to book
               appointments, access telemedicine and receive personalised
               nutrition guidance promoting holistic well-being for them and
               their families.
             </p>
-            <p className='mb-3'>
+            <p className='mb-2'>
               <strong>Promoting Work-Life Balance and Wellness -</strong>Regular webinars
               and weekly activities such as yoga, desk exercises and wellness
               games, promote emotional, social, mental and physical wellbeing among colleagues.
             </p>
-            <p className='mb-3'>
+            <p className='mb-2'>
               <strong>Stepathon Challenge -</strong> A Walk for a Cause Initiative - In
               December 2024, we launched a 3-month fitness challenge
               encouraging daily activity via a tracking app. Colleagues
@@ -945,7 +945,7 @@ const Empowering1 = () => {
           </div>
         </div>
         <div>
-          <h1 className='font-semibold text-xl text-[#13206b] mt-3 mb-3'>Employee Volunteering</h1>
+          <h1 className='font-semibold text-xl text-[#13206b] mt-3 mb-2'>Employee Volunteering</h1>
           <p>
             Volunteering remained a key pillar of employee engagement at
             Kotak. In FY 2024-25, at the Bank, 6,634 employees volunteered
@@ -954,25 +954,25 @@ const Empowering1 = () => {
           </p>
           <div className='flex md:flex-row flex-col gap-5 mt-5'>
             <div className='md:w-1/2'>
-              <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mt-5 mb-3'>
+              <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mt-5 mb-2'>
                 Theme: Education
               </h2>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 <strong>Light a Life: </strong>Building Solar Lamps: Volunteers learned about
                 electricity usage while assembling solar lamps, which were
                 donated to underprivileged children for community welfare.
               </p>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 <strong>Educard: </strong> Volunteers created engaging educational cards with
                 new words, images and educational concepts. These childfriendly cards were donated to underprivileged children to
                 support their learning.
               </p>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 <strong>Jenga Blocks: </strong>  Volunteers customised Jenga blocks with fun
                 challenges on Math, GK and English, making learning playful.
                 These were donated to underprivileged children.
               </p>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 <strong>Donation Drive: </strong> During Daan Utsav and Secret Santa,
                 colleagues donated educational items for students of the Kotak
                 Education Foundation.
@@ -988,18 +988,18 @@ const Empowering1 = () => {
             <img src="\Empowering\Diya.webp" alt="" className='rounded-3xl' />
           </div>
           <div className='md:w-1/2'>
-            <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-3'>
+            <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-2'>
               Theme: Relief and Rehabilitation
             </h2>
-            <p className='mb-3'>
+            <p className='mb-2'>
               <strong>Relief and First Aid Kits: </strong>In response to the devastating
               landslides and floods in Wayanad, Kotak provided Relief and
               First Aid Kits to support displaced families.
             </p>
-            <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-3'>
+            <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-2'>
               Theme: Livelihood
             </h2>
-            <p className='mb-3'>
+            <p className='mb-2'>
               <strong>Diya Painting: </strong>Across 75 offices, Kotak volunteers
               painted 26,265 diyas to spread festive cheer and support
               underprivileged children and women from Self Help Groups.
@@ -1007,11 +1007,11 @@ const Empowering1 = () => {
           </div>
         </div>
         <div className='mt-5 mb-5 border-dashed border-b-2 w-fit border-[#a6a8ab]'>
-          <h1 className='text-xl font-semibold text-[#ed1c2f]'>Best of Kotak for Kotakites<sup>10</sup></h1>
+          <h1 className='text-xl font-semibold text-[#ed1c2f]'>Best of Kotak for Kotakites</h1>
         </div>
         <div className='md:flex gap-5'>
           <div className='md:w-[7 0%]'>
-            <p className='mb-3 font-bold'> We are extending the great benefits we offer our customers
+            <p className='mb-2 font-bold'> We are extending the great benefits we offer our customers
               to our Kotakites at exclusive employee rates, while
               streamlining policies to make access and usage of these
               benefits to be simpler and efficient.
@@ -1030,9 +1030,9 @@ const Empowering1 = () => {
         </div>
       </div>
       <p className='mb-5 text-sm border-t-1 pt-1 text-gray-700'>
-        <sup>9</sup>GRI 403-6 | <sup>10</sup>GRI 401-2, BRSR Section C, Principle 3, Essential Indicator 1a | <sup>#</sup>Applicable for the Bank and select subsidiaries
+        BRSR Section C, Principle 3, Essential Indicator 1a | <sup>#</sup>Applicable for the Bank and select subsidiaries
       </p>
-      <p className='mb-3'>
+      <p className='mb-2'>
         We offer a comprehensive suite of benefits to support the wellbeing and growth of our employees at the Bank. Comprehensive
         employee benefits include insurance coverage, voluntary
         parental insurance, corporate perks such as corporate credit
@@ -1040,7 +1040,7 @@ const Empowering1 = () => {
         allowances, learning programmes and wellness initiatives that
         ensure holistic well-being and growth for all Kotakites.
       </p>
-      <p className='mb-3'>
+      <p className='mb-2'>
         From energising yoga and Zumba sessions to fun quizzes and
         social events, we bring wellness to life both online and on-site.
         Our ‘Health to the Power Infinity’ platform offers easy access
@@ -1140,7 +1140,7 @@ const Empowering1 = () => {
           ease the transition back to work.
         </p>
         <p className='text-sm text-gray-700 mb-5'>
-          <sup>11</sup>GRI 403-6|<sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
+        <sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
         </p>
       </div>
       <div className='mb-5'>
@@ -1155,7 +1155,7 @@ const Empowering1 = () => {
         <div className=" w-full  rounded-xl overflow-hidden mb-4">
           <img src="\Empowering\IMG-110.webp" alt="Award Ceremony" className="w-full object-cover" />
         </div>
-        <div className='mb-3'>
+        <div className='mb-2'>
           “Celebrating You” is our recognition framework that integrates
           appreciation into daily work life through initiatives such as Long
           Service Awards, Hi-Five Awards for real-time recognition and
@@ -1168,7 +1168,7 @@ const Empowering1 = () => {
           Karnival, which engages colleagues and families through talent
           showcases and volunteering.
         </div>
-        <div className='mb-3'>
+        <div className='mb-2'>
           We celebrate individuals driving positive change through our
           infinity annual awards, recognising champions of diversity
           and inclusion. KLIFE fosters engagement through onboarding
@@ -1218,7 +1218,7 @@ const Empowering1 = () => {
         </p>
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
-            Occupational Health and Safety <sup>12,13</sup>
+            Occupational Health and Safety
           </h1>
           <div className="">
             <p className='mb-2'>
@@ -1312,9 +1312,9 @@ const Empowering1 = () => {
         </div>
       </div>
       <p className='text-sm mb-5 text-gray-700'>
-        <sup>12</sup>GRI 403-1,GRI 3-3, BRSR Section C, Principle 3, Essential Indicator 10 | <sup>13</sup>GRI 403-1,GRI 3-3, BRSR Section C, Principle 3, Essential Indicator 10 | <sup>14</sup>GRI 403-8 |
-        <sup>15</sup>GRI 403-2 , GRI 403-3, GRI 403-9 | <sup>16</sup>GRI 403-7, GRI 403-3 | <sup>17</sup>GRI 403-4, GRI 403-5 | <sup>18</sup>GRI 2-30, BRSR Section C, Principle 3, Essential Indicator 7 |
-        <sup>19</sup>BRSR Section C, Principle 5, Essential Indicator 1 | <sup>20</sup>GRI 2-25, GRI 2-26, BRSR Section C, Principle 3, Essential Indicator 6
+         BRSR Section C, Principle 3, Essential Indicator 10 | BRSR Section C, Principle 3, Essential Indicator 10 |
+        BRSR Section C, Principle 3, Essential Indicator 7 |
+        <sup>19</sup>BRSR Section C, Principle 5, Essential Indicator 1 | BRSR Section C, Principle 3, Essential Indicator 6
       </p>
     </div>
   )

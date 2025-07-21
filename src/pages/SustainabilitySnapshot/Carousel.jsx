@@ -21,23 +21,6 @@ const cardData = [
     ]
   },
   {
-    title: "Colleague",
-    image: "/home/Pic3.webp",
-    achievements: [
-      "$26.4%$ Gender diversity at the Group",
-      "$16%$ YoY reduction in employee turnover at the Bank",
-      "$78%$ Employees## take pride in being a part of the Bank ",
-      "$49.5 hrs$ Average person hours of training at the Bank",
-    ],
-    initiatives: [
-      "$Aspiration$ To have women represent one-third of our workforce",
-      "$5 pillars$ of employee development through talent engagement",
-      "$ISO 45001:2018$ certified offices - eight",
-      "$Diversity$ Initiatives such as Women re-launch programme",
-    ],
-    footnotes: [" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
-  },
-  {
     title: "Company",
     image: "/home/Pic2.webp",
     achievements: [
@@ -56,6 +39,24 @@ const cardData = [
       ""
     ]
   },
+  {
+    title: "Colleague",
+    image: "/home/Untitled-3-1.png",
+    achievements: [
+      "$26.4%$ Gender diversity at the Group",
+      "$16%$ YoY reduction in employee turnover at the Bank",
+      "$78%$ Employees## take pride in being a part of the Bank ",
+      "$49.5 hrs$ Average person hours of training at the Bank",
+    ],
+    initiatives: [
+      "$Aspiration$ To have women represent one-third of our workforce",
+      "$5 pillars$ of employee development through talent engagement",
+      "$ISO 45001:2018$ certified offices - eight",
+      "$Diversity$ Initiatives such as Women re-launch programme",
+    ],
+    footnotes: [" *Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | # Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support, etc.) and Physical(branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25 | **Period of calculation is from September 2024 to March 2025 | ## respondents to the Great Place To Work® survey "]
+  },
+  
   {
     title: "Community",
     image: "/home/Pic4.webp",
@@ -100,59 +101,107 @@ export default function SustainabilityCards() {
       </h2>
 
       {cardData.map((card, index) => {
-        const isImageRight = index % 2 === 0;
+        const isImageRight = index % 2 === 0; // Even index = image right, Odd index = image left
 
         return (
           <div
             key={index}
-            className={`grid md:grid-cols-2 gap-8 mb-12 items-center ${
-              !isImageRight ? "md:flex-row-reverse" : ""
-            }`}
+            className="grid md:grid-cols-2 gap-8 mb-12 items-center"
           >
-            {/* Textual Data */}
-            <div>
-              <h1 className="text-4xl font-light text-[#283182] mb-6">
-                {card.title}
-              </h1>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {/* Content order changes based on image position */}
+            {isImageRight ? (
+              <>
+                {/* Text first when image is on right */}
                 <div>
-                  <h3 className="text-red-600 font-bold text-xl mb-2">
-                    Achievements
-                  </h3>
-                  <ul className="text-lg border-r border-dashed pr-3 border-gray-400 space-y-5">
-                    {card.achievements.map((item, i) => (
-                      <li key={i}>{formatTextWithHighlights(item)}</li>
-                    ))}
-                  </ul>
+                  <h1 className="text-4xl font-light text-[#283182] mb-6">
+                    {card.title}
+                  </h1>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                      <h3 className="text-red-600 font-bold text-xl mb-2">
+                        Achievements
+                      </h3>
+                      <ul className="text-lg border-r border-dashed pr-3 border-gray-400 space-y-5">
+                        {card.achievements.map((item, i) => (
+                          <li key={i}>{formatTextWithHighlights(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="text-red-600 font-bold text-xl mb-2">
+                        Initiatives
+                      </h3>
+                      <ul className=" text-lg space-y-5">
+                        {card.initiatives.map((item, i) => (
+                          <li key={i}>{formatTextWithHighlights(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  {card.footnotes?.length > 0 && (
+                    <div className="mt-4 text-sm text-gray-600 space-y-1">
+                      {card.footnotes.map((note, i) => (
+                        <div key={i}>{note}</div>
+                      ))}
+                    </div>
+                  )}
                 </div>
+                {/* Image second when image is on right */}
+                <div className="w-full h-full">
+                  <img
+                    src={card.image}
+                    alt={card.title}
+                    className="rounded-xl shadow-md w-full h-full object-cover"
+                  />
+                </div>
+              </>
+            ) : (
+              <>
+                {/* Image first when image is on left */}
+                <div className="w-full h-full">
+                  <img
+                    src={card.image}
+                    alt={card.title}
+                    className="rounded-xl shadow-md w-full h-full object-cover"
+                  />
+                </div>
+                {/* Text second when image is on left */}
                 <div>
-                  <h3 className="text-red-600 font-bold text-xl mb-2">
-                    Initiatives
-                  </h3>
-                  <ul className=" text-lg space-y-5">
-                    {card.initiatives.map((item, i) => (
-                      <li key={i}>{formatTextWithHighlights(item)}</li>
-                    ))}
-                  </ul>
+                  <h1 className="text-4xl font-light text-[#283182] mb-6">
+                    {card.title}
+                  </h1>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                      <h3 className="text-red-600 font-bold text-xl mb-2">
+                        Achievements
+                      </h3>
+                      <ul className="text-lg border-r border-dashed pr-3 border-gray-400 space-y-5">
+                        {card.achievements.map((item, i) => (
+                          <li key={i}>{formatTextWithHighlights(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="text-red-600 font-bold text-xl mb-2">
+                        Initiatives
+                      </h3>
+                      <ul className=" text-lg space-y-5">
+                        {card.initiatives.map((item, i) => (
+                          <li key={i}>{formatTextWithHighlights(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  {card.footnotes?.length > 0 && (
+                    <div className="mt-4 text-sm text-gray-600 space-y-1">
+                      {card.footnotes.map((note, i) => (
+                        <div key={i}>{note}</div>
+                      ))}
+                    </div>
+                  )}
                 </div>
-              </div>
-              {card.footnotes?.length > 0 && (
-                <div className="mt-4 text-sm text-gray-600 space-y-1">
-                  {card.footnotes.map((note, i) => (
-                    <div key={i}>{note}</div>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Image */}
-            <div className="w-full h-full">
-              <img
-                src={card.image}
-                alt={card.title}
-                className="rounded-xl shadow-md w-full h-full object-cover"
-              />
-            </div>
+              </>
+            )}
           </div>
         );
       })}

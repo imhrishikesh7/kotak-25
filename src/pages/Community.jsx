@@ -4,7 +4,7 @@ import HauslaCarousel from '../Components/HauslaCarousel'
 const Community = () => {
   return (
     <div className='marginal text-lg'>
-      <div className="text-2xl text-[#ed1c2f] font-bold border-b-3 w-fit mb-4 pb-1">
+      <div className="text-2xl text-[#ed1c2f] font-bold border-b-3 w-fit mb-2 pb-1">
         Supporting Communities
       </div>
       <div className='flex md:flex-row flex-col gap-5 justify-between'>
@@ -38,7 +38,7 @@ const Community = () => {
       </div>
       <div className='flex md:flex-row flex-col gap-5'>
         <div>
-          <p className='mb-3'>
+          <p className='mb-2'>
             Through our CSR initiatives, we aim to improve the quality
             of life of the communities we serve. Our CSR initiatives are
             focused in areas such as Education, Livelihood enhancement,
@@ -50,7 +50,7 @@ const Community = () => {
             to strengthen our community development initiatives, ensuring
             that our efforts are impactful and scalable.
           </p>
-          <p className='mb-3'>
+          <p className='mb-2'>
             The Bank’s and its subsidiaries’ CSR policies, outlining
             their approach to corporate social responsibility, are available
             on their respective websites. Additional information on
@@ -114,54 +114,54 @@ const Community = () => {
         <div className='flex flex-col gap-6'>
 
           <div>
-            <h2 className='font-bold text-lg mb-4'>Learning Outcomes and Remedial Education</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Learning Outcomes and Remedial Education</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>2,600+ schools supported with interventions around foundational literacy and numeracy, digital learning, communicative English and school leadership development</p>
             </div>
-            <div className='flex items-start gap-3 mb-3'>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>18,000+ teachers equipped with digital tools and skills to deliver quality education</p>
             </div>
-            <p className='mb-3'>
+            <p className='mb-2'>
               The key outcomes targeted through these interventions were improved academic performance, especially in STEM (Science, Technology, Engineering and Mathematics), improved attendance and mainstreaming of dropouts.
             </p>
           </div>
 
           <div>
-            <h2 className='font-bold text-lg mb-4'>Infrastructure Upgrade</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Infrastructure Upgrade</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>180+ government schools and anganwadis renovated and/or augmented with learning materials and digital tools.</p>
             </div>
-            <p className='mb-3'>
+            <p className='mb-2'>
               These interventions created a better learning environment, particularly in schools and anganwadis with limited resources and those catering to children from poor socio-economic backgrounds.
             </p>
           </div>
 
           <div>
-            <h2 className='font-bold text-lg mb-4'>Scholarships</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Scholarships</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>7,600+ students from economically challenged backgrounds were supported through long-term scholarships for continued education. Major initiatives undertaken:</p>
             </div>
 
-            <div className='flex items-start gap-3 mb-3'>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p><strong>Kotak Junior and Kotak Graduate</strong> - Economically vulnerable students from standard 11 up to graduation supported with merit-based scholarships.</p>
             </div>
 
-            <div className='flex items-start gap-3 mb-3'>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p><strong>Kotak Kanya</strong> - Merit-based scholarships for girl students from economically weak backgrounds to pursue professional courses at graduation level from premier institutions such as IITs, AIIMS among others.</p>
             </div>
 
-            <div className='flex items-start gap-3 mb-3'>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p><strong>Kotak Shiksha Nidhi</strong> - Crisis-driven scholarships to support children who lost a primary earning member to Covid-19 to achieve their educational milestones.</p>
             </div>
 
-            <p className='mb-3'>
+            <p className='mb-2'>
               Most of our scholarship initiatives go beyond financial support by addressing other key needs such as mentorship, mental wellness and life skill training that enable students to pursue promising career paths with significantly improved earning potential.
             </p>
 
@@ -177,18 +177,18 @@ const Community = () => {
         </div>
         <div className='md:w-1/2'>
           <div>
-            <h2 className='font-bold text-lg mb-4'>Cancer Care</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Cancer Care</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>60+ medical institutions and hospitals benefitted from
                 critical infrastructure and operational support</p>
             </div>
 
-            <div className='flex items-start gap-3 mb-3'>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>11,000+ cancer patients supported</p>
             </div>
-            <p className='mb-3'>
+            <p className='mb-2'>
               Our efforts in the cancer care continuum start with cancer
               screening and diagnosis, medical equipment for hospitals
               and extend to supporting nutrition and medical needs (incl.
@@ -209,18 +209,18 @@ const Community = () => {
       <div className='flex md:flex-row flex-col mt-10 gap-5'>
         <div className='md:w-1/2'>
           <div>
-            <h2 className='font-bold text-lg mb-4'>Last-mile Care</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Last-mile Care</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>8.5 lakh+ footfall across health camps proving primary
                 care and screening</p>
             </div>
 
-            <div className='flex items-start gap-3 mb-3'>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>~40 Mobile Medical Units and telemedicine centres</p>
             </div>
-            <p className='mb-3'>
+            <p className='mb-2'>
               We are deeply invested in strengthening primary care services
               and supporting inclusive healthcare delivery to the last mile.
             </p>
@@ -243,14 +243,14 @@ const Community = () => {
       <div className='mt-5'>
         <div className=''>
           <div>
-            <h2 className='font-bold text-lg mb-4'>Infrastructure</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Infrastructure</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>Supported 60+ Government and Charitable Hospitals to
                 upgrade their infrastructure with equipment for MRI, CT, PET
                 CT, 2D ECHO, Dialysis and ambulances.</p>
             </div>
-            <p className='mb-3'>
+            <p className='mb-2'>
               Underpinning all healthcare efforts is our commitment to
               developing and enhancing critical healthcare infrastructure. Last
               year, we supported projects that involved expanding hospital
@@ -299,7 +299,7 @@ const Community = () => {
 
           </div>
             <div className="bg-[#eaf6ff] rounded-2xl p-6 ">
-              <div className="w-fit mb-4">
+              <div className="w-fit mb-2">
                 <div className="absolute translate-y-[-90%] rounded-full">
                   <img
                     src="\Community\IMG-1-116.webp"
@@ -308,16 +308,16 @@ const Community = () => {
                   />
                 </div>
               </div>
-              <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Climate Resilience</h2>
+              <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-2">Climate Resilience</h2>
 
-              <ul className='mb-3 space-y-3'>
+              <ul className='mb-2 space-y-3'>
                 <li className="text-red-500">✦ <span className="text-black">11,000+ farmers and households in water
                   stressed regions supported</span></li>
                 <li className="text-red-500">✦ <span className="text-black">16 lakh+ KL water harvesting capacity created and
                   9,500+ acres of land positively impacted</span></li>
               </ul>
 
-              <div className="  space-y-3 mb-4">
+              <div className="  space-y-3 mb-2">
                 <p>
                   We work towards ensuring water security and better crop yield through soil and water conservation measures
                   that include building and reviving water harvesting structures and de-siltation of traditional water tanks.
@@ -348,7 +348,7 @@ const Community = () => {
           <div className='mt-10'>
             <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto">
               {/* Header with Icon */}
-              <div className="w-fit mb-4">
+              <div className="w-fit mb-2">
                 <div className=" absolute translate-y-[-90%] rounded-full">
                   <img
                     src="\Community\IMG-2-117.webp"
@@ -357,36 +357,36 @@ const Community = () => {
                   />
                 </div>
               </div>
-              <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Income Resilience</h2>
+              <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-2">Income Resilience</h2>
             </div>
           </div>
           <div className='mt-5'>
-            <h2 className='font-bold text-lg mb-4'>Livestock Development</h2>
-            <div className='flex items-start gap-3 mb-3'>
+            <h2 className='font-bold text-lg mb-2'>Livestock Development</h2>
+            <div className='flex items-start gap-3 mb-2'>
               <div className='icon-dot mt-1' />
               <p>27,000+ cattle under livestock programmes benefitting
                 marginal and landless farmers.</p>
             </div>
-            <p className='mb-3'>
+            <p className='mb-2'>
               Our livestock development programmes support creation of a
               steady secondary income source for farmers. The programme
               provides doorstep breeding services and access to veterinary
               services and Government schemes.
             </p>
             <div className='bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl mx-auto'>
-              <div className="rounded-xl overflow-hidden mb-3 ">
+              <div className="rounded-xl overflow-hidden mb-2 ">
                 <img
                   src="\Community\Trees.webp"
                   alt="Water Conservation"
                   className="w-full h-auto object-cover"
                 />
               </div>
-              <h2 className='font-bold text-lg mb-4'>Sustainable Agriculture</h2>
-              <ul className='mb-3 space-y-3'>
+              <h2 className='font-bold text-lg mb-2'>Sustainable Agriculture</h2>
+              <ul className='mb-2 space-y-3'>
                 <li className="text-red-500">✦ <span className="text-black">7,900+ marginal farmers trained</span></li>
                 <li className="text-red-500">✦ <span className="text-black">6,700+ acres of farm land poised to benefit</span></li>
               </ul>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 Under our sustainable agriculture initiatives, we provided
                 training and support for better agri-input, value chain
                 development, irrigation, crop diversification to strengthen
@@ -404,24 +404,24 @@ const Community = () => {
         <div className='bg-[#eaf6ff] rounded-2xl p-6  mx-auto'>
           <div className="flex md:flex-row flex-col gap-5 justify-around">
             <div className='md:w-1/2'>
-              <h2 className='font-bold text-lg mb-4'>Skill Development</h2>
-              <ul className='mb-3 space-y-3'>
+              <h2 className='font-bold text-lg mb-2'>Skill Development</h2>
+              <ul className='mb-2 space-y-3'>
                 <li className="text-red-500">✦ <span className="text-black">11,000+ youth trained (~70% placed)</span></li>
 
               </ul>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 We support sector specific short-term courses that offer
                 professional and life skills training, spoken English, personality
                 development, work readiness and placement assistance for a
                 secure career in these trades: BFSI, Customer Relationship and
                 Sales, Hospitality, Heavy machinery operator, etc.
               </p>
-              <h2 className='font-bold text-lg mb-4'>Nano Entrepreneurship</h2>
-              <ul className='mb-3 space-y-3'>
+              <h2 className='font-bold text-lg mb-2'>Nano Entrepreneurship</h2>
+              <ul className='mb-2 space-y-3'>
                 <li className="text-red-500">✦ <span className="text-black">1,400+ Nano entrepreneurs supported</span></li>
 
               </ul>
-              <p className='mb-3'>
+              <p className='mb-2'>
                 We supported entrepreneurs in rural and semi-urban areas
                 to facilitate upward mobility for marginalised groups such as
                 women, small or landless farmers and self-employed people.
@@ -442,7 +442,7 @@ const Community = () => {
       </div>
       <div className='mt-10'>
         <div className="bg-[#eaf6ff] rounded-2xl p-6 max-w-2xl">
-          <div className="w-fit mb-4">
+          <div className="w-fit mb-2">
             <div className=" absolute translate-y-[-90%] rounded-full">
               <img
                 src="\Community\IMG-2-117.webp"
@@ -451,26 +451,26 @@ const Community = () => {
               />
             </div>
           </div>
-          <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-3">Restoring Habitats</h2>
+          <h2 className="text-[#1d267d] text-xl font-semibold mt-1 mb-2">Restoring Habitats</h2>
         </div>
       </div>
       <div className='mt-5'>
-        <h2 className='font-bold text-lg mb-4'>Livestock Development</h2>
-        <div className='flex items-start gap-3 mb-3'>
+        <h2 className='font-bold text-lg mb-2'>Livestock Development</h2>
+        <div className='flex items-start gap-3 mb-2'>
           <div className='icon-dot mt-1' />
           <p>1.5 lakh+ saplings planted</p>
         </div>
-        <div className='flex items-start gap-3 mb-3'>
+        <div className='flex items-start gap-3 mb-2'>
           <div className='icon-dot mt-1' />
           <p>Restoration work on 11 waterbodies initiated</p>
         </div>
-        <p className='mb-3'>
+        <p className='mb-2'>
           We supported afforestation on barren lands restoring them
           into micro-habitats for biodiversity to flourish. Over the past
           three years, we have planted three lakh+ saplings over 30 acres
           across seven cities.
         </p>
-        <p className='mb-3'>
+        <p className='mb-2'>
           Since FY 2022-23, we have also supported restoration of 13
           lakes. Around 400 acres of lake and drain area was restored by
           clearing waste and silt and was fenced. Cumulatively, the water
@@ -480,14 +480,14 @@ const Community = () => {
           In FY 2024-25, we extended support for restoration of 11
           additional waterbodies.
         </p>
-        <p className='mb-3'>
+        <p className='mb-2'>
           Apart from the long-term impact on biodiversity, microclimatic
           conditions and carbon sequestration potential, such green
           spaces also act as recreational spaces for local communities
           to connect with nature that stays protected against risks of
           encroachment and waste dumping.
         </p>
-        <p className='mb-3'>
+        <p className='mb-2'>
           Key implementing agencies: Watershed Organisation Trust,
           Professional Assistance for Development Action, Green Yatra
           Trust and Environmentalist Foundation of India.
@@ -513,17 +513,17 @@ const Community = () => {
       </div>
 
       <div className='mt-10'>
-        <img src="\Community\IMG--118.webp" alt="" className='lg:w-[35%] md:w-[50%] mb-3' />
+        <img src="\Community\IMG--118.webp" alt="" className='lg:w-[35%] md:w-[50%] mb-2' />
         <p>Through our CSR interventions, we support institutions that create impact and can render benefits to the society over a long period of
           time. We have supported the creation of aspirational institutions and programmes, many of which are in partnership with prestigious
           institutions in India.</p>
       </div>
       <div className='mt-5'>
         <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
-          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-4 ">
+          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-2 ">
             Kotak Education Foundation (KEF)
           </div>
-          <p className="text-[#000000] mb-3">
+          <p className="text-[#000000] mb-2">
             KEF is the primary implementing partner for our education-based CSR programmes. It is on a mission to empower economically disadvantaged children and youth through a trinity of school education, scholarships and vocational education.
           </p>
           <p className="text-[#000000]">
@@ -536,10 +536,10 @@ const Community = () => {
       <div className='mt-5 flex md:flex-row flex-col gap-10'>
         <div>
           <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
-            <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-4 ">
+            <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-2 ">
               Kotak Pullela Gopichand Badminton Academy (KPGBA)
             </div>
-            <p className="text-[#000000] mb-3">
+            <p className="text-[#000000] mb-2">
               The Kotak Pullela Gopichand Badminton Academy was
               built with a vision to create world-class badminton players
               from India and strengthen sports infrastructure and unlock
@@ -563,10 +563,10 @@ const Community = () => {
 
       <div className='mt-5'>
         <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
-          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-4 ">
+          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-2 ">
             Kotak IISc AI - ML Centre (KIAC)
           </div>
-          <p className="text-[#000000] mb-3">
+          <p className="text-[#000000] mb-2">
             The AI-ML Centre at IISc Bangalore was established with
             the goal of enabling world-class education, research and
             innovative solutions in the field of AI and ML over a period
@@ -579,10 +579,10 @@ const Community = () => {
       </div>
       <div className='mt-5'>
         <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
-          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-4 ">
+          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-2 ">
             Kotak IIT Madras Save Energy Mission (KISEM)
           </div>
-          <p className="text-[#000000] mb-3">
+          <p className="text-[#000000] mb-2">
             Kotak partnered with IIT Madras in FY 2021-22 to create a
             long-term programme to support decarbonisation efforts in
             Indian manufacturing sector with a focus on SMEs. In
@@ -596,10 +596,10 @@ const Community = () => {
       </div>
       <div className='mt-5'>
         <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
-          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-4 ">
+          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-2 ">
             Kotak School of Sustainability (KSS)
           </div>
-          <p className="text-[#000000] mb-3">
+          <p className="text-[#000000] mb-2">
             In FY 2023-24, we initiated support to IIT Kanpur to
             establish a School of Sustainability at their main campus.
             KSS is an integrated school, which has academic
@@ -622,12 +622,12 @@ const Community = () => {
       </div>
       <div className='mt-5'>
         <div className="bg-[#e9f5fc] p-5 md:p-7 rounded-2xl ">
-          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-4 ">
+          <div className="bg-[#ed1c2f] text-white font-semibold rounded-full w-fit px-4 py-1 mb-2 ">
             Kotak BizLabs Accelerator Programme
           </div>
           <div className='flex md:flex-row flex-col gap-5'>
             <div className='md:w-[60%]'>
-              <p className="text-[#000000] mb-3">
+              <p className="text-[#000000] mb-2">
                 Our flagship initiative - Kotak BizLabs Accelerator
                 Programme that was launched in FY 2024-25, supports
                 scaling up of early-revenue stage startups in India.
@@ -660,25 +660,25 @@ const Community = () => {
       </div>
       <div className='mt-10'>
         <img src="\Community\IMG-120.webp" alt="" className='lg:w-[35%] md:w-[50%] mb-10' />
-        <img src="\Community\ICON-1-120.webp" alt="" className='w-15 mb-3' />
+        <img src="\Community\ICON-1-120.webp" alt="" className='w-15 mb-2' />
         <h1 className='text-xl text-[#212b7e] font-bold'>People with Disability (PWD)</h1>
-        <div className='flex items-start gap-3 mb-3 mt-3'>
+        <div className='flex items-start gap-3 mb-2 mt-3'>
           <div className='icon-dot mt-1' />
           <p>Skill training and employment to 5,500+ PwD youth</p>
         </div>
-        <div className='flex items-start gap-3 mb-3'>
+        <div className='flex items-start gap-3 mb-2'>
           <div className='icon-dot mt-1' />
           <p>Medical and counselling interventions that
             supported 11,000+ people with physical and
             intellectual disabilities </p>
         </div>
-        <div className='flex items-start gap-3 mb-3'>
+        <div className='flex items-start gap-3 mb-2'>
           <div className='icon-dot mt-1' />
           <p>About 2.4 lakh parents of children and youth with
             special needs given access to information on service
             providers for better care</p>
         </div>
-        <div className='flex items-start gap-3 mb-3'>
+        <div className='flex items-start gap-3 mb-2'>
           <div className='icon-dot mt-1' />
           <p>Supported ~2,600 corrective surgeries and
             treatments to children with congenital
@@ -697,17 +697,17 @@ const Community = () => {
         </p>
       </div>
       <div className='mt-10'>
-        <img src="\Community\ICON-2-120.webp" alt="" className='w-15 mb-3' />
+        <img src="\Community\ICON-2-120.webp" alt="" className='w-15 mb-2' />
         <h1 className='text-xl text-[#212b7e] font-bold'>Gender Diversity</h1>
-        <div className='flex items-start gap-3 mb-3 mt-3'>
+        <div className='flex items-start gap-3 mb-2 mt-3'>
           <div className='icon-dot mt-1' />
           <p>180+ women entrepreneurs enabled</p>
         </div>
-        <div className='flex items-start gap-3 mb-3'>
+        <div className='flex items-start gap-3 mb-2'>
           <div className='icon-dot mt-1' />
           <p>Around 850 Kotak Kanyas supported </p>
         </div>
-        <p className='mb-3'>
+        <p className='mb-2'>
           Our PwD inclusion programmes aim to mainstream
           people with disability and enable them for independent
           living. We are following a life cycle approach by
@@ -716,7 +716,7 @@ const Community = () => {
           distribution of assistive devices and mobility aids, skill
           training and livelihood.
         </p>
-        <p className='mb-3'>
+        <p className='mb-2'>
           ‘Kotak Kanya’, an aspirational pan-India scholarship helps
           meritorious undergraduate girl students pursue higher
           education at premier institutions across the country.
@@ -728,7 +728,7 @@ const Community = () => {
         </p>
       </div>
       <div className='mt-10'>
-        <p className='mb-3'>Key implementing agencies: NSRCEL, KEF, Sarthak Educational Trust, Y4J and Anushkaa Foundation</p>
+        <p className='mb-2'>Key implementing agencies: NSRCEL, KEF, Sarthak Educational Trust, Y4J and Anushkaa Foundation</p>
         <img src="\Community\IMG-1-120.webp" alt="" className='rounded-3xl md:w-[90%] mx-auto' />
         <p className='mt-3'>Kotak is committed to aiding transformation of communities it serves through meaningful CSR initiatives. By implementing
           programmes and fostering partnerships with a diverse network of non-governmental organisations, Kotak aims to deliver

@@ -13,7 +13,7 @@ const Excellence = () => {
       </h1>
       <div className='md:flex gap-5 mb-7 mt-10'>
         <div className='md:w-[50%] p-4 bg-gray-100 mb-2 rounded-3xl'>
-          <p className='mb-2'>
+          <p className='mb-2 text-2xl'>
             We believe effective corporate governance is
             the solid foundation upon which organisational
             success can be built. Accordingly, we are
@@ -94,7 +94,8 @@ const Excellence = () => {
           <p className='mb-2'>
             Additionally, our Policy for Determination of Materiality of
             Events or Information ensures timely and accurate disclosure
-            of material information to stakeholders, while our Code of Conduct in Dealing in Securities, prohibits insider trading. These
+            of material information to stakeholders, while our Code of
+            Conduct in Dealing in Securities, prohibits insider trading. These
             policies are an integral part of our governance framework.
             The Bank has put in place a Succession Plan Policy with a
             view to ensure a continuous pipeline of internal and external
@@ -114,7 +115,8 @@ const Excellence = () => {
             in their respective domains, well-aware of their fiduciary
             duties and dedicated to meeting the expectations of all
             stakeholders. Our directors bring a unique blend of skills,
-            expertise and perspectives for informed strategic decisionmaking and drives the success of our organisation. The
+            expertise and perspectives for informed strategic decision-
+            making and drives the success of our organisation. The
             composition of the Board can be found in Directors’ Report on
             pages <strong className='text-[#212b7e]'>309-311</strong> of this report.
           </p>
@@ -146,9 +148,10 @@ const Excellence = () => {
           ethical framework, guiding all stakeholders interactions and
           promoting integrity, professionalism and mutual respect.
           Employees receive CoC training upon joining and are also
-          required to confirm adherence to the same annually.<sup>3</sup>
+          required to confirm adherence to the same annually.3
           We empower our employees to champion responsible
-          behavior through regular training sessions and awarenessbuilding initiatives.
+          behavior through regular training sessions and awareness-
+          building initiatives.
         </p>
         <p className='mb-2'>
           Our anti-bribery and anti-corruption philosophy is enshrined in
@@ -181,13 +184,14 @@ const Excellence = () => {
           <div className='md:w-[60%]'>
             <p className='mb-2'>
               As part of our vigilance mechanism, internal operating guidelines
-              delineate appropriate conduct and approval processes. We have
-              a Board-approved delegation matrix for expense and credit
-              approvals in place which is reviewed regularly. We also use
-              automated workflows for purchase orders, payments and credit
-              approvals. We conduct background checks and credit credential
-              checks for new employees. Additionally, the business units
-              and functions define their internal policies and processes, the
+              delineate appropriate conduct and approval processes. We
+              have a Board-approved delegation matrix for expense and
+              credit approvals in place, which is reviewed regularly. We also
+              use automated workflows for purchase orders, payments
+              and credit approvals which helps in minimising errors. We
+              conduct background checks and credit credential checks
+              for new employees. Additionally, the business units and
+              functions define their internal policies and processes, the
               adherence to which is monitored by the Internal Audit and Risk
               Control Unit (RCU) teams.
             </p>
@@ -237,32 +241,35 @@ const Excellence = () => {
           uninterrupted service are critical to continue serving millions of
           customers across multiple digital touch-points.
         </p>
-        <p className='mb-2'>
-          Our Governance Framework for managing technology and
-          cybersecurity risks is structured around a three-line defence
-          system, detailed as follows:
-        </p>
+
+
       </div>
       <div className='flex md:flex-row flex-col gap-5 mb-2'>
-        <div className='md:w-[31.5%] mx-auto mb-2'>
+        <div className='md:w-[31.5%] mb-2'>
+          <p className='mb-2'>
+            Our governance framework for managing technology and
+            cybersecurity risks is structured around a three-line defence
+            system, as detailed below:
+          </p>
           <img src="\Delivery_Excellence\Image-65.webp" alt="" />
         </div>
-        <div className='md:w-[50%] mx-auto mb-2'>
+        <div className='md:w-[55%] mx-auto mb-2'>
+          <p className='mb-2'>
+            We have established clear controls and mechanisms to
+            identify and address cybersecurity risks. Specifically, we have
+            implemented controls in the following areas:
+          </p>
           <img src="/Delivery_Excellence/Delivery4.webp" alt="" />
         </div>
       </div>
       <div className='mt-5 mb-5'>
-        <p className='mb-2'>
-          We have established clear controls and mechanisms to
-          identify and address cybersecurity risks. Specifically, we have
-          implemented controls in the following areas:
-        </p>
+
         <div className='mb-2'>
           <h1 className='text-xl text-[#252f80] font-semibold mb-2'>
             Prevention through effective Governance
           </h1>
           <p className='mb-2'>
-            Our Board-approved Information Security and Cyber Security
+            Our Board-approved Information Security and Cybersecurity
             Policy is regularly updated to comply with regulatory guidelines
             and industry best practices. The policy guides us to proactively
             monitor internal and external infrastructure and applications
@@ -280,10 +287,11 @@ const Excellence = () => {
             the Bank’s overall security posture and operates under a Board-
             sanctioned policy framework, which is reviewed annually.
             The Bank maintains full compliance with Indian regulatory
-            standards, including the RBI Cyber Security Framework, IT
+            standards, including the RBI Cybersecurity Framework, IT
             Act 2000 and PCI DSS 4.0. We are certified under ISO/IEC
             27001 for our Information Security Management System
-            demonstrating our commitment to maintaining the highest standards of information security in accordance with globally
+            demonstrating our commitment to maintaining the highest
+            standards of information security in accordance with globally
             recognised best practices.
           </p>
           <p className='mb-2'>
@@ -321,7 +329,8 @@ const Excellence = () => {
             including defined Personally Identifiable Information (PII)
             frameworks, advanced encryption standards and stringent
             user access controls. These measures are complemented by
-            improvements in patch and change management, IT strategy committee governance, vendor oversight and regulatory
+            improvements in patch and change management, IT strategy
+            committee governance, vendor oversight and regulatory
             compliance processes.
           </p>
           <p className='mb-2'>
@@ -356,7 +365,8 @@ const Excellence = () => {
           <p className='mb-2'>
             We conduct security assessments of new software vendors,
             software and hardware, during onboarding as well as on ongoing
-            basis. ongoing basis. We also perform external assessments such as Vulnerability Assessment (VA) and Penetration Testing (PT),
+            basis. ongoing basis. We also perform external assessments such
+            as Vulnerability Assessment (VA) and Penetration Testing (PT),
             along with internal assessments like Vulnerability Assessment
             and Configuration Audit (VACA), Dynamic Application Security
             Testing (DAST) and Static Application Security Testing (SAST),

@@ -11,7 +11,7 @@ const categories = [
   },
   {
     title: "Category 3",
-    text: " Fuel and Energy Related Emissions cover emissions from the electricity lost due to AT&C Losses and emissions associated with extraction, transport, refining, purification and/ or conversion of primary fuels (diesel) to direct usable form. Emissions have been calculated based on emission factors sourced from CEA, DEFRA 2024 and Ministry of Power. The AT&C losses percentage and emissions factors were updated as per the latest DEFRA 2024. Had we applied the same emission factors as used in FY 2023-24, the reported emissions for FY 2024-25 would have been 29% higher."
+    text: "Fuel and Energy Related Emissions cover emissions from the electricity lost due to AT&C Losses and emissions associated with extraction, transport, refining, purification and/ or conversion of primary fuels (diesel) to direct usable form. Emissions have been calculated based on emission factors sourced from CEA, DEFRA 2024 and Ministry of Power. The AT&C losses percentage and emissions factors were updated as per the latest DEFRA 2024. Had we applied the same emission factors as used in FY 2023-24, the reported emissions for FY 2024-25 would have been 29% higher."
   },
   {
     title: "Category 5",
@@ -23,7 +23,7 @@ const categories = [
   },
   {
     title: "Category 7",
-    text: "Emissions from employee commute are accounted for based on third-party managed buses and cabs offered by the Bank. The applicable emission factors have been sourced from India GHG Programme 2015 and DEFRA 2024."
+    text: " Emissions from employee commute are accounted for based on third-party managed buses and cabs offered by the Bank. The applicable emission factors have been sourced from India GHG Programme 2015 and DEFRA 2024."
   },
 ];
 

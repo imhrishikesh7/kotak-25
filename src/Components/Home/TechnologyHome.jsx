@@ -171,7 +171,7 @@ const TechnologyHome = () => {
                 During FY 2024-25, we undertook a comprehensive upgrade of the technology infrastructure and enhanced the UI/UX and core features of its apps and platforms. This transformation was driven by the strategic belief that building a resilient, secure and scalable core is fundamental to delivering improved customer experiences in an increasingly digital-first world. These efforts also resulted in resolving the regulatory restrictions highlighted in the RBI Order dated 24th April, 2024, which were subsequently removed by its letter dated 12th February, 2025.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <KnowMore />
+                <KnowMore to={"/our-enablers/technology"}/>
               </div>
             </div>
           </div>

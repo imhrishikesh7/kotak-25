@@ -184,7 +184,7 @@ export default function IPhone() {
         <div className='border-gray-200 bg-[#013367] marginal rounded-4xl shadow-lg border !mb-4'>
           <img src="./Digital/Page-24.webp" className='' alt="" />
           <div className='w-fit mx-auto'>
-            <KnowMore />
+            <KnowMore to={"/our-enablers/digital-powerhouse"}/>
           </div>
         </div>
       </div>
@@ -224,7 +224,7 @@ export default function IPhone() {
             <ScreenContent />
           </div>
           <div className='mt-8 absolute bottom-10 left-1/2 md:-translate-x-1/2'>
-            <KnowMore to={""} theme='white' themeText='[#ed1c25]' />
+            <KnowMore to={"/our-enablers/digital-powerhouse"} theme='white' themeText='[#ed1c25]' />
           </div>
         </div>
       </div>

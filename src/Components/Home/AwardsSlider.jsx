@@ -5,31 +5,38 @@ import 'slick-carousel/slick/slick-theme.css';
 import { FaTrophy, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Reveal from '../Reveal';
 import KnowMore from '../KnowMore';
+import { Link } from 'react-router-dom';
 
 const awards = [
   {
     title: "Recognition for Business Excellence",
     icon: "./home/Icon1.webp",
+    href: "/awards-and-accolades#aw1" 
   },
   {
     title: "Recognition for Technology and Digital Prowess",
     icon: "./home/Icon2.webp",
+    href: "/awards-and-accolades#aw2"
   },
   {
     title: "Recognition for Employee Excellence and Learning",
     icon: "./home/Icon3.webp",
+    href: "/awards-and-accolades#aw3"
   },
   {
     title: "Recognition for Harnessing Talent and Culture",
     icon: "./home/Icon4.webp",
+    href: "/awards-and-accolades#aw4"
   },
   {
     title: "Recognition for Sustainability",
     icon: "./home/Icon5.webp",
+    href: "/awards-and-accolades#aw5"
   },
   {
     title: "Recognition for Brand and Marketing",
     icon: "./home/Icon6.webp",
+    href: "/awards-and-accolades#aw6"
   },
 ];
 
@@ -86,7 +93,7 @@ const AwardsSlider = () => {
           <Slider ref={sliderRef} {...settings}>
             {awards.map((award, index) => (
               <div key={index} className="px-3">
-                <div className="relative border-b border-black cursor-pointer rounded-3xl rounded-l-full bg-transparent p-2 flex flex-row items-center justify-start  group"
+                <Link to={award.href} className="relative border-b border-black cursor-pointer rounded-3xl rounded-l-full bg-transparent p-2 flex flex-row items-center justify-start  group"
                 >
                   {/* Trophy icon with enhanced styling */}
                   <div className="relative bg- mb-">
@@ -102,7 +109,7 @@ const AwardsSlider = () => {
                    {award.title}
                   </h3>
 
-                </div>
+                </Link>
               </div>
             ))}
           </Slider>
@@ -128,7 +135,7 @@ const AwardsSlider = () => {
           </div>
         </div>
         <div className='mt-6 w-fit mx-auto'>
-          <KnowMore/>
+          <KnowMore to={"/awards-and-accolades"}/>
         </div>
       </div>
 

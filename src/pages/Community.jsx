@@ -520,10 +520,14 @@ const Community = () => {
           <p className="text-[#000000] mb-2">
             KEF is the primary implementing partner for our education-based CSR programmes. It is on a mission to empower economically disadvantaged children and youth through a trinity of school education, scholarships and vocational education.
           </p>
+         
           <p className="text-[#000000]">
             In FY 2024-25, the education programmes reached 800 schools across Maharashtra, Goa, Andhra Pradesh and Gujarat. Two lakh students and 4,500 youth benefitted<sup>$</sup> from KEF’s education, scholarship and skill training programmes.
           </p>
         </div>
+         <p className='text-xs mt-2'>
+            $ We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique
+          </p>
       </div>
 
 

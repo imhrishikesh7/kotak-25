@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { LuX, LuArrowRight, LuArrowUpRight, LuLayoutGrid } from 'react-icons/lu';
 import Reveal from '../Reveal';
-import { Link } from 'react-router-dom';
+import { href, Link } from 'react-router-dom';
 
 const BO = () => {
   const [selectedCard, setSelectedCard] = useState(null);
@@ -21,20 +21,20 @@ const BO = () => {
       items: [
         {
           text: "Kotak Mahindra Bank Limited",
-          href: "#",
+          href: "/business-overview#consumer-banking",
           children: [
-            { text: "Consumer Banking", href: "#" },
-            { text: "Kotak 811", href: "#" },
-            { text: "Commercial Banking", href: "#" },
-            { text: "Wholesale Banking", href: "#" },
-            { text: "Custodial Services", href: "#" },
-            { text: "Private Banking", href: "#" },
-            { text: "Asset Reconstruction Division", href: "#" }
+            { text: "Consumer Banking", href: "/business-overview#consumer-banking" },
+            { text: "Kotak 811", href: "business-overview#kotak811" },
+            { text: "Commercial Banking", href: "/business-overview#commercial-banking" },
+            { text: "Wholesale Banking", href: "/business-overview#wholesale-banking" },
+            { text: "Custodial Services", href: "/business-overview#custodial-services" },
+            { text: "Private Banking", href: "/business-overview#private-banking" },
+            { text: "Asset Reconstruction Division", href: "/business-overview#asset-reconstruction-division" }
           ]
         },
-        { text: "Car and Two-Wheeler Loans (Kotak Mahindra Prime Limited)", href: "#" },
-        { text: "Lending and Investments (Kotak Mahindra Investments Limited)", href: "#" },
-        { text: "Infrastructure Financing (Kotak Infrastructure Debt Fund Limited)", href: "#" }
+        { text: "Car and Two-Wheeler Loans (Kotak Mahindra Prime Limited)", href: "/business-overview#car-and-two-wheeler-loans" },
+        { text: "Lending and Investments (Kotak Mahindra Investments Limited)", href: "/business-overview#lending-and-investments" },
+        { text: "Infrastructure Financing (Kotak Infrastructure Debt Fund Limited)", href: "/business-overview#infrastructure-financing" }
       ]
     },
     {
@@ -43,8 +43,8 @@ const BO = () => {
       subtitle: "Empowering Our People",
       image: './home/Bo2.webp',
       items: [
-        { text: "Stock Broking (Kotak Securities Limited)", href: "#" },
-        { text: "Investment Banking (Kotak Mahindra Capital Company Limited)", href: "#" }
+        { text: "Stock Broking (Kotak Securities Limited)", href: "/business-overview#stock-broking" },
+        { text: "Investment Banking (Kotak Mahindra Capital Company Limited)", href: "/business-overview#investment-banking" }
       ]
     },
     {
@@ -53,7 +53,7 @@ const BO = () => {
       subtitle: "Sustainable Growth",
       image: './home/Bo3.webp',
       items: [
-        { text: "Life Insurance (Kotak Mahindra Life Insurance Company Limited)", href: "#" }
+        { text: "Life Insurance (Kotak Mahindra Life Insurance Company Limited)", href: "/business-overview#life-insurance" }
       ]
     },
     {
@@ -62,10 +62,10 @@ const BO = () => {
       subtitle: "Social Impact",
       image: './home/Bo4.webp',
       items: [
-        { text: "Mutual Fund (Kotak Mahindra Asset Management Company Limited)", href: "#" },
-        { text: "Pension Fund (Kotak Mahindra Pension Fund Limited)", href: "#" },
-        { text: "Alternate Assets (Kotak Alternate Asset Managers Limited*)", href: "#" },
-        { text: "International Business [ Kotak Mahindra (International) Limited , Kotak Mahindra (UK) Limited, Kotak Mahindra Inc., Kotak Mahindra Asset Management (Singapore) Pte Limited, Kotak Mahindra Financial Services Limited ]", href: "#" }
+        { text: "Mutual Fund (Kotak Mahindra Asset Management Company Limited)", href: "/business-overview#mutual-fund"},
+        { text: "Pension Fund (Kotak Mahindra Pension Fund Limited)", href: "/business-overview#pension-fund" },
+        { text: "Alternate Assets (Kotak Alternate Asset Managers Limited*)", href: "/business-overview#alternate-assets" },
+        { text: "International Business [ Kotak Mahindra (International) Limited , Kotak Mahindra (UK) Limited, Kotak Mahindra Inc., Kotak Mahindra Asset Management (Singapore) Pte Limited, Kotak Mahindra Financial Services Limited ]", href: "/business-overview#international-business" }
       ]
     }
   ];
@@ -112,14 +112,14 @@ const renderItems = (items, level = 0) => {
           >
             <div className="flex justify-between items-start">
               {item.href ? (
-                <a href={item.href} target="_blank" rel="noopener noreferrer" className="font-semibold text-gray-800">
+                <a href={item.href} rel="noopener noreferrer" className="font-semibold text-gray-800">
                   {item.text}
                 </a>
               ) : (
                 <p className="font-semibold text-gray-800">{item.text}</p>
               )}
               {item.href && (
-                <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <a href={item.href} rel="noopener noreferrer">
                   <LuArrowUpRight className="w-4 h-4 text-gray-500" />
                 </a>
               )}
@@ -142,14 +142,14 @@ const renderItems = (items, level = 0) => {
         <div key={index} className="bg-gray-50 p-2 rounded">
           <div className="flex justify-between items-start">
             {item.href ? (
-              <a href={item.href} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-700">
+              <a href={item.href}  rel="noopener noreferrer" className="text-sm font-medium text-gray-700">
                 {item.text}
               </a>
             ) : (
               <p className="text-sm font-medium text-gray-700">{item.text}</p>
             )}
             {item.href && (
-              <a href={item.href} target="_blank" rel="noopener noreferrer">
+              <a href={item.href}  rel="noopener noreferrer">
                 <LuArrowUpRight className="w-4 h-4 text-gray-400" />
               </a>
             )}

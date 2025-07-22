@@ -235,7 +235,7 @@ const DownloadCenter = () => {
       id: 33,
       title: "Consolidated and Standalone",
       category: "financial-highlights",
-      link: "./documents/Kotak Karma Foundation.pdf",
+      link: "./documents/Kotak AR 2024-25-Financial Highlights(Consolidated and Standalone).pdf",
     },
   ];
 

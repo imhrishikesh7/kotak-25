@@ -20,7 +20,7 @@ const BusinessOverview = () => {
                     digital platforms to enable scale, increase efficiencies and provide better customer experiences.
                 </p>
             </div>
-            <h1 className='mt-5 text-xl text-[#ed1c2f] font-bold' id='bo1'>Kotak Mahindra Bank Limited</h1>
+            <h1 className='mt-5 text-xl text-[#ed1c2f] font-bold' id='consumer-banking'>Kotak Mahindra Bank Limited</h1>
             <Heading heading={'Consumer Banking'} icon='BusinessOverview/Page-12-Icon.webp' />
             <div className='mt-5 text-lg'>
                 <p className='font-semibold mb-2'>
@@ -142,7 +142,9 @@ const BusinessOverview = () => {
                     <p className='text-[#58595b] text-md font-normal'>Growth in Consumer Assets</p>
                 </div>
             </div>
-            <Heading heading={'Kotak811'} icon='BusinessOverview\Page-13-Icon.webp' />
+            <div id='kotak811'>
+            <Heading heading={'Kotak811'}  icon='BusinessOverview\Page-13-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
                 <p className='font-semibold mb-2'>
                     A full-stack digital banking proposition that aims to
@@ -263,8 +265,9 @@ const BusinessOverview = () => {
             </div>
             <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY | *Savings Account refers to Live Full KYC Accounts only | **Throughput includes both credit and debit transactions</i></h1>
 
-
+            <div id='commercial-banking'>
             <Heading heading={'Commercial Banking'} icon='BusinessOverview\Page-14-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
                 <p className='font-semibold mb-2'>
                     Plays a significant role in meeting financial inclusion goals and
@@ -452,7 +455,9 @@ const BusinessOverview = () => {
                 </div>
             </div>
             <h1 className='pt-3'><i>^ Tractor and Mechanisation Association (TMA) website</i></h1>
+            <div id='wholesale-banking'>
             <Heading heading={'Wholesale Banking'} icon='BusinessOverview\Page-15-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -608,8 +613,9 @@ const BusinessOverview = () => {
             </div>
 
             <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY</i></h1>
-
+            <div id='custodial-services'>
             <Heading heading={'Custodial Services'} icon='BusinessOverview\Page-16-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -656,8 +662,9 @@ const BusinessOverview = () => {
 
             </div>
 
-
+            <div id='private-banking'>
             <Heading heading={'Private Banking'} icon='BusinessOverview\Page-16-Icon-3.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -760,8 +767,9 @@ const BusinessOverview = () => {
             <h1 className='pt-3'><i>*Offered by Kotak Alternate Asset Managers Ltd. | **Offered by Kotak Mahindra Trusteeship Services Ltd. | ^Derived from Forbes India Rich List 2024 |
                 ^^Relationship Value of Private Banking + Priority</i></h1>
 
-
+            <div id='asset-reconstruction-division'>
             <Heading heading={'Asset Reconstruction Division'} icon='BusinessOverview\Page-16-Icon-2.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -814,8 +822,9 @@ const BusinessOverview = () => {
 
             </div>
 
-
+            <div id='car-and-two-wheeler-loans'>
             <Heading heading={'Car and Two-Wheeler Loans'} subheading={'Kotak Mahindra Prime Limited'} icon='BusinessOverview\Page-17-Icon-1.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -881,8 +890,9 @@ const BusinessOverview = () => {
             <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY </i></h1>
 
 
-
+            <div id='lending-and-investments'>
             <Heading heading={'Lending and Investments'} subheading={'Kotak Mahindra Investments Limited'} icon='BusinessOverview\Page-17-Icon-2.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -924,8 +934,9 @@ const BusinessOverview = () => {
 
             </div>
 
-
+            <div id='infrastructure-financing'>
             <Heading heading={'Infrastructure Financing'} subheading={'Kotak Infrastructure Debt Fund Limited'} icon='BusinessOverview\Page-17-Icon-3.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -976,7 +987,9 @@ const BusinessOverview = () => {
 
 
             <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY</i></h1>
+            <div id='stock-broking'>
             <Heading heading={'Stock Broking'} subheading={'Kotak Securities Limited'} icon='BusinessOverview\Page-18-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -1117,8 +1130,9 @@ const BusinessOverview = () => {
             <h1 className='pt-3'><i>*Retail and institutional market share after excluding the proprietary segment. Based on notional turnover for equity futures and premium turnover for
                 equity options segment.| #Source: Bloomberg | @League tables: Bloomberg LSEG, Dealogic – for CY 2024 </i></h1>
 
-
+            <div id='investment-banking'>
             <Heading heading={'Investment Banking'} subheading={'Kotak Mahindra Capital Company Limited'} icon='BusinessOverview\Page-18-Icon-2.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -1200,8 +1214,9 @@ const BusinessOverview = () => {
             </div>
 
             <h1 className='pt-3'><i>*Retail and institutional market share after excluding the proprietary segment. Based on notional turnover for equity futures and premium turnover for equity options segment.| #Source: Bloomberg | <sup>@</sup>League tables: Bloomberg LSEG, Dealogic – for CY 2024 </i></h1>
-
+            <div id='life-insurance'>
             <Heading heading={'Life Insurance'} subheading={'Kotak Mahindra Life Insurance Company Limited'} icon='BusinessOverview\Page-19-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <div className=''>
@@ -1365,8 +1380,9 @@ const BusinessOverview = () => {
 
             <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY | ^Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | **Total deal value does not include the transactions where value is not disclosed, Bloomberg data as on 28th April 2025</i></h1>
 
-
+            <div id='mutual-fund'>
             <Heading heading={'Mutual Fund'} subheading={'Kotak Mahindra Asset Management Company Limited'} icon='BusinessOverview\Page-20-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -1480,8 +1496,9 @@ const BusinessOverview = () => {
                 </div>
 
             </div>
-
+            <div id='pension-fund'>
             <Heading heading={'Pension Fund'} subheading={'Kotak Mahindra Pension Fund Limited'} icon='BusinessOverview\Page-20-Icon2.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <div className="flex flex-col xl:flex-row lg:gap-10">
@@ -1540,8 +1557,9 @@ const BusinessOverview = () => {
 
             <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY </i></h1>
 
-
+            <div id='alternate-assets'>
             <Heading heading={'Alternate Assets'} subheading={'Kotak Alternate Asset Managers Limited*'} icon='BusinessOverview\Page-21-Icon.webp' />
+            </div>
             <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
 
                 <p className='font-semibold mb-2'>
@@ -1624,7 +1642,7 @@ const BusinessOverview = () => {
                     <img src='./BusinessOverview\Page-21-Icon-2.webp' alt="icon" className="w-15 h-15" />
                 </div>
                 <div>
-                    <h2 className="text-xl ml-15 font-bold text-[#1d2970]">
+                    <h2 id='international-business' className="text-xl ml-15 font-bold text-[#1d2970]">
                         International Business
 
                         <span className="font-normal text-[#1d2970]"> <br />
@@ -1697,7 +1715,7 @@ const BusinessOverview = () => {
                                     USD 5.5 bn
                                 </h1>
                                 <p className="text-[#58595b] text-md font-normal">
-                                    Total funds raised since inception
+                                    Assets Managed/Advised
                                 </p>
                             </div>
 

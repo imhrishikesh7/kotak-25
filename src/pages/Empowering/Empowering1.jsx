@@ -313,7 +313,7 @@ const Empowering1 = () => {
           </div>
           <div className='mb-5'>
             <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>
-              Training and Development
+              Enhancing Learning Opportunities
             </h1>
             <p className='mb-2'>
               At Kotak, learning is a continuous journey, supporting employees

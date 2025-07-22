@@ -97,7 +97,7 @@ const TalentHome = () => {
                                 does our organisation.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <KnowMore />
+                                <KnowMore to={"/our-enablers/talent"}/>
                             </div>
                         </div>
                     </div>

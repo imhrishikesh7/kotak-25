@@ -3,7 +3,8 @@ import gsap from "gsap";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import { FiDownload } from 'react-icons/fi';
+import { FiDownload, FiMenu } from 'react-icons/fi';
+import { FiGrid, FiX } from 'react-icons/fi';
 
 const navItems = [
     {
@@ -109,9 +110,29 @@ const Navbar = () => {
     const [mobilePanel, setMobilePanel] = useState(null);
     const [mobileBreadcrumb, setMobileBreadcrumb] = useState([]);
 
+    const [isOpen, setIsOpen] = useState(false);
+    const dropdownRef = useRef(null);
+
     const mobileRef = useRef(null);
     const submenuRef = useRef(null);
     const dropdownContainerRef = useRef(null);
+
+    useEffect(() => {
+        if (isOpen) {
+            gsap.fromTo(
+                dropdownRef.current,
+                { opacity: 0, y: -10 },
+                { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }
+            );
+        } else {
+            gsap.to(dropdownRef.current, {
+                opacity: 0,
+                y: -10,
+                duration: 0.2,
+                ease: 'power2.in',
+            });
+        }
+    }, [isOpen]);
 
     const closeMobileMenu = () => {
         if (mobileRef.current) {
@@ -203,11 +224,11 @@ const Navbar = () => {
             : 'top-0 left-full submenu-nested';
 
         return (
-            <div className={`absolute ${baseClasses} bg-[#222] mt-2 py-3 px-4 rounded shadow-lg w-64 z-[60]`}>
+            <div className={`absolute ${baseClasses} bg-[#1e293b] mt-2 py-3 px-4 rounded-xl shadow-lg w-64 z-[60]`}>
                 {items.map((sub) => (
                     <div key={sub.label} className="relative group">
                         {sub.submenu ? (
-                            <div className="     py-2 px-2 text-sm hover:text-blue-300 transition cursor-pointer flex items-center justify-between">
+                            <div className="py-2 px-2 text-sm hover:text-blue-300 transition cursor-pointer flex items-center justify-between">
                                 <span>{sub.label}</span>
                                 <FiChevronRight className="text-xs" />
                                 <div className="hidden group-hover:block">
@@ -256,22 +277,12 @@ const Navbar = () => {
                     z-index: 70;
                 }
             `}</style>
-            <nav className="bg-[#013367]/90 backdrop-blur-[20px] relative text-white md:px-16 px-6 py-4 flex justify-between items-center">
+            <nav className="bg-[#013367]/90 backdrop-blur-[20px] relative text-white md:px-16 px-6 py-3 flex justify-between items-center">
                 <Link to="/" className="text-xl font-bold w-32">
                     <img src="/Kotak-White-Version.webp" alt="Logo" />
                 </Link>
 
-                <div className="text-slate-300 flex justify-center gap-2 py-1 px-3 rounded-xl">
-                    <a href="#download-center" className="cursor-pointer text-slate-300 hover:text-white transition-all duration-300">Download Center</a>
-                    |
-                    <a
-                        href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
-                        target="_blank"
-                        className="flex items-center hover:text-white transition-all duration-300 gap-2"
-                    >
-                        Download Full Report <FiDownload />
-                    </a>
-                </div>
+
 
 
                 {/* Desktop Nav */}
@@ -304,15 +315,63 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                {/* Hamburger */}
-                <div className="md:hidden flex items-center justify-center">
-                    <button
-                        onClick={() => setMobileOpen(true)}
-                        className="text-4xl text-white cursor-pointer"
+                {/* <div className="text-slate-300 flex justify-center gap-2 py-1 px-3 rounded-xl">
+                    <a href="#download-center" className="cursor-pointer text-slate-300 hover:text-white transition-all duration-300">Download Center</a>
+                    |
+                    <a
+                        href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
+                        target="_blank"
+                        className="flex items-center hover:text-white transition-all duration-300 gap-2"
                     >
-                        <RxHamburgerMenu />
+                        Download Full Report <FiDownload />
+                    </a>
+                </div> */}
+                {/* <div> */}
+
+                    
+                    <button
+                        onClick={() => setIsOpen(!isOpen)}
+                        className="text-slate-300 cursor-pointer text-2xl focus:outline-none"
+                    >
+                        {isOpen ? <FiX /> : <FiGrid />}
                     </button>
-                </div>
+
+                    <div
+                        ref={dropdownRef}
+                        className={`absolute right-4 top-[60px] w-72 bg-[#1e293b] border border-slate-600 rounded-xl shadow-xl p-4 transition-opacity duration-300 pointer-events-${isOpen ? 'auto' : 'none'} ${isOpen ? 'block' : 'hidden'
+                            }`}
+                    >
+                        <div className="flex flex-col gap-3 text-sm">
+                            <a
+                                href="#download-center"
+                                className="text-slate-300 hover:text-white transition-all duration-300"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                Download Center
+                            </a>
+                            <a
+                                href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-slate-300 hover:text-white transition-all duration-300"
+                                onClick={() => setIsOpen(false)}
+                            >
+                                Download Full Report <FiDownload className="text-lg" />
+                            </a>
+                        </div>
+                    </div>
+                    
+                   
+
+                    {/* Hamburger */}
+                    <div className="md:hidden flex items-center justify-center">
+                        <button
+                            onClick={() => setMobileOpen(true)}
+                            className="text-4xl text-white cursor-pointer"
+                        >
+                            <RxHamburgerMenu />
+                        </button>
+                    </div>
             </nav>
 
             <div

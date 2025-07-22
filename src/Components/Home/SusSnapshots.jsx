@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { LuX, LuArrowRight } from 'react-icons/lu';
+import { LuX, LuArrowRight, LuSquareArrowOutUpRight, LuLayoutGrid } from 'react-icons/lu';
 import Reveal from '../Reveal';
+import { Link } from 'react-router-dom';
 
 const SusSnapshots = () => {
     const [selectedCard, setSelectedCard] = useState(null);
@@ -15,6 +16,7 @@ const SusSnapshots = () => {
         {
             id: 1,
             title: "Customers",
+            link: "/sustainability/customers",
             subtitle: "Excellence in Service",
             image: './home/ss1.webp',
             achievements: [
@@ -33,8 +35,9 @@ const SusSnapshots = () => {
         {
             id: 2,
             title: "Company",
+            link: "/sustainability/governance",
             subtitle: "Sustainable Growth",
-            image: './home/ss3.webp',
+            image: './home/ss2.webp',
             achievements: [
                 { value: "27%", desc: "Board gender diversity" },
                 { value: "> 20%", desc: "Of Bank's workforce operating from ISO 45001:2018 certified premises" },
@@ -51,8 +54,9 @@ const SusSnapshots = () => {
         {
             id: 3,
             title: "Colleagues",
+            link: "/sustainability/colleagues",
             subtitle: "Empowering Our People",
-            image: './home/ss2.webp',
+            image: './home/ss3.webp',
             achievements: [
                 { value: "26.4%", desc: "Gender diversity at the Group" },
                 { value: "16%", desc: "YoY reduction in employee turnover at the Bank" },
@@ -70,6 +74,7 @@ const SusSnapshots = () => {
         {
             id: 4,
             title: "Community",
+            link: "/sustainability/community",
             subtitle: "Social Impact",
             image: './home/ss4.webp',
             achievements: [
@@ -169,15 +174,18 @@ const SusSnapshots = () => {
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#9f0910]/80 via-[#ed1c25]/40  to-transparent"></div>
 
                                     {/* Arrow only */}
-                                    <div className="absolute top-4 sm:top-6 right-4 sm:right-6">
-                                        <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
-                                            <LuArrowRight className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
+                                    <div className="absolute flex justify-between items-center w-full top-4 sm:top-4 right-4 sm:right-0">
+                                        <div className="w-8 h-8 ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                                            <LuLayoutGrid  className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
                                         </div>
+                                        <Link to={card.link} className="w-8 h-8 mr-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                                            <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                        </Link>
                                     </div>
 
                                     {/* Title Content */}
-                                    <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">
-                                        <h3 className="text-xl sm:text-2xl font-semibold text-white mb-1 sm:mb-2">{card.title}</h3>
+                                    <div className="absolute bottom-4 sm:bottom-2 left-4 sm:left-6 right-4 sm:right-6">
+                                       <h3 className="text-xl sm:text-lg font-semibold text-white mb-1 sm:mb-2">{card.title}</h3>
                                         {/* <p className="text-white/80 text-xs sm:text-sm font-medium">{card.subtitle}</p> */}
                                     </div>
                                 </div>

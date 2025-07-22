@@ -51,7 +51,7 @@ const page2 = () => {
         <h1 className='text-3xl font-bold text-[#ed1c2f] border-b-3 w-fit mb-4 pb-2'>Stakeholder Engagement and Materiality Assessment</h1>
         <div className="hidden md:block w-full h-full relative md:pt-20 md:pb-30">
           <div
-            className="absolute inset-0 bg-cover bg-center rounded-3xl"
+            className="absolute inset-0 bg-contain bg-center rounded-3xl"
             style={{ backgroundImage: "url('/home/hausla.webp')" }}
           ></div>
           <div className="relative h-full p-8 flex items-center justify-end text-white">

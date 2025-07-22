@@ -3,7 +3,7 @@ import React from 'react';
 const KotakReportLayout = () => {
     return (
         <div className="bg-white mt-10 mb-5 space-y-6 mx-auto">
-            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]">
+            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]" id='customers'>
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
                         <img src="\AshokMessage\Customers-Icon.webp" alt="" className='w-12' />
@@ -42,7 +42,7 @@ const KotakReportLayout = () => {
                 </div>
             </div>
 
-            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]">
+            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]" id='colleagues'>
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
                         <img src="\AshokMessage\Colleagues-Icon.webp" alt="" className='w-16' />
@@ -115,13 +115,13 @@ const KotakReportLayout = () => {
             <div>
                 <i>*Improvement in score over the period July 2023 to March 2025</i>
             </div>
-            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]">
+            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]" id='company'>
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
                         <img src="favicon.webp" alt="" className='w-15' />
                     </div>
 
-                    <div className="flex-1">
+                    <div className="flex-1" >
                         <h2 className="text-red-600 font-semibold text-xl mb-4">Company</h2>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -183,13 +183,13 @@ const KotakReportLayout = () => {
                 </div>
             </div>
 
-            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]">
+            <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]" id='community'>
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
                         <img src="\AshokMessage\Community-Icon.webp" alt="" className='w-15' />
                     </div>
 
-                    <div className="flex-1">
+                    <div className="flex-1" >
                         <h2 className="text-red-600 font-semibold text-xl mb-4">Community</h2>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

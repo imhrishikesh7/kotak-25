@@ -110,7 +110,7 @@ const TechnologyHome = () => {
               {/* Right Section - Description */}
               <div className='mt-4 md:mt-0'>
                 <Reveal animation="slide-up">
-                  <p className='text-sm sm:text-base md:text-xl font-semibold text-[#013367] leading-relaxed max-w-md mx-auto md:max-w-none md:mx-0 '>
+                  <p className='text-sm md:w-[70%] text-center sm:text-base md:text-xl font-semibold text-[#013367] leading-relaxed max-w-md !mx-auto md:max-w-none md:mx-0 '>
                     Kotak Mahindra Bank's transformation journey is anchored in technology as a key enabler, guided by a customer-centric philosophy and strategically focused on achieving scale.
                   </p>
                 </Reveal>

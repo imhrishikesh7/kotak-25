@@ -9,22 +9,22 @@ import "slick-carousel/slick/slick-theme.css";
 const outerData = [
     {
         label: 'Customers',
-        link: '#customers',
+        link: '/strategy#customers',
         icon: './home/op-strategy/Customers.webp',
     },
     {
         label: 'Company',
-        link: '#company',
+        link: '/strategy#company',
         icon: './home/op-strategy/Company.webp',
     },
     {
         label: 'Colleagues',
-        link: '#colleagues',
+        link: '/strategy#colleagues',
         icon: './home/op-strategy/Colleagues.webp',
     },
     {
         label: 'Community',
-        link: '#community',
+        link: '/strategy#community',
         icon: './home/op-strategy/Community.webp',
     },
 ];
@@ -50,7 +50,7 @@ const fallbackThemes = [
     },
     {
         id: 4,
-        bg: './home/op-strategy/tec-core.webp',
+        bg: './home/op-strategy/Tec-core.webp',
         title: 'Technology at the Core',
         link: '/strategy#technology-core',
     },

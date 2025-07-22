@@ -123,7 +123,7 @@ const SEMA = () => {
                         to our stakeholders in the short, medium and long-term.
                     </p>
                     <div className='mt-4'>
-                        <KnowMore />
+                        <KnowMore to={"/our-enablers/stakeholder-engagement"}/>
                     </div>
 
                 </div>
@@ -161,6 +161,9 @@ const SEMA = () => {
                         potential to significantly affect our ability to create, sustain and deliver value
                         to our stakeholders in the short, medium and long-term.
                     </p>
+                     <div className='mt-4'>
+                        <KnowMore to={"/our-enablers/stakeholder-engagement"}/>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,9 +1,11 @@
+import ScrollToHash from '../Components/ScrollToHash'
 import LoanHeading from '../Reusable/Heading'
 import Heading from '../Reusable/Heading'
 
 const BusinessOverview = () => {
     return (
         <div className='marginal'>
+            <ScrollToHash/>
             <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
                 Business Overview
             </div>
@@ -18,7 +20,7 @@ const BusinessOverview = () => {
                     digital platforms to enable scale, increase efficiencies and provide better customer experiences.
                 </p>
             </div>
-            <h1 className='mt-5 text-xl text-[#ed1c2f] font-bold'>Kotak Mahindra Bank Limited</h1>
+            <h1 className='mt-5 text-xl text-[#ed1c2f] font-bold' id='bo1'>Kotak Mahindra Bank Limited</h1>
             <Heading heading={'Consumer Banking'} icon='BusinessOverview/Page-12-Icon.webp' />
             <div className='mt-5 text-lg'>
                 <p className='font-semibold mb-2'>

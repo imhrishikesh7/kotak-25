@@ -3,11 +3,8 @@ import Aboutus from '../../Components/Home/Aboutus'
 import Airplane from '../../Components/Home/Airplane'
 import KeyHighlights from '../../Components/Home/KeyHighlights'
 import Reveal from '../../Components/Reveal'
-import KnowMore from '../../Components/KnowMore'
 import BOD from '../../Components/Home/BOD'
 import Message from '../../Components/Home/Message'
-import BusinessOverview from '../../Components/Home/BusinessOverview'
-// import Scene from '../../Components/Home/Scene'
 import IPhone from '../../Components/Home/Iphone'
 import KPIHome from '../../Components/Home/KPIHome'
 import Strategy from '../../Components/Home/StrategyHome'
@@ -46,8 +43,7 @@ const Home = () => {
             </div>
             <BOD />
             <Message />
-            <BusinessOverview />
-            <BO/>
+            <BO />
             <TechnologyHome />
             <IPhone />
             <TalentHome />

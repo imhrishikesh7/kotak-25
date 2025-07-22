@@ -2,30 +2,13 @@
 import StrategyThemes from '../Reusable/StrategyThemes'
 import StrategyCard from '../Reusable/StrategyCard'
 import KotakReportLayout from '../Components/KotakReportLayout'
-import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import ScrollToHash from '../Components/ScrollToHash'
+
 
 const Strategy = () => {
-  const location = useLocation();
-  useEffect(() => {
-    if (location.hash) {
-      setTimeout(() => {
-        const target = document.querySelector(location.hash);
-        if (target) {
-          const offset = -80; // adjust this value to match your fixed header height
-          const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
-          const offsetPosition = elementPosition + offset;
-
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth',
-          });
-        }
-      }, 100);
-    }
-  }, [location]);
 
   return (
+    
     <div className='marginal text-lg'>
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Strategy
@@ -641,6 +624,7 @@ const Strategy = () => {
         </div>
       </div>
       <div>
+        <ScrollToHash />
         <KotakReportLayout />
       </div>
       <div>

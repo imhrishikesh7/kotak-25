@@ -17,9 +17,10 @@ const KeyHighlights = () => {
 
                 <Marquee speed={50} className="rounded-3xl" gradient={false}>
                     {highlights.map((item, index) => (
+                        <div className='pl-[2px] mx-4 rounded-3xl bg-gradient-to-b from-[#ed1c25] to-[#013367] '>
                         <div
                             key={index}
-                            className="mx-6 bg-white w-[350px] h-[180px] p-8 rounded-3xl flex flex-col justify-center-safe text-[#1d257e]"
+                            className="mx- bg-white w-[350px] h-[180px] p-8 rounded-3xl flex flex-col justify-center-safe text-[#1d257e]"
                         >
                             <div className="text-xl md:text-4xl font-bold">{item.value}</div>
                             <div className="text-xs md:text-xl text-gray-600 border-t border-red-500 w-full mt-1 pt-1">
@@ -29,10 +30,11 @@ const KeyHighlights = () => {
                                 {item.note}
                             </div>
                         </div>
+                        </div>
                     ))}
                 </Marquee>
             </div>
-            <p className="mt-6 text-center">*Consolidated Assets | <sup>#</sup>All numbers are on a consolidated basis except where stated</p>
+            <p className="mt-6 text-center">*Consolidated Assets | All numbers are on a consolidated basis except where stated</p>
         </div>
     );
 };

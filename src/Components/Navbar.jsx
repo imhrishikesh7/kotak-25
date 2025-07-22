@@ -10,7 +10,7 @@ const navItems = [
         label: "Kotak at a Glance",
         submenu: [
             { label: "About Us", link: "/about" },
-            { label: "Board of Directors", link: "/board-of-directors" },
+            // { label: "Board of Directors", link: "/board-of-directors" },
             { label: "Message from Ashok Vaswani", link: "/message-from-ashok-vaswani" },
             { label: "Business Overview", link: "/business-overview" },
             {
@@ -25,7 +25,7 @@ const navItems = [
             { label: "Key Performance Indicators", link: "/our-enablers/key-performance-indicators" },
             { label: "Stakeholder Engagement and Materiality Assessment", link: "/our-enablers/stakeholder-engagement" },
             { label: "Strategy", link: "/strategy" },
-            { label: "Value Creation Model", link: "/value-creation-model" },
+            // { label: "Value Creation Model", link: "/value-creation-model" },
             { label: "Awards and Accolades", link: "/awards-and-accolades" }
         ]
     },

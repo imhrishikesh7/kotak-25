@@ -37,7 +37,7 @@ const Technology = () => {
                     which were subsequently removed by its letter dated 12th February, 2025.
                 </p>
 
-                <p className='text-lg font-semibold mb-3'>
+                <p className='text-lg font-semibold'>
                     To enhance customer experience with a focus on resiliency, security
                     and scalability, we initiated several strategic actions. Key among them
                     are outlined below:
@@ -45,15 +45,15 @@ const Technology = () => {
             </div>
 
             {/* Desktop Layout */}
-            <div className="mt-8 hidden md:block">
-                <div className="flex md:flex-row gap-8 mb-8 px-8">
-                    <div ref={imageRef} className="w-[300px] h-[250px] flex-shrink-0">
+            <div className="mt-3 hidden md:block">
+                <div className="flex md:flex-row gap-8 mb-5 ">
+                    {/* <div ref={imageRef} className="w-[300px] h-[250px] flex-shrink-0">
                         <img
                             src="/home/technology-swirl.webp"
                             alt="Technology Swirl"
                             className="w-full h-auto object-contain translate-y-[-10%]"
                         />
-                    </div>
+                    </div> */}
 
                     <div className="flex items-center">
                         <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
@@ -69,10 +69,38 @@ const Technology = () => {
                         </div>
                     </div>
                 </div>
+                <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
+                    <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
+                        Creation of Unified and Interoperable Platforms
+                    </h2>
 
-                {/* Remaining Cards in Row */}
+                    <div className="overflow-hidden">
+                        <p className="text-[#000000] mb-4">
+                            These platforms are designed to modernise the core infrastructure and serve as a robust foundation for powering front-end applications. They enable seamless integration, faster development cycles and consistent performance across channels. Key ones being:
+                        </p>
+
+                        <div className="mt-4 space-y-4">
+                            <div>
+                                <h3 className='text-xl text-[#212b7e] font-semibold mb-2'>Data EXchange (DEX) Platform</h3>
+                                <p className="text-[#000000] mb-2">
+                                    A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
+                                </p>
+                                <p className="text-[#000000]">
+                                    It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h3 className='text-xl text-[#212b7e] font-semibold mb-2'>Unified Onboarding Platform</h3>
+                                <p className="text-[#000000]">
+                                    The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="">
-                    <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000] mb-10">
+                    <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000] mt-5">
                         <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
                             Leveraging Data and Analytics
                         </h2>
@@ -91,36 +119,7 @@ const Technology = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
-                        <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
-                            Creation of Unified and Interoperable Platforms
-                        </h2>
 
-                        <div className="overflow-hidden">
-                            <p className="text-[#000000] mb-4">
-                                These platforms are designed to modernise the core infrastructure and serve as a robust foundation for powering front-end applications. They enable seamless integration, faster development cycles and consistent performance across channels. Key ones being:
-                            </p>
-
-                            <div className="mt-4 space-y-4">
-                                <div>
-                                    <h3 className='text-xl text-[#212b7e] font-semibold mb-2'>Data EXchange (DEX) Platform</h3>
-                                    <p className="text-[#000000] mb-2">
-                                        A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
-                                    </p>
-                                    <p className="text-[#000000]">
-                                        It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <h3 className='text-xl text-[#212b7e] font-semibold mb-2'>Unified Onboarding Platform</h3>
-                                    <p className="text-[#000000]">
-                                        The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 

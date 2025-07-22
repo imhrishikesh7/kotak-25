@@ -9,10 +9,10 @@ const Strategy = () => {
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Strategy
       </div>
-      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-5">
+      <h1 className="text-3xl font-bold text-[#ed1c2f] mb-2">
         Transforming for scale
       </h1>
-      <div className='mb-10 text-xl'>
+      <div className='mb-3 text-xl'>
         Our strategic initiatives are designed with the customer at the centre of our focus. ‘Do right by
         the Customer’ is the guiding principle behind the ongoing evolution in our product propositions,
         customer service initiatives and customer experience journeys across physical, digital and voice
@@ -67,7 +67,7 @@ const Strategy = () => {
 
       </div>
       <div>
-        <div className='space-y-4'>
+        <div className='space-y-2'>
           <StrategyCard
             icon="\StrategyInner\Icon-41.webp"
             title="Scale"
@@ -215,12 +215,12 @@ const Strategy = () => {
           </div>
         </div>
 
-        <div className='space-y-4'>
+        <div className='space-y-2'>
           <StrategyCard
             icon="\StrategyInner\Icon-42.webp"
             title="One Kotak"
             description="Meeting the Holistic Needs of the Customer"
-            image="\StrategyInner\Image-42 copy.webp"
+            image="\StrategyInner\Image-42.webp"
             materialTopics={[
               "Customer Centricity",
               "Brand Recognition",
@@ -250,7 +250,7 @@ const Strategy = () => {
           </p>
         </div>
 
-        <div className='space-y-4'>
+        <div className='space-y-2'>
           <StrategyCard
             icon="\Stakeholders\Icon4-42.webp"
             title="Prudent Risk Management"
@@ -301,7 +301,7 @@ const Strategy = () => {
           </p>
         </div>
 
-        <div className='space-y-4'>
+        <div className='space-y-2'>
           <StrategyCard
             icon="\Stakeholders\Icon-43.webp"
             title="Technology at the Core"
@@ -365,7 +365,7 @@ const Strategy = () => {
           </p>
         </div>
       </div>
-      <div className='space-y-4'>
+      <div className='space-y-2'>
         <StrategyCard
           icon="\Stakeholders\Icon-3-43.webp"
           title="Empowered Colleagues"
@@ -408,7 +408,7 @@ const Strategy = () => {
                   providing best-in-class colleague value proposition
                   based on five pillars:
                 </p>
-                <ul className="space-y-4 mt-3">
+                <ul className="space-y-2 mt-3">
                   <li className="flex items-start gap-2">
                     <div className="w-2.5 h-2.5 bg-[#d4effc] rounded-full mt-2" />
                     <span>Providing the ‘Best of Kotak for Kotakites and their families – offering differentiated/ best-in-class products and services to colleagues</span>
@@ -442,7 +442,7 @@ const Strategy = () => {
                   Further, we are designing an
                   organisation for the future by:
                 </p>
-                <ul className="space-y-4 mt-3">
+                <ul className="space-y-2 mt-3">
                   <li className="flex items-start gap-2">
                     <div className="w-2.5 h-2.5 bg-[#d4effc] rounded-full mt-2" />
                     <span>Hiring the best and driving harmonious integration
@@ -470,7 +470,7 @@ const Strategy = () => {
         </div>
       </div>
 
-      <div className='space-y-4'>
+      <div className='space-y-2'>
         <StrategyCard
           icon="\Stakeholders\Icon-44.webp"
           title="Execution Excellence at Scale"
@@ -542,7 +542,7 @@ const Strategy = () => {
         </p>
       </div>
 
-      <div className='space-y-4'>
+      <div className='space-y-2'>
         <StrategyCard
           icon="\Stakeholders\Icon-45.webp"
           title="Driving Inclusive and Responsible Growth"

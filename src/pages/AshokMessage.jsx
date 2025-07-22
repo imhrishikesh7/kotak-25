@@ -13,15 +13,15 @@ const AshokMessage = () => {
                 <img src="\home\ceo-banner.webp" alt="" className='rounded-3xl' />
             </div>
             <div className='text-lg mt-5'>
-                <h2 className='text-[#ed1c2f] text-2xl font-semibold mb-3'>Dear Shareholders,
+                <h2 className='text-[#ed1c2f] text-2xl font-semibold mb-2'>Dear Shareholders,
                 </h2>
                 <div className='text-[#000000]'>
-                    <p className='mb-3'>
+                    <p className='mb-2'>
                         Last year is best described as one of resilience, recovery,
                         reinvention and realignment, both in the external world
                         and within Kotak.
                     </p>
-                    <p className='mb-3'>
+                    <p className='mb-2'>
                         The heightened geo-political situation and a rapidly evolving,
                         volatile global economic order are the new realities that
                         have compelled all countries, including India, to realign. The
@@ -31,7 +31,7 @@ const AshokMessage = () => {
                         reductions and a liquidity boost. These developments naturally
                         impacted our business.
                     </p>
-                    <p className='mb-3'>
+                    <p className='mb-2'>
                         Specific to Kotak, early in the year, the RBI directed us to
                         strengthen our technology platform, pause digital onboarding
                         of new customers and issuance of new credit cards. The team
@@ -49,21 +49,21 @@ const AshokMessage = () => {
 
                 <img src="AshokMessage/image.webp" alt="" className='w-10' />
                 <div>
-                    <p className='text-[#212b7e] text-xl font-medium mb-3'>
+                    <p className='text-[#212b7e] text-xl font-medium mb-2'>
                         “We committed to transforming our business
                         for scale. Scale, not just for the sake of size but
                         for relevance, with a single-minded focus on the
                         customer.”
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         Stepping back from the immediate, let me turn to the strategic
                         vision and roadmap we set out in the early part of calendar year
                         2024. We committed to transforming our business for scale.
                         Scale, not just for the sake of size but for relevance, with a single-minded focus on the customer.
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         Building on that strategic intent, let me now turn to how Kotak’s
                         unique position as a diversified financial services conglomerate
                         with interests in Banking, Capital Markets, Asset Management
@@ -84,35 +84,27 @@ const AshokMessage = () => {
 
             </div>
             <div className='text-lg mt-5'>
-                <div className='flex gap-3 mb-3'>
+                <div className='flex gap-3 mb-2'>
                     <div className='bg-gray-200 w-15 h-15 rounded-full p-3'>
                         <img src="AshokMessage/Customers-Icon.webp" alt="" className='w-10' />
                     </div>
-                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>Customer</h2>
+                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-2'>Customer</h2>
                 </div>
-                <h3 className='text-2xl text-[#212b7e] mb-3'>The Heart of Our Business</h3>
+                <h3 className='text-2xl text-[#212b7e] mb-2'>The Heart of Our Business</h3>
                 <div>
-                    <p className='text-[#000000] mb-3'>
-                        We have made significant strides in enhancing our customer
-                        experience. Our digital onboarding process is now more
-                        streamlined, and we have introduced new features to make
-                        banking more convenient. We are also expanding our product
-                        offerings to cater to the diverse needs of our customers.
-                    </p>
+                    <img src="AshokMessage/image.webp" alt="" className='w-10 mb-2' />
 
-                    <img src="AshokMessage/image.webp" alt="" className='w-10 mb-3' />
-
-                    <p className='text-[#212b7e] text-xl font-medium mb-3'>
+                    <p className='text-[#212b7e] text-xl font-medium mb-2'>
                         “We strongly believe that the only way we will
                         get it right is if we get it right by the customer.”
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         We strongly believe that “the only way we will get it right is if we
                         get it right by the customer.”
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         Given the breadth of our product and service capabilities, our
                         focus has been on integrating relevant products and services
                         across the Group for our defined target customer segments.
@@ -130,7 +122,7 @@ const AshokMessage = () => {
 
                 <img src="AshokMessage/image.webp" alt="" className='w-10' />
                 <div>
-                    <p className='text-[#212b7e] text-xl font-medium mb-3'>
+                    <p className='text-[#212b7e] text-xl font-medium mb-2'>
                         “Technology is central to our strategy to
                         transform for scale.”
                     </p>
@@ -161,14 +153,14 @@ const AshokMessage = () => {
                     <div className='bg-gray-200 w-15 h-15 rounded-full p-1'>
                         <img src="favicon.webp" alt="" className='w-' />
                     </div>
-                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-3'>Company</h2>
+                    <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5 mb-2'>Company</h2>
                 </div>
                 <div>
-                    <h3 className='text-2xl text-[#212b7e] mb-3'>
+                    <h3 className='text-2xl text-[#212b7e] mb-2'>
                         Building Sustainable Value
                     </h3>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         We are very mindful that our shareholders give us the capital
                         to run our business. In turn, we are committed to building
                         a sustainable franchise that delivers growth and returns,
@@ -193,13 +185,13 @@ const AshokMessage = () => {
 
                 <img src="AshokMessage/image.webp" alt="" className='w-10' />
                 <div>
-                    <p className='text-[#212b7e] text-xl font-medium mb-3'>
+                    <p className='text-[#212b7e] text-xl font-medium mb-2'>
                         “A strong risk management culture remains at
                         the heart of Kotak and that is the one thing that
                         will not change.”
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         Our diversified business model offers significant counter-cyclical
                         benefits, clearly demonstrated this year with the capital market
                         businesses having a stellar year. Kotak Mahindra Capital Company
@@ -211,7 +203,7 @@ const AshokMessage = () => {
                         performed strongly.
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         A strong risk management culture remains at the heart of Kotak
                         and that is the one thing that will not change. We seek sustainable,
                         profitable growth without compromising on our strong governance
@@ -227,25 +219,25 @@ const AshokMessage = () => {
 
                 <img src="AshokMessage/image.webp" alt="" className='w-10' />
                 <div>
-                    <p className='text-[#212b7e] text-xl font-medium mb-3'>
+                    <p className='text-[#212b7e] text-xl font-medium mb-2'>
                         “We seek sustainable, profitable growth without
                         compromising on our strong governance process and
                         mindset, which are of utmost importance to us.”
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         The acquisition of the ₹3,330 crore personal loan book from
                         Standard Chartered Bank, India was one such opportunity.
                     </p>
 
-                    <p className='text-[#000000] mb-3'>
+                    <p className='text-[#000000] mb-2'>
                         Into this year, we recognise that managing the businesses
                         through the regulatory repo rate cut cycle and navigating
                         avenues for growth, are important business challenges that
                         lie ahead.
                     </p>
 
-                    <img src="AshokMessage/image.webp" alt="" className='w-10 mb-3' />
+                    <img src="AshokMessage/image.webp" alt="" className='w-10 mb-2' />
 
                     <p className='text-[#212b7e] text-xl font-medium'>
                         “We take pride in our strong balance
@@ -257,17 +249,17 @@ const AshokMessage = () => {
 
             </div>
             <div className='text-lg mt-10'>
-                <div className='flex gap-3 mb-3'>
+                <div className='flex gap-3 mb-2'>
                     <div className='bg-gray-200 w-15 h-15 rounded-full p-1'>
                         <img src="AshokMessage/Colleagues-Icon.webp" alt="" className='w- translate-y-[40%]' />
                     </div>
                     <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Colleagues</h2>
                 </div>
-                <h3 className='text-2xl text-[#212b7e] mb-3'>
+                <h3 className='text-2xl text-[#212b7e] mb-2'>
                     Our Greatest Asset
                 </h3>
 
-                <p className='text-[#000000] mb-3'>
+                <p className='text-[#000000] mb-2'>
                     Our Colleagues are our greatest assets. At its core the
                     transformation that we have embarked upon is one of culture
                     change - designed to allow Kotak to capture opportunities
@@ -285,7 +277,7 @@ const AshokMessage = () => {
                     next level.
                 </p>
 
-                <img src="AshokMessage/image.webp" alt="" className='w-10 mb-3' />
+                <img src="AshokMessage/image.webp" alt="" className='w-10 mb-2' />
 
                 <p className='text-[#212b7e] text-xl font-normal mb-5'>
                     “Our Colleagues are our greatest assets.”
@@ -294,25 +286,25 @@ const AshokMessage = () => {
 
             <img src="AshokMessage/Page-11-Image.webp" alt="" className='mb-10' />
             <div className='text-lg'>
-                <div className='flex gap-3 mb-3'>
+                <div className='flex gap-3 mb-2'>
                     <div className='bg-gray-200 w-15 h-15 rounded-full p-1'>
                         <img src="AshokMessage/Community-Icon.webp" alt="" className='translate-y-[-5%]' />
                     </div>
                     <h2 className='text-[#ed1c2f] text-2xl font-semibold mt-5'>Community</h2>
                 </div>
 
-                <h3 className='text-2xl text-[#212b7e] mb-3'>
+                <h3 className='text-2xl text-[#212b7e] mb-2'>
                     Thriving Together
                 </h3>
 
-                <p className='text-[#000000] mb-3'>
+                <p className='text-[#000000] mb-2'>
                     Our regulators are among our most important stakeholders. We
                     operate under the licence they provide, and our goals are fully
                     aligned. We are committed to being role models in building a
                     compliant and sustainable franchise.
                 </p>
 
-                <p className='text-[#000000] mb-3'>
+                <p className='text-[#000000] mb-2'>
                     We are committed to giving back to the community in which we
                     live. We understand that our prosperity is inherently linked to
                     theirs. We are immensely proud of the work that we do in the
@@ -324,14 +316,14 @@ const AshokMessage = () => {
                     programme to help entrepreneurs grow and scale up.
                 </p>
 
-                <img src="AshokMessage/image.webp" alt="" className='w-10 mb-3' />
+                <img src="AshokMessage/image.webp" alt="" className='w-10 mb-2' />
 
-                <p className='text-[#212b7e] text-xl font-normal mb-3'>
+                <p className='text-[#212b7e] text-xl font-normal mb-2'>
                     “...our brand Kotak has been built brick by
                     brick, with ambition and hard work.”
                 </p>
 
-                <p className='text-[#000000] mb-3'>
+                <p className='text-[#000000] mb-2'>
                     Finally, our brand Kotak has been built brick by brick, with
                     ambition and hard work. Over the years, our vision and
                     aspirations have evolved to achieve the audacious. That is
@@ -341,11 +333,11 @@ const AshokMessage = () => {
                     because we believe - <span className='text-[#ed1c2f] font-medium'>Hausla hai toh <i>ho jayega!</i></span>
                 </p>
 
-                <p className='text-[#000000] mb-3'>
+                <p className='text-[#000000] mb-2'>
                     <strong className='text-[#202a7d]'>In Closing</strong>
                 </p>
 
-                <p className='text-[#000000] mb-3'>
+                <p className='text-[#000000] mb-2'>
                     While last year was eventful, we made substantial progress
                     in laying the foundations of our transformation journey. We
                     expect momentum to build in the years ahead. We thank you
@@ -362,9 +354,6 @@ const AshokMessage = () => {
                 <h1 className='text-[#ed1c2f] text-2xl font-semibold'>Ashok Vaswani</h1>
                 <h2 className='text-[#202a7d] text-xl font-bold mb-2'>Managing Director & CEO</h2>
                 <h3 className='text-xl font-semibold'>07th July, 2025</h3>
-            </div>
-            <div className='border-t-1 mt-2 pt-1'>
-                <i><sup>1</sup>GRI 2-22</i>
             </div>
         </div>
     )

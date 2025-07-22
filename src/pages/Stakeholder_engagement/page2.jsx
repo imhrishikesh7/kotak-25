@@ -49,48 +49,61 @@ const page2 = () => {
     <div className='marginal'>
       <div className='mb-4'>
         <h1 className='text-3xl font-bold text-[#ed1c2f] border-b-3 w-fit mb-4 pb-2'>Stakeholder Engagement and Materiality Assessment</h1>
-        <div className="w-full bg-white/90">
-          <div className="flex flex-col md:flex-row h-screen relative">
-            <div className="md:w-1/2 w-full relative">
-              <img
-                src="\Stakeholders\Image-30.webp"
-                alt="Background"
-                className="h-full w-full object-contain transform 2xl:translate-x-[-5%]"
-              />
-            </div>
-
-            <div className="md:w-1/2 w-full p-8 bg-white/90">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-light mb-6">
-                  Creating value <br /> and nurturing relationships
-                </h2>
-                <p className="text-lg">
-                  Material topics serve to
-                  help shape our strategy.
-                  By conducting materiality
-                  evaluation, we align our
-                  strategic objectives to the
-                  insights from emerging risks
-                  and opportunities. This
-                  guarantees that our activities
-                  are consistent with our
-                  values and vision, resulting in
-                  an impactful change.
-                  <br /><br />
-                  An issue is considered
-                  material if it has the
-                  potential to significantly
-                  affect our ability to create,
-                  sustain and deliver value
-                  to our stakeholders in the
-                  short, medium and long-term.
-                </p>
-              </div>
+        <div className="hidden md:block w-full h-full relative md:pt-20 md:pb-30">
+          <div
+            className="absolute inset-0 bg-cover bg-center rounded-3xl"
+            style={{ backgroundImage: "url('/home/hausla.webp')" }}
+          ></div>
+          <div className="relative h-full p-8 flex items-center justify-end text-white">
+            <div className="max-w-xl">
+              <h2 className="text-3xl md:text-4xl font-light mb-6">
+                Creating value <br /> and nurturing relationships
+              </h2>
+              <p className="text-lg">
+                Material topics serve to help shape our strategy.
+                By conducting materiality evaluation, we align our
+                strategic objectives to the insights from emerging risks
+                and opportunities. This guarantees that our activities
+                are consistent with our values and vision, resulting in
+                an impactful change.
+                <br /><br />
+                An issue is considered material if it has the potential
+                to significantly affect our ability to create, sustain and
+                deliver value to our stakeholders in the short, medium
+                and long-term.
+              </p>
             </div>
           </div>
         </div>
+
+        {/* Mobile View */}
+        <div className="block md:hidden w-full">
+          <img
+            src="\Stakeholders\Image-30.webp"
+            alt="Hausla"
+            className="w-full mb-6 object-cover rounded-lg"
+          />
+          <div className="">
+            <h2 className="text-3xl md:text-4xl font-light mb-6">
+              Creating value <br /> and nurturing relationships
+            </h2>
+            <p className="text-lg">
+              Material topics serve to help shape our strategy.
+              By conducting materiality evaluation, we align our
+              strategic objectives to the insights from emerging risks
+              and opportunities. This guarantees that our activities
+              are consistent with our values and vision, resulting in
+              an impactful change.
+              <br /><br />
+              An issue is considered material if it has the potential
+              to significantly affect our ability to create, sustain and
+              deliver value to our stakeholders in the short, medium
+              and long-term.
+            </p>
+          </div>
+        </div>
       </div>
-      <div className='text-lg md:mb-4 md:mt-0 mt-80'>
+      <div className='text-lg md:mb-4 md:mt-0'>
         At Kotak, we are committed to transparent and meaningful
         engagement with our stakeholders to build trust and create
         shared value. In an evolving business landscape, understanding
@@ -207,10 +220,11 @@ const page2 = () => {
             to ensure alignment with
             emerging trends and sector
             dynamics. The review reaffirmed
-            the continued relevance of our
-            identified material topics (as
-            depicted in fig XXX), with no
-            significant changes.
+            the continued relevance of
+            our identified material topics
+            with no significant changes,
+            as shown in the materiality
+            assessment outcome.
           </p>
           <p>
             We remain committed to

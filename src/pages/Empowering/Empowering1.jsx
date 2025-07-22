@@ -106,7 +106,20 @@ const Empowering1 = () => {
 
 
           <p class="mt-6 text-3xl font-extralight">
-            In FY 2024-25, we continued to shape a workplace where every Kotakite feels valued, empowered, and inspired to bring their best selves to work. From strengthening career journeys to deepening inclusion and well-being, our focus has been on meaningful progress. Through every change and challenge, our commitment remained steady to nurture potential, build trust and grow together with the spirit of <span class="font-bold">‘Hausla hai to ho jayega’</span>.
+            In FY 2024-25, we continued
+            to shape a workplace where
+            every Kotakite feels valued,
+            empowered and inspired to
+            bring their best selves to work.
+            From strengthening career
+            journeys to deepening inclusion
+            and well-being, our focus has
+            been on meaningful progress.
+            Through every change and
+            challenge, our commitment
+            remained steady to nurture
+            potential, build trust and grow
+            together with the spirit of <br /> <span class="font-bold">‘Hausla hai to ho jayega’</span>.
           </p>
 
 
@@ -126,11 +139,11 @@ const Empowering1 = () => {
       </p>
       <div className='mb-5'>
         <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
-          Overview of Our Workforce 
+          Overview of Our Workforce
         </h1>
         <p className='mb-2'>
           The Group’s total employee strength was over 1.39 lakh,
-          as on 31st March, 2025, reflecting a 3% YoY increase. This
+          as on 31 <sup>st</sup> March, 2025, reflecting a 3% YoY increase. This
           included 1.14 lakh full-time staff and 0.25 lakh part-time
           staff <sup>*</sup>. 68% of the Group employees are permanent. Our
           permanent workforce has shown a steady increase YoY.
@@ -163,11 +176,11 @@ const Empowering1 = () => {
           respectively. Internal mobility remained a focus, with over
           243 colleagues transitioning to new roles within the Group.
           For detailed retention metrics and employee data, refer
-          to Section A-22, page 457-458 of the BRSR and ESG Data
-          Tables, pages 507-510.
+          to Section A-22, page <strong className='text-[#202a7d]'>457-458</strong> of the BRSR and ESG Data
+          Tables, pages <strong className='text-[#202a7d]'>507-510</strong>.
         </p>
         <div className='text-sm border-t-1 pt-1 mb-5 text-gray-700'>
-          BRSR, Section A, Question 20.|
+          {/* BRSR, Section A, Question 20.| */}
           <sup>*</sup>Due to nature of business, Kotak Mahindra Life Insurance Limited (KLI) has hired insurance brokers, which are primarily contractual.
         </div>
       </div>
@@ -183,8 +196,7 @@ const Empowering1 = () => {
             who share our vision for harnessing the latest digital tools and
             capabilities to deliver exceptional customer experiences.
           </p>
-          <p className='mb-2'>Our talent acquisition strategy, centered around the Hire-Train-
-            Deploy (HTD) model, drives a robust pipeline of role-ready talent.
+          <p className='mb-2'>Our talent acquisition strategy, centered around the Hire-TrainDeploy (HTD) model, drives a robust pipeline of role-ready talent.
             We have expanded our sourcing channels through off-campus
             and lateral hires from top-tier organisations by introducing
             innovative programmes such as the Kotak NextGen Bankers
@@ -204,15 +216,10 @@ const Empowering1 = () => {
             Five Pillars of Talent Engagement
           </h1>
           <p className='mb-2'>
-            Talent engagement was identified as a strategic priority
-            by the Bank and its leadership team, underscoring our
-            commitment to fostering a high-performance and inclusive
-            culture. To guide our efforts, we introduced a framework
-            built on five key pillars and initiated foundational steps
-            to embed these principles across the organisation. This
-            structured approach aims to enhance colleague experience,
-            strengthen alignment with organisational goals and drive
-            long-term engagement.
+            Talent engagement was identified as a strategic priority by the Bank and its leadership team, underscoring our commitment to
+            fostering a high-performance and inclusive culture. To guide our efforts, we have introduced a framework built on five key pillars and
+            initiated foundational steps to embed these principles across the organisation. This structured approach aims to enhance colleague
+            experience, strengthen alignment with organisational goals and drive long-term engagement.
           </p>
           <div className='mb-5'>
 
@@ -257,13 +264,17 @@ const Empowering1 = () => {
                 My Kareer – Internal Talent Management Platform
               </h3>
               <p className="">
-                At the Bank, as part of our continued commitment to colleague development and internal mobility,
-                we enhanced the My Kareer platform, an AI-powered intuitive talent marketplace designed to support
-                Kotakites in navigating their professional journeys. The platform enables colleagues to build
-                personalised profiles, explore internal job opportunities and apply seamlessly across functions.
-                It also identifies individual skill gaps, recommends learning resources and offers visibility into
-                diverse career paths within Kotak. This initiative reinforces our focus on empowering colleagues
-                with the tools and insights needed to achieve their career aspirations.
+                At the Bank, as part of our continued commitment to colleague
+                development and internal mobility, we enhanced the My Kareer
+                platform, an AI-powered intuitive talent marketplace designed
+                to support Kotakites in navigating their professional journeys.
+                The platform enables colleagues to build personalised profiles,
+                explore internal job opportunities and apply seamlessly across
+                functions. It also identifies individual skill gaps, recommends
+                learning resources and offers visibility into diverse career paths
+                within Kotak. This initiative reinforces our focus on empowering
+                colleagues with the tools and insights needed to achieve their
+                career aspirations.
               </p>
             </div>
 
@@ -272,15 +283,20 @@ const Empowering1 = () => {
                 Performance Management System – Praise
               </h3>
               <p className="mb-2">
-                At the Bank, PRAISE is our goal-setting and performance management system, designed to align
-                organisational objectives with personal aspirations and inspiring individuals to shape their own
-                paths to achievement. Built on four key pillars, growth, transparency, collaboration and fairness,
-                it uses Specific, Measurable, Achievable, Relevant, Time-bound (SMART) KRAs to set clear and
-                trackable goals. Regular feedback sessions support continuous development, while a structured and
-                fair evaluation process also includes an appeal mechanism wherein an employee can seek a revision
-                of performance rating. We also provide tools for personal growth and equip first-time managers with
-                skills to mentor and appraise. In FY 2024–25, all eligible employees underwent comprehensive
-                assessments, resulting in promotions for approximately 10% of our permanent workforce.<sup>3</sup>
+                At the Bank, PRAISE is our goal-setting and performance
+                management system, designed to align organisational objectives
+                with personal aspirations and inspiring individuals to shape
+                their own paths to achievement. Built on four key pillars, growth,
+                transparency, collaboration and fairness, it uses Specific,
+                Measureable, Achievable, Relevant, Time-bound (SMART) KRAs
+                to set clear and trackable goals. Regular feedback sessions
+                support continuous development, while a structured and fair
+                evaluation process also includes an appeal mechanism wherein
+                an employee can seek a revision of performance rating. We also
+                provide tools for personal growth and equip first-time managers
+                with skills to mentor and appraise. In FY 2024-25, all eligible
+                employees underwent comprehensive assessments, resulting in
+                promotions for approximately 10% of our permanent workforce.<sup>3</sup>
               </p>
               <p>
                 We have begun including ESG considerations in our leadership
@@ -288,7 +304,7 @@ const Empowering1 = () => {
                 incorporating the 4C framework – Customers, Company,
                 Colleagues and Community, wherein gender diversity features
                 under Colleagues. Details of the 4C framework can be found in
-                the ‘Strategy’ section on pages 46-47.
+                the ‘Strategy’ section on pages <strong className='text-[#212b7e]'>46-47</strong>.
               </p>
             </div>
             <p className='text-sm text-gray-700 mb-5'>
@@ -316,18 +332,20 @@ const Empowering1 = () => {
             <p className='mb-2'>
               Launched in FY 2023-24, Kotak MyLearn is our unified digital
               learning ecosystem. It offers curated role-based journeys and
-              performance-driven insights to support personalized and
+              performance-driven insights to support personalised and
               purposeful career development.
             </p>
             <p className='mb-2'>
               Kotak MyLearn fosters a culture of ownership and empowerment
               wherein colleagues drive their own growth, managers gain
               insights and leaders leverage data to scale performance. Aligned
-              with the “One Kotak” vision, the platform was extended to
+              with the ‘One Kotak’ vision, the platform was extended to
               subsidiaries in FY 2024-25, delivering a unified and high-impact
-              learning experience that builds a future-ready workforce.Kotak MyLearn offers a personalized, mobile-first experience with an intuitive interface boosting engagement through social learning,
-              gamification and leader boards. AI-powered recommendations from platforms such as Udemy and LinkedIn personalise content
-              based on user behaviour and role-specific skill requirements.
+              learning experience that builds a future-ready workforce.
+            </p>
+            <p className='mb-2'>
+              Kotak MyLearn offers a personalised, mobile-first experience with an intuitive interface boosting engagement through social learning,
+              gamification and leader boards. AI-powered recommendations from platforms such as Udemy and LinkedIn personalise contentbased on user behaviour and role-specific skill requirements.
             </p>
           </div>
         </div>
@@ -364,7 +382,7 @@ const Empowering1 = () => {
         <div>
           <p className="text-3xl font-bold text-indigo-900">49.5</p>
           <p className="  mb-4">
-            average training hours (20% YoY increase) were spent on skill upgradation<sup>5</sup>
+            average training hours (20% YoY increase) were spent on skill upgradation
           </p>
 
 
@@ -391,7 +409,7 @@ const Empowering1 = () => {
           <div className='mb-4'>
             <p className="text-3xl font-bold text-indigo-900">95%</p>
             <p className=" ">
-              of the Bank’s workforce engaged in at least one learning intervention<sup>4</sup>
+              of the Bank’s workforce engaged in at least one learning intervention
             </p>
           </div>
 
@@ -399,13 +417,13 @@ const Empowering1 = () => {
           <div className="mb-4">
             <p className="text-2xl font-bold text-indigo-900">Over 1 mn hours</p>
             <p className="">
-              training hours completed by Bank’s employees on anticorruption policies such as AML standards and KYC norms for Banking and Insurance <sup>7</sup>
+              training hours completed by Bank’s employees on anticorruption policies such as AML standards and KYC norms for Banking and Insurance
             </p>
           </div>
         </div>
       </div>
       <p className='text-sm border-t-1 pt-1 mb-5 text-gray-700'>
-         BRSR Section C, Principle 1, Essential Indicator 1 |<sup>6</sup>The costs include cost of training staff, subscription for e-learning modules and
+        BRSR Section C, Principle 1, Essential Indicator 1 |<sup>6</sup>The costs include cost of training staff, subscription for e-learning modules and
         conferences. |
       </p>
       <div className='mb-5 text-xl'>
@@ -418,7 +436,11 @@ const Empowering1 = () => {
 
           {/* Testimonial Text */}
           <p className="text-[#252f80]  ">
-            The courses on Kotak MyLearn align well with my job responsibilities and learning goals. They provided valuable insights and practical skills that I can directly apply to my work, helping me perform more effectively in my role.
+            The courses on Kotak MyLearn align well with
+            my job responsibilities and learning goals. They
+            provided valuable insights and practical skills
+            that I can directly apply to my work, helping me
+            perform more effectively in my role.
           </p>
 
           {/* Closing quote */}
@@ -430,7 +452,7 @@ const Empowering1 = () => {
               Alkesh Ashokbhai Bhatt
             </p>
             <p className=" mt-1 italic">
-              (Associate Vice President, OPS-Clearing Operations)
+              (Associate Vice President, Location Operations Manager)
             </p>
           </div>
         </div>
@@ -470,8 +492,7 @@ const Empowering1 = () => {
           Kotak Young Leaders Council (KYLC)
         </p>
         <p className='mb-2'>
-          The year-long KYLC programme develops future leaders through immersive learning, cross-functional projects and mentoring. High-
-          potential talent gain hands-on experience with strategic challenges while building leadership skills aligned with Kotak’s priorities. The
+          The year-long KYLC programme develops future leaders through immersive learning, cross-functional projects and mentoring. Highpotential talent gain hands-on experience with strategic challenges while building leadership skills aligned with Kotak’s priorities. The
           KYLC programme has shaped 107 careers till FY 2023-24. In FY 2024-25, it was expanded to Group companies and 84 promising young
           leaders were selected.
         </p>
@@ -495,8 +516,7 @@ const Empowering1 = () => {
 
             {/* Testimonial Text */}
             <p className="text-[#252f80]  ">
-              KYLC has been an exciting journey! The hands-
-              on projects, inspiring mentors, and real-time
+              KYLC has been an exciting journey! The handson projects, inspiring mentors and real-time
               challenges are shaping me into a stronger,
               more confident leader every day.
             </p>
@@ -510,7 +530,7 @@ const Empowering1 = () => {
                 Amrutha Kandukuri
               </p>
               <p className=" mt-1 italic">
-                (Associate Vice President, Support Services - ESG)
+                (Associate Vice President,ESG)
               </p>
             </div>
           </div>
@@ -520,9 +540,12 @@ const Empowering1 = () => {
             Strategic Leadership Development Programme
           </h2>
           <p className="">
-            Launched in September 2024, the programme engaged 78 senior leaders from key business units.
-            Focused on enhancing strategic leadership styles, it addressed development areas through assessments
-            and peer feedback. With a 4.7 average rating, the programme reinforced leadership excellence in a dynamic environment.
+            Launched in September 2024, the programme engaged 78
+            senior leaders from key business units. Focused on enhancing
+            strategic leadership styles, it addressed development areas
+            through assessments and peer feedback. With a 4.7 average
+            rating, the programme reinforced leadership excellence in a
+            dynamic environment.
           </p>
         </div>
         <div className="border border-dotted border-red-500 rounded-2xl p-4 bg-white mb-5 ">
@@ -531,24 +554,32 @@ const Empowering1 = () => {
             Quantum Leadership Programme
           </h2>
           <p className="mb-2">
-            A transformational programme for senior management, was launched in FY 2024–25 in collaboration with Cornell University.
-            Focused on strategic agility, innovation, and customer centricity, it empowered ~50 senior leaders across verticals to lead through disruption.
-            Participants rated this programme 4.8/5 on an average across cohorts.
+            A transformational programme for senior management
+            was launched in FY 2024–25 in collaboration with Cornell
+            University. Focused on strategic agility, innovation and
+            customer centricity, it empowered ~50 senior leaders across
+            verticals to lead through disruption in FY 2024-25. Participants
+            rated this programme 4.8/5 on an average across cohorts.
           </p>
 
           {/* Bottom: Testimonial Box */}
           <div className="bg-blue-100 rounded-xl p-4">
             <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
             <p className="text-[#1d278d]  mb-2">
-              The session on future business was profoundly insightful. It has significantly transformed my perspective and encouraged me to think beyond traditional boundaries.
-              I am now inspired to explore innovative business ideas and, most importantly, to focus on their effective implementation.
+              The session on future business was profoundly
+              insightful. It has significantly transformed
+              my perspective and encouraged me to think
+              beyond traditional boundaries. I am now
+              inspired to explore innovative business ideas
+              and, most importantly, to focus on their
+              effective implementation.
             </p>
             <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Akhil Jain
             </p>
             <p className=" italic">
-              (Executive Vice President, HF Loan Against Property (LAP)-Sales)
+              (Executive Vice President, Zonal Head - Consumer Bank)
             </p>
           </div>
         </div>
@@ -557,8 +588,7 @@ const Empowering1 = () => {
             Lead to Transform Programme
           </h1>
           <p className='mb-2'>
-            This programme, centered on the STARTUP philosophy and
-            4C framework, aims to build accountable, customer-centric
+            This programme aims to build accountable, customer-centric
             leaders who drive innovation and cross-functional collaboration.
             In FY 2024-25, it engaged 77 senior leaders to strengthen the
             One Kotak mindset.
@@ -582,7 +612,11 @@ const Empowering1 = () => {
 
           {/* Testimonial Text */}
           <p className="text-[#1d278d] ">
-            The immersion programme was engaging and highlighted the importance of putting the customer at the center, with technology as a key enabler of customer engagement.
+            The immersion programme was
+            engaging and highlighted the
+            importance of putting the customer
+            at the centre with technology as a key
+            enabler of customer engagement.
           </p>
 
           {/* Closing Quotes */}
@@ -593,7 +627,7 @@ const Empowering1 = () => {
             <p className="text-white bg-red-600 inline-block px-2 py-1 rounded font-bold">
               Bhuvan M
             </p>
-            <p className=" mt-1">Senior Vice President, Consumer Bank</p>
+            <p className=" mt-1">(Senior Vice President, National Sales Manager - Consumer Bank)</p>
           </div>
         </div>
       </div>
@@ -604,14 +638,17 @@ const Empowering1 = () => {
         <p className='mb-2'>
           Transitioning into new roles is a critical moment in any
           career. At the Bank, we support these shifts through
-          specialized programmes.
+          specialised programmes.
         </p>
         <div className="  border-2 border-dotted border-red-500 rounded-2xl p-6 space-y-6 bg-white mb-5">
           {/* First-Time Manager */}
           <div>
             <h3 className="font-bold text-black">First-Time Manager:</h3>
             <p className="">
-              This programme supports first-time people managers with key skills in team management and time management. In FY 2024-25, it empowered 1,452 employees to lead effectively and build productive teams.
+              This programme supports first-time people managers with
+              key skills in team management and time management.
+              In FY 2024-25, it empowered 1,452 employees to lead
+              effectively and build productive teams.
             </p>
           </div>
 
@@ -619,7 +656,10 @@ const Empowering1 = () => {
           <div className="bg-blue-100 rounded-xl p-4">
             <h3 className="font-bold text-black">Manager of Managers:</h3>
             <p className="">
-              A leadership transition programme designed to equip managers with the mindset and skills to lead through management tiers, align teams and foster strategic and collaborative leadership. In FY 2024-25, it covered 23 leaders.
+              A leadership transition programme designed to equip managers
+              with the mindset and skills to lead through management tiers,
+              align teams and foster strategic and collaborative leadership. In
+              FY 2024-25, it supported 23 leaders.
             </p>
           </div>
 
@@ -627,7 +667,11 @@ const Empowering1 = () => {
           <div>
             <h3 className="font-bold text-black">Branch Manager Next :</h3>
             <p className="">
-              Branch Manager Next is a talent development initiative that identifies and prepares high-potential employees for future branch leadership roles. The programme certified 238 employees in FY 2024-25, with 175 of participants promoted to Branch Manager positions.
+              Branch Manager Next is a talent development initiative
+              that identifies and prepares high-potential employees for
+              future branch leadership roles. The programme certified
+              238 employees in FY 2024-25, with 175 of participants
+              promoted to Branch Manager positions.
             </p>
           </div>
 
@@ -635,7 +679,10 @@ const Empowering1 = () => {
           <div className="bg-blue-100 rounded-xl p-4">
             <h3 className="font-bold text-black">Toast Master:</h3>
             <p className="">
-              This programme helps employees build public speaking, leadership and confidence while promoting personal growth and peer learning. In FY 2024-25, it benefited 136 employees, out of which 87 were branch managers.
+              This programme helps employees build public speaking and
+              leadership skills and confidence while promoting personal
+              growth and peer learning. In FY 2024-25, it benefited 136
+              employees, out of which 87 were branch managers.
             </p>
           </div>
         </div>
@@ -646,24 +693,43 @@ const Empowering1 = () => {
               Customer Centricity Programme
             </h3>
             <p className=" mb-4">
-              At Kotak, we recognise that our success is driven by two key stakeholders, our customers and our colleagues. Colleague Development, a core pillar of our talent engagement strategy directly fuels our customer-centric approach.
+              We recognise that our success is driven by two key
+              stakeholders, our customers and our colleagues. Colleague
+              Development, a core pillar of our talent engagement
+              strategy directly fuels our customer-centric approach.
             </p>
             <p className="">
-              At the Bank in FY 2024-25, we launched the “Building Customer Centricity” initiative, reinforcing our belief that putting customers first drives sustainable growth. We aim to exceed customer expectations while fostering a supportive and transparent work environment. In FY 2024-25, around 14,000 employees participated in the programme, fostering a unified customer-first mindset and driving a meaningful shift in how we serve and support our customers.
+              At the Bank in FY 2024-25, we launched the ‘Building
+              Customer Centricity’ initiative, reinforcing our belief that
+              putting customers first drives sustainable growth. We aim to
+              exceed customer expectations while fostering a supportive
+              and transparent work environment. In FY 2024-25, around
+              14,000 employees participated in the programme, fostering
+              a unified customer-first mindset and driving a meaningful
+              shift in how we serve and support our customers.
             </p>
           </div>
 
           {/* Testimonial Section */}
           <div className="bg-blue-100 rounded-xl p-4">
             <p className="text-[#252f80]">
-              I feel immensely proud that we got an opportunity to talk about such an important topic in different workshops. I have not only gained insights into understanding customer experience from the customer’s point of view, but have also shared this knowledge with others to help them adopt a similar approach. This workshop is definitely going to bridge the gap between customer expectation and our service.
+              I feel immensely proud that we got an
+              opportunity to talk about such an important
+              topic in different workshops. I have not
+              only gained insights into understanding
+              customer experience from the customer’s
+              point of view, but have also shared this
+              knowledge with others to help them adopt
+              a similar approach. This workshop is
+              definitely going to bridge the gap between
+              customer expectation and our service.
             </p>
             <div className="mt-4">
               <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
                 Prashant Bharadwaj
               </p>
               <p className="text-sm ">
-                (Senior Manager, Business Loans-Sales, Consumer Bank)
+                (Senior Manager, Product Manager - Consumer Bank)
               </p>
             </div>
           </div>
@@ -671,35 +737,36 @@ const Empowering1 = () => {
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
           <h2 className="text-xl  text-blue-800 mb-2 font-semibold">Succession Planning</h2>
           <p className="">
-            The Bank has a robust succession planning policy, reviewed by the Nomination and Remuneration
-            Committee (NRC), to ensure smooth leadership transitions across key roles. It identifies and
-            evaluates candidates for senior positions based on experience, skills and regulatory compliance.
-            The NRC may also engage external experts to support the selection process, ensuring leadership
-            continuity and board effectiveness.
+            The Bank has a robust succession planning policy,
+            reviewed by the Nomination and Remuneration
+            Committee (NRC), to ensure smooth leadership transitions
+            across key roles. It identifies and evaluates candidates for
+            senior positions based on experience, skills and regulatory
+            compliance. The NRC may also engage external experts
+            to support the selection process, ensuring leadership
+            continuity and Board effectiveness.
           </p>
         </div>
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
 
           <p className="">
-            Our subsidiaries run targeted development programmes
-            to build future-ready talent. KSL offers the PACE
-            programme to enhance customer interaction and
-            the Connexion Program for soft skills training. KLIFE,
-            “KLICK 40 Under 40” nurtures young leaders through IIM
-            Kozhikode engagement and peer learning. Its Leadership
-            Development Programme (LDP), in partnership with IIM
-            Lucknow and TinkerLabs, trained 29 leaders in design
-            thinking. Three of the eight business projects generated
-            through the programme, won internal awards. Our
-            subsidiary Sonata Finance Private Limited (Sonata
-            finance), launched “Nayi Rah,” a career progression
-            plan for employees.
+            Our subsidiaries run targeted development programmes to
+            build future-ready talent. KSL offers the PACE programme
+            to enhance customer interaction and the Connexion
+            Programme for soft skills training. KLI, ‘KLICK 40 Under 40’
+            nurtures young leaders through IIM Kozhikode engagement
+            initiative and peer learning. Its Leadership Development
+            Programme (LDP), in partnership with IIM Lucknow and
+            TinkerLabs, trained 29 leaders in design thinking. Three
+            of the eight business projects generated through the
+            programme won internal awards. Additionally, Sonata
+            launched ‘Nayi Rah,’ a career progression plan for employees.
           </p>
         </div>
       </div>
       <div className='mb-4'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
-          Diversity and Inclusion <sup>8</sup>
+          Diversity and Inclusion
         </h1>
         <p className='mb-2 '>
           We are committed to fostering a diverse, inclusive and equitable
@@ -711,7 +778,7 @@ const Empowering1 = () => {
           focused on culture, people and policies ensuring inclusive
           practices, empowering women and embedding DEIB principles
           across the organisation. We uphold fairness and transparency
-          in recruitment, compensation and career progression, and
+          in recruitment, compensation and career progression and
           actively promote women’s participation through targeted
           hiring initiatives.
         </p>
@@ -737,11 +804,9 @@ const Empowering1 = () => {
 
 
           <p class="mt-6 text-3xl font-light">
-            We are building a workplace where
-            everyone is seen, heard and valued
-            -not despite our differences but
-            because of them. Inclusion is how
-            we grow together.
+            We are building a workplace where everyone is seen, heard
+            and valued -not despite our differences but because of them.
+            Inclusion is how we grow together.
           </p>
 
 
@@ -761,26 +826,24 @@ const Empowering1 = () => {
           the 2016 Rights of Persons with Disabilities Act. We have 44
           differently abled permanent employees in the Group (27 in the
           Bank). Our workplace is designed to be accessible for individuals
-          with disabilities, with ramps at select premises facilitating easier
+          with disabilities, with ramps at key premises facilitating easier
           access. Additionally, more than 980 ATMs and over 650 branches
           feature differently abled friendly entrances.
         </p>
         <p className='mb-2'>
           In FY 2024-25, through a targeted initiative we engaged with a
           NGO to provide internship opportunities to differently abled
-          people, and seven differently abled professionals completed
-          internship with us, and post their qualifications, they were on-
-          boarded into full-time roles with the Bank. A smooth transition
-          for individuals was supported through sensitisation workshops
-          for their managers and peers, fostering a culture of acceptance,
-          empathy and understanding.
+          people and seven differently abled professionals completed
+          internship with us. Post which they were on-boarded into fulltime roles with the Bank. Smooth transition was supported
+          through sensitisation workshops for their managers and peers,
+          fostering a culture of acceptance, empathy and understanding.
         </p>
         <p className='mb-2'>
-          Our Women’s Empowerment programme, Kotak Wonder Women
-          (KWW) is a testament to our commitment to empowering women
-          in leadership roles. Under the programme we undertook several
+          Our women focused programme, Kotak Wonder Women (KWW)
+          is a testament to our commitment to empowering women in
+          leadership roles. Under the programme, we undertook several
           initiatives to break down barriers and ensure that our women
-          colleagues have access to equitable opportunities. Our Key
+          colleagues have access to equitable opportunities. Our key
           initiatives include,
         </p>
         <div className=" px-2">
@@ -799,40 +862,41 @@ const Empowering1 = () => {
       </div>
       <div className='mb-5'>
         <p className='mb-2'>
-          Our women’s networks provide vital support, mentorship and
-          inspiration, while new recognitions aligned with International
-          Women’s Day further reinforce our commitment. Through
-          cross-functional programmes and partnerships, we encourage
-          knowledge-sharing and collaboration, building a strong and
-          inclusive community.
+          Our women’s networks provide vital support, mentorship
+          and inspiration. Through cross-functional programmes
+          and partnerships, we encourage knowledge-sharing and
+          collaboration, building a strong and inclusive community.
         </p>
         <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
 
-          <p className="">
-            Across subsidiaries, several initiatives are empowering women
-            and promoting inclusion. At KMCC, the BILD U-Leadership
-            Programme was launched to empower women through
-            structured assessments and leadership development training.
-            Sonata introduced the POWER Club, a dedicated platform
-            fostering women’s professional growth through mentorship
-            and capability-building sessions and the SHE SUVIDHA initiative
-            was established as a Women’s Cell to address grievances and
-            provide counselling. Sonata focuses on hiring women employees
-            to handle its customers, which is observed to be an enabler
-            of increasing women customers. Additionally, KSL hosted
-            the Diversity Marathon, a flagship event aimed at promoting
-            inclusive leadership and celebrating workplace diversity.
-            At KLIFE, diversity, equity and inclusion are core parts of the
-            HR strategy, which has been reflected in impactful initiatives
-            such as Transcendence, a leadership development programme
+          <p className="mb-2">
+            Across subsidiaries, several initiatives are empowering
+            women and promoting inclusion. At KMCC, the BILD
+            U-Leadership programme was launched to empower women
+            through structured discussions and personal and leadership
+            development training. Sonata introduced the POWER Club,
+            a dedicated platform fostering women’s professional growth
+            through mentorship and capability-building sessions and the
+            SHE SUVIDHA initiative was established as a Women’s Cell to
+            address grievances and provide counselling. Sonata focuses
+            on hiring women employees to handle its customers, which
+            is observed to be an enabler of increasing women customers.
+            Additionally, KSL hosted the Diversity Marathon, a flagship
+            event aimed at promoting inclusive leadership and celebrating
+            workplace diversity.
+          </p>
+          <p>
+            At KLI, diversity, equity and inclusion are core parts of the HR
+            strategy, which has been reflected in impactful initiatives such
+            as Transcendence, a leadership development programme
             that empowers future women leaders through expert-led,
             experiential learning; Fem-Tribe, a women-led think tank that
             amplifies diverse voices to foster inclusion and equity across
             the organisation; and Careers for Life, a hiring initiative focused
             on supporting women particularly those returning from career
-            breaks in restarting their professional journeys. Following the
-            target set at KLIFE in FY 2023-24, a focused career fair enabled
-            onboarding seven differently abled people.
+            breaks in restarting their professional journeys. Following
+            the hiring target set at KLI in FY 2023-24, a focused career fair
+            enabled onboarding seven differently abled people.
           </p>
         </div>
       </div>
@@ -921,7 +985,7 @@ const Empowering1 = () => {
               ensuring access to health management solutions for all.
             </p>
             <p className='mb-2'>
-              <strong>Integrated Health Solutions -</strong> The Kotak Worklife App now
+              <strong>Integrated Health Solutions -</strong>The Kotak Worklife App now
               features annual health screening, enabling colleagues to book
               appointments, access telemedicine and receive personalised
               nutrition guidance promoting holistic well-being for them and
@@ -941,7 +1005,12 @@ const Empowering1 = () => {
             </p>
           </div>
           <div className='my-auto md:w-1/3'>
-            <img src="\Empowering\IMG-2-107.webp" alt="" className='' />
+            <img src="\Empowering\IMG-2-107.webp" alt="" className='mb-2' />
+            <p>We conducted specialised health camps addressing diverse
+              wellness needs, including breast cancer screenings, vaccinations
+              and other critical health programmes. These initiatives
+              reflect our commitment to holistic employee well-being and
+              a culture of care.</p>
           </div>
         </div>
         <div>
@@ -953,8 +1022,8 @@ const Empowering1 = () => {
             to community impact and social responsibility.
           </p>
           <div className='flex md:flex-row flex-col gap-5 mt-5'>
-            <div className='md:w-1/2'>
-              <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mt-5 mb-2'>
+            <div className='md:w-[70%]'>
+              <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-2'>
                 Theme: Education
               </h2>
               <p className='mb-2'>
@@ -978,16 +1047,16 @@ const Empowering1 = () => {
                 Education Foundation.
               </p>
             </div>
-            <div className='md:w-1/2'>
+            <div className='md:w-[30%] my-auto'>
               <img src="\Empowering\Image2-108.webp" alt="" className='rounded-3xl' />
             </div>
           </div>
         </div>
         <div className='flex md:flex-row flex-col gap-5 mt-5'>
-          <div className='md:w-1/2'>
+          <div className='md:w-[35%]'>
             <img src="\Empowering\Diya.webp" alt="" className='rounded-3xl' />
           </div>
-          <div className='md:w-1/2'>
+          <div className='md:w-[65%]'>
             <h2 className='bg-[#ed1c2f] font-bold text-white p-2 w-fit rounded-3xl mb-2'>
               Theme: Relief and Rehabilitation
             </h2>
@@ -1045,11 +1114,11 @@ const Empowering1 = () => {
         social events, we bring wellness to life both online and on-site.
         Our ‘Health to the Power Infinity’ platform offers easy access
         to doctors, nutritionists, emotional support and exclusive
-        pharmacy discounts.<sup>11</sup>
+        pharmacy discounts.
       </p>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
-          Supporting Kotakites to Take Care of Their Families#
+          Supporting Kotakites to Take Care of Their Families<sup>#</sup>
         </h1>
         <p className='mb-2'>
           Kotakites enjoy benefits that support both personal and family
@@ -1064,7 +1133,7 @@ const Empowering1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
-          Encouraging Kotakites to Take Time-off#
+          Encouraging Kotakites to Take Time-off<sup>#</sup>
         </h1>
         <p className='mb-2'>
           We provide comprehensive leave benefits and actively encourage
@@ -1077,7 +1146,7 @@ const Empowering1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
-          Kotakites Achieving Their Dreams#
+          Enabling Kotakites Achieving Their Dreams<sup>#</sup>
         </h1>
         <p className='mb-2'>
           We provide comprehensive leave benefits and actively encourage
@@ -1094,8 +1163,9 @@ const Empowering1 = () => {
         </h1>
         <p className='mb-4'>
           Kotakites are empowered to plan a secure future with retirement
-          benefits such as NPS, provident fund, superannuation$ and
-          gratuity. Eligible employees also enjoy stock ownership$
+          benefits such as NPS, provident fund, superannuation<sup>$ </sup>
+          and
+          gratuity. Eligible employees also enjoy stock ownership<sup>$ </sup>
           opportunities, helping build long-term financial well-being.
         </p>
         <div className='md:flex gap-5  mb-4'>
@@ -1127,12 +1197,12 @@ const Empowering1 = () => {
             </p>
           </div>
         </div>
-        Our subsidiaries, KAAML, KMCC, KLIFE and KSL run a CARE
+        Our subsidiaries, KAAML, KMCC, KLI and KSL run a CARE
         programme for mental health and well-being of the employees
-        as well as annual health checkup.
+        and also facilitate annual health checkup.
         <p className='mb-2 mt-2'>
-          KLIFE promotes employee well-being through initiatives such
-          as Mental Health Café, which provides a platform for bi-monthly
+          KLI promotes employee well-being through initiatives such as
+          Mental Health Café, which provides a platform for bi-monthly
           mental health sessions, reaching 1,200+ employees and
           wellness camps on physical and emotional health. For women
           on maternity leave or returning to work, the ‘NurtureNet’
@@ -1140,7 +1210,7 @@ const Empowering1 = () => {
           ease the transition back to work.
         </p>
         <p className='text-sm text-gray-700 mb-5'>
-        <sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
+          <sup>$</sup>Applicable for the Bank only | <sup>#</sup>Applicable for the Bank and select subsidiaries
         </p>
       </div>
       <div className='mb-5'>
@@ -1156,7 +1226,7 @@ const Empowering1 = () => {
           <img src="\Empowering\IMG-110.webp" alt="Award Ceremony" className="w-full object-cover" />
         </div>
         <div className='mb-2'>
-          “Celebrating You” is our recognition framework that integrates
+          ‘Celebrating You’ is our recognition framework that integrates
           appreciation into daily work life through initiatives such as Long
           Service Awards, Hi-Five Awards for real-time recognition and
           Infinity Awards for contributions to sustainability, community
@@ -1164,18 +1234,17 @@ const Empowering1 = () => {
           and recognition efforts to colleagues’ fingertips, enabling us
           to appreciate our peers and performers. We also celebrate our
           people through vibrant initiatives such as the KMIL premier
-          league, our 39th anniversary virtual celebration, and Kotak
+          league, our 39th anniversary virtual celebration and Kotak
           Karnival, which engages colleagues and families through talent
           showcases and volunteering.
         </div>
-        <div className='mb-2'>
-          We celebrate individuals driving positive change through our
-          infinity annual awards, recognising champions of diversity
-          and inclusion. KLIFE fosters engagement through onboarding
-          programme, recognition initiatives and AI-driven support for
-          11,000+ employees. KSL’s people-first culture earned it the Great
-          Place to Work certification.
+        <div className='mb-2 border border-dashed border-[#ed1b30] rounded-3xl p-2'>
+          We celebrate individuals driving positive change through our Infinity Annual Awards,
+          recognising champions of diversity and inclusion. KLI fosters engagement through
+          onboarding programmes, recognition initiatives, and AI-driven support for over
+          11,000 employees. KSL’s people-first culture earned it the Great Place to Work certification.
         </div>
+
         <p className='text-sm text-gray-700 mb-5'>
           <sup>*</sup>Out of the employees who took the survey, 78% say Kotak Mahindra Bank is a great place to work and take pride in being a part of the Bank.
         </p>
@@ -1185,9 +1254,9 @@ const Empowering1 = () => {
           Transparent Communication
         </h1>
         <p className='mb-2 font-bold text-black'>
-          At Kotak, we believe open dialogue builds trust and
-          drives engagement. Through platforms such as town-
-          halls and skip level meetings, leaders maintain direct and
+          We believe open dialogue builds trust and drives
+          engagement. Through platforms such as town-halls
+          and skip level meetings, leaders maintain direct and
           meaningful connections with colleagues. These forums
           encourage the sharing of ideas, concerns and feedback. To
           further strengthen communication, we have developed
@@ -1196,18 +1265,19 @@ const Empowering1 = () => {
         </p>
         <p className='mb-2'>
           At the Bank, we have introduced Amber, our smart assistant to
-          the CHRO tool, that reaches to colleagues for any feedback that
-          they may have on working with Kotak. Amber plays a vital role
-          in strengthening employee engagement by capturing real-time
-          feedback across all stages of tenure. This platform provides
+          the CHRO tool, that reaches out to colleagues for any feedback
+          that they may have on working with Kotak. Amber plays a vital
+          role in strengthening employee engagement by capturing
+          real-time feedback across all stages of tenure and provides
           actionable insights that shape our strategies and decisions.
           With an engagement score of 81/100, Amber continues to be a
           cornerstone of our responsive and people-centric culture.
+
         </p>
         <p className='mb-2'>
-          Our Intranet Platform, KotakWorld, launched in FY 2023-
-          24, is a one-stop solution to all the latest news and
-          happenings at the Bank.
+          Our Intranet Platform, KotakWorld, launched in FY 2024-25,
+          is a one-stop solution to all the latest news and happenings
+          at the Bank.
         </p>
         <p className='mb-2'>
           We regularly conduct annual employee satisfaction surveys
@@ -1216,91 +1286,77 @@ const Empowering1 = () => {
           innovative platform that enables colleagues to share their
           thoughts and feedback in a structured and confidential manner.
         </p>
-        <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
+        <div className="p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Occupational Health and Safety
           </h1>
-          <div className="">
+          <div>
             <p className='mb-2'>
-              We ensure a safe and healthy workplace through ISO
-              45001:2018-certified Occupational Health and Safety
-              Management System (OHSMS), implemented at eight major
-              corporate locations covering over 20% of the Bank’s workforce.
-              These sites undergo regular third-party audits and internal
-              evaluations. Our OHSMS manual outlines governance, audit
-              protocols, team responsibilities and performance metrics, with
-              senior management actively overseeing safety outcomes to drive
-              continuous improvement.
+              We ensure a safe and healthy workplace through ISO 45001:2018-certified
+              Occupational Health and Safety Management System (OHSMS), implemented at
+              eight major corporate locations covering over 20% of the Bank’s workforce.
+              These sites undergo regular third-party audits and internal evaluations.
+              Our OHSMS manual outlines governance, audit protocols, team responsibilities
+              and performance metrics, with senior management actively overseeing safety
+              outcomes to drive continuous improvement.
             </p>
             <p className='mb-2'>
-              In line with ISO 45001:2018, we conduct regular Hazard
-              Identification and Risk Assessment (HIRA) exercises to evaluate
-              and mitigate workplace risks. HIRA outcomes are reviewed
-              annually, updated based on incidents and shared across
-              locations to strengthen preventive safety measures.15
+              In line with ISO 45001:2018, we conduct regular Hazard Identification and
+              Risk Assessment (HIRA) exercises to evaluate and mitigate workplace risks.
+              HIRA outcomes are reviewed annually, updated based on incidents and shared
+              across locations to strengthen preventive safety measures.
             </p>
             <p className='mb-2'>
-              At our ISO 45001:2018 certified sites, we ensure effective
-              occupational health and safety management by considering
-              factors such as work organisation, leadership, culture, past
-              incidents, emergency preparedness and evolving hazard
-              information. Our Occupational Health and Safety Management
-              Representative (HMR) oversees hazard identification, ensuring
-              it is conducted by qualified experts. The HMR supervises all
-              site activities, conducts safety ‘Toolbox Talks’ for vendors and
-              maintains an up-to-date hazard checklist. Clear methodologies
-              guide systematic risk assessments for both routine and non-
-              routine tasks. We ensure employee safety through regular fire
-              drills led by trained wardens, preventive health services and
-              enhanced workplace safety with slip-resistant flooring and
-              ergonomic seating.16
+              At our ISO 45001:2018 certified sites, we ensure effective occupational
+              health and safety management by considering factors such as work organisation,
+              leadership, culture, past incidents, emergency preparedness and evolving hazard
+              information. Our Occupational Health and Safety Management Representative (HMR)
+              oversees hazard identification, ensuring it is conducted by qualified experts.
+              The HMR supervises all site activities, conducts safety ‘Toolbox Talks’ for vendors
+              and maintains an up-to-date hazard checklist. Clear methodologies guide systematic
+              risk assessments for both routine and non-routine tasks. We ensure employee safety
+              through regular fire drills led by trained wardens, preventive health services and
+              enhanced workplace safety with slip-resistant flooring and ergonomic seating.
             </p>
             <p className='mb-2'>
-              Employees are encouraged to report hazards via our helpdesk
-              for swift action. Our learning portal offering digital trainings
-              on safety, covering scenarios like robbery, bomb threats and
-              fires, was accessed by 15,217 employees in FY 2024-25. OHSMS
-              updates are shared through emails, signage and nodal contacts.
+              Employees are encouraged to report hazards via our helpdesk for swift action.
+              Our learning portal offering digital trainings on safety, covering scenarios like
+              robbery, bomb threats and fires, was accessed by 15,217 employees in FY 2024-25.
+              OHSMS updates are shared through emails, signage and nodal contacts.
             </p>
           </div>
         </div>
-        <div className=" p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
+
+        <div className="p-5 border border-dotted border-red-400 rounded-2xl shadow-sm bg-white mb-5">
           <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
             Human Rights
           </h1>
-          <div className="">
+          <div>
             <p className='mb-2'>
-              We are committed to upholding human rights and fostering a
-              safe, inclusive and respectful workplace. Our Human Rights
-              and Anti-Discrimination Policy at the Bank supports the
-              United Nations Universal Declaration of Human Rights and
-              the International Labor Organizations’ (ILO) fundamental
-              conventions, which are adopted by India in our applicable
-              laws and regulations, promoting equal opportunity, fair
-              treatment and protection against child and forced labor. We
-              also engage in collective bargaining, with 2.1% of the Bank’s
-              permanent workforce represented by trade unions.18
+              We are committed to upholding human rights and fostering a safe, inclusive and respectful
+              workplace. Our Human Rights and Anti-Discrimination Policy at the Bank supports the
+              United Nations Universal Declaration of Human Rights and the International Labor
+              Organisations’ (ILO) fundamental conventions, adopted by India, in our applicable
+              laws and regulations, promoting equal opportunity, fair treatment and protection
+              against child and forced labor. We also engage in collective bargaining, with 2.1%
+              of the Bank’s permanent workforce represented by trade unions.
             </p>
             <p className='mb-2'>
-              We enforce a zero-tolerance approach to harassment
-              through our POSH policy, which is supported by an internal
-              committee and regular employee training. Over 60% of the
-              Bank’s workforce completed trainings covering aspects of
-              human rights, in FY 2024-25.19 Our employee survey in FY
-              2024-25, assessed workplace culture, inclusion, safety and
+              We enforce a zero-tolerance approach to harassment through our POSH policy, which is
+              supported by an internal committee and regular employee training. Over 60% of the
+              Bank’s workforce completed trainings covering aspects of human rights in FY 2024-25.
+              Our employee survey in FY 2024-25 assessed workplace culture, inclusion, safety and
               development opportunities to guide improvements.
             </p>
             <p className='mb-2'>
-              Multiple confidential channels, including our internal
-              platforms, HR helpdesks and direct contact with HR team
-              support grievance redressal. Our Code of Conduct ensures
-              anonymity and protection against retaliation. A robust
-              whistleblower policy further empowers employees and
-              stakeholders to report concerns safely and anonymously.20
+              Multiple confidential channels, including our internal platforms, HR helpdesk and direct
+              contact with HR team support grievance redressal. Our Code of Conduct ensures anonymity
+              and protection against retaliation. A robust whistleblower policy further empowers
+              employees and stakeholders to report concerns safely and anonymously.
             </p>
-
           </div>
         </div>
+
         <div className="  p-5 border border-red-300 rounded-lg text-black ">
           Our people are the foundation of our
           success. We invest in their growth
@@ -1311,11 +1367,11 @@ const Empowering1 = () => {
           sustainable and future-ready growth.
         </div>
       </div>
-      <p className='text-sm mb-5 text-gray-700'>
-         BRSR Section C, Principle 3, Essential Indicator 10 | BRSR Section C, Principle 3, Essential Indicator 10 |
+      {/* <p className='text-sm mb-5 text-gray-700'>
+        BRSR Section C, Principle 3, Essential Indicator 10 | BRSR Section C, Principle 3, Essential Indicator 10 |
         BRSR Section C, Principle 3, Essential Indicator 7 |
         <sup>19</sup>BRSR Section C, Principle 5, Essential Indicator 1 | BRSR Section C, Principle 3, Essential Indicator 6
-      </p>
+      </p> */}
     </div>
   )
 }

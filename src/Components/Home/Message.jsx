@@ -4,19 +4,30 @@ import Reveal from "../Reveal";
 const Message = () => {
     return (
         <div className="mb-12">
-           
-             <div className='text-center flex flex-col justify-center h-full mb-5'>
-          <Reveal animation="slide-up">
-            <h3 className="text-2xl font-bold text-[#ed1c25]">Message from Ashok Vaswani</h3>
-          </Reveal>
-          <div className='flex w-[50px] my-2 mx-auto'>
-            <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
-            <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
-          </div>
-          <Reveal animation="slide-up">
-            <h1 className="text-3xl md:text-[3.5vw] pb-2 font-ligh text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Transforming for scale</h1>
-          </Reveal>
-        </div>
+              <div className="w-fit mx-auto mb-6 md:text-center">
+                <div className='space-y-2'>
+                    {/* Technology Badge */}
+                    <Reveal animation="slide-up mx-aut text-cente">
+                        <div className="inline-flex mx-aut flex-col md:items-start">
+                            <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                                Message from Ashok Vaswani
+                            </span>
+                            {/* Centered decorative line for mobile */}
+                            <div className='flex w-12 md:mx-auto md:w-16'>
+                                <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                                <div className='h-[2px] bg-[#013367] w-1/2' />
+                            </div>
+                        </div>
+                    </Reveal>
+
+                    {/* Main Title - Much smaller for mobile */}
+                    <Reveal animation="slide-up">
+                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                            Transforming for scale
+                        </h1>
+                    </Reveal>
+                </div>
+            </div>
             <div
                 className="relative hidden md:block marginal rounded-4xl w-full overflow-hidden"
                 style={{

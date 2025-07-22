@@ -2,8 +2,29 @@
 import StrategyThemes from '../Reusable/StrategyThemes'
 import StrategyCard from '../Reusable/StrategyCard'
 import KotakReportLayout from '../Components/KotakReportLayout'
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Strategy = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      setTimeout(() => {
+        const target = document.querySelector(location.hash);
+        if (target) {
+          const offset = -80; // adjust this value to match your fixed header height
+          const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = elementPosition + offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        }
+      }, 100);
+    }
+  }, [location]);
+
   return (
     <div className='marginal text-lg'>
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
@@ -67,7 +88,7 @@ const Strategy = () => {
 
       </div>
       <div>
-        <div className='space-y-2'>
+        <div className='space-y-2' id="scale">
           <StrategyCard
             icon="\StrategyInner\Icon-41.webp"
             title="Scale"
@@ -215,7 +236,7 @@ const Strategy = () => {
           </div>
         </div>
 
-        <div className='space-y-2'>
+        <div className='space-y-2' id="one-kotak">
           <StrategyCard
             icon="\StrategyInner\Icon-42.webp"
             title="One Kotak"
@@ -250,7 +271,7 @@ const Strategy = () => {
           </p>
         </div>
 
-        <div className='space-y-2'>
+        <div className='space-y-2' id="prudent_risk">
           <StrategyCard
             icon="\Stakeholders\Icon4-42.webp"
             title="Prudent Risk Management"
@@ -301,7 +322,7 @@ const Strategy = () => {
           </p>
         </div>
 
-        <div className='space-y-2'>
+        <div className='space-y-2' id="technology-core">
           <StrategyCard
             icon="\Stakeholders\Icon-43.webp"
             title="Technology at the Core"
@@ -365,7 +386,7 @@ const Strategy = () => {
           </p>
         </div>
       </div>
-      <div className='space-y-2'>
+      <div className='space-y-2' id="empowered-colleagues">
         <StrategyCard
           icon="\Stakeholders\Icon-3-43.webp"
           title="Empowered Colleagues"
@@ -470,7 +491,7 @@ const Strategy = () => {
         </div>
       </div>
 
-      <div className='space-y-2'>
+      <div className='space-y-2' id="execution-excellence">
         <StrategyCard
           icon="\Stakeholders\Icon-44.webp"
           title="Execution Excellence at Scale"
@@ -542,7 +563,7 @@ const Strategy = () => {
         </p>
       </div>
 
-      <div className='space-y-2'>
+      <div className='space-y-2' id="inclusive-growth">
         <StrategyCard
           icon="\Stakeholders\Icon-45.webp"
           title="Driving Inclusive and Responsible Growth"

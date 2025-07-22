@@ -131,16 +131,32 @@ export default function VCModel() {
   return (
     <div className="min-h-screen bg-[#F2F2F2] px-4">
       <div className="marginal mx-auto">
-        <div className='w-fit mb-10 mx-auto text-center'>
-          <Reveal animation="slide-up">
-            <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Value Creation Model</h3>
-          </Reveal>
-          <Reveal animation="slide-up">
-            <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">
-              Perceiving value through the 4C framework
-            </h1>
-          </Reveal>
-        </div>
+   
+         <div className="w-fit mx-auto mb-6 md:text-center">
+                <div className='space-y-2'>
+                    {/* Technology Badge */}
+                    <Reveal animation="slide-up mx-aut text-cente">
+                        <div className="inline-flex mx-aut flex-col md:items-start">
+                            <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                                Value Creation Model
+                            </span>
+                            {/* Centered decorative line for mobile */}
+                            <div className='flex w-12 md:mx-auto md:w-16'>
+                                <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                                <div className='h-[2px] bg-[#013367] w-1/2' />
+                            </div>
+                        </div>
+                    </Reveal>
+
+                    {/* Main Title - Much smaller for mobile */}
+                    <Reveal animation="slide-up">
+                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                            Perceiving value through the 4C framework
+
+                        </h1>
+                    </Reveal>
+                </div>
+            </div>
 
         <div className="relative group">
           <div
@@ -242,6 +258,17 @@ export default function VCModel() {
           </div>
         </div>
       )}
+
+      <div className='w-[90%] mx-auto pb-5'>
+        <p className='text-xs mb-1'>
+          *On Consolidated basis except where stated | **In addition, Bank branches are present in DIFC (Dubai) & GIFT City (Gujarat), Kotak Securities network includes branches, franchises and referral co-ordinators |
+          <br />
+          #This includes cost of training staff, subscription for e-learning modules and conferences etc | ##Including transfer to Unspent CSR Account, administrative overhead and impact assessment
+        </p>
+        <p className='text-xs'>
+          *On Consolidated basis except where stated | <sup><span className="text-red-600 text-xs ml-1">▲</span></sup> YoY Increase | <sup><span className="text-red-600 text-xs ml-1 transform rotate-180 inline-block">▲</span></sup> YoY Decrease | **Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to Rs. 3,013 crore | $ Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days |^As per green activities/projects indicated in the RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping | ^^Improvement in score over the period July 2023 to March 2025 | #refers to all employees on full time (permanent and fixed term contracts) and part time roles | ##Of the respondents of survey by the Great Place To Work® Institute (India)
+        </p>
+      </div>
     </div>
   );
 }

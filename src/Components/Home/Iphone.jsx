@@ -154,15 +154,34 @@ export default function IPhone() {
   return (
     <div>
       <div className='block mt-12 md:hidden'>
-        <div className='w-fit marginal mx-auto text-center'>
-          <Reveal animation="slide-up">
-            <h3 className="text-2xl mb-3 font-bold text-[#ed1c25] pb-2 border-b border-gray-400">Digital Powerhouse</h3>
-          </Reveal>
-          <Reveal animation="slide-up">
-            <p className=" md:text-2xl pb-2 font-semibold text-[#013367] bg-clip-text">Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.</p>
-          </Reveal>
+        <div className='w-fit marginal mx-auto text-cente'>
+          <div className='mx-aut'>
+            <div className=' md:text-left space-y-2 md:space-y-0 md:gap-1 md:items-center'>
+              <div className='space-y-2'>
+                <Reveal animation="slide-up mx-aut text-center md:text-left">
+                  <div className="inline-flex mx-aut flex-col md:items-start">
+                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                      Digital Powerhouse
+                    </span>
+                    {/* Centered decorative line for mobile */}
+                    <div className='flex w-12 md:mx-0 md:w-16'>
+                      <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                      <div className='h-[2px] bg-[#013367] w-1/2' />
+                    </div>
+                  </div>
+                </Reveal>
+
+                {/* Main Title - Much smaller for mobile */}
+                <Reveal animation="slide-up">
+                  <h1 className="text-xl md:text-xl  leading-tight text--[#013367] md:px-0 md:text-left">
+                    Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.
+                  </h1>
+                </Reveal>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='border-gray-200 marginal rounded-4xl shadow-lg border !mb-4'>
+        <div className='border-gray-200 bg-[#013367] marginal rounded-4xl shadow-lg border !mb-4'>
           <img src="./Digital/Page-24.webp" className='' alt="" />
           <div className='w-fit mx-auto'>
             <KnowMore />
@@ -174,14 +193,14 @@ export default function IPhone() {
         <div className="w-full h-[800px] bg-gradient-to-br from-[#ed1c25] to-[#013367] relative">
           <div className='w-fit absolute marginal left-1/2 md:-translate-x-1/2 text-center'>
             <Reveal animation="slide-up">
-              <h3 className="text-2xl mb-3 font-bold text-white">Digital Powerhouse</h3>
+              <h3 className="text-lg mb-3 font-bold text-white">Digital Powerhouse</h3>
             </Reveal>
             <div className='flex w-[50px] mx-auto mb-4'>
               <div className='h-[2px] bg-white w-1/2 mx-auto' />
               <div className='h-[2px] bg-white w-1/2 mx-auto' />
             </div>
             <Reveal animation="slide-up">
-              <p className=" md:text-xl pb-2 font-semibold text-white bg-clip-text">Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.</p>
+              <p className=" md:text-2xl pb-2 font-semibold text-white bg-clip-text">Kotak has developed a suite of digital apps and platforms designed specifically to meet the diverse needs of its chosen customer segments.</p>
             </Reveal>
           </div>
           <canvas ref={canvasRef} className="w-full h-full" />

@@ -17,32 +17,56 @@ const TechnologyHome = () => {
     gsap.set(curtainRef.current, { x: 0 });
     gsap.set(textContentRef.current, { opacity: 0, y: 30 });
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: sectionRef.current,
-        start: "top 70%",
-        end: "bottom 30%",
-        scrub: false,
-        onEnter: () => {
-          if (videoRef.current) videoRef.current.play();
-        },
-        onLeaveBack: () => {
-          if (videoRef.current) videoRef.current.pause();
+    // Force video load and setup
+    const video = videoRef.current;
+    if (video) {
+      video.load();
+      
+      // Handle mobile video playback
+      const playVideo = async () => {
+        try {
+          await video.play();
+          console.log('Video playing successfully');
+        } catch (error) {
+          console.log('Video autoplay failed:', error);
+          // Fallback: try to play on user interaction
+          const playOnInteraction = () => {
+            video.play().catch(console.error);
+            document.removeEventListener('touchstart', playOnInteraction);
+            document.removeEventListener('click', playOnInteraction);
+          };
+          document.addEventListener('touchstart', playOnInteraction);
+          document.addEventListener('click', playOnInteraction);
         }
-      }
-    });
+      };
 
-    tl.to(curtainRef.current, {
-      x: "-100%",
-      duration: 1.8,
-      ease: "power3.inOut"
-    }, 0)
-      .to(textContentRef.current, {
-        opacity: 1,
-        y: 0,
-        duration: 1.5,
-        ease: "power3.out"
-      }, 0.5);
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 70%",
+          end: "bottom 30%",
+          scrub: false,
+          onEnter: () => {
+            playVideo();
+          },
+          onLeaveBack: () => {
+            if (video) video.pause();
+          }
+        }
+      });
+
+      tl.to(curtainRef.current, {
+        x: "-100%",
+        duration: 1.8,
+        ease: "power3.inOut"
+      }, 0)
+        .to(textContentRef.current, {
+          opacity: 1,
+          y: 0,
+          duration: 1.5,
+          ease: "power3.out"
+        }, 0.5);
+    }
 
     return () => {
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
@@ -50,70 +74,100 @@ const TechnologyHome = () => {
   }, []);
 
   return (
-    <div className=" bg-gray-100">
+    <div className="bg-gray-100">
       <section
         ref={sectionRef}
-        className="relative marginal h-scree bg-gray-100 overflow-hidden"
+        className="relative md:text-center marginal h-scree bg-gray-100 overflow-hidden"
       >
-        <div className="flex items-center h-full">
-          {/* Left Side */}
-          <div className="relative w-1/2 h-full flex items-center justify-center overflow-hidden p-5">
-            <div className="relative w-full h-full rounded-3xl overflow-hidden">
-              {/* Video */}
-              <div className='h-[500px]'>
-                <video
-                  ref={videoRef}
-                  className="absolute inset-0 w-full h-full object-cover"
-                  muted
-                  playsInline
-                  onEnded={() => {
-                    const video = videoRef.current;
-                    if (video) {
-                      video.currentTime = 0;
-                      video.play();
-                    }
-                  }}
-                >
+        <div className='w-full px- py-6 md:py-6'>
+          <div className='mx-aut'>
+            {/* Mobile-First Centered Layout */}
+            <div className=' space-y-2 md:space-y-0 md:gap-1 md:items-center'>
+              {/* Left Section - Heading */}
+              <div className='space-y-2'>
+                {/* Technology Badge */}
+                <Reveal animation="slide-up mx-aut text-cente">
+                  <div className="inline-flex mx-aut flex-col md:items-start">
+                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                      Technology
+                    </span>
+                    {/* Centered decorative line for mobile */}
+                    <div className='flex w-12 md:mx-auto md:w-16'>
+                      <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                      <div className='h-[2px] bg-[#013367] w-1/2' />
+                    </div>
+                  </div>
+                </Reveal>
 
-                  <source src="./home/technology-video.webm" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                {/* Main Title - Much smaller for mobile */}
+                <Reveal animation="slide-up">
+                  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                    Strengthening our technology backbone
+                  </h1>
+                </Reveal>
               </div>
 
+              {/* Right Section - Description */}
+              <div className='mt-4 md:mt-0'>
+                <Reveal animation="slide-up">
+                  <p className='text-sm sm:text-base md:text-xl font-semibold text-[#013367] leading-relaxed max-w-md mx-auto md:max-w-none md:mx-0 '>
+                    Kotak Mahindra Bank's transformation journey is anchored in technology as a key enabler, guided by a customer-centric philosophy and strategically focused on achieving scale.
+                  </p>
+                </Reveal>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex md:flex-row flex-col items-center h-full">
+          {/* Left Side - Video Container */}
+          <div className="relative w-full md:w-[50%] h-[300px] md:h-[500px] flex items-center justify-center overflow-hidden md:p-5">
+            <div className="relative w-full h-full rounded-3xl overflow-hidden">
+              {/* Video */}
+              <video
+                ref={videoRef}
+                src='./home/technology-video.webm'
+                className="absolute inset-0 w-full h-full object-cover"
+                muted
+                playsInline
+                autoPlay
+                preload="metadata"
+                webkit-playsinline="true"
+                onCanPlayThrough={() => {
+                  console.log('Video can play through');
+                }}
+                onError={(e) => {
+                  console.error('Video error:', e);
+                }}
+                onEnded={() => {
+                  const video = videoRef.current;
+                  if (video) {
+                    video.currentTime = 0;
+                    video.play().catch(console.error);
+                  }
+                }}
+              >
+                <source src="/path/to/your/video.mp4" type="video/mp4" />
+                <source src="/path/to/your/video.webm" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+              
               {/* Curtain */}
               <div
                 ref={curtainRef}
                 className="absolute inset-0 z-10 bg-gradient-to-br from-[#ed1c25] to-[#013367]"
-
               >
-                {/* Pattern Overlay */}
-                <div className="absolute inset-0 opacity-20">
-                  <div className="w-full h-full bg-repeat" style={{
-                    background: 'white'
-                  }}></div>
-                </div>
               </div>
             </div>
           </div>
 
-          {/* Right Side */}
-          <div className="w-1/2 h-full flex items-center ">
+          {/* Right Side - Text Content */}
+          <div className="w-full md:w-1/2 h-full flex items-center">
             <div
               ref={textContentRef}
-              className="px-8"
+              className="md:px-8 py-6 md:py-0"
             >
-              <Reveal animation="slide-up">
-                <h3 className="text-2xl mb-2 font-bold text-[#ed1c25]">Technology</h3>
-              </Reveal>
-              <div className='flex w-[50px] mb-2'>
-                <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
-                <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
-              </div>
-              <Reveal animation="slide-up">
-                <h1 className="text-3xl  md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Strengthening our technology backbone</h1>
-              </Reveal>
-
-              <p className="text-lg text-gray-700 leading-relaxed mb-6 mt-2">
+              <p className="text-base text-left md:text-xl text-gray-700 leading-relaxed mb-6 mt-2">
                 During FY 2024-25, we undertook a comprehensive upgrade of the technology infrastructure and enhanced the UI/UX and core features of its apps and platforms. This transformation was driven by the strategic belief that building a resilient, secure and scalable core is fundamental to delivering improved customer experiences in an increasingly digital-first world. These efforts also resulted in resolving the regulatory restrictions highlighted in the RBI Order dated 24th April, 2024, which were subsequently removed by its letter dated 12th February, 2025.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

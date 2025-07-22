@@ -110,26 +110,49 @@ const KPIHome = () => {
     }, [activeTab]);
 
     return (
-        <div className="bg-[#F2F2F2] overflow-hidden py-10 px-4">
-            <div className='w-fit mx-auto mb-6 text-center'>
+        <div className="bg-[#F2F2F2] overflow-hidden py-1 px-4">
+           
+            <div className='w-full px- py-6 md:py-6'>
+          <div className='mx-auto md:text-center'>
+            {/* Mobile-First Centered Layout */}
+            <div className=' space-y-2 md:space-y-0 md:gap-1 md:items-center'>
+              {/* Left Section - Heading */}
+              <div className='space-y-2'>
+                {/* Technology Badge */}
+                <Reveal animation="slide-up mx-aut text-cente">
+                  <div className="inline-flex mx-aut flex-col md:items-start">
+                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                      Key Performance Indicators
+                    </span>
+                    {/* Centered decorative line for mobile */}
+                    <div className='flex w-12 md:mx-auto md:w-16'>
+                      <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                      <div className='h-[2px] bg-[#013367] w-1/2' />
+                    </div>
+                  </div>
+                </Reveal>
+
+                {/* Main Title - Much smaller for mobile */}
                 <Reveal animation="slide-up">
-                    <h3 className="text-2xl mb-2 font-bold text-[#ed1c25]">Key Performance Indicators</h3>
+                  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                    Responsible growth, resilient performance
+                  </h1>
                 </Reveal>
-                <div className='flex w-[50px] mx-auto'>
-                    <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
-                    <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
-                </div>
+              </div>
+
+              {/* Right Section - Description */}
+              <div className='mt-4 md:mt-0'>
                 <Reveal animation="slide-up">
-                    <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Responsible growth, resilient performance</h1>
+                  <p className='text-sm sm:text-base  md:text-xl font-semibold text-[#013367] leading-relaxed max-w-md mx-auto md:max-w-none md:mx-0 '>
+                    All numbers are on a consolidated basis except where stated
+                  </p>
                 </Reveal>
-                <Reveal animation="slide-up" className={"text-lg  leading-6 w-7xl"}>
-                    <p>
-                        All numbers are on a consolidated basis except where stated
-                    </p>
-                </Reveal>
+              </div>
             </div>
+          </div>
+        </div>
             {/* Tabs */}
-            <div className="flex justify-center gap-6 mb-10">
+            <div className="flex md:flex-row flex-col justify-center md:gap-6 gap-3 mb-10">
                 {Object.keys(chartImages).map((tab) => (
                     <button
                         key={tab}
@@ -167,16 +190,16 @@ const KPIHome = () => {
                 <Arrow direction="left" onClick={() => sliderRef.current?.slickPrev()} />
                 <Arrow direction="right" onClick={() => sliderRef.current?.slickNext()} />
             </div>
-            <div className='mt-6 w-5xl mx-auto'>
+            <div className='mt-6 w-[100%] mx-auto'>
                 {activeTab === 'Operational Metrics' && (
-                    <p className="text-xs flex items-start gap-1">
+                    <p className="text-xs flex items-start md:w-[70%] w-[90%] mx-auto gap-1">
                        <span><IoMdArrowDropupCircle className='mt-[1px]'/></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
                     </p>
                 )}
 
                 {activeTab === 'Group Company Metrics' && (
-                    <p className="text-xs flex items-start gap-1">
-                        <span><IoMdArrowDropupCircle className='mt-[1px]'/></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
+                    <p className="text-xs flex items-start md:w-[70%] w-[90%] gap-1">
+                        <span><IoMdArrowDropupCircle className='mt-[1px] '/></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
                         **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
                     </p>
                 )}

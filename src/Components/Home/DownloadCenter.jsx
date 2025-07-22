@@ -269,14 +269,31 @@ const DownloadCenter = () => {
 
   return (
     <div className="marginal bg-gray-100 !my-12 rounded-3xl mx-auto !p-4">
-      <div className='w-fit mx-auto mt-12 mb-6 text-center'>
-        <Reveal animation="slide-up">
-          <h3 className="text-2xl mb-3 font-bold text-red-600 pb-2 border-b border-gray-400">Download Center</h3>
-        </Reveal>
-        <Reveal animation="slide-up">
-          <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-red-600 to-blue-900 bg-clip-text">Access financial statements and reports</h1>
-        </Reveal>
-      </div>
+    
+          <div className="w-fit mx-auto mb-6 md:text-center">
+                <div className='space-y-2'>
+                    {/* Technology Badge */}
+                    <Reveal animation="slide-up mx-aut text-cente">
+                        <div className="inline-flex mx-aut flex-col md:items-start">
+                            <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                                Download Center
+                            </span>
+                            {/* Centered decorative line for mobile */}
+                            <div className='flex w-12 md:mx-auto md:w-16'>
+                                <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                                <div className='h-[2px] bg-[#013367] w-1/2' />
+                            </div>
+                        </div>
+                    </Reveal>
+
+                    {/* Main Title - Much smaller for mobile */}
+                    <Reveal animation="slide-up">
+                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                            Access financial statements and reports
+                        </h1>
+                    </Reveal>
+                </div>
+            </div>
 
       {/* Search and Filter */}
       <div className="mb-6 flex flex-col sm:flex-row gap-3">

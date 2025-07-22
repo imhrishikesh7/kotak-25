@@ -10,13 +10,7 @@ const Community = () => {
       <div className='flex md:flex-row flex-col gap-5 justify-between'>
         <div className='md:w-2/3'>
           <p className="text-2xl text-[#000000]">
-            At Kotak, our commitment to communities
-            goes beyond providing access to financial
-            services. It is the Group’s endeavor to
-            contribute towards sustainable development
-            and growth by adopting responsible business
-            practices that serve the interests of all its
-            stakeholders, including society at large.
+            At Kotak, our commitment to communities goes beyond providing access to financial services. It is the Group’s endeavor to contribute towards sustainable development and growth by adopting responsible business practices that serve the interests of all its stakeholders, including society at large.
           </p>
         </div>
         <div className='border border-[#ed1c2f] p-5 rounded-3xl md:mx-auto'>
@@ -295,9 +289,9 @@ const Community = () => {
         <div>
           <div className='max-w-2xl mx-auto'>
             <div className='mx-auto mb-13'>
-          <img src="\Community\IMG-116.webp" alt="" />
+              <img src="\Community\IMG-116.webp" alt="" />
 
-          </div>
+            </div>
             <div className="bg-[#eaf6ff] rounded-2xl p-6 ">
               <div className="w-fit mb-2">
                 <div className="absolute translate-y-[-90%] rounded-full">

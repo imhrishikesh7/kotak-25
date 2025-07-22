@@ -23,7 +23,7 @@ const cardData = [
     img: "/Sustainability/Sustainability30.webp",
     title: "Reduction of paper waste generation through digitalisation:",
     titleColor: "text-[#0d2154]",
-    text: "Leveraging technology to minimise paper waste by adopting digital invoicing practices, streamlining our processes and reducing the need for physical documentation"
+    text: ": Leveraging technology to minimise paper waste by adopting digital invoicing practices, streamlining our processes and reducing the need for physical documentation"
   },
   {
     img: "/Sustainability/Sustainability31.webp",

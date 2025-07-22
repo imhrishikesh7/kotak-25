@@ -217,8 +217,8 @@ const Sustainable1 = () => {
           <img className='' src="/Sustainability/Sustainability2.webp" alt="" />
         </div>
       </div>
-      
-     
+
+
       <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>Advancing ESG in our Core Businesses
       </h1>
       <div className='md:flex gap-5'>
@@ -230,37 +230,37 @@ const Sustainable1 = () => {
           </h1>
           <p className='mb-2'>
             Our ESG Management Systems Plan (EMSP or the Plan) was
-originally modelled on IFC Performance Standards and enables
-us to systematically identify, assess and mitigate ESG risks in
-our lending portfolio. The EMSP outlines the framework for
-conducting due diligence and evaluating eligible borrowers
-through an from an ESG perspective. It classifies borrowers
-based on their sector of operation, extent of business operation’s
-impact on social and environmental factors and includes
-tailored assessment checklists depending on the nature and
-risk classification of each transaction. The Plan applies to loans
-exceeding pre-specified thresholds of quantum and tenure
-and for specific end uses. Scoring is based on tailored ESG
-evaluation questionnaires, which are incorporated in the credit
-assessment note - for borrowers identified as high risk, the
-score is to be adjusted downward. Furthermore, the Plan also
-features an exclusion list, which is currently being reinforced for
-implementation and monitoring. In summary, EMSP includes
-sectoral risk categorisation, ESG due diligence protocols and
-an exclusion list, ensuring that our capital deployment aligns
-with sustainability principles. In FY 2024-25, we have revamped
-the EMSP questionnaire by updating it in the context of current
-ESG standards and incorporating practical insights from
-pilot implementation.
+            originally modelled on IFC Performance Standards and enables
+            us to systematically identify, assess and mitigate ESG risks in
+            our lending portfolio. The EMSP outlines the framework for
+            conducting due diligence and evaluating eligible borrowers
+            through an from an ESG perspective. It classifies borrowers
+            based on their sector of operation, extent of business operation’s
+            impact on social and environmental factors and includes
+            tailored assessment checklists depending on the nature and
+            risk classification of each transaction. The Plan applies to loans
+            exceeding pre-specified thresholds of quantum and tenure
+            and for specific end uses. Scoring is based on tailored ESG
+            evaluation questionnaires, which are incorporated in the credit
+            assessment note - for borrowers identified as high risk, the
+            score is to be adjusted downward. Furthermore, the Plan also
+            features an exclusion list, which is currently being reinforced for
+            implementation and monitoring. In summary, EMSP includes
+            sectoral risk categorisation, ESG due diligence protocols and
+            an exclusion list, ensuring that our capital deployment aligns
+            with sustainability principles. In FY 2024-25, we have revamped
+            the EMSP questionnaire by updating it in the context of current
+            ESG standards and incorporating practical insights from
+            pilot implementation.
           </p>
           <p className='mb-2'>
             Through our Board approved Green and Sustainable Finance
-Frameworks, we have commenced efforts to channel capital
-toward projects with measurable environmental and social
-impact. Our green asset portfolio was ₹ 7,900+ crore, as per
-green activities and projects indicated in the RBI’s ‘Framework
-for acceptance of Green deposits’ issued in April, 2023, based on
-internal mapping.
+            Frameworks, we have commenced efforts to channel capital
+            toward projects with measurable environmental and social
+            impact. Our green asset portfolio was ₹ 7,900+ crore, as per
+            green activities and projects indicated in the RBI’s ‘Framework
+            for acceptance of Green deposits’ issued in April, 2023, based on
+            internal mapping.
           </p>
         </div>
         <div className='md:w-[40%] md:mt-8'>
@@ -304,9 +304,9 @@ internal mapping.
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Kotak Mahindra Asset Management Company (KMAMC)</h1>
         <p className='mb-2'>
           KMAMC is the first Indian asset management company to have become a signatory to the United Nations-supported Principles for
-Responsible Investment (PRI). KMAMC uses an ESG framework based on the 3E strategy – Evaluation, Engagement and Exclusion
--- as part of its fundamental analysis. This comprehensive framework is tailored to address specific mandates for exclusionary
-strategies while being applicable across all stocks under its scope of coverage.
+          Responsible Investment (PRI). KMAMC uses an ESG framework based on the 3E strategy – Evaluation, Engagement and Exclusion
+          -- as part of its fundamental analysis. This comprehensive framework is tailored to address specific mandates for exclusionary
+          strategies while being applicable across all stocks under its scope of coverage.
         </p>
         <div className=''>
           <img src="/Sustainability/Sustainability5.webp" alt="" />
@@ -319,26 +319,26 @@ strategies while being applicable across all stocks under its scope of coverage.
         <div className='md:w-[70%]'>
           <p className='mb-2'>
             KMAMC is also a signatory to Climate Action 100+, an investor-
-led initiative that works with prominent contributors to GHG
-emissions. As a member, KMAMC’s senior management engages
-with companies on the implementation and progress of their
-climate change mitigation strategies.
+            led initiative that works with prominent contributors to GHG
+            emissions. As a member, KMAMC’s senior management engages
+            with companies on the implementation and progress of their
+            climate change mitigation strategies.
           </p>
           <p className='mb-2'>
-           KMAMC has established an equity fund, ‘Kotak ESG Exclusionary
-Strategy Fund’, with Assets Under Management (AUM)
-₹ 847.62 crore as of 31st March, 2025. This fund focuses on ESG
-parameters where companies with higher ESG score are given
-preference. The fund engages with investee companies on ESG-
-related factors in accordance with KMAMC’s stewardship policy
-which is available in the public domain. The policy requires
-engagement with investee companies once a year, incorporating
-ESG factors into discussions. KMAMC actively participates
-as an investor by casting votes on all board resolutions of
-investee companies, in accordance with the voting policy. The
-investment committee sets guidelines for investments and is
-responsible for formulating and approving policies, including
-those related to ESG.
+            KMAMC has established an equity fund, ‘Kotak ESG Exclusionary
+            Strategy Fund’, with Assets Under Management (AUM)
+            ₹ 847.62 crore as of 31st March, 2025. This fund focuses on ESG
+            parameters where companies with higher ESG score are given
+            preference. The fund engages with investee companies on ESG-
+            related factors in accordance with KMAMC’s stewardship policy
+            which is available in the public domain. The policy requires
+            engagement with investee companies once a year, incorporating
+            ESG factors into discussions. KMAMC actively participates
+            as an investor by casting votes on all board resolutions of
+            investee companies, in accordance with the voting policy. The
+            investment committee sets guidelines for investments and is
+            responsible for formulating and approving policies, including
+            those related to ESG.
 
           </p>
         </div>
@@ -350,20 +350,20 @@ those related to ESG.
             Singapore (KMAMS)</h1>
           <p className='mb-2'>
             KMAMS, as the international arm of KMAMC, is also a signatory to
-PRI, a member of Climate Action 100+ and uses the 3E strategy.
-In its named ESG funds, KMAMS maintains strict investment
-limits and exclusions for direct investments in issuers operating
-in sectors with significant ESG concerns. While some fund
-mandates may not have comprehensive ESG exclusions, they
-incorporate ESG considerations at every stage of the investment
-assessment process. Specifically, environmental factors are
-assessed through monitoring of carbon emissions, energy
-consumption, resource efficiency, alternative energy use and
-adherence to climate-related regulations. In terms of social
-indicators, KMAMS focuses on employee safety, retention,
-diversity and corporate social responsibility. The governance
-evaluation includes examination of shareholder structure, board
-composition and independence as well as ethical conduct.
+            PRI, a member of Climate Action 100+ and uses the 3E strategy.
+            In its named ESG funds, KMAMS maintains strict investment
+            limits and exclusions for direct investments in issuers operating
+            in sectors with significant ESG concerns. While some fund
+            mandates may not have comprehensive ESG exclusions, they
+            incorporate ESG considerations at every stage of the investment
+            assessment process. Specifically, environmental factors are
+            assessed through monitoring of carbon emissions, energy
+            consumption, resource efficiency, alternative energy use and
+            adherence to climate-related regulations. In terms of social
+            indicators, KMAMS focuses on employee safety, retention,
+            diversity and corporate social responsibility. The governance
+            evaluation includes examination of shareholder structure, board
+            composition and independence as well as ethical conduct.
           </p>
 
         </div>
@@ -379,36 +379,36 @@ composition and independence as well as ethical conduct.
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Kotak Alternate Asset Managers Limited (KAAML)</h1>
           <p className='mb-2'>
             KAAML has established a governance framework to promote
-responsible investing practices. An ESG Committee oversees
-strategic direction, ensures policy execution, consistency across
-fund strategies and provides guidance on implementing the ESG
-Policy Framework. The objective of the ESG Policy Framework
-is to provide clear guidance to business verticals managing
-various capital pools for multiple asset classes, including Private
-Equity, Real Estate, Infrastructure, Strategic Situations, Private
-Credit, Kotak Discretionary Solutions and Investment Advisory.
-KAAML’s board-approved ESG Policy applies to select funds
-managed by it and serves as a framework to develop fund-level
-Environmental and Social Management Systems (ESMS) tailored
-to their specific needs.
+            responsible investing practices. An ESG Committee oversees
+            strategic direction, ensures policy execution, consistency across
+            fund strategies and provides guidance on implementing the ESG
+            Policy Framework. The objective of the ESG Policy Framework
+            is to provide clear guidance to business verticals managing
+            various capital pools for multiple asset classes, including Private
+            Equity, Real Estate, Infrastructure, Strategic Situations, Private
+            Credit, Kotak Discretionary Solutions and Investment Advisory.
+            KAAML’s board-approved ESG Policy applies to select funds
+            managed by it and serves as a framework to develop fund-level
+            Environmental and Social Management Systems (ESMS) tailored
+            to their specific needs.
           </p>
         </div>
       </div>
       <p className='mb-2'>
         The Kotak Infrastructure Investment Fund (KIIF), managed by
-KAAML, has developed its own ESG Policy and ESMS. This system
-outlines the integration of ESG practices into the investment process
-and mandates the engagement of external third-party ESG experts
-to conduct an ESG due diligence (DD) for prospective investments.
-Every potential investment under KIIF undergoes ESG DD as per
-the relevant requirements set forth by Indian Legal regulations and
-various applicable investor safeguards such as IFC Performance
-Standards, AIIB E&S Framework and ADB Safeguard Policy
-Framework. The due diligence assesses ESG aspects of potential
-investee companies, which are documented in an Environmental
-and Social Action Plan (ESAP) enabling investee companies to
-implement strategies to mitigate the ESG related risks. ESAP is
-monitored periodically following the closure of a deal.
+        KAAML, has developed its own ESG Policy and ESMS. This system
+        outlines the integration of ESG practices into the investment process
+        and mandates the engagement of external third-party ESG experts
+        to conduct an ESG due diligence (DD) for prospective investments.
+        Every potential investment under KIIF undergoes ESG DD as per
+        the relevant requirements set forth by Indian Legal regulations and
+        various applicable investor safeguards such as IFC Performance
+        Standards, AIIB E&S Framework and ADB Safeguard Policy
+        Framework. The due diligence assesses ESG aspects of potential
+        investee companies, which are documented in an Environmental
+        and Social Action Plan (ESAP) enabling investee companies to
+        implement strategies to mitigate the ESG related risks. ESAP is
+        monitored periodically following the closure of a deal.
       </p>
       <div className='mb-5 mt-10'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
@@ -416,7 +416,7 @@ monitored periodically following the closure of a deal.
         </h1>
         <p className='mb-2'>
           KMPL, our vehicle finance subsidiary, is expanding its green portfolio by providing finance for electric, hybrid and energy efficient
-vehicles. In FY 2024-25, we saw a healthy increase in lending to electric four wheelers, with a 66% growth in unit terms.
+          vehicles. In FY 2024-25, we saw a healthy increase in lending to electric four wheelers, with a 66% growth in unit terms.
         </p>
         <div className='rounded-3xl'>
           <img className='rounded-3xl' src="\Safeguarding_Stakeholder\Car.webp" alt="" />
@@ -429,14 +429,14 @@ vehicles. In FY 2024-25, we saw a healthy increase in lending to electric four w
           <h1 className='text-xl text-[#252f80] font-semibold mb-2'>Kotak Life Insurance (KLI)</h1>
           <p className='mb-2'>
             KLI has launched its comprehensive ESG
-Policy and Climate Risk Management
-Framework in FY 2024-25, developed
-in-line with IRDAI directives. KLI has also
-formed an ESG Steering Committee and a
-dedicated nodal team to oversee various
-ESG initiatives and proactively implement
-measures guided by its Climate Risk
-Management Framework.
+            Policy and Climate Risk Management
+            Framework in FY 2024-25, developed
+            in-line with IRDAI directives. KLI has also
+            formed an ESG Steering Committee and a
+            dedicated nodal team to oversee various
+            ESG initiatives and proactively implement
+            measures guided by its Climate Risk
+            Management Framework.
           </p>
         </div>
         <div className=' rounded-2xl md:w-1/3 mx-auto'>
@@ -448,52 +448,52 @@ Management Framework.
         <div className=''>
           <p className='mb-2'>
             Advancing financial inclusion remains a focus area for us. We
-continued to design and deliver targeted solutions for
-under-served communities including small and marginal
-farmers, women borrowers, micro-enterprises and underbanked
-regions, ensuring equitable access to financial services that
-foster long-term economic empowerment.
+            continued to design and deliver targeted solutions for
+            under-served communities including small and marginal
+            farmers, women borrowers, micro-enterprises and underbanked
+            regions, ensuring equitable access to financial services that
+            foster long-term economic empowerment.
           </p>
           <p className='mb-2'>
             In alignment with our commitment to inclusive banking and
-digital empowerment, our Bank, with the approval of UIDAI, had
-launched the ‘Aadhaar on Wheels’ (AOW) initiative—an innovative
-mobile service designed to deliver Aadhaar enrolment and
-update facilities directly to customers’ doorsteps. This initiative
-was instrumental in reaching segments of society that often
-face mobility challenges, including senior citizens, residents
-of old age homes, hospital patients, persons with disabilities,
-pregnant women, new-borns and students. By setting up camps
-in housing societies, educational institutions and office premises,
-we ensured that Aadhaar services are accessible, convenient
-and customer-centric. During FY 2024-25, the Bank deployed
-23 Aadhaar on Wheels vans across 23 locations nationwide and
-successfully provided 74,341 Aadhaar enrolment and update
-transaction services.
+            digital empowerment, our Bank, with the approval of UIDAI, had
+            launched the ‘Aadhaar on Wheels’ (AOW) initiative—an innovative
+            mobile service designed to deliver Aadhaar enrolment and
+            update facilities directly to customers’ doorsteps. This initiative
+            was instrumental in reaching segments of society that often
+            face mobility challenges, including senior citizens, residents
+            of old age homes, hospital patients, persons with disabilities,
+            pregnant women, new-borns and students. By setting up camps
+            in housing societies, educational institutions and office premises,
+            we ensured that Aadhaar services are accessible, convenient
+            and customer-centric. During FY 2024-25, the Bank deployed
+            23 Aadhaar on Wheels vans across 23 locations nationwide and
+            successfully provided 74,341 Aadhaar enrolment and update
+            transaction services.
           </p>
           <p className='mb-2'>
             We continue to deepen our distribution footprint by extending
-access beyond traditional branches. Through the establishment
-of independent Business Correspondent (BC) and Business
-Facilitator (BF) outlets in strategic locations around our branch
-network, we enhanced the reach of essential banking services
-in underserved areas. As of 31st March, 2025, we had over 18,800
-BC/BF agents, reinforcing our commitment to inclusive and
-community-driven financial outreach.
+            access beyond traditional branches. Through the establishment
+            of independent Business Correspondent (BC) and Business
+            Facilitator (BF) outlets in strategic locations around our branch
+            network, we enhanced the reach of essential banking services
+            in underserved areas. As of 31st March, 2025, we had over 18,800
+            BC/BF agents, reinforcing our commitment to inclusive and
+            community-driven financial outreach.
           </p>
           <p className='mb-2'>
             In FY 2024-25, the Bank significantly enhanced its indigenous
-digital platform, Kotak Saarthi, which is a comprehensive
-solution for managing the BC and BF agent network. This
-platform enabled the delivery of a wide range of banking
-products and services to underserved communities through a
-cost-effective, tech-enabled model. As of 31st March, 2025, the
-platform had enabled the Bank to open more than 6.5 lakh
-customer savings account, underscoring its role as a scalable
-and impactful channel for inclusive growth. We leveraged BC
-services of BSS Microfinance Limited (BSS) and Sonata Finance
-Pvt. Ltd. (Sonata), along with partnerships with other corporate
-BC networks, to expand our distribution network.
+            digital platform, Kotak Saarthi, which is a comprehensive
+            solution for managing the BC and BF agent network. This
+            platform enabled the delivery of a wide range of banking
+            products and services to underserved communities through a
+            cost-effective, tech-enabled model. As of 31st March, 2025, the
+            platform had enabled the Bank to open more than 6.5 lakh
+            customer savings account, underscoring its role as a scalable
+            and impactful channel for inclusive growth. We leveraged BC
+            services of BSS Microfinance Limited (BSS) and Sonata Finance
+            Pvt. Ltd. (Sonata), along with partnerships with other corporate
+            BC networks, to expand our distribution network.
           </p>
         </div>
       </div>
@@ -514,21 +514,21 @@ BC networks, to expand our distribution network.
           </h1>
           <p className='mb-2'>
             We expand our microcredit reach by focusing on women
-borrowers through the Bank’s Joint Liability Group (JLG)
-loans offering. The entire lending base of Sonata and BSS
-are women. Our total number of active women microcredit
-borrowers (including Sonata and BSS) as of 31st March, 2025
-at the Group was ~23 lakh and 99% of loans disbursed therein
-were for income generating purposes.
+            borrowers through the Bank’s Joint Liability Group (JLG)
+            loans offering. The entire lending base of Sonata and BSS
+            are women. Our total number of active women microcredit
+            borrowers (including Sonata and BSS) as of 31st March, 2025
+            at the Group was ~23 lakh and 99% of loans disbursed therein
+            were for income generating purposes.
           </p>
           <p className='mb-2'>
             Sonata remains deeply committed to advancing women’s
-financial inclusion by providing financial support to ~ 9 lakh
-women clients, with over 68% of its loan portfolio located
-in rural areas. Further enhancing operational efficiency and
-accessibility, Sonata has fully digitised its loan management
-system, from sourcing to disbursement, reinforcing its
-commitment to inclusive and technology-enabled banking.
+            financial inclusion by providing financial support to ~ 9 lakh
+            women clients, with over 68% of its loan portfolio located
+            in rural areas. Further enhancing operational efficiency and
+            accessibility, Sonata has fully digitised its loan management
+            system, from sourcing to disbursement, reinforcing its
+            commitment to inclusive and technology-enabled banking.
           </p>
         </div>
         <div className='md:w-[40%] my-auto'>
@@ -536,14 +536,14 @@ commitment to inclusive and technology-enabled banking.
         </div>
       </div>
       <p className='mb-2'>BSS is driving meaningful socio-economic transformation by
-extending microcredit services to women in underserved rural
-and semi-urban areas, enabling them to engage in income-
-generating activities and achieve financial independence.
-With a strong presence across 13 states through a network
-of over 878 branches, BSS currently serves ~ 15 lakh
-families, prioritising women’s financial empowerment as
-a catalyst for breaking cycles of poverty and strengthening
-community resilience.
+        extending microcredit services to women in underserved rural
+        and semi-urban areas, enabling them to engage in income-
+        generating activities and achieve financial independence.
+        With a strong presence across 13 states through a network
+        of over 878 branches, BSS currently serves ~ 15 lakh
+        families, prioritising women’s financial empowerment as
+        a catalyst for breaking cycles of poverty and strengthening
+        community resilience.
       </p>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] font-semibold'>
@@ -551,9 +551,9 @@ community resilience.
         </h1>
         <p className='mb-2'>
           Our Bank actively participates in various government initiatives
-such as opening accounts under Jandhan scheme, facilitating
-uptake of insurance, pension and lending schemes. During FY
-2024-25, we undertook the following key initiatives:
+          such as opening accounts under Jandhan scheme, facilitating
+          uptake of insurance, pension and lending schemes. During FY
+          2024-25, we undertook the following key initiatives:
         </p>
 
         <div className="border border-dotted border-red-500 p-4 rounded-xl mb-2">
@@ -562,9 +562,9 @@ uptake of insurance, pension and lending schemes. During FY
           </h3>
           <p className="mb-2">
             Our Bank actively participated in PMSVANIDHI scheme by
-providing collateral free working capital loan for street vendors.
-As on 31st March, 2025, the Bank disbursed over 18,000
-loans to beneficiaries.
+            providing collateral free working capital loan for street vendors.
+            As on 31st March, 2025, the Bank disbursed over 18,000
+            loans to beneficiaries.
           </p>
         </div>
         <div className="border border-dotted border-red-500 p-4 rounded-xl mb-2">
@@ -573,9 +573,9 @@ loans to beneficiaries.
           </h3>
           <p className="mb-2">
             Our Bank, through Kotak Saarthi, opened over 2.32 lakh
-accounts under PMJDY, a National Mission for financial inclusion
-to ensure access to financial services, through a basic savings
-and deposit account for an unbanked person.
+            accounts under PMJDY, a National Mission for financial inclusion
+            to ensure access to financial services, through a basic savings
+            and deposit account for an unbanked person.
           </p>
         </div>
         <div className="border border-dotted border-red-500 p-4 rounded-xl mb-2">
@@ -584,11 +584,11 @@ and deposit account for an unbanked person.
           </h3>
           <p className="mb-2">
             The scheme aims to provide financial stability to the
-unorganised sector after retirement with pension amount of
-₹ 1,000 to ₹ 5,000 per month. As on 31st March, 2025, we had a
-total of 2,67,468 APY subscriptions, out of which 1,32,440 were
-sourced during FY 2024-25, achieving 219% of annual target
-assigned by regulator
+            unorganised sector after retirement with pension amount of
+            ₹ 1,000 to ₹ 5,000 per month. As on 31st March, 2025, we had a
+            total of 2,67,468 APY subscriptions, out of which 1,32,440 were
+            sourced during FY 2024-25, achieving 219% of annual target
+            assigned by regulator
           </p>
         </div>
         <div className='md:flex gap-5'>
@@ -599,8 +599,8 @@ assigned by regulator
               </h3>
               <p className="mb-2">
                 The Bank disbursed over ₹ 3,000 crore under the PMMY Scheme,
-which focuses on income generation and employment creation
-in manufacturing, services, retail and agri-allied activities.
+                which focuses on income generation and employment creation
+                in manufacturing, services, retail and agri-allied activities.
               </p>
             </div>
             <div className="border border-dotted border-red-500 p-4 rounded-xl mb-2">
@@ -609,10 +609,10 @@ in manufacturing, services, retail and agri-allied activities.
               </h3>
               <p className="mb-2">
                 The Bank actively participated in Stand up India, a government-
-driven lending scheme for providing entrepreneurship
-support to Schedule Caste, Schedule Tribe and women
-entrepreneurs, enabling them to participate in the economic
-growth of the nation.
+                driven lending scheme for providing entrepreneurship
+                support to Schedule Caste, Schedule Tribe and women
+                entrepreneurs, enabling them to participate in the economic
+                growth of the nation.
               </p>
             </div>
           </div>
@@ -627,31 +627,31 @@ growth of the nation.
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Financial literacy</h1>
           <p className='mb-2'>
             Financial literacy is a cornerstone of meaningful financial
-inclusion, empowering individuals to make informed decisions
-and fully benefit from formal banking services. In FY 2024–25,
-we reinforced this commitment by conducting over 4,100
-financial literacy camps through our rural branch network,
-reaching communities where awareness and access often
-remain limited. Complementing these on-ground efforts, we
-also launched a series of digital awareness campaigns aimed
-at educating customers on responsible banking practices,
-digital transactions and financial planning. These initiatives
-reflect our ongoing efforts to build a financially aware and
-empowered customer base.
+            inclusion, empowering individuals to make informed decisions
+            and fully benefit from formal banking services. In FY 2024–25,
+            we reinforced this commitment by conducting over 4,100
+            financial literacy camps through our rural branch network,
+            reaching communities where awareness and access often
+            remain limited. Complementing these on-ground efforts, we
+            also launched a series of digital awareness campaigns aimed
+            at educating customers on responsible banking practices,
+            digital transactions and financial planning. These initiatives
+            reflect our ongoing efforts to build a financially aware and
+            empowered customer base.
           </p>
           <p className='mb-2'>
             Sonata provides comprehensive training programmes at the
-time of loan disbursement, covering essential topics such
-as the significance of financial discipline, cultivating saving
-habits, timely repayment of loans and strategic investment in
-income-generating activities, which are practices that promote
-financial resilience and reduce individual credit risk. The impact
-of this approach is reflected in strong repayment behaviour and
-improved financial awareness among borrowers. Furthermore,
-Sonata also conducts awareness sessions on vital issues
-including safe sanitation, clean drinking water and menstrual
-health, aimed at promoting a holistic approach to financial
-inclusion and overall well-being.
+            time of loan disbursement, covering essential topics such
+            as the significance of financial discipline, cultivating saving
+            habits, timely repayment of loans and strategic investment in
+            income-generating activities, which are practices that promote
+            financial resilience and reduce individual credit risk. The impact
+            of this approach is reflected in strong repayment behaviour and
+            improved financial awareness among borrowers. Furthermore,
+            Sonata also conducts awareness sessions on vital issues
+            including safe sanitation, clean drinking water and menstrual
+            health, aimed at promoting a holistic approach to financial
+            inclusion and overall well-being.
           </p>
         </div>
         <div className='md:w-[30%]'>
@@ -666,25 +666,25 @@ inclusion and overall well-being.
           <h1 className='mb-2 text-xl text-[#252f80] font-semibold'>Priority Sector Lending</h1>
           <p className='mb-2'>
             We view Priority Sector Lending (PSL) as a strategic lever to
-advance financial inclusion and support key segments of
-India’s economy. Our approach is rooted in the belief that PSL
-plays a vital role in extending credit access to underserved
-communities and sectors that are fundamental to the nation’s
-socio-economic fabric.
+            advance financial inclusion and support key segments of
+            India’s economy. Our approach is rooted in the belief that PSL
+            plays a vital role in extending credit access to underserved
+            communities and sectors that are fundamental to the nation’s
+            socio-economic fabric.
           </p>
           <p className='mb-2'>
             In FY 2024-25, the Bank achieved an annual average PSL
-contribution of 45.09% of the applicable Adjusted Net
-Bank Credit (ANBC), including the purchase and sale of PSL
-certificates—well above the mandated threshold of 40%. We
-successfully met regulatory targets across all PSL sub-categories,
-including 18.17% in agriculture, 10.15% for small and marginal
-farmers, 13.89% for non-corporate farmers and 8.96% for micro-
-enterprises. Additionally, our PSL lending to weaker sections
-stood at 14.36%, reflecting our continued focus on inclusive
-credit delivery. These outcomes underscore our commitment to
-responsible banking and our strategic intent to align business
-growth with national development priorities.
+            contribution of 45.09% of the applicable Adjusted Net
+            Bank Credit (ANBC), including the purchase and sale of PSL
+            certificates—well above the mandated threshold of 40%. We
+            successfully met regulatory targets across all PSL sub-categories,
+            including 18.17% in agriculture, 10.15% for small and marginal
+            farmers, 13.89% for non-corporate farmers and 8.96% for micro-
+            enterprises. Additionally, our PSL lending to weaker sections
+            stood at 14.36%, reflecting our continued focus on inclusive
+            credit delivery. These outcomes underscore our commitment to
+            responsible banking and our strategic intent to align business
+            growth with national development priorities.
           </p>
         </div>
 
@@ -697,28 +697,28 @@ growth with national development priorities.
           <div className='md:w-[70%]'>
             <p className='mb-2'>
               We recognise the growing threat of climate change and its far-
-reaching implications for our planet and society. We are committed
-to proactively addressing this challenge through integrating
-sustainability into the core of our business operations and are
-adopting a range of sustainability initiatives aimed at reducing
-our environmental footprint. Our CSR and ESG Committee plays
-a pivotal role by providing strategic guidance and driving a
-holistic approach that integrates environmental considerations
-into our business functions. At Kotak Mahindra Bank, we track
-our environmental performance across all major locations,
-including our domestic and international subsidiaries. This
-helps us in identifying areas for improvement. A range of eco-
-friendly initiatives have been introduced over the years across
-our corporate offices, branches and ATM network to minimise our
-carbon footprint.
+              reaching implications for our planet and society. We are committed
+              to proactively addressing this challenge through integrating
+              sustainability into the core of our business operations and are
+              adopting a range of sustainability initiatives aimed at reducing
+              our environmental footprint. Our CSR and ESG Committee plays
+              a pivotal role by providing strategic guidance and driving a
+              holistic approach that integrates environmental considerations
+              into our business functions. At Kotak Mahindra Bank, we track
+              our environmental performance across all major locations,
+              including our domestic and international subsidiaries. This
+              helps us in identifying areas for improvement. A range of eco-
+              friendly initiatives have been introduced over the years across
+              our corporate offices, branches and ATM network to minimise our
+              carbon footprint.
             </p>
 
             <p className='mb-2'>
               Our approach to minimising our operational environmental
-footprint is built on four key pillars, which are designed to reduce
-our impact on the environment. Some of our key corporate offices
-serve as common premises with the subsidiaries. Therefore, the data
-from these premises includes data from the subsidiaries.
+              footprint is built on four key pillars, which are designed to reduce
+              our impact on the environment. Some of our key corporate offices
+              serve as common premises with the subsidiaries. Therefore, the data
+              from these premises includes data from the subsidiaries.
             </p>
           </div>
           <div className='p-4 bg-gray-100 md:w-[30%] my-auto rounded-3xl'>
@@ -727,39 +727,39 @@ from these premises includes data from the subsidiaries.
         </div>
         <p className='mb-2'>
           We have 16 key corporate office premises that hold LEED/IGBC
-certifications. Seven additional premises are currently undergoing
-the certification process, targeted for completion in FY 2025-26. These
-certified premises promote resource efficiency and contribute to
-healthier indoor environments, which is crucial for employee well-
-being. About 25% of the Bank’s full time employees operate from
-these certified premises.
+          certifications. Seven additional premises are currently undergoing
+          the certification process, targeted for completion in FY 2025-26. These
+          certified premises promote resource efficiency and contribute to
+          healthier indoor environments, which is crucial for employee well-
+          being. About 25% of the Bank’s full time employees operate from
+          these certified premises.
         </p>
         <p className='mb-2'>
           Over FY 2024-25, we have refined our data collection
-methodologies, enabling us to provide more accurate reporting
-on key environmental metrics. We remain committed to exploring
-innovative solutions to minimise our ecological footprint while
-driving long-term value for our stakeholders.
+          methodologies, enabling us to provide more accurate reporting
+          on key environmental metrics. We remain committed to exploring
+          innovative solutions to minimise our ecological footprint while
+          driving long-term value for our stakeholders.
         </p>
 
       </div>
       <div className='mb-5'>
         <h1 className='text-2xl text-[#ed2133] mb-2 font-semibold'>Energy Management</h1>
         <div class='mb-2'>
-  Our corporate offices, branches, offsite ATMs, and subsidiary premises are primarily powered by electricity sourced from the grid. In instances of power disruptions, diesel-powered generators or batteries at select locations, managed either by Kotak or third-party vendors, serve as alternative means of meeting energy requirements. The Group's energy consumption for FY 2024-25 was primarily from grid electricity, with 5,28,347 GJ sourced from the grid and 19,352 GJ<sup>2</sup> from diesel-powered generators.
-</div>
-<div class='mb-2'>
-  The reporting boundary for electricity covers 220 corporate offices, 2,151<sup>#</sup> bank branches, 924 offsite ATMs managed by the Bank, and 2,192<sup>**</sup> premises managed by the subsidiaries. In FY 2024-25, we also included units generated from DG sets owned by lessors to power Kotak premises for select corporate offices. The Bank’s energy intensity for FY 2024-25 was 7.01 GJ/₹crore revenue<sup>3</sup>, which has decreased from 8.58 GJ/₹crore revenue for FY 2023-24.
-</div>
-<div class='mb-2'>
-  Renewable energy partially powered three of our key corporate offices, accommodating about 10% of the Bank’s workforce. We implemented rooftop solar installations at select locations in FY 2023-24 as a pilot to assess their impact on the decarbonization of our branch network. The 62 KVA rooftop solar installation, operational for most of FY 2024-25, generated 23 MWh. Additionally, in FY 2024-25, we commissioned another 40 KVA rooftop solar. Total renewable energy consumption during FY 2024-25 was 25,109 GJ, accounting for around 5.5% of the total purchased electricity at the Bank.
-</div>
-<div class='mb-2'>
-  We regularly evaluate energy consumption and resource utilization across major premises to identify avenues for conservation. During FY 2024-25, a comprehensive energy audit was undertaken at two high-energy consuming premises in collaboration with experts from the Indian Institute of Technology (IIT) Mumbai, providing valuable insights into our current energy usage patterns, trends, and areas for improvement.
-</div>
-<div class='mb-2'>
-  Targeted initiatives are being implemented, aimed at optimizing energy consumption and reducing emissions from our operations. Over the past few years, we have completely transitioned to using energy-efficient lighting systems (LEDs) across all our premises, which has also helped us avoid emissions. We successfully piloted and installed power-saving devices at 100 offsite ATMs, resulting in annual energy savings of 12% in FY 2023-24 at those locations. We are currently progressing with the second phase of this initiative, where an additional 100 offsite ATMs are planned to be equipped with these energy-efficient solutions (44% installations have been completed).
-</div>
+          Our corporate offices, branches, offsite ATMs, and subsidiary premises are primarily powered by electricity sourced from the grid. In instances of power disruptions, diesel-powered generators or batteries at select locations, managed either by Kotak or third-party vendors, serve as alternative means of meeting energy requirements. The Group's energy consumption for FY 2024-25 was primarily from grid electricity, with 5,28,347 GJ sourced from the grid and 19,352 GJ<sup>2</sup> from diesel-powered generators.
+        </div>
+        <div class='mb-2'>
+          The reporting boundary for electricity covers 220 corporate offices, 2,151<sup>#</sup> bank branches, 924 offsite ATMs managed by the Bank, and 2,192<sup>**</sup> premises managed by the subsidiaries. In FY 2024-25, we also included units generated from DG sets owned by lessors to power Kotak premises for select corporate offices. The Bank’s energy intensity for FY 2024-25 was 7.01 GJ/₹crore revenue<sup>3</sup>, which has decreased from 8.58 GJ/₹crore revenue for FY 2023-24.
+        </div>
+        <div class='mb-2'>
+          Renewable energy partially powered three of our key corporate offices, accommodating about 10% of the Bank’s workforce. We implemented rooftop solar installations at select locations in FY 2023-24 as a pilot to assess their impact on the decarbonization of our branch network. The 62 KVA rooftop solar installation, operational for most of FY 2024-25, generated 23 MWh. Additionally, in FY 2024-25, we commissioned another 40 KVA rooftop solar. Total renewable energy consumption during FY 2024-25 was 25,109 GJ, accounting for around 5.5% of the total purchased electricity at the Bank.
+        </div>
+        <div class='mb-2'>
+          We regularly evaluate energy consumption and resource utilization across major premises to identify avenues for conservation. During FY 2024-25, a comprehensive energy audit was undertaken at two high-energy consuming premises in collaboration with experts from the Indian Institute of Technology (IIT) Mumbai, providing valuable insights into our current energy usage patterns, trends, and areas for improvement.
+        </div>
+        <div class='mb-2'>
+          Targeted initiatives are being implemented, aimed at optimizing energy consumption and reducing emissions from our operations. Over the past few years, we have completely transitioned to using energy-efficient lighting systems (LEDs) across all our premises, which has also helped us avoid emissions. We successfully piloted and installed power-saving devices at 100 offsite ATMs, resulting in annual energy savings of 12% in FY 2023-24 at those locations. We are currently progressing with the second phase of this initiative, where an additional 100 offsite ATMs are planned to be equipped with these energy-efficient solutions (44% installations have been completed).
+        </div>
       </div>
       <div className='mb-5 text-sm border-t-1 pt-1 text-gray-700 '>
         <sup>#</sup>
@@ -885,16 +885,16 @@ driving long-term value for our stakeholders.
             Green House Gas (GHG) Emissions
           </h1>
           <p className='mb-2'>
-           The GHG emissions reporting boundary includes premises
-under our operational control, encompassing offices, branches
-and ATMs. To accurately assess our emissions, we utilise actual
-consumption data wherever available and supplement with
-representative estimates based on expenditure, asset inventory
-or other relevant factors. The detailed breakdown of Scope 1,
-2 and 3 emissions is presented in subsequent sections. Our
-reporting is in-line with the GHG Protocol and Intergovernmental
-Panel on Climate Change methodologies to ensure accuracy,
-consistency and compliance with global standards.
+            The GHG emissions reporting boundary includes premises
+            under our operational control, encompassing offices, branches
+            and ATMs. To accurately assess our emissions, we utilise actual
+            consumption data wherever available and supplement with
+            representative estimates based on expenditure, asset inventory
+            or other relevant factors. The detailed breakdown of Scope 1,
+            2 and 3 emissions is presented in subsequent sections. Our
+            reporting is in-line with the GHG Protocol and Intergovernmental
+            Panel on Climate Change methodologies to ensure accuracy,
+            consistency and compliance with global standards.
           </p>
         </div>
         <div className='mb-5'>
@@ -1036,43 +1036,43 @@ consistency and compliance with global standards.
           <div className='mb-4'>
             <p className='mb-2'>
               Our Scope 2 emissions are generated from grid electricity
-consumption, diesel used in third-party managed generators
-powering Kotak premises and electricity generated by rooftop
-solar panels. Our energy mix includes both renewable sources
-(solar and wind) and non-renewable sources. Emissions from
-rooftop solar power are accounted for within Scope 2, using the
-same methodology as grid electricity, as the Renewable Energy
-Certificates (RECs) are held by the service provider. For FY 2024-
-25, we utilised the latest emission factors for grid electricity
-published by the Central Electricity Authority (CEA), taking into
-account cross-border electricity transfers, including those from
-renewable energy sources and captive power injection into the
-grid. We expanded our Scope 2 emissions calculation to include
-emissions generated from diesel fuelled generators managed by
-lessors of select premises and emissions generated from solar
-rooftop related energy intake.
+              consumption, diesel used in third-party managed generators
+              powering Kotak premises and electricity generated by rooftop
+              solar panels. Our energy mix includes both renewable sources
+              (solar and wind) and non-renewable sources. Emissions from
+              rooftop solar power are accounted for within Scope 2, using the
+              same methodology as grid electricity, as the Renewable Energy
+              Certificates (RECs) are held by the service provider. For FY 2024-
+              25, we utilised the latest emission factors for grid electricity
+              published by the Central Electricity Authority (CEA), taking into
+              account cross-border electricity transfers, including those from
+              renewable energy sources and captive power injection into the
+              grid. We expanded our Scope 2 emissions calculation to include
+              emissions generated from diesel fuelled generators managed by
+              lessors of select premises and emissions generated from solar
+              rooftop related energy intake.
             </p>
             <p className='mb-2'>
               In FY 2023-24, we had expanded the reporting boundary for
-Scope 2 to include electricity consumption-related emissions
-from offsite ATMs and have continued it since. For financial years
-prior to FY 2023-24, these emissions were reported under the
-‘Upstream Leased Assets’ subcategory of Scope 3. As of FY 2024-
-25, our total Scope 2 emissions from purchased electricity for
-corporate offices, branches, independently managed subsidiary
-premises as well as ATMs operated by the Bank, stand at
-1,01,643 tCO2e10. In FY 2024-25, the renewable energy procured
-through open access was removed from the Scope 2 emissions
-calculation as the associated green credits were neither
-traded nor registered for trading. We also included the Scope 2
-emissions from premises operational for less than 6 months; this
-was not accounted previously. The total Scope 1 and Scope 2
-emissions for the Group was 1,17,152 tCO<sub>2</sub>e.
+              Scope 2 to include electricity consumption-related emissions
+              from offsite ATMs and have continued it since. For financial years
+              prior to FY 2023-24, these emissions were reported under the
+              ‘Upstream Leased Assets’ subcategory of Scope 3. As of FY 2024-
+              25, our total Scope 2 emissions from purchased electricity for
+              corporate offices, branches, independently managed subsidiary
+              premises as well as ATMs operated by the Bank, stand at
+              1,01,643 tCO2e10. In FY 2024-25, the renewable energy procured
+              through open access was removed from the Scope 2 emissions
+              calculation as the associated green credits were neither
+              traded nor registered for trading. We also included the Scope 2
+              emissions from premises operational for less than 6 months; this
+              was not accounted previously. The total Scope 1 and Scope 2
+              emissions for the Group was 1,17,152 tCO<sub>2</sub>e.
             </p>
             <p className='mb-2'>
               Since FY 2023-24, emissions from third party managed offsite
-ATMs are being reported under the ‘Purchased Goods and
-Services’ subcategory of Scope 3, which continued in FY 2024-25.
+              ATMs are being reported under the ‘Purchased Goods and
+              Services’ subcategory of Scope 3, which continued in FY 2024-25.
             </p>
           </div>
         </div>
@@ -1146,17 +1146,17 @@ Services’ subcategory of Scope 3, which continued in FY 2024-25.
         </div>
         <p className='mb-2'>
           The emission intensity per FTE for the Group was 1.02, while for
-the Bank it was 1.35. As the Group embraced automation and
-increased the use of technology, the energy requirements were
-expected to outpace the increase in workforce, thus leading to
-higher intensity per FTE. The emissions intensity per ₹ crore
-revenue for the Bank which may be a more appropriate indicator
-of efficiency, reduced to 1.50 in FY 2024-25 from 1.68 for FY
-2023-24. For the Group the emission intensity per ₹crore revenue
-decreased to 1.10 in FY 2024-25 from 1.20 in FY 2023-24. Refer
-BRSR Principle 6 Essential Indicator 7, page  <strong className='text-[202a7d]'>491</strong> for more details
-           for more details
-on GHG Emission intensity information related to the Bank.
+          the Bank it was 1.35. As the Group embraced automation and
+          increased the use of technology, the energy requirements were
+          expected to outpace the increase in workforce, thus leading to
+          higher intensity per FTE. The emissions intensity per ₹ crore
+          revenue for the Bank which may be a more appropriate indicator
+          of efficiency, reduced to 1.50 in FY 2024-25 from 1.68 for FY
+          2023-24. For the Group the emission intensity per ₹crore revenue
+          decreased to 1.10 in FY 2024-25 from 1.20 in FY 2023-24. Refer
+          BRSR Principle 6 Essential Indicator 7, page  <strong className='text-[202a7d]'>491</strong> for more details
+          for more details
+          on GHG Emission intensity information related to the Bank.
         </p>
         <div className='mb-5'>
           <h1 className='font-bold text-black mb-2'>Bank’s Emission Intensity per crore revenue (tCO<sub>2</sub>e/J crore)</h1>
@@ -1184,16 +1184,16 @@ on GHG Emission intensity information related to the Bank.
         </div>
         <p className='mb-2'>
           In FY 2022-23, we conducted a comprehensive scenario
-analysis to project our Scope 1 and Scope 2 emissions over
-short, medium and long-term horizons. This exercise enabled
-us to identify key strategies for emission reduction, including
-increasing renewable energy adoption, adopting energy
-efficiency measures and transitioning to cleaner alternatives.
-During the period under review, we consumed around 6,951
-MWh renewable energy from open access. Furthermore, we
-made investments in solar power infrastructure, installing
-a total capacity of 102 KVA rooftop solar systems across
-five owned premises.
+          analysis to project our Scope 1 and Scope 2 emissions over
+          short, medium and long-term horizons. This exercise enabled
+          us to identify key strategies for emission reduction, including
+          increasing renewable energy adoption, adopting energy
+          efficiency measures and transitioning to cleaner alternatives.
+          During the period under review, we consumed around 6,951
+          MWh renewable energy from open access. Furthermore, we
+          made investments in solar power infrastructure, installing
+          a total capacity of 102 KVA rooftop solar systems across
+          five owned premises.
         </p>
 
         <div className='mb-5'>
@@ -1208,21 +1208,21 @@ five owned premises.
           </div>
           <p className='mb-2'>
             We report Scope 3 emissions across six key categories: capital
-goods, fuel and energy-related emissions, purchased goods
-and services, business travel, employee commute and waste.
-Our total Scope 3 emissions for FY 2024-25 were 42,397 tCO2e13
-.
-Major sources of Scope 3 emissions were from fuel and energy-
-related emissions, capital goods (such as software, IT equipment,
-vehicles and furniture) and business travel. Our assessment helps
-us identify the primary sources of Scope 3 emissions; however,
-certain categories such as post-sales processing and downstream
-asset utilisation were not accounted for in our analysis. Ongoing
-efforts concentrate on refining methodologies to comprehensively
-capture indirect emission sources and further enhance our
-understanding of opportunities for reduction. Refer BRSR Principle
-6 Leadership Indicator 2, page  <strong className='text-[#202a7d]'>495</strong> for more details on Scope 3
-emissions of the Bank.
+            goods, fuel and energy-related emissions, purchased goods
+            and services, business travel, employee commute and waste.
+            Our total Scope 3 emissions for FY 2024-25 were 42,397 tCO2e13
+            .
+            Major sources of Scope 3 emissions were from fuel and energy-
+            related emissions, capital goods (such as software, IT equipment,
+            vehicles and furniture) and business travel. Our assessment helps
+            us identify the primary sources of Scope 3 emissions; however,
+            certain categories such as post-sales processing and downstream
+            asset utilisation were not accounted for in our analysis. Ongoing
+            efforts concentrate on refining methodologies to comprehensively
+            capture indirect emission sources and further enhance our
+            understanding of opportunities for reduction. Refer BRSR Principle
+            6 Leadership Indicator 2, page  <strong className='text-[#202a7d]'>495</strong> for more details on Scope 3
+            emissions of the Bank.
           </p>
           <div className='md:flex gap-5'>
             <div className='md:w-[65%]'>
@@ -1246,23 +1246,23 @@ emissions of the Bank.
           <div className='md:w-[60%]'>
             <p className='mb-2'>
               Given India’s vulnerability to water scarcity, we place significant
-emphasis on prudent water management. To address this
-challenge, we have implemented various measures to optimise
-water usage and reduce our environmental footprint. Municipal
-corporations and tanker services were our primary source
-of water in urban areas and the majority of water usage was
-for human consumption and washrooms. Our approach
-for estimating water usage aligns with the ‘Indian Standard
-1172: Code of Basic Requirements for Water Supply, Drainage
-and Sanitation (1993)’. We estimated water usage at our key
-corporate offices wherever actual data was not available.
-This estimation was based on employee count and average
-number of working days in FY 2024-25, considering daily
-consumption rate of 45 litres per person/day as recommended
-in the SEBI’s latest circular on Sustainable Reporting for BRSR
-Core. In addition to our efforts to optimise water usage, we also
-implemented measures to manage wastewater discharge in a
-responsible manner.
+              emphasis on prudent water management. To address this
+              challenge, we have implemented various measures to optimise
+              water usage and reduce our environmental footprint. Municipal
+              corporations and tanker services were our primary source
+              of water in urban areas and the majority of water usage was
+              for human consumption and washrooms. Our approach
+              for estimating water usage aligns with the ‘Indian Standard
+              1172: Code of Basic Requirements for Water Supply, Drainage
+              and Sanitation (1993)’. We estimated water usage at our key
+              corporate offices wherever actual data was not available.
+              This estimation was based on employee count and average
+              number of working days in FY 2024-25, considering daily
+              consumption rate of 45 litres per person/day as recommended
+              in the SEBI’s latest circular on Sustainable Reporting for BRSR
+              Core. In addition to our efforts to optimise water usage, we also
+              implemented measures to manage wastewater discharge in a
+              responsible manner.
             </p>
           </div>
           <div className='md:w-[35%] p-4 bg-gray-100 rounded-3xl'>
@@ -1271,30 +1271,30 @@ responsible manner.
         </div>
         <p className='mb-2'>
           Three of our key corporate offices are Zero Liquid Discharge
-(ZLD) premises, with sewage treatment plants (STPs) enabling
-treatment and reuse of wastewater, thereby eliminating
-any discharge into the environment. For our other premises,
-where STPs were not available or feasible, we made use of the
-municipal sewage drains to manage wastewater discharge.
-Also, at these three key corporate offices, we utilised 53,477 KL
-in FY 2024-25 of recycled water for non-potable purposes such
-as flushing in washrooms and horticulture activities, thereby
-reducing our dependence on potable water sources. This
-approach aligns with regulatory requirements and ensures that
-our operations contribute to the overall water management.
-Moreover, rainwater-harvesting facility is available at five offices,
-which not only conserves this valuable resource by recharging
-groundwater aquifers but also support irrigation activities at
-the premises. The Bank’s total water withdrawal in FY 2024-25
-was 2,63,789 KL. We have limited the boundary for water
-reporting for FY 2024-25 to key corporate offices. By restricting
-water data reporting to these offices (majority of which have
-water meters) we aim to get a realistic estimate of water
-withdrawal and consumption so we can plan and implement
-conservation measures.
+          (ZLD) premises, with sewage treatment plants (STPs) enabling
+          treatment and reuse of wastewater, thereby eliminating
+          any discharge into the environment. For our other premises,
+          where STPs were not available or feasible, we made use of the
+          municipal sewage drains to manage wastewater discharge.
+          Also, at these three key corporate offices, we utilised 53,477 KL
+          in FY 2024-25 of recycled water for non-potable purposes such
+          as flushing in washrooms and horticulture activities, thereby
+          reducing our dependence on potable water sources. This
+          approach aligns with regulatory requirements and ensures that
+          our operations contribute to the overall water management.
+          Moreover, rainwater-harvesting facility is available at five offices,
+          which not only conserves this valuable resource by recharging
+          groundwater aquifers but also support irrigation activities at
+          the premises. The Bank’s total water withdrawal in FY 2024-25
+          was 2,63,789 KL. We have limited the boundary for water
+          reporting for FY 2024-25 to key corporate offices. By restricting
+          water data reporting to these offices (majority of which have
+          water meters) we aim to get a realistic estimate of water
+          withdrawal and consumption so we can plan and implement
+          conservation measures.
         </p>
         <p className='mb-2'>
-          We have installed low-flow plumbing fixtures, which enable
+          We have installed low-flow plumbing fixtures, enabling
           efficient use of water without compromising functionality or
           user experience. Additionally, we promote a culture of water
           conservation among employees by encouraging responsible
@@ -1316,12 +1316,12 @@ conservation measures.
               We prioritised sustainable practices across all our premises, with
               a focus on efficient waste management. Our efforts concentrate
               on critical areas such as electronic waste (e-waste), battery
-              waste, office supplies (including paper and stationery items),
+              waste, office supplies (including paper and stationery items)
               and organic waste generated from our canteens. Although
-              certain categories like construction waste, plastic waste, scrap
-              metal, wood and glass may not be directly applicable to the
-              financial services sector, we acknowledge the importance of
-              their safe disposal and are committed to minimising them
+              certain categories such as construction waste, plastic waste,
+              scrap metal, wood and glass may not be directly applicable to
+              the financial services sector, we acknowledge the importance
+              of their safe disposal and are committed to minimising them
               wherever feasible. To ensure effective waste segregation, we
               have dedicated collection facilities for both dry and wet waste.
               Through partnerships with authorised vendors, we ensured
@@ -1341,7 +1341,7 @@ conservation measures.
           manure, which was utilised for landscaping and beautification
           purposes within our premises or distributed to nearby housing
           societies. Out of the three STPs at our key corporate offices,
-          one uses Submerged Aerated Fixed Film which resulted in bare
+          one uses Submerged Aerated Fixed Film, which resulted in bare
           minimum quantity of generated sludge, disposal for which was
           not required as it gets recirculated in the aeration tank. For the
           other two that use Membrane Bio Reactor, the sludge generation
@@ -1350,31 +1350,39 @@ conservation measures.
         </p>
         <p className='mb-2'>
           The overall waste generation was 1,536.8 metric tonnes across
-          our key corporate offices for FY 2024-25. Of this, about 735 metric
-          tonnes of the generated waste was either reused or recycled.
-          The hazardous waste, including used oil, e-waste, and batteries,
-          amoun ted to 72.8 metric tonnes and was recycled through authorised vendors, except bio-medical waste which was incinerated.
-          Additionally, 250.4 metric tonnes of non-hazardous organic
-          waste (food) was composted through onsite OWCs and authorised
-          vendors, while 411.7 metric tonnes of non-hazardous waste like plastic, paper, and metal was recycled through authorised vendors.
-          A minimal amount of hazardous bio-medical waste of 0.002 metric tonnes and 4.8 metric tonnes of sanitary waste
-          was given to authorised vendors and incinerated.
-          About 797 metric tonnes was sent to landfill, which primarily comprised construction and demolition waste and paper.
-          We intend to work towards enhancing our waste management practices, even as this topic is not considered material for the financial services sector.
-          Waste data coverage for e-waste and construction & demolition waste was for the entire Bank, whereas data for all other types of waste
-          was limited to the larger corporate offices due to data collection limitations.
-          Details of waste generated at the Bank can be found on page <strong className='text-[#252f80]'>493</strong> of the report.
+          our key corporate offices for FY 2024-25, of which about 735
+          metric tonnes was either reused or recycled. Majority of
+          the hazardous waste such as used oil, e-waste and batteries
+          amounting to 72.8 tonnes was recycled through authorised
+          vendors, except bio-medical waste which was incinerated. In
+          addition, about 250.4 metric tonnes of non-hazardous organic
+          waste (food) was composted through onsite OWC and authorised
+          vendors, while other non-hazardous waste like plastic, paper
+          and metal etc. amounting to 411.7 metric tonnes was recycled
+          through authorised vendors. A minimal amount of hazardous
+          biomedical waste of 0.002 metric tonnes and 4.8 metric
+          tonnes of sanitary waste was given to authorised vendors
+          which was incinerated . About 797 metric tonnes was sent to
+          landfill, which primarily comprised construction and demolition
+          waste and paper. We intend to work towards enhancing
+          our waste management practices, even as this topic is not
+          considered material for the financial services sector. Waste data
+          coverage for e-waste and construction and demolition waste
+          was for the entire Bank, whereas data for all other types of waste
+          was limited to the larger corporate offices due to data collection
+          limitations. Details of waste generated at the Bank can be found on
+          page <strong className='text-[#252f80]'>493</strong> of the report.
         </p>
       </div>
       <div className='mb-5'>
         <h1 className='text-xl mb-2 text-[#252f80] font-semibold'>Methodology for Waste Calculation</h1>
         <p className='mb-2'>
-          In FY 2023-24, the data for various categories of waste was primarily reported for select corporate offices and bank branches based on
+          In FY 2023-24, the data for various categories of waste was primarily reported for select corporate offices and Bank branches based on
           available actual recorded data and associated estimation. In line with evolving sustainability reporting standards, we have adopted
-          an updated methodology and revised the estimation methodology in FY 2024-25 to provide more comprehensive and accurate
-          information. In FY 2024-25, Kotak expanded its waste management coverage to include sanitary waste and STP sludge. This expansion
-          contributed to an increase in our total waste disposal figures. Details of the waste categories, scope and boundary and methodology
-          for calculation are mentioned below:
+          an updated calculation and estimation methodology in FY 2024-25 to provide more comprehensive and accurate information. Kotak
+          expanded its waste management coverage to include sanitary waste and STP sludge also in FY 2024-25. This expansion contributed to
+          an increase in our total waste disposal quantity. Details of the waste categories, scope and boundary and methodology for calculation
+          are mentioned below:
         </p>
         <WasteSlider />
       </div>
@@ -1409,7 +1417,8 @@ conservation measures.
             In FY 2024-25, we adopted an initiative to utilise recycled
             paper, which was implemented at select key corporate offices,
             resulting in a total savings of about 7.6 tons of virgin paper
-            during the year, leading to avoidance of emissions equivalent to 10.2 tCO<sub>2</sub>e. Furthermore, Sonata, one of our microcredit
+            during the year, leading to avoidance of emissions equivalent
+            to 10.2 tCO<sub>2</sub>e. e. Furthermore, Sonata, one of our microcredit
             subsidiaries, digitised its entire loan management process
             from sourcing to disbursement, significantly reducing reliance
             on physical documentation. This includes electronic signing
@@ -1439,7 +1448,15 @@ conservation measures.
                     01
                   </div>
                   <p class="mt-6">
-                    To promote a culture of environmental stewardship within our organisation, we conduct regular employee awareness sessions that reinforce our commitment to environmentally responsible practices across all levels of the company.
+                    To promote a culture of
+                    environmental stewardship
+                    within our organisation, we
+                    conduct regular employee
+                    awareness sessions that
+                    reinforce our commitment to
+                    environmentally responsible
+                    practices across all
+                    levels of the company.
                   </p>
                 </div>
 
@@ -1449,7 +1466,15 @@ conservation measures.
                     02
                   </div>
                   <p class="mt-6 ">
-                    To encourage the adoption of eco-friendly transportation options, we have installed electric vehicle charging stations at our key offices, providing our employees with convenient access to sustainable commuting alternatives.
+                    To encourage the adoption of
+                    eco-friendly transportation
+                    options, we have installed
+                    electric vehicle charging
+                    stations at our key
+                    offices, providing our
+                    employees with convenient
+                    access to sustainable
+                    commuting alternatives.
                   </p>
                 </div>
 
@@ -1459,7 +1484,16 @@ conservation measures.
                     03
                   </div>
                   <p class="mt-6 ">
-                    We have implemented Green Seal Housekeeping chemicals at three of our key premises, contributing to a healthier indoor environment for our employees while also reducing our environmental impact through the use of more environmentally friendly cleaning solutions.
+                    We have implemented Green
+                    Seal Housekeeping chemicals
+                    at three of our key premises,
+                    contributing to a healthier
+                    indoor environment for our
+                    employees while also reducing
+                    our environmental impact
+                    through the use of more
+                    environmentally friendly
+                    cleaning solutions.
                   </p>
                 </div>
               </div>
@@ -1474,9 +1508,9 @@ conservation measures.
             through strategic initiatives, focusing primarily on optimising
             resource consumption across our energy and water usage.
             Staying abreast of evolving regulatory requirements, industry
-            standards and stakeholder expectations through active engagement with relevant authorities, trade associations and
-            other key stakeholder groups. We are investing in energy-
-            efficient technologies and are looking to diversify our power
+            standards and stakeholder expectations through active
+            engagement with relevant authorities, trade associations and
+            other key stakeholder groups. We are investing in energyefficient technologies and are looking to diversify our power
             mix further by increasing our reliance on renewable energy
             sources. We aim to refine and enhance our sustainability
             practices, ultimately contributing to long-term value creation

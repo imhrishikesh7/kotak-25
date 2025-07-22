@@ -108,18 +108,21 @@ const BusinessOverview = () => {
   return (
     <div className="min-h-scree bg-gray-100 z-0 p-6">
       <div className="max-w-7xl mx-auto">
-        <div className='marginal mx-auto text-center'>
+        
+        
+       <div className='text-center flex flex-col justify-center h-full mb-5'>
           <Reveal animation="slide-up">
-            <h3 className="text-2xl mb-2 font-bold text-[#ed1c25]">Business Overview</h3>
+            <h3 className="text-2xl font-bold text-[#ed1c25]">Business Overview</h3>
           </Reveal>
-          <div className='flex w-[50px] mx-auto'>
+          <div className='flex w-[50px] my-2 mx-auto'>
             <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
             <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
           </div>
           <Reveal animation="slide-up">
-            <h1 className="text-3xl md:text-5xl pb-2 font-light text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Diversified businesses with a unified vision</h1>
+            <h1 className="text-3xl md:text-[3.5vw] pb-2 font-ligh text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text">Diversified businesses with a unified vision</h1>
           </Reveal>
         </div>
+        
         <div className=" flex md:flex-row flex-col gap-6 h-scree">
           {/* Left Column - Banking and Lending */}
           <div

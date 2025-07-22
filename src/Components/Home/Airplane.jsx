@@ -65,7 +65,7 @@ const Airplane = ({ backgroundImage = './AboutUs/planebg.webp', airplaneImage = 
     return (
         <div
             ref={containerRef}
-            className="relative h-[65vh] overflow-hidden"
+            className="relative h-[65vh]  overflow-hidden"
             style={{
                 perspective: '1000px',
                 perspectiveOrigin: '50% 50%'
@@ -73,7 +73,7 @@ const Airplane = ({ backgroundImage = './AboutUs/planebg.webp', airplaneImage = 
         >
             {/* Background image */}
             <div
-                className="absolute inset-0 w-full bg-cover bg-center bg-no-repeat"
+                className="absolute inset-0  w-full bg-cover bg-center bg-no-repeat"
                 style={{
                     backgroundImage: `url(${backgroundImage})`
                 }}

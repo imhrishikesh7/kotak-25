@@ -19,27 +19,46 @@ import TransformingForScale from '../../Components/Home/TransformingForScale'
 import SEMA from '../../Components/Home/SEMA'
 import TechnologyHome from '../../Components/Home/TechnologyHome'
 import TalentHome from '../../Components/Home/TalentHome'
+import BO from '../../Components/Home/BO'
 
 const Home = () => {
     return (
         <div className='overflow-hidden'>
-            <Cover />
-            <TransformingForScale/>
+            <div className='bg-[#fcfcfc]'>
+                <Cover />
+            </div>
+            <TransformingForScale />
             <Aboutus />
+            <div className='relative'>
+                <Airplane />
+                <div className='bg-[#F2F2F2]'>
+                    <div className='pt-10'>
+                        <Reveal animation="slide-up">
+                            <h3 className="text-xl text-center mb-3 font-bold text-white bg-[#ed1c25] w-fit mx-auto py-1 px-4 rounded-xl">Kotak Universe</h3>
+                            {/* <div className='flex w-[50px] mx-auto'>
+                                <div className='h-[2px] bg-[#ed1c25] w-1/2 mx-auto' />
+                                <div className='h-[2px] bg-[#013367] w-1/2 mx-auto' />
+                            </div> */}
+                        </Reveal>
+                        <KeyHighlights />
+                    </div>
+                </div>
+            </div>
             <BOD />
             <Message />
             <BusinessOverview />
+            <BO/>
             <TechnologyHome />
             <IPhone />
-            <TalentHome/>
+            <TalentHome />
             <KPIHome />
-            <SEMA/>
+            <SEMA />
             <Strategy />
             <VCModel />
             <SusSnapshots />
             <AwardsSlider />
             <div id="download-center" >
-            <DownloadCenter />
+                <DownloadCenter />
             </div>
         </div>
     )

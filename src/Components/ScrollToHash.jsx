@@ -9,21 +9,36 @@ const ScrollToHash = () => {
 
     const hash = location.hash;
     let attempts = 0;
-
+    const maxAttempts = 50; // Increased attempts
+    
     const scrollToTarget = () => {
       const target = document.querySelector(hash);
       if (target) {
-        const yOffset = -80; // Adjust based on fixed header height
-        const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-        window.scrollTo({ top: y, behavior: 'smooth' });
-      } else if (attempts < 20) {
+        // Wait a bit more to ensure images are rendered
+        setTimeout(() => {
+          const yOffset = -80;
+          const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }, 100);
+      } else if (attempts < maxAttempts) {
         attempts++;
-        setTimeout(scrollToTarget, 100); // Try again in 100ms
+        setTimeout(scrollToTarget, 200); // Increased interval
       }
     };
 
-    scrollToTarget();
+    // Add a small delay before starting
+    setTimeout(scrollToTarget, 300);
+    
+    // Also listen for window load event
+    const handleWindowLoad = () => {
+      setTimeout(scrollToTarget, 100);
+    };
+    
+    window.addEventListener('load', handleWindowLoad);
+    
+    return () => {
+      window.removeEventListener('load', handleWindowLoad);
+    };
   }, [location]);
 
   return null;

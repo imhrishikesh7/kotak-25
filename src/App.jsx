@@ -28,6 +28,7 @@ import SusSnapshots from './Components/Home/SusSnapshots';
 import VCModel from './Components/Home/VCModel';
 import Awards from './pages/Awards';
 import Community from './pages/Community';
+import TransformingForScale from './pages/TransformingForScale';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/transforming" element={<TransformingForScale />} />
         <Route path="/about" element={<About />} />
         <Route path="/board-of-directors" element={<BOD />} />
         <Route path="/message-from-ashok-vaswani" element={<AshokMessage />} />

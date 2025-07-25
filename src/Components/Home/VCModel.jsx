@@ -129,7 +129,7 @@ export default function VCModel() {
   }, [isModalOpen, isDragging, dragStart, position]);
 
   return (
-    <div className="min-h-screen bg-[#F2F2F2] px-4">
+    <div className=" bg-[#F2F2F2] px-4">
       <div className="marginal mx-auto">
    
          <div className="w-fit mx-auto mb-6 md:text-center">
@@ -164,7 +164,7 @@ export default function VCModel() {
             onClick={openModal}
           >
             <img
-              src="./home/vcmodel.webp"
+              src="\home\Table.png"
               className='h-full rounded-3xl hover:opacity-50 transition-opacity pointer-events-none'
               alt="Value Creation Model"
             />
@@ -230,7 +230,7 @@ export default function VCModel() {
           >
             <img
               ref={imageRef}
-              src="./home/vcmodel.webp"
+              src="home\Table.png"
               alt="Value Creation Model"
               className="transition-transform duration-200 ease-out select-none"
               style={{
@@ -258,7 +258,7 @@ export default function VCModel() {
         </div>
       )}
 
-      <div className='w-[90%] mx-auto pb-5'>
+      {/* <div className='w-[90%] mx-auto pb-5'>
         <p className='text-xs mb-1'>
           *On Consolidated basis except where stated | **In addition, Bank branches are present in DIFC (Dubai) & GIFT City (Gujarat), Kotak Securities network includes branches, franchises and referral co-ordinators |
           <br />
@@ -267,7 +267,7 @@ export default function VCModel() {
         <p className='text-xs'>
           *On Consolidated basis except where stated | <sup><span className="text-red-600 text-xs ml-1">▲</span></sup> YoY Increase | <sup><span className="text-red-600 text-xs ml-1 transform rotate-180 inline-block">▲</span></sup> YoY Decrease | **Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to Rs. 3,013 crore | $ Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days |^As per green activities/projects indicated in the RBI’s ‘Framework for acceptance of Green deposits’ issued in April, 2023, based on internal mapping | ^^Improvement in score over the period July 2023 to March 2025 | #refers to all employees on full time (permanent and fixed term contracts) and part time roles | ##Of the respondents of survey by the Great Place To Work® Institute (India)
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -877,7 +877,7 @@ const Sustainable1 = () => {
           <div className='text-sm text-gray-700 mb-5 border-t-1 mt-5 pt-1'>
             <sup>4</sup>On 18th June, 2024, the Bank completed the divestment of 70% stake in its subsidiary Kotak Mahindra General Insurance Company Limited (“KGI”) to
             Zurich Insurance Company Limited (“Zurich”). Consequent to this sale, KGI ceased to be a subsidiary of the Bank and became an Associate with effect from
-            18th June, 2024. As at 31st March 2025, the Bank continues to hold the remaining 30% of the share capital in said company. | <sup>5</sup>GRI 302-4
+            18th June, 2024. As at 31st March 2025, the Bank continues to hold the remaining 30% of the share capital in said company.
           </div>
         </div>
         <div className='mb-5'>

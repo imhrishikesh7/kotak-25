@@ -84,6 +84,7 @@ const KPIHome = () => {
                     <p>
                         All numbers are on a consolidated basis except where stated
                     </p>
+                    
                 </Reveal>
             </div>
             {/* Tabs */}
@@ -103,7 +104,7 @@ const KPIHome = () => {
             </div>
 
             {/* Grid Layout */}
-            <div className="w-full bg-white rounded-2xl p-6 overflow-hidden mx-auto">
+            <div className="w-full bg-white rounded-2xl overflow-hidden mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {chartImages[activeTab].map((src, index) => (
                         <div key={index}>
@@ -121,17 +122,17 @@ const KPIHome = () => {
                     ))}
                 </div>
             </div>
-            
-            <div className='mt-6'>
+
+            <div className='px-4'>
                 {activeTab === 'Operational Metrics' && (
-                    <p className="text-xs flex items-start gap-1">
-                       <span><IoMdArrowDropupCircle className='mt-[1px]'/></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
+                    <p className="text-xs flex items-start gap-1 mt-5">
+                        <span><IoMdArrowDropupCircle className='mt-[1px]' /></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
                     </p>
                 )}
 
                 {activeTab === 'Group Company Metrics' && (
                     <p className="text-xs flex items-start gap-1">
-                        <span><IoMdArrowDropupCircle className='mt-[1px]'/></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April'23, accordingly previous period numbers are recomputed | <br />
+                        <span><IoMdArrowDropupCircle className='mt-[1px]' /></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April'23, accordingly previous period numbers are recomputed | <br />
                         **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
                     </p>
                 )}

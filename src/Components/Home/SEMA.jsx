@@ -69,7 +69,7 @@ const SEMA = () => {
     }, []);
 
     return (
-        <div className="margina">
+        <div className="marginal">
             <div className='w-full marginal py-6 md:py-6'>
                 <div className='mx-auto md:text-center'>
                     {/* Mobile-First Centered Layout */}
@@ -148,7 +148,7 @@ const SEMA = () => {
                 {/* Text Content - Only visible on desktop */}
                 <div
                     ref={textRef}
-                    className="hidden lg:flex absolute right-24 top-[25%] w-[40vw] border flex-col"
+                    className="hidden lg:flex absolute right-24 top-[25%] w-[40vw] flex-col"
                 >
 
                     <p className="text-lg text-white leading-relaxed drop-shadow-md">

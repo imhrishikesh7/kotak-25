@@ -51,7 +51,7 @@ const page2 = () => {
         <h1 className='text-3xl font-bold text-[#ed1c2f] border-b-3 w-fit mb-4 pb-2'>Stakeholder Engagement and Materiality Assessment</h1>
         <div className="hidden md:block w-full h-full relative md:pt-20 md:pb-30">
           <div
-            className="absolute inset-0 bg-contain bg-center rounded-3xl"
+            className="absolute inset-0 bg-cover bg-center rounded-3xl"
             style={{ backgroundImage: "url('/home/hausla.webp')" }}
           ></div>
           <div className="relative h-full p-8 flex items-center justify-end text-white">
@@ -153,7 +153,7 @@ const page2 = () => {
             </div>
           </div>
           <h1 className='text-xl mb-3 text-[#ed1c2f] font-semibold' >
-            Materiality Assessment <sup>1</sup>
+            Materiality Assessment 
           </h1>
           <h2 className='text-xl mb-2 text-[#252f80] font-semibold'>
             Materiality Assessment Journey
@@ -181,9 +181,6 @@ const page2 = () => {
         </div>
 
       </div>
-      <p className='text-sm text-gray mb-5'>
-        <sup>1</sup>GRI 3-1
-      </p>
       <div className='mb-5'>
         <img src="/Stakeholders/1.webp" alt="" className='rounded-3xl' />
       </div>
@@ -242,7 +239,7 @@ const page2 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>
-          Materiality Assessment Outcome <sup>3</sup>
+          Materiality Assessment Outcome 
         </h1>
         <p className='mb-2'>
           The Outcome of Materiality Assessment conducted for FY 2023-24 was as follows:
@@ -253,7 +250,7 @@ const page2 = () => {
       </div>
 
       <div className="border rounded-xl p-4 bg-white text-lg  shadow-sm mb-5">
-        <p className="text-black font-semibold mb-1">Material issues³</p>
+        <p className="text-black font-semibold mb-1">Material issues</p>
         <p className=" mb-4">
           Our Material issues are categorised into the following:
         </p>
@@ -282,23 +279,24 @@ const page2 = () => {
           ))}
         </div>
 
-        <p className='mt-5 text-xs text-gray-700'>
-          <sup>3</sup>GRI 3-2
-        </p>
+        
       </div>
       <div className='text-lg mb-10'>
         <h1 className='text-xl text-[#252f80] mb-1 font-semibold'>
           Key Performance on Material Topics -FY 2024-25
         </h1>
         <p className='mb-1'>
-          Material Topics for our organisation and the related key performance indicators covered in this Report <sup>3</sup> are in the table depicted below-
+          Material Topics for our organisation and the related key performance indicators covered in this Report  are in the table depicted below-
         </p>
         <div className='mt-10'>
           <div>
             <img src="/Stakeholders/Page3-1.webp" alt="" />
           </div>
           <div>
-            <img src="/Stakeholders/Image-34-Box.webp" alt="" />
+            <img src="/Stakeholders/Page-34.png" alt="" />
+          </div>
+          <div>
+            <img src="/Stakeholders/Data-privacy-Table-Page no 34 (1).png" alt="" />
           </div>
         </div>
 

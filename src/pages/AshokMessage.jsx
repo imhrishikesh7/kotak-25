@@ -4,7 +4,7 @@ const AshokMessage = () => {
     return (
         <div className='marginal'>
             <div className="text-xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
-                Message from Ashok Vaswani<sup>1</sup>
+                Message from Ashok Vaswani
             </div>
             <h1 className="text-4xl font-bold text-[#ed1c2f]">
                 Transforming for scale

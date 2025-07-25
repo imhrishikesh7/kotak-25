@@ -171,9 +171,9 @@ const Safeguarding1 = () => {
           { value: '115.71%', label: 'Group’s Net Stable Funding Ratio' },
         ]}
         materialTopics={[
+          'Data Security and Resilient IT Systems',
           'ESG and Climate Risk Management in Lending and Investments',
           'Operational Eco-efficiency and Resilience to Climate Change',
-          'Data Security and Resilient IT Systems',
         ]}
         capitalLinkage={[
           {
@@ -188,7 +188,7 @@ const Safeguarding1 = () => {
         sdgs={['/All_Icons/6.webp', '/All_Icons/16.webp']}
         highlightSuperscript="*" // Superscript added here!
       />
-      <div className='text-sm text-gray-700 mb-5 mt-1'>
+      <div className='text-sm text-gray-700 mb-5 mt-1 italic'>
         *The values are as on 31st March, 2025
       </div>
       <div className='mt-5 mb-5'>
@@ -206,10 +206,8 @@ const Safeguarding1 = () => {
             <p className='mb-2'>
               The Enterprise-wide Risk Management (ERM) framework
               provides a unified and integrated approach to managing risks,
-              enabling the group to balance risk and return while driving long-
-              term sustainability, shareholder value creation and financial
-              strength. The framework also supports delivery of customer-
-              centric products and services. The ERM policy, which guides
+              enabling the group to balance risk and return while driving long-term sustainability, shareholder value creation and financial
+              strength. The framework also supports delivery of customer-centric products and services. The ERM policy, which guides
               the ERM framework, forms the basis for risk management
               across the group, with tailored modifications for individual
               businesses. A suite of policies and procedures supports this
@@ -319,7 +317,7 @@ const Safeguarding1 = () => {
             </p>
             <div className='md:flex gap-5'>
               <div className='md:w-[65%]'>
-                <h1 className='mb-2 font-bold text-black'>Mitigating action</h1>
+                <h1 className='mb-2 font-bold text-black'>Mitigating Actions</h1>
                 <p className='mb-2'>
                   The Data Privacy Policy governs the overall management including
                   handling of personally identifiable information of customers and
@@ -450,7 +448,7 @@ const Safeguarding1 = () => {
           </div>
         </div>
         <div className='mb-5'>
-          <h1 className='font-bold text-black mb-1'>Mitigating action</h1>
+          <h1 className='font-bold text-black mb-1'>Mitigating Actions</h1>
           <p className='mb-2'>
             A dedicated ESG function within our Bank focuses on addressing
             ESG and climate risks. The Heads of CSR and ESG and the
@@ -466,8 +464,7 @@ const Safeguarding1 = () => {
           </p>
           <p className='mb-2'>
             Considering the escalating threat of climate-related risks to the
-            broader economy, we undertook a forward-looking, scenario-
-            based assessment of climate risk and opportunities in FY
+            broader economy, we undertook a forward-looking, scenario-based assessment of climate risk and opportunities in FY
             2022-23 and FY 2023-24, in alignment with global guidelines.
             We have employed a two-pronged approach to understand
             the potential climate-related risks that may impact our

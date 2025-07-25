@@ -37,7 +37,7 @@ const Excellence = () => {
           { value: "~20 years", label: "Average tenure of leadership team with the Group" },
           { value: "ISO/IEC27001", label: "Certified Information security management system" },
         ]}
-        materialTopics={["Data Security and Resilient IT Systems", "Regulatory Compliance", "Data Privacy", "Business Ethics", "Corporate Governance", "Brand Recognition"]}
+        materialTopics={["Regulatory Compliance", "Corporate Governance","Business Ethics", "Data Privacy",  "Data Security and Resilient IT Systems", "Brand Recognition"]}
         capitalLinkage={[
           {
             label: "Social and Relationship Capital",
@@ -103,8 +103,7 @@ const Excellence = () => {
             Senior Management Personnel.
           </p>
           <p className='mb-2'>
-            Further details on our policies can be found on pages <strong className='text-[#212b7e]'>503-506</strong>
-            of this report.
+            Further details on our policies can be found on pages <strong className='text-[#212b7e]'>503-506</strong> of this report.
           </p>
           <h1 className='text-xl text-[#13206b] font-semibold mb-2'>
             Composition of the Board
@@ -134,7 +133,7 @@ const Excellence = () => {
       </div>
       <div className='mb-2'>
         <h1 className='text-xl text-[#252f80] font-semibold mb-2'>
-          Fostering a culture of ethics
+          Fostering a Culture of Ethics
         </h1>
         <p className='mb-2'>
           We have established a framework to communicate our
@@ -150,8 +149,7 @@ const Excellence = () => {
           Employees receive CoC training upon joining and are also
           required to confirm adherence to the same annually.3
           We empower our employees to champion responsible
-          behavior through regular training sessions and awareness-
-          building initiatives.
+          behavior through regular training sessions and awareness-building initiatives.
         </p>
         <p className='mb-2'>
           Our anti-bribery and anti-corruption philosophy is enshrined in
@@ -204,7 +202,7 @@ const Excellence = () => {
               staff accountability in fraud cases. This committee also review
               the mitigating measures taken by Bank to strengthen internal
               controls and oversees fraud risk management framework to minimise the fraud risk. Refer to ‘Management’s Discussion and
-              Analysis’ section of the report on page 452 for further details on
+              Analysis’ section of the report on page <strong className='text-[#212b7e]'>453</strong> for further details on
               fraud risk management.
             </p>
             <p className='mb-2'>
@@ -306,15 +304,14 @@ const Excellence = () => {
         <img src="/Delivery_Excellence/Chart-Kotak.png" alt="" className='mb-2' />
         <div className='mb-2'>
           <h1 className='text-xl text-[#252f80] font-semibold mb-2'>
-            Prevention through focused initiatives
+            Prevention Through Focused Initiatives
           </h1>
           <p className='mb-2'>
             Real-time monitoring forms a cornerstone of our cybersecurity
             operations. Critical applications, databases and network devices
             are continuously monitored, generating about 4 million metrics
             per minute. These metrics are fed into a centralised incident
-            management and alerting system, enabling proactive service-
-            level monitoring, rapid incident detection and swift resolution.
+            management and alerting system, enabling proactive service-level monitoring, rapid incident detection and swift resolution.
           </p>
           <p className='mb-2'>
             Additionally, we have upgraded our technical infrastructure to be
@@ -407,7 +404,7 @@ const Excellence = () => {
         <div className='md:flex md:flex-row gap-5 mb-2 items-center'>
           <div className='md:w-1/2'>
             <h1 className='text-xl text-[#252f80] font-semibold mb-2'>
-              Trainings provided to augment IT Security
+              Trainings Provided to Augment IT Security
             </h1>
             <p className='mb-2'>
               We provide comprehensive induction training, including

@@ -21,11 +21,7 @@ const benefits = [
     description:
       "PRAISE ratings safeguarded during maternity leave.",
   },
-  {
-    title: "Employee Assistance Programme",
-    description:
-      "24×7 access to professional counseling for personal and professional support.",
-  },
+  
   {
     title: "Kotak Relaunch Programme",
     description:
@@ -55,6 +51,11 @@ const benefits = [
     title: "SheUnites Sessions",
     description:
       "Leadership engagement forums promoting DEIB, career growth and peer networking.",
+  },
+  {
+    title: "Employee Assistance Programme",
+    description:
+      "24×7 access to professional counseling for personal and professional support.",
   },
 ];
 
@@ -96,12 +97,7 @@ const Empowering1 = () => {
       </div>
       <div class="md:flex bg-white rounded-xl border-2 border-red-500 overflow-hidden shadow-md mb-5  ">
 
-        <div class="md:w-[30%]">
-          <img src="/Empowering/Empowering0.webp" alt="Anupam Kaura" class="h-full w-full object-cover" />
-        </div>
-
-
-        <div class="md:w-[70%] p-6 relative flex flex-col justify-between">
+        <div class="md:w-full p-6 relative flex flex-col justify-between">
           <div class="absolute top-2 left-2 text-red-500 text-2xl font-bold">❝</div>
 
 
@@ -134,9 +130,9 @@ const Empowering1 = () => {
         </div>
 
       </div>
-      <p className='mb-5 text-sm text-gray-700'>
-        <sup>*</sup> In this report, colleague(s) refers to all employees on full time (permanent and fixed term contracts) and part time roles.
-      </p>
+      <div className="text-sm text-gray-700 mb-5 mt-1 italic">
+        In this report, colleague(s) refers to all employees on full time (permanent and fixed term contracts) and part time roles.
+      </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
           Overview of Our Workforce
@@ -148,7 +144,7 @@ const Empowering1 = () => {
           staff <sup>*</sup>. 68% of the Group employees are permanent. Our
           permanent workforce has shown a steady increase YoY.
           There has been a marked decline in contractual roles
-          at the Bank and subsidiaries with life insurance being
+          at the Bank and subsidiaries, with KLO being
           the only exception <sup>*</sup>.
         </p>
         <p className='mb-2'>
@@ -516,7 +512,7 @@ const Empowering1 = () => {
 
             {/* Testimonial Text */}
             <p className="text-[#252f80]  ">
-              KYLC has been an exciting journey! The handson projects, inspiring mentors and real-time
+              KYLC has been an exciting journey! The hands-on projects, inspiring mentors and real-time
               challenges are shaping me into a stronger,
               more confident leader every day.
             </p>
@@ -574,7 +570,7 @@ const Empowering1 = () => {
               and, most importantly, to focus on their
               effective implementation.
             </p>
-            <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
+            <div className="text-red-600 text-2xl font-bold text-right mt-2">❞</div>
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Akhil Jain
             </p>
@@ -834,7 +830,7 @@ const Empowering1 = () => {
           In FY 2024-25, through a targeted initiative we engaged with a
           NGO to provide internship opportunities to differently abled
           people and seven differently abled professionals completed
-          internship with us. Post which they were on-boarded into fulltime roles with the Bank. Smooth transition was supported
+          internship with us. Post which they were on-boarded into full-time roles with the Bank. Smooth transition was supported
           through sensitisation workshops for their managers and peers,
           fostering a culture of acceptance, empathy and understanding.
         </p>

@@ -234,7 +234,7 @@ export default function VCModel() {
               alt="Value Creation Model"
               className="transition-transform duration-200 ease-out select-none"
               style={{
-                transform: `translate(${position.x}px, ${position.y}px) scale(${scale})`,
+                transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px)) scale(${scale})`,
                 transformOrigin: 'center center',
                 maxHeight: '90vh',
                 maxWidth: '90vw',
@@ -244,8 +244,7 @@ export default function VCModel() {
                 margin: 'auto',
                 position: 'absolute',
                 top: '50%',
-                left: '50%',
-                transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px)) scale(${scale})`
+                left: '50%'
               }}
               draggable={false}
             />
@@ -253,7 +252,7 @@ export default function VCModel() {
           </div>
 
           {/* Instructions */}
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 rounded-lg px-4 py-2 text-sm text-center">
+          <div className="absolute bottom-4 left-1/2 transform-translate-x-1/2 bg-white bg-opacity-90 rounded-lg px-4 py-2 text-sm text-center">
             <p>Use mouse wheel or buttons to zoom • Drag to pan when zoomed • Press ESC to close</p>
           </div>
         </div>

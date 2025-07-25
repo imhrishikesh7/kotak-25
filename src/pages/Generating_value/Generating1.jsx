@@ -43,7 +43,7 @@ const Generating1 = () => {
           "/Generating/Key/Icon2.webp",
         ]}
       />
-      <p className='mb-5 text-sm text-gray-500 mt-1'>
+      <p className='mb-5 text-sm text-gray-500 mt-1 italic'>
         *at the Bank |** Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days | <sup>#</sup>
         In comparison to 80% in FY 2024-25
       </p>
@@ -102,7 +102,7 @@ const Generating1 = () => {
             To institutionalise a culture of empathy and responsiveness, we
             implemented a suite of customer-centric policies which embed
             responsibility and transparency across the organisation. The
-            details of the policies are available in our BRSR disclosures on pages <strong className='text-[212b7e]'>503-506</strong>. These efforts are complemented by structured
+            details of the policies are available in our BRSR disclosures on pages <strong className='text-[#212b7e]'>503-506</strong>. These efforts are complemented by structured
             engagement with customers and internal stakeholders, ensuring
             that every touchpoint is aligned with our broader digital
             transformation agenda.
@@ -171,7 +171,7 @@ const Generating1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-[#ef3e4c] text-xl font-semibold mb-2'>
-          Superior Service experience
+          Superior Service Experience
         </h1>
         <div className='mb-5'>
           <p className='mb-2'>
@@ -234,7 +234,7 @@ const Generating1 = () => {
             2024 to March 2025.
           </p>
         </div>
-        <p className='mb-5 text-sm '>
+        <p className='mb-5 text-sm italic'>
           *Voice channel is an initiative to ensure seamless integration between Digital(digital platforms), Phygital (virtual relationship mangers, live support etc.)
           and Physical(branches and relationship managers). Further details in ‘Digital Powerhouse’ section of the report on pages <strong className='text-[#212b7e]'>24-25</strong>
         </p>
@@ -266,7 +266,7 @@ const Generating1 = () => {
               <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
             </div>
             <div className='font-semibold text-[#003974]'>
-              Responsible debt collection
+              Responsible Debt Collection
             </div>
           </div>
           <p className='mb-4'>
@@ -283,7 +283,7 @@ const Generating1 = () => {
               <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
             <div className='font-semibold text-[#ed1d24]'>
-              Service quality monitoring
+              Service Quality Monitoring
             </div>
           </div>
           <p className='mb-4'>
@@ -299,7 +299,7 @@ const Generating1 = () => {
               <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
             </div>
             <div className='font-semibold text-[#003974]'>
-              Personalised customer journey
+              Personalised Customer Journey
             </div>
           </div>
           <p className='mb-4'>
@@ -323,7 +323,7 @@ const Generating1 = () => {
               <img src="/Generating/SuperiorService/Icon6.webp" alt="" />
             </div>
             <div className='font-semibold text-[#ed1d24]'>
-              Responsible advertising
+              Responsible Advertising
             </div>
           </div>
           <p className='mb-4'>
@@ -347,7 +347,7 @@ const Generating1 = () => {
                 <img src="/Generating/SuperiorService/Icon7.webp" alt="" />
               </div>
               <div className='font-semibold text-[#003974]'>
-                Proactive prevention of Fraud
+                Proactive Prevention of Fraud
               </div>
             </div>
             <div className='md:flex gap-5 mb-5'>
@@ -380,211 +380,209 @@ const Generating1 = () => {
                 <img src="\Generating\SuperiorService\Handshake.webp" alt="" className='rounded-3xl' />
               </div>
             </div>
-            <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>Customer stories </h1>
+          </div>
+          <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>Customer stories </h1>
 
-            <div className='p-4 bg-[#d4effd] rounded-3xl mb-5'>
+          <div className='p-4 bg-[#d4effd] rounded-3xl mb-5'>
+            <p className='mb-2'>
+              At one of our Hyderabad branches, a potential fraud
+              amounting to approximately ₹ 30 lakh was successfully
+              averted due to the vigilance and coordinated efforts of our
+              frontline staff. When a senior citizen customer requested
+              premature closure of a term deposit and an immediate
+              RTGS transfer, our staff sensed unusual behaviour and
+              escalated the matter.
+            </p>
+            <p className='mb-2'>
+              Upon further engagement, it was discovered that the
+              customer had been coerced by fraudsters impersonating
+              law enforcement officials. The branch team acted swiftly by
+              declining the transaction, maintaining communication with
+              the customer’s spouse, involving a trusted family friend and
+              alerting the customer’s children abroad. After sustained
+              efforts, the customer was convinced of the fraudulent
+              nature of the threat.
+            </p>
+            <p className='mb-2'>
+              This incident underscored the impact of our fraud
+              awareness training and the critical role of frontline staff
+              in protecting vulnerable customers through proactive,
+              empathetic intervention.
+            </p>
+          </div>
+          <div className='p-4 bg-[#d4effd] rounded-3xl mb-5'>
+            <p className='mb-2'>
+              At one of our branches in Pondicherry, a high-value fraud
+              attempt involving ₹ 75 lakh was successfully intercepted
+              through the vigilance and persistence of our branch
+              team. A long-standing HNI customer arrived in a visibly
+              distressed state, urgently requesting a large RTGS transfer.
+              His behaviour raised immediate red flags as he was
+              evasive, uncommunicative and appeared to be under
+              external pressure. When verbal communication proved
+              ineffective, the team resorted to written notes to discreetly
+              assess the situation.
+            </p>
+            <p className='mb-2'>
+              The branch contacted the beneficiary bank, which
+              confirmed suspicious activity in the recipient account.
+              Further engagement revealed that the customer had
+              been coerced via a video call by fraudsters impersonating
+              government officials. The team’s calm, methodical
+              approach which was grounded in recent internal fraud
+              awareness training, ultimately convinced the customer to
+              disengage and report the incident.
+            </p>
+            <p className='mb-2'>
+              Their timely intervention not only prevented a significant
+              financial loss but also reinforced the customer’s trust in the
+              Bank’s commitment to their safety and well-being.
+            </p>
+          </div>
+          <div className='mb-5'>
+            <div className='flex md:flex-row flex-col'>
+              <div className='md:w-1/2'>
+                <h1 className='text-xl mb-2 text-[#ed2133] font-semibold'>Enhanced Grievance Resolution</h1>
+                <p className='mb-2'>
+                  We recognise that a truly sustainable customer relationship
+                  is built on responsiveness and reliability. Our multi-channel
+                  3-tiered grievance redressal mechanism shown below, is built on
+                  a foundation of transparency.
+                </p>
+                <p className='mb-2'>
+                  Our grievance redressal process is structured across two
+                  escalation levels, ensuring that every voice is heard and every
+                  issue is addressed with the seriousness it deserves. In line
+                  with the Reserve Bank of India’s guidelines, we have also
+                  institutionalised the role of an Internal Ombudsman which is an
+                  independent authority whose decisions are binding on the Bank.
+                  Sustainability at Kotak
+                  Generating Value for Customers
+                  This reinforces our commitment to fairness, impartiality and
+                  regulatory compliance.
+                </p>
+              </div>
+              <div className='p-4 mb-2 md:w-1/2'>
+                <img className=' ' src="/Generating/Generating8.webp" alt="" />
+              </div>
+            </div>
+            <div>
               <p className='mb-2'>
-                At one of our Hyderabad branches, a potential fraud
-                amounting to approximately ₹ 30 lakh was successfully
-                averted due to the vigilance and coordinated efforts of our
-                frontline staff. When a senior citizen customer requested
-                premature closure of a term deposit and an immediate
-                RTGS transfer, our staff sensed unusual behaviour and
-                escalated the matter.
+                The Salesforce CRM system has empowered our frontline teams
+                with real-time access to customer information and enabling
+                faster and more accurate resolution of issues. The system
+                ensures end-to-end tracking, categorisation and root-cause
+                analysis of every complaint, turning data into actionable insights
+                that drive continuous improvement.
               </p>
               <p className='mb-2'>
-                Upon further engagement, it was discovered that the
-                customer had been coerced by fraudsters impersonating
-                law enforcement officials. The branch team acted swiftly by
-                declining the transaction, maintaining communication with
-                the customer’s spouse, involving a trusted family friend and
-                alerting the customer’s children abroad. After sustained
-                efforts, the customer was convinced of the fraudulent
-                nature of the threat.
+                In FY 2024-25, we reinforced our grievance redressal framework
+                by fortifying our Internal Ombudsman support desk with 11
+                members, who work closely with the 3 Internal Ombudsmen
+                to effectively address escalated issues. We also updated issue
+                resolution policies and processes pertaining to ATM and
+                cash related disputes.
               </p>
               <p className='mb-2'>
-                This incident underscored the impact of our fraud
-                awareness training and the critical role of frontline staff
-                in protecting vulnerable customers through proactive,
-                empathetic intervention.
+                To ensure transparency, we have implemented a rigorous
+                tracking system. Every complaint is assigned a Turnaround
+                Time (TAT), which is communicated to the customer at the
+                time of registration. Our Bank has a dedicated team that plays
+                a pivotal role in analysing customer complaints, identifying
+                root causes and driving targeted interventions across policy,
+                process and technology.
               </p>
             </div>
-            <div className='p-4 bg-[#d4effd] rounded-3xl mb-5'>
-              <p className='mb-2'>
-                At one of our branches in Pondicherry, a high-value fraud
-                attempt involving ₹ 75 lakh was successfully intercepted
-                through the vigilance and persistence of our branch
-                team. A long-standing HNI customer arrived in a visibly
-                distressed state, urgently requesting a large RTGS transfer.
-                His behaviour raised immediate red flags as he was
-                evasive, uncommunicative and appeared to be under
-                external pressure. When verbal communication proved
-                ineffective, the team resorted to written notes to discreetly
-                assess the situation.
-              </p>
-              <p className='mb-2'>
-                The branch contacted the beneficiary bank, which
-                confirmed suspicious activity in the recipient account.
-                Further engagement revealed that the customer had
-                been coerced via a video call by fraudsters impersonating
-                government officials. The team’s calm, methodical
-                approach which was grounded in recent internal fraud
-                awareness training, ultimately convinced the customer to
-                disengage and report the incident.
-              </p>
-              <p className='mb-2'>
-                Their timely intervention not only prevented a significant
-                financial loss but also reinforced the customer’s trust in the
-                Bank’s commitment to their safety and well-being.
-              </p>
+            <div className="md:flex gap-5 mb-5 md:h-[400px]">
+              <div className="md:w-[50%] h-full ">
+                <img
+                  src="\Generating\Image-59.webp"
+                  alt=""
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+              <div className="md:w-[50%] h-full mb-5 md:mb-0 ">
+                <img
+                  src="/Generating/Generating9.webp"
+                  alt=""
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
             </div>
-            <div className='mb-5'>
-              <div className='flex md:flex-row flex-col'>
-                <div className='md:w-1/2'>
-                  <h1 className='text-xl mb-2 text-[#ed2133] font-semibold'>Enhanced Grievance Resolution</h1>
-                  <p className='mb-2'>
-                    We recognise that a truly sustainable customer relationship
-                    is built on responsiveness and reliability. Our multi-channel
-                    3-tiered grievance redressal mechanism shown below, is built on
-                    a foundation of transparency.
-                  </p>
-                  <p className='mb-2'>
-                    Our grievance redressal process is structured across two
-                    escalation levels, ensuring that every voice is heard and every
-                    issue is addressed with the seriousness it deserves. In line
-                    with the Reserve Bank of India’s guidelines, we have also
-                    institutionalised the role of an Internal Ombudsman which is an
-                    independent authority whose decisions are binding on the Bank.
-                    Sustainability at Kotak
-                    Generating Value for Customers
-                    This reinforces our commitment to fairness, impartiality and
-                    regulatory compliance.
-                  </p>
-                </div>
-                <div className='p-4 mb-2 md:w-1/2'>
-                  <img className=' ' src="/Generating/Generating8.webp" alt="" />
-                </div>
-              </div>
-              <div>
-                <p className='mb-2'>
-                  The Salesforce CRM system has empowered our frontline teams
-                  with real-time access to customer information and enabling
-                  faster and more accurate resolution of issues. The system
-                  ensures end-to-end tracking, categorisation and root-cause
-                  analysis of every complaint, turning data into actionable insights
-                  that drive continuous improvement.
-                </p>
-                <p className='mb-2'>
-                  In FY 2024-25, we reinforced our grievance redressal framework
-                  by fortifying our Internal Ombudsman support desk with 11
-                  members, who work closely with the 3 Internal Ombudsmen
-                  to effectively address escalated issues. We also updated issue
-                  resolution policies and processes pertaining to ATM and
-                  cash related disputes.
-                </p>
-                <p className='mb-2'>
-                  To ensure transparency, we have implemented a rigorous
-                  tracking system. Every complaint is assigned a Turnaround
-                  Time (TAT), which is communicated to the customer at the
-                  time of registration. Our Bank has a dedicated team that plays
-                  a pivotal role in analysing customer complaints, identifying
-                  root causes and driving targeted interventions across policy,
-                  process and technology.
-                </p>
-              </div>
-              <div className="md:flex gap-5 mb-5 md:h-[400px]">
-                <div className="md:w-[50%] h-full ">
-                  <img
-                    src="\Generating\Image-59.webp"
-                    alt=""
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <div className="md:w-[50%] h-full mb-5 md:mb-0 ">
-                  <img
-                    src="/Generating/Generating9.webp"
-                    alt=""
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-              </div>
 
-              <div>
-                <p className='mb-2'>
-                  In addition to the quarterly review with Customer Service
-                  Standing Committee and the CSC, we have established a
-                  monthly complaints review at the leadership level of the Bank,
-                  involving the respective Product and Business heads on a
-                  regular basis. An Outstanding Complaints Ageing Report is
-                  regularly published and monitored by a specialised team, which
-                  reports the complaint trends quarterly to the Board-level CSC
-                  and the regulator. We have also institutionalised the practice
-                  of publishing case studies on customer escalations with the
-                  objective of disseminating learnings through sharing practical
-                  experience, thereby driving awareness, accountability and
-                  continuous improvement in service excellence.
-                </p>
-                <p className='mb-2'>
-                  We continue to lay strong emphasis on promoting self-
-                  service options, both across our digital platforms and within
-                  our branches. By empowering customers with intuitive on-
-                  demand tools, we are making everyday banking faster, simpler
-                  and more accessible.
-                  Our subsidiaries have implemented robust mechanisms to
-                  facilitate smooth customer experience and grievance redressal.
-                </p>
-                <p className='mb-2'>
-                  KSL has embraced a structured and insight-driven approach
-                  to enhance customer satisfaction and service quality. A
-                  formal service recovery mechanism ensures that unresolved
-                  issues are addressed comprehensively, while detractor
-                  feedback is systematically analysed to generate actionable
-                  insights. These insights are shared across relevant functions
-                  such as operations, product and training to drive targeted
-                  improvements. Additionally, KSL channels process-related
-                  feedback to its process improvement team, ensuring continuous
-                  refinement of service delivery. In FY 2024-25, KSL further
-                  strengthened its customer sentiment framework by expanding
-                  in-app feedback touchpoints and implementing a interaction
-                  CSAT (customer satisfaction score) model, enabling real-time,
-                  post-interaction insights that support more responsive and
-                  personalised engagement.
-                </p>
-              </div>
-              <div className='p-4 bg-[#d4effc] mb-4 rounded-4xl md:flex md:flex-row gap-5 items-center'>
-                <div className='md:w-[60%]'>
-                  <h1 className='font-bold mb-2'>Impact</h1>
-                  <p className='mb-2'>
-                    Our initiatives mentioned so far are delivering measurable
-                    impact. Our AI- and ML-powered tools proactively identified
-                    potential escalations and helped resolve issues before they
-                    intensified. Additionally, validations and automated execution
-                    of service requests through APIs streamlined the service
-                    request journey, resulting in 40% of requests being processed
-                  </p>
-                  <p className='mb-2'>
-                    automatically. These interventions supported by a dedicated
-                    Kaizen team, led to 28% YoY reduction in net complaints and
-                    9.13% YoY decrease in Banking Ombudsman complaints. These
-                    initiatives also contributed to the increase in R–NPS score that
-                    measures overall customer satisfaction.
-                  </p>
-                </div>
-                <div className='md:w-[40%]'>
-                  <img className='mx-auto rounded-3xl' src="\Generating\Generating11.webp" alt="" />
-                </div>
-              </div>
+            <div>
               <p className='mb-2'>
-                The measures undertaken and the impact outlined above reflects our commitment to eliminate the root cause of the issues rather
-                than just resolving them. This approach has transformed grievance redressal mechanism into a catalyst for continuous innovation and
-                operational resilience.
+                In addition to the quarterly review with Customer Service
+                Standing Committee and the CSC, we have established a
+                monthly complaints review at the leadership level of the Bank,
+                involving the respective Product and Business heads on a
+                regular basis. An Outstanding Complaints Ageing Report is
+                regularly published and monitored by a specialised team, which
+                reports the complaint trends quarterly to the Board-level CSC
+                and the regulator. We have also institutionalised the practice
+                of publishing case studies on customer escalations with the
+                objective of disseminating learnings through sharing practical
+                experience, thereby driving awareness, accountability and
+                continuous improvement in service excellence.
               </p>
               <p className='mb-2'>
-                At Kotak, customer satisfaction is not just a metric — it is a mindset that drives all our decisions. By embedding innovation, resilience,
-                agility and empathy into our service ethos while we are resolving problems, we are also simultaneously building a stronger and more
-                responsive Kotak for the future.
+                We continue to lay strong emphasis on promoting self-service options, both across our digital platforms and within
+  our branches. By empowering customers with intuitive on-demand tools, we are making everyday banking faster, simpler
+  and more accessible.
+  Our subsidiaries have implemented robust mechanisms to
+  facilitate smooth customer experience and grievance redressal.
+              </p>
+              <p className='mb-2'>
+                KSL has embraced a structured and insight-driven approach
+                to enhance customer satisfaction and service quality. A
+                formal service recovery mechanism ensures that unresolved
+                issues are addressed comprehensively, while detractor
+                feedback is systematically analysed to generate actionable
+                insights. These insights are shared across relevant functions
+                such as operations, product and training to drive targeted
+                improvements. Additionally, KSL channels process-related
+                feedback to its process improvement team, ensuring continuous
+                refinement of service delivery. In FY 2024-25, KSL further
+                strengthened its customer sentiment framework by expanding
+                in-app feedback touchpoints and implementing a interaction
+                CSAT (customer satisfaction score) model, enabling real-time,
+                post-interaction insights that support more responsive and
+                personalised engagement.
               </p>
             </div>
+            <div className='p-4 bg-[#d4effc] mb-4 rounded-4xl md:flex md:flex-row gap-5 items-center'>
+              <div className='md:w-[60%]'>
+                <h1 className='font-bold mb-2'>Impact</h1>
+                <p className='mb-2'>
+                  Our initiatives mentioned so far are delivering measurable
+                  impact. Our AI- and ML-powered tools proactively identified
+                  potential escalations and helped resolve issues before they
+                  intensified. Additionally, validations and automated execution
+                  of service requests through APIs streamlined the service
+                  request journey, resulting in 40% of requests being processed
+                </p>
+                <p className='mb-2'>
+                  automatically. These interventions supported by a dedicated
+                  Kaizen team, led to 28% YoY reduction in net complaints and
+                  9.13% YoY decrease in Banking Ombudsman complaints. These
+                  initiatives also contributed to the increase in R–NPS score that
+                  measures overall customer satisfaction.
+                </p>
+              </div>
+              <div className='md:w-[40%]'>
+                <img className='mx-auto rounded-3xl' src="\Generating\Generating11.webp" alt="" />
+              </div>
+            </div>
+            <p className='mb-2'>
+              The measures undertaken and the impact outlined above reflects our commitment to eliminate the root cause of the issues rather
+              than just resolving them. This approach has transformed grievance redressal mechanism into a catalyst for continuous innovation and
+              operational resilience.
+            </p>
+            <p className='mb-2'>
+              At Kotak, customer satisfaction is not just a metric — it is a mindset that drives all our decisions. By embedding innovation, resilience,
+              agility and empathy into our service ethos while we are resolving problems, we are also simultaneously building a stronger and more
+              responsive Kotak for the future.
+            </p>
           </div>
         </div>
       </div>

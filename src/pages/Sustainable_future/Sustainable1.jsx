@@ -318,8 +318,7 @@ const Sustainable1 = () => {
         </div>
         <div className='md:w-[70%]'>
           <p className='mb-2'>
-            KMAMC is also a signatory to Climate Action 100+, an investor-
-            led initiative that works with prominent contributors to GHG
+            KMAMC is also a signatory to Climate Action 100+, an investor-led initiative that works with prominent contributors to GHG
             emissions. As a member, KMAMC’s senior management engages
             with companies on the implementation and progress of their
             climate change mitigation strategies.
@@ -329,8 +328,7 @@ const Sustainable1 = () => {
             Strategy Fund’, with Assets Under Management (AUM)
             ₹ 847.62 crore as of 31st March, 2025. This fund focuses on ESG
             parameters where companies with higher ESG score are given
-            preference. The fund engages with investee companies on ESG-
-            related factors in accordance with KMAMC’s stewardship policy
+            preference. The fund engages with investee companies on ESG-related factors in accordance with KMAMC’s stewardship policy
             which is available in the public domain. The policy requires
             engagement with investee companies once a year, incorporating
             ESG factors into discussions. KMAMC actively participates
@@ -503,7 +501,7 @@ const Sustainable1 = () => {
         </h1>
         <SliderCards />
         <p className='text-sm text-gray-700'>
-          <sup>*</sup>All figures are as on 31st March, 2025 unless otherwise stated
+          <sup>*</sup><i>All figures are as on 31st March, 2025 unless otherwise stated</i>
         </p>
       </div>
       <div className=' md:flex gap-5'>
@@ -537,8 +535,7 @@ const Sustainable1 = () => {
       </div>
       <p className='mb-2'>BSS is driving meaningful socio-economic transformation by
         extending microcredit services to women in underserved rural
-        and semi-urban areas, enabling them to engage in income-
-        generating activities and achieve financial independence.
+        and semi-urban areas, enabling them to engage in income-generating activities and achieve financial independence.
         With a strong presence across 13 states through a network
         of over 878 branches, BSS currently serves ~ 15 lakh
         families, prioritising women’s financial empowerment as
@@ -608,8 +605,7 @@ const Sustainable1 = () => {
                 Stand up India:
               </h3>
               <p className="mb-2">
-                The Bank actively participated in Stand up India, a government-
-                driven lending scheme for providing entrepreneurship
+                The Bank actively participated in Stand up India, a government-driven lending scheme for providing entrepreneurship
                 support to Schedule Caste, Schedule Tribe and women
                 entrepreneurs, enabling them to participate in the economic
                 growth of the nation.
@@ -679,8 +675,7 @@ const Sustainable1 = () => {
             certificates—well above the mandated threshold of 40%. We
             successfully met regulatory targets across all PSL sub-categories,
             including 18.17% in agriculture, 10.15% for small and marginal
-            farmers, 13.89% for non-corporate farmers and 8.96% for micro-
-            enterprises. Additionally, our PSL lending to weaker sections
+            farmers, 13.89% for non-corporate farmers and 8.96% for micro-enterprises. Additionally, our PSL lending to weaker sections
             stood at 14.36%, reflecting our continued focus on inclusive
             credit delivery. These outcomes underscore our commitment to
             responsible banking and our strategic intent to align business
@@ -696,8 +691,7 @@ const Sustainable1 = () => {
         <div className='md:flex gap-5'>
           <div className='md:w-[70%]'>
             <p className='mb-2'>
-              We recognise the growing threat of climate change and its far-
-              reaching implications for our planet and society. We are committed
+              We recognise the growing threat of climate change and its far-reaching implications for our planet and society. We are committed
               to proactively addressing this challenge through integrating
               sustainability into the core of our business operations and are
               adopting a range of sustainability initiatives aimed at reducing
@@ -707,8 +701,7 @@ const Sustainable1 = () => {
               into our business functions. At Kotak Mahindra Bank, we track
               our environmental performance across all major locations,
               including our domestic and international subsidiaries. This
-              helps us in identifying areas for improvement. A range of eco-
-              friendly initiatives have been introduced over the years across
+              helps us in identifying areas for improvement. A range of eco-friendly  initiatives have been introduced over the years across
               our corporate offices, branches and ATM network to minimise our
               carbon footprint.
             </p>
@@ -730,8 +723,7 @@ const Sustainable1 = () => {
           certifications. Seven additional premises are currently undergoing
           the certification process, targeted for completion in FY 2025-26. These
           certified premises promote resource efficiency and contribute to
-          healthier indoor environments, which is crucial for employee well-
-          being. About 25% of the Bank’s full time employees operate from
+          healthier indoor environments, which is crucial for employee well-being. About 25% of the Bank’s full time employees operate from
           these certified premises.
         </p>
         <p className='mb-2'>
@@ -775,9 +767,9 @@ const Sustainable1 = () => {
         <div className='mb-5 md:w-[60%] mx-auto bg-gray-50 rounded-3xl p-4'>
           <img src="/Sustainability/Sustainability15.webp" alt="" />
         </div>
-        <div className="bg-white p-6 rounded-md shadow-sm mb-5">
-          <h3 className="italic text-black mb-2">Notes:</h3>
-          <ul className="list-disc pl-5 space-y-3 ">
+        <div className="bg-white p-6 rounded-md shadow-sm mb-5 italic">
+          <h3 className="text-black mb-2">Notes:</h3>
+          <ul className="list-disc pl-5 space-y-3">
             <li className=''>
               Coverage of reporting has been enhanced, it includes 13 new
               corporate offices, 203 additional Bank branches including 2
@@ -946,7 +938,7 @@ const Sustainable1 = () => {
               <img src="/Sustainability/Sustainability17.webp" alt="" />
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm mb-5">
+          <div className="bg-white p-6 rounded-lg shadow-sm mb-5 italic">
             <h3 className="font-semibold text-black mb-2">Notes:</h3>
             <ul className="list-none space-y-3 pl-2">
               <li className="flex items-start gap-2">
@@ -1057,8 +1049,7 @@ const Sustainable1 = () => {
               Scope 2 to include electricity consumption-related emissions
               from offsite ATMs and have continued it since. For financial years
               prior to FY 2023-24, these emissions were reported under the
-              ‘Upstream Leased Assets’ subcategory of Scope 3. As of FY 2024-
-              25, our total Scope 2 emissions from purchased electricity for
+              ‘Upstream Leased Assets’ subcategory of Scope 3. As of FY 2024-25, our total Scope 2 emissions from purchased electricity for
               corporate offices, branches, independently managed subsidiary
               premises as well as ATMs operated by the Bank, stand at
               1,01,643 tCO2e10. In FY 2024-25, the renewable energy procured
@@ -1085,7 +1076,7 @@ const Sustainable1 = () => {
             <img src="/Sustainability/Sustainability18.webp" alt="" />
           </div>
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-sm mb-5">
+        <div className="bg-white p-6 rounded-lg shadow-sm mb-5 italic">
           <h3 className="font-semibold text-black mb-2">Notes:</h3>
           <ul className="list-none space-y-4 pl-2">
             <li className="flex items-start gap-2">
@@ -1128,7 +1119,7 @@ const Sustainable1 = () => {
               <span className="text-red-500 mt-1">✦</span>
               <span>
                 Scope 2 GHG emissions are calculated based on emission factors in Central Electricity
-                Authority, Govt. of India (CEA Version_20.0): Grid Emission Factors - Weighted Average
+                Authority, Govt. of India (CEA Version_20.0): Grid Emission Factors-Weighted Average
                 Emission Rate (Incl RES), including cross-border electricity transfers which is
                 0.727 kgCO₂ per kWh for FY 2024-25 and was 0.716 for FY 2023-24
               </span>
@@ -1225,8 +1216,8 @@ const Sustainable1 = () => {
             emissions of the Bank.
           </p>
           <div className='md:flex gap-5'>
-            <div className='md:w-[65%]'>
-              <img src="/Sustainability/Sustainability23.webp" alt="" />
+            <div className='md:w-[60%]'>
+              <img src="\Sustainability\Bank's Scope-Kotak.png" alt="" />
             </div>
             <div className='md:w-[35%]'>
               <img src="/Sustainability/Sustainability24.webp" alt="" />

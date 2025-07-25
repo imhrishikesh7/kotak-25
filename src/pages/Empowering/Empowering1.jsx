@@ -21,7 +21,7 @@ const benefits = [
     description:
       "PRAISE ratings safeguarded during maternity leave.",
   },
-  
+
   {
     title: "Kotak Relaunch Programme",
     description:
@@ -131,7 +131,7 @@ const Empowering1 = () => {
 
       </div>
       <div className="text-sm text-gray-700 mb-5 mt-1 italic">
-        In this report, colleague(s) refers to all employees on full time (permanent and fixed term contracts) and part time roles.
+        *In this report, colleague(s) refers to all employees on full time (permanent and fixed term contracts) and part time roles.
       </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>
@@ -148,16 +148,16 @@ const Empowering1 = () => {
           the only exception <sup>*</sup>.
         </p>
         <p className='mb-2'>
-          We continue to invest in a diverse and inclusive workforce,
-          with 42.7% of roles held by individuals under 30 and
-          over 1,100 employees under 30 now holding middle
-          management positions at the Group. There was a marked
-          improvement in gender diversity at the Group in FY 2024-25
-          with women accounting for 26.4% of the workforce (25.7%
-          in FY 2023-24). In addition, at the Bank, our proportion
-          of permanent women employees increased to 27.3%
-          from 26.5% in FY 2023-24. Of the total new hires at the
-          Group, 25.4% were women.
+          We continue to invest in shaping the workforce of
+          tomorrow, with 42.7% of roles held by individuals under
+          30 and over 1,100 employees under 30 now holding
+          middle management positions at the Group. There was
+          a marked improvement in gender diversity at the Group
+          in FY 2024-25, with women accounting for 26.4% of the
+          workforce (25.7% in FY 2023-24). In addition, at the Bank,
+          our proportion of permanent women employees increased
+          to 27.3% from 26.5% in FY 2023-24. Of the total new hires at
+          the Group, 25.4% were women.
         </p>
         <p className='mb-2'>
           Employee retention improved with attrition rates for
@@ -182,30 +182,32 @@ const Empowering1 = () => {
       </div>
       <div className='mb-5'>
         <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Our Growing Workforce</h1>
-        <div className='md:w-[50%] mb-5 mx-auto bg-gray-50 rounded-3xl p-4'>
-          <img src="/Empowering/Empowering1.webp" alt="" />
-        </div>
-        <div>
-          <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
-          <p className='mb-2'>We recognise the critical role of technology in driving growth
-            and innovation. We are committed to investing in professionals
-            who share our vision for harnessing the latest digital tools and
-            capabilities to deliver exceptional customer experiences.
-          </p>
-          <p className='mb-2'>Our talent acquisition strategy, centered around the Hire-TrainDeploy (HTD) model, drives a robust pipeline of role-ready talent.
-            We have expanded our sourcing channels through off-campus
-            and lateral hires from top-tier organisations by introducing
-            innovative programmes such as the Kotak NextGen Bankers
-            Programme (in partnership with Manipal Academy of BFSI). To
-            further strengthen our digital capabilities, we have launched
-            initiatives to enhance intake of STEM (Science, Technology,
-            Engineering, Mathematics) professionals and reorganise roles
-            with a focus on digital transformation. We intend to create a
-            more diverse workforce by specifically increasing representation
-            of women by targeting to hire women with diverse qualifications
-            and backgrounds and fostering an inclusive environment that
-            attracts and retains top talent.
-          </p>
+        <div className='flex md:flex-row flex-col gap-5'>
+          <div className='md:w-[40%] mb-5 mx-auto bg-gray-50 rounded-3xl p-4'>
+            <img src="/Empowering/Empowering1.webp" alt="" />
+          </div>
+          <div className='md:w-[60%]'>
+            <h1 className='text-xl text-[#252f80] mb-2 font-semibold'>Attracting the Right Talent</h1>
+            <p className='mb-2'>We recognise the critical role of technology in driving growth
+              and innovation. We are committed to investing in professionals
+              who share our vision for harnessing the latest digital tools and
+              capabilities to deliver exceptional customer experiences.
+            </p>
+            <p className='mb-2'>Our talent acquisition strategy, centered around the Hire-TrainDeploy (HTD) model, drives a robust pipeline of role-ready talent.
+              We have expanded our sourcing channels through off-campus
+              and lateral hires from top-tier organisations by introducing
+              innovative programmes such as the Kotak NextGen Bankers
+              Programme (in partnership with Manipal Academy of BFSI). To
+              further strengthen our digital capabilities, we have launched
+              initiatives to enhance intake of STEM (Science, Technology,
+              Engineering, Mathematics) professionals and reorganise roles
+              with a focus on digital transformation. We intend to create a
+              more diverse workforce by specifically increasing representation
+              of women by targeting to hire women with diverse qualifications
+              and backgrounds and fostering an inclusive environment that
+              attracts and retains top talent.
+            </p>
+          </div>
         </div>
         <div className='mb-5'>
           <h1 className='mb-2 text-xl text-[#ef3e4c] font-semibold'>
@@ -220,7 +222,7 @@ const Empowering1 = () => {
           <div className='mb-5'>
 
             <div className='mb-5'>
-              <img className='' src="/All_Icons/24.webp" alt="" />
+              <img className='w-[90%] mx-auto' src="/All_Icons/24.webp" alt="" />
             </div>
             <div class="w-full  my-6">
               <div class="inline-block px-6 py-2 rounded-full text-white font-semibold text-sm bg-gradient-to-r from-[#262b7b] via-[#6f2b66] to-[#e31e32]">
@@ -431,7 +433,7 @@ const Empowering1 = () => {
           <div className="text-red-600 text-4xl mb-2">❝</div>
 
           {/* Testimonial Text */}
-          <p className="text-[#252f80]  ">
+          <p className="text-[#252f80]">
             The courses on Kotak MyLearn align well with
             my job responsibilities and learning goals. They
             provided valuable insights and practical skills
@@ -440,10 +442,10 @@ const Empowering1 = () => {
           </p>
 
           {/* Closing quote */}
-          <div className="text-red-600 text-4xl text-right mt-2">❞</div>
+          <div className="text-red-600 text-4xl text-right ">❞</div>
 
           {/* Name and Title */}
-          <div className="mt-4">
+          <div className="">
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Alkesh Ashokbhai Bhatt
             </p>
@@ -456,7 +458,7 @@ const Empowering1 = () => {
       <div className='mb-8 text-xl'>
         <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
           {/* Quotation Icons */}
-          <div className="text-red-600 text-4xl mb-2">❝</div>
+          <div className="text-red-600 text-4xl">❝</div>
 
           {/* Testimonial Text */}
           <p className="text-[#252f80]  ">
@@ -467,10 +469,10 @@ const Empowering1 = () => {
           </p>
 
           {/* Closing quote */}
-          <div className="text-red-600 text-4xl text-right mt-2">❞</div>
+          <div className="text-red-600 text-4xl text-right">❞</div>
 
           {/* Name and Title */}
-          <div className="mt-4">
+          <div className="">
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Sunil Sharma
             </p>
@@ -518,10 +520,10 @@ const Empowering1 = () => {
             </p>
 
             {/* Closing quote */}
-            <div className="text-red-600 text-4xl text-right mt-2">❞</div>
+            <div className="text-red-600 text-4xl text-right">❞</div>
 
             {/* Name and Title */}
-            <div className="mt-4">
+            <div className="">
               <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
                 Amrutha Kandukuri
               </p>
@@ -1029,7 +1031,7 @@ const Empowering1 = () => {
               </p>
               <p className='mb-2'>
                 <strong>Educard: </strong> Volunteers created engaging educational cards with
-                new words, images and educational concepts. These childfriendly cards were donated to underprivileged children to
+                new words, images and educational concepts. These child-friendly cards were donated to underprivileged children to
                 support their learning.
               </p>
               <p className='mb-2'>

@@ -202,7 +202,7 @@ const Excellence = () => {
               staff accountability in fraud cases. This committee also review
               the mitigating measures taken by Bank to strengthen internal
               controls and oversees fraud risk management framework to minimise the fraud risk. Refer to ‘Management’s Discussion and
-              Analysis’ section of the report on page <strong className='text-[#212b7e]'>453</strong> for further details on
+              Analysis’ section of the report on page <strong className='text-[#212b7e]'>452</strong> for further details on
               fraud risk management.
             </p>
             <p className='mb-2'>

@@ -3,11 +3,11 @@ import React from "react";
 const categories = [
   {
     title: "Category 1",
-    text: "Purchased Goods and Services includes paper- related emissions, other consumables such as stationary supplies and emissions generated from purchased electricity by our vendor managed offsite ATMs. Emissions factors are sourced from DEFRA 2024 for emission calculation for paper, from US Environmental Protection Agency (EPA) for other consumables and from CEA for vendor managed ATMs’ electricity consumption."
+    text: "Purchased Goods and Services includes paper-related emissions, other consumables such as stationary supplies and emissions generated from purchased electricity by our vendor managed offsite ATMs. Emissions factors are sourced from DEFRA 2024 for emission calculation for paper, from US Environmental Protection Agency (EPA) for other consumables and from CEA for vendor managed ATMs’ electricity consumption."
   },
   {
     title: "Category 2",
-    text: "Capital Goods cover IT equipment and ATM machines, vehicles procured for employee use, office fixtures and equipment and services which include civil and interior work fee and software systems. Capital goods are considered based on additions in Fixed Asset Register. US Environmentally- Extended Input-Output (USEEIO) code has been used to source the emission factors for emission calculations of Capital Goods. The increase in Capital Goods over FY 2023-24 has happened due to change in methodology of attributing Emission Factors to various capital goods, along with updating the Emission Factors as per the latest USEEIO Code, therefore the data is not comparable to FY 2023-24."
+    text: "Capital Goods cover IT equipment and ATM machines, vehicles procured for employee use, office fixtures and equipment and services which include civil and interior work fee and software systems. Capital goods are considered based on additions in Fixed Asset Register. US Environmentally-Extended Input-Output (USEEIO) code has been used to source the emission factors for emission calculations of Capital Goods. The increase in Capital Goods over FY 2023-24 has happened due to change in methodology of attributing Emission Factors to various capital goods, along with updating the Emission Factors as per the latest USEEIO Code, therefore the data is not comparable to FY 2023-24."
   },
   {
     title: "Category 3",

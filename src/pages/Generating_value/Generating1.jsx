@@ -527,10 +527,10 @@ const Generating1 = () => {
               </p>
               <p className='mb-2'>
                 We continue to lay strong emphasis on promoting self-service options, both across our digital platforms and within
-  our branches. By empowering customers with intuitive on-demand tools, we are making everyday banking faster, simpler
-  and more accessible.
-  Our subsidiaries have implemented robust mechanisms to
-  facilitate smooth customer experience and grievance redressal.
+                our branches. By empowering customers with intuitive on-demand tools, we are making everyday banking faster, simpler
+                and more accessible.
+                Our subsidiaries have implemented robust mechanisms to
+                facilitate smooth customer experience and grievance redressal.
               </p>
               <p className='mb-2'>
                 KSL has embraced a structured and insight-driven approach
@@ -559,15 +559,13 @@ const Generating1 = () => {
                   potential escalations and helped resolve issues before they
                   intensified. Additionally, validations and automated execution
                   of service requests through APIs streamlined the service
-                  request journey, resulting in 40% of requests being processed
-                </p>
-                <p className='mb-2'>
-                  automatically. These interventions supported by a dedicated
+                  request journey, resulting in 40% of requests being processed automatically. These interventions supported by a dedicated
                   Kaizen team, led to 28% YoY reduction in net complaints and
                   9.13% YoY decrease in Banking Ombudsman complaints. These
                   initiatives also contributed to the increase in R–NPS score that
                   measures overall customer satisfaction.
                 </p>
+
               </div>
               <div className='md:w-[40%]'>
                 <img className='mx-auto rounded-3xl' src="\Generating\Generating11.webp" alt="" />

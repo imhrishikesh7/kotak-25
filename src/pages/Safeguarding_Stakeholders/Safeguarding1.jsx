@@ -192,8 +192,8 @@ const Safeguarding1 = () => {
         *The values are as on 31st March, 2025
       </div>
       <div className='mt-5 mb-5'>
-        <div className='md:flex gap-5'>
-          <div className='md:w-[50%] '>
+        <div className=''>
+          <div className=' '>
             <h1 className='text-xl mb-2 text-[#ed2133] font-semibold'>Governance mechanism</h1>
             <p className='mb-2'>
               We are committed to an integrated risk management approach that supports our strategic
@@ -242,8 +242,8 @@ const Safeguarding1 = () => {
               assessment and mitigation.
             </p>
           </div>
-          <div className='md:w-[50%] my-auto mb-3'>
-            <img className='' src='/Safeguarding_Stakeholder/Safeguarding1.webp' alt='' />
+          <div className='mb-3'>
+            <img className='rounded-2xl' src='/Safeguarding_Stakeholder/Hand.png' alt='' />
           </div>
         </div>
 

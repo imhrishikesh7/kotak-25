@@ -101,7 +101,7 @@ const TransformingForScale = () => {
                         We have embarked on a journey to transform at scale. We are currently navigating this multi-year transformation and have made meaningful progress. This is a journey to become a customer-centric organisation.
                     </p>
                     <div className='mt-4'>
-                        <KnowMore/>
+                        <KnowMore to={"/transforming"}/>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@ import ScrollToHash from '../Components/ScrollToHash'
 const Strategy = () => {
 
   return (
-    
+
     <div className='marginal text-lg'>
       <div className="text-2xl text-[#ed1c2f] font-semibold border-b-3 w-fit mb-4 pb-1">
         Strategy
@@ -285,7 +285,7 @@ const Strategy = () => {
             business lines, along with the SME lending businesses, are
             expected to remain a key driver of our overall growth strategy.
             We aim to meet our Priority Sector Lending targets by providing
-            financing for tracall enterprises, allied agricultural
+            financing for tractors, small enterprises, allied agricultural
             activities and microcredit for women borrowers. The core focus
             of the wholesale business is to acquire quality customers and deliver customised solutions in trade finance, forex and cash
             management through efficient technology platforms backed by
@@ -335,14 +335,14 @@ const Strategy = () => {
             well-informed for the customer. We have launched unified digital
             onboarding journeys across multiple Bank channels, including
             web, mobile and assisted onboarding. The platform, which
-            seamlessly integrates with KYC components, riskent
+            seamlessly integrates with KYC components, risk assessment
             components and drop-off management, is already live for
             New-to-Bank Savings account onboarding and existing-to-bank
             Personal Loan journeys, with other similar journeys across
-            product segments under implementation.
+            product segments under implementation
           </p>
           <p>
-            <strong className="text-[#14216c]">Best-in-Class Digital Banking Experience:</strong>
+            <strong className="text-[#14216c]">Best-in-Class Digital Banking Experience: </strong>
             We have launched
             the revamped mobile-banking app and Kotak811 app to make it
             more user friendly, intuitive, faster and safer. The new versions offer best-in-class digital experience, optimised
@@ -512,7 +512,7 @@ const Strategy = () => {
           costs on a per unit basis. This will also make internal operations
           more efficient. Revamped customer journeys and process
           re-engineering initiatives will further help us achieve deeper
-          relationships and cost efficiencies associated with lean processes. The Bank has launched Voice Channel for managing
+          relationships and cost efficiencies associated with lean processes. The Bank has launched <i>Voice Channel</i> for managing
           customers that may need assistance in their DIY journeys without
           requirement of branch visits.
         </p>
@@ -542,7 +542,7 @@ const Strategy = () => {
           regulatory and business requirements, while striking a balance
           between risk-reward on the capital to be deployed. We will
           continue to maintain Tier-I capital in excess of the regulatory
-          requirements and will continue to ensure that the Credit-toDeposit ratio remains within acceptable levels.
+          requirements and will continue to ensure that the Credit-to-Deposit ratio remains within acceptable levels.
         </p>
       </div>
 

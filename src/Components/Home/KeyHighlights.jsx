@@ -34,7 +34,7 @@ const KeyHighlights = () => {
                     ))}
                 </Marquee>
             </div>
-            <p className="mt-6 text-center">*Consolidated Assets | All numbers are on a consolidated basis except where stated</p>
+            <p className="mt-6 text-center">All numbers are on a consolidated basis except where stated</p>
         </div>
     );
 };

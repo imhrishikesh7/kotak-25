@@ -17,7 +17,7 @@ const BO = () => {
       id: 1,
       title: "Banking and Lending",
       subtitle: "Excellence in Service",
-      image: './home/Bo1.webp',
+      image: './home/Image1.jpg',
       items: [
         {
           text: "Kotak Mahindra Bank Limited",
@@ -41,7 +41,7 @@ const BO = () => {
       id: 2,
       title: "Capital Markets",
       subtitle: "Empowering Our People",
-      image: './home/Bo2.webp',
+      image: './home/Image2.jpg',
       items: [
         { text: "Stock Broking (Kotak Securities Limited)", href: "/business-overview#stock-broking" },
         { text: "Investment Banking (Kotak Mahindra Capital Company Limited)", href: "/business-overview#investment-banking" }
@@ -51,7 +51,7 @@ const BO = () => {
       id: 3,
       title: "Protection",
       subtitle: "Sustainable Growth",
-      image: './home/Bo3.webp',
+      image: './home/Image3.jpg',
       items: [
         { text: "Life Insurance (Kotak Mahindra Life Insurance Company Limited)", href: "/business-overview#life-insurance" }
       ]
@@ -60,9 +60,9 @@ const BO = () => {
       id: 4,
       title: "Asset Management",
       subtitle: "Social Impact",
-      image: './home/Bo4.webp',
+      image: './home/Image4.jpg',
       items: [
-        { text: "Mutual Fund (Kotak Mahindra Asset Management Company Limited)", href: "/business-overview#mutual-fund"},
+        { text: "Mutual Fund (Kotak Mahindra Asset Management Company Limited)", href: "/business-overview#mutual-fund" },
         { text: "Pension Fund (Kotak Mahindra Pension Fund Limited)", href: "/business-overview#pension-fund" },
         { text: "Alternate Assets (Kotak Alternate Asset Managers Limited*)", href: "/business-overview#alternate-assets" },
         { text: "International Business [ Kotak Mahindra (International) Limited , Kotak Mahindra (UK) Limited, Kotak Mahindra Inc., Kotak Mahindra Asset Management (Singapore) Pte Limited, Kotak Mahindra Financial Services Limited ]", href: "/business-overview#international-business" }
@@ -98,34 +98,64 @@ const BO = () => {
     return () => document.removeEventListener('keydown', handleEscape);
   }, [isModalOpen]);
 
-const renderItems = (items, level = 0) => {
-  if (!items || items.length === 0) return null;
+  const renderItems = (items, level = 0) => {
+    if (!items || items.length === 0) return null;
 
-  if (level === 0) {
-    // Top level: use 2-column layout
+    if (level === 0) {
+      // Top level: use 2-column layout
+      return (
+        <div className="fle flex-wrap gap-6">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="w-full  bg-white border border-gray-200 shadow-sm rounded-lg p-4"
+            >
+              <div className="flex justify-between items-start">
+                {item.href ? (
+                  <a href={item.href} rel="noopener noreferrer" className="font-semibold text-gray-800">
+                    {item.text}
+                  </a>
+                ) : (
+                  <p className="font-semibold text-gray-800">{item.text}</p>
+                )}
+                {item.href && (
+                  <a href={item.href} rel="noopener noreferrer">
+                    <LuArrowUpRight className="w-4 h-4 text-gray-500" />
+                  </a>
+                )}
+              </div>
+              {item.children && (
+                <div className="mt-3 pl-4 border-l-2 border-blue-300">
+                  {renderItems(item.children, level + 1)}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      );
+    }
+
+    // Nested children
     return (
-      <div className="fle flex-wrap gap-6">
+      <div className="flex flex-col gap-3 mt-2">
         {items.map((item, index) => (
-          <div
-            key={index}
-            className="w-full  bg-white border border-gray-200 shadow-sm rounded-lg p-4"
-          >
+          <div key={index} className="bg-gray-50 p-2 rounded">
             <div className="flex justify-between items-start">
               {item.href ? (
-                <a href={item.href} rel="noopener noreferrer" className="font-semibold text-gray-800">
+                <a href={item.href} rel="noopener noreferrer" className="text-sm font-medium text-gray-700">
                   {item.text}
                 </a>
               ) : (
-                <p className="font-semibold text-gray-800">{item.text}</p>
+                <p className="text-sm font-medium text-gray-700">{item.text}</p>
               )}
               {item.href && (
                 <a href={item.href} rel="noopener noreferrer">
-                  <LuArrowUpRight className="w-4 h-4 text-gray-500" />
+                  <LuArrowUpRight className="w-4 h-4 text-gray-400" />
                 </a>
               )}
             </div>
             {item.children && (
-              <div className="mt-3 pl-4 border-l-2 border-blue-300">
+              <div className="mt-2 pl-4 border-l-2 border-blue-200">
                 {renderItems(item.children, level + 1)}
               </div>
             )}
@@ -133,37 +163,7 @@ const renderItems = (items, level = 0) => {
         ))}
       </div>
     );
-  }
-
-  // Nested children
-  return (
-    <div className="flex flex-col gap-3 mt-2">
-      {items.map((item, index) => (
-        <div key={index} className="bg-gray-50 p-2 rounded">
-          <div className="flex justify-between items-start">
-            {item.href ? (
-              <a href={item.href}  rel="noopener noreferrer" className="text-sm font-medium text-gray-700">
-                {item.text}
-              </a>
-            ) : (
-              <p className="text-sm font-medium text-gray-700">{item.text}</p>
-            )}
-            {item.href && (
-              <a href={item.href}  rel="noopener noreferrer">
-                <LuArrowUpRight className="w-4 h-4 text-gray-400" />
-              </a>
-            )}
-          </div>
-          {item.children && (
-            <div className="mt-2 pl-4 border-l-2 border-blue-200">
-              {renderItems(item.children, level + 1)}
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  );
-};
+  };
 
 
 
@@ -188,6 +188,12 @@ const renderItems = (items, level = 0) => {
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
                 Diversified businesses with a unified vision
               </h1>
+              <p className='text-[#013367] text-xl font-semibold'>
+                This year, we continued on our strategic journey of driving our businesses by keeping the customer
+                at the centre of all our business decisions. Guided by this principle, we built our propositions,
+                harnessing the wide range of products from across the Bank and the group, while leveraging our
+                digital platforms to enable scale, increase efficiencies and provide better customer experiences.
+              </p>
             </Reveal>
           </div>
         </div>
@@ -266,9 +272,15 @@ const renderItems = (items, level = 0) => {
             <div className="p-4 sm:p-6 lg:p-8 overflow-y-auto max-h-[calc(90vh-12rem)] sm:max-h-[calc(90vh-16rem)]">
               <div className="mb-8 sm:mb-10">
                 <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4 sm:mb-6">Explore</h3>
-              <div className="w-full">
-  {renderItems(selectedCard.items)}
-</div>
+                <div className="w-full">
+                  {renderItems(selectedCard.items)}
+                  {selectedCard.id === 4 && (
+                    <p className="text-sm mt-4">
+                      *Kotak Alternate Asset Managers Limited (formerly known as Kotak Investment Advisors Limited)
+                    </p>
+                  )}
+                </div>
+
 
               </div>
             </div>

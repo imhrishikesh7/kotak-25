@@ -10,7 +10,7 @@ export const ScreenContent = () => {
     const src = "./home/Test.webp"
 
     const slides = [<Scene />,
-    <img src="./home/Digital_Powerhouse.webp" alt="Test" className="w-full h-full object-cover" />,
+    // <img src="./home/Digital_Powerhouse.webp" alt="Test" className="w-full h-full object-cover" />,
     <img src="./home/Kotak Bank App.webp" alt="Test" className="w-full h-full object-cover" />,
     <img src="./home/Kotak Cherry.webp" alt="Test" className="w-full h-full object-cover" />,
     <img src="./home/Kotak 811.webp" alt="Test" className="w-full h-full object-cover" />,

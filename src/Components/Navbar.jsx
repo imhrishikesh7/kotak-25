@@ -8,6 +8,10 @@ import { FiGrid, FiX } from 'react-icons/fi';
 
 const navItems = [
     {
+        label: "Home",link:"/"
+    },
+
+    {
         label: "Kotak at a Glance",
         submenu: [
             { label: "About Us", link: "/about" },
@@ -31,10 +35,11 @@ const navItems = [
         ]
     },
 
+
     {
         label: "Sustainability at Kotak",
         submenu: [
-            { label: "Sustainability Snapshot", link: "/sustainability/snapshot" },
+            // { label: "Sustainability Snapshot", link: "/sustainability/snapshot" },
             {
                 label: "Customers",
                 submenu: [
@@ -64,44 +69,44 @@ const navItems = [
         ]
     },
 
-    {
-        label: "Financial Performance",
-        submenu: [
-            {
-                label: "Financial Highlights",
-                submenu: [
-                    { label: "Consolidated and Standalone", link: "/financial/highlights" }
-                ]
-            },
-            {
-                label: "Financial Statements",
-                submenu: [
-                    { label: "Independent Auditor's Report on Consolidated Financial Statements", link: "/financial/auditor-consolidated" },
-                    { label: "Consolidated Financial Statements", link: "/financial/consolidated" },
-                    { label: "Financial Information of Subsidiaries and Basel III (Pillar 3) Disclosures", link: "/financial/subsidiaries-basel" },
-                    { label: "Independent Auditor's Report on Standalone Financial Statements", link: "/financial/auditor-standalone" },
-                    { label: "Standalone Financial Statements", link: "/financial/standalone" }
-                ]
-            },
-            {
-                label: "Statutory Reports",
-                submenu: [
-                    { label: "Directors' Report and Annexures", link: "/financial/statutory/directors-report" },
-                    { label: "Report on Corporate Governance", link: "/financial/statutory/governance" },
-                    { label: "Management's Discussion and Analysis", link: "/financial/statutory/management-analysis" },
-                    { label: "Business Responsibility and Sustainability Report (BRSR)", link: "/financial/statutory/brsr" }
-                ]
-            },
-            {
-                label: "Annexures",
-                submenu: [
-                    { label: "ESG Data Tables", link: "/financial/annexures/esg" },
-                    { label: "GRI Content Index", link: "/financial/annexures/gri" },
-                    { label: "Assurance Statements", link: "/financial/annexures/assurance" }
-                ]
-            }
-        ]
-    }
+    // {
+    //     label: "Financial Performance",
+    //     submenu: [
+    //         {
+    //             label: "Financial Highlights",
+    //             submenu: [
+    //                 { label: "Consolidated and Standalone", link: "/financial/highlights" }
+    //             ]
+    //         },
+    //         {
+    //             label: "Financial Statements",
+    //             submenu: [
+    //                 { label: "Independent Auditor's Report on Consolidated Financial Statements", link: "/financial/auditor-consolidated" },
+    //                 { label: "Consolidated Financial Statements", link: "/financial/consolidated" },
+    //                 { label: "Financial Information of Subsidiaries and Basel III (Pillar 3) Disclosures", link: "/financial/subsidiaries-basel" },
+    //                 { label: "Independent Auditor's Report on Standalone Financial Statements", link: "/financial/auditor-standalone" },
+    //                 { label: "Standalone Financial Statements", link: "/financial/standalone" }
+    //             ]
+    //         },
+    //         {
+    //             label: "Statutory Reports",
+    //             submenu: [
+    //                 { label: "Directors' Report and Annexures", link: "/financial/statutory/directors-report" },
+    //                 { label: "Report on Corporate Governance", link: "/financial/statutory/governance" },
+    //                 { label: "Management's Discussion and Analysis", link: "/financial/statutory/management-analysis" },
+    //                 { label: "Business Responsibility and Sustainability Report (BRSR)", link: "/financial/statutory/brsr" }
+    //             ]
+    //         },
+    //         {
+    //             label: "Annexures",
+    //             submenu: [
+    //                 { label: "ESG Data Tables", link: "/financial/annexures/esg" },
+    //                 { label: "GRI Content Index", link: "/financial/annexures/gri" },
+    //                 { label: "Assurance Statements", link: "/financial/annexures/assurance" }
+    //             ]
+    //         }
+    //     ]
+    // }
 ];
 
 const Navbar = () => {
@@ -328,50 +333,50 @@ const Navbar = () => {
                 </div> */}
                 {/* <div> */}
 
-                    
-                    <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        className="text-slate-300 cursor-pointer text-2xl focus:outline-none"
-                    >
-                        {isOpen ? <FiX /> : <FiGrid />}
-                    </button>
 
-                    <div
-                        ref={dropdownRef}
-                        className={`absolute right-4 top-[60px] w-72 bg-[#1e293b] border border-slate-600 rounded-xl shadow-xl p-4 transition-opacity duration-300 pointer-events-${isOpen ? 'auto' : 'none'} ${isOpen ? 'block' : 'hidden'
-                            }`}
-                    >
-                        <div className="flex flex-col gap-3 text-sm">
-                            <a
-                                href="#download-center"
-                                className="text-slate-300 hover:text-white transition-all duration-300"
-                                onClick={() => setIsOpen(false)}
-                            >
-                                Download Center
-                            </a>
-                            <a
-                                href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center gap-2 text-slate-300 hover:text-white transition-all duration-300"
-                                onClick={() => setIsOpen(false)}
-                            >
-                                Download Full Report <FiDownload className="text-lg" />
-                            </a>
-                        </div>
-                    </div>
-                    
-                   
+                <button
+                    onClick={() => setIsOpen(!isOpen)}
+                    className="text-slate-300 cursor-pointer text-2xl focus:outline-none"
+                >
+                    {isOpen ? <FiX /> : <FiGrid />}
+                </button>
 
-                    {/* Hamburger */}
-                    <div className="md:hidden flex items-center justify-center">
-                        <button
-                            onClick={() => setMobileOpen(true)}
-                            className="text-4xl text-white cursor-pointer"
+                <div
+                    ref={dropdownRef}
+                    className={`absolute right-4 top-[60px] w-72 bg-[#1e293b] border border-slate-600 rounded-xl shadow-xl p-4 transition-opacity duration-300 pointer-events-${isOpen ? 'auto' : 'none'} ${isOpen ? 'block' : 'hidden'
+                        }`}
+                >
+                    <div className="flex flex-col gap-3 text-sm">
+                        <a
+                            href="#download-center"
+                            className="text-slate-300 hover:text-white transition-all duration-300"
+                            onClick={() => setIsOpen(false)}
                         >
-                            <RxHamburgerMenu />
-                        </button>
+                            Download Center
+                        </a>
+                        <a
+                            href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 text-slate-300 hover:text-white transition-all duration-300"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Download Full Report <FiDownload className="text-lg" />
+                        </a>
                     </div>
+                </div>
+
+
+
+                {/* Hamburger */}
+                <div className="md:hidden flex items-center justify-center">
+                    <button
+                        onClick={() => setMobileOpen(true)}
+                        className="text-4xl text-white cursor-pointer"
+                    >
+                        <RxHamburgerMenu />
+                    </button>
+                </div>
             </nav>
 
             <div

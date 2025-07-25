@@ -50,7 +50,7 @@ const fallbackThemes = [
     },
     {
         id: 4,
-        bg: './home/op-strategy/Tec-core.webp',
+        bg: './home/op-strategy/tec-core.webp',
         title: 'Technology at the Core',
         link: '/strategy#technology-core',
     },

@@ -20,16 +20,20 @@ const SusSnapshots = () => {
             subtitle: "Excellence in Service",
             image: './home/ss1.webp',
             achievements: [
-                { value: "28%", desc: "Reduction YoY in net complaints at the Bank" },
+                { value: "28%", desc: "Reduction YoY in net complaints at the Bank", html: "Reduction YoY in net complaints at the Bank<sup>*</sup>" },
                 { value: "30%", desc: "Of Bank's ATMs are differently-abled friendly" },
                 { value: "> 40%", desc: "Improvement in RNPS scores of Affluent and NR Customers at the Bank" },
                 { value: "40%", desc: "Of service requests automated for faster complaint resolution at the Bank" }
             ],
             initiatives: [
-                { title: "Customer Centric", desc: "Initiatives such as 811, Customer 360 and Voice channel" },
+                { title: "Customer Centric", desc: "Initiatives such as 811, Customer 360 and Voice channel", html: "Initiatives such as 811, Customer 360 and Voice channel<sup>#</sup>" },
                 { title: "Care Index", desc: "For service quality monitoring through key channels" },
                 { title: "Training", desc: "Front-line staff for proactive prevention of fraud" },
                 { title: "Grievance Redressal", desc: "Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen" }
+            ],
+            footnotes: [
+                "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days",
+                "#Voice channel is an initiative to ensure seamless integration between Digital (digital platforms), Phygital (virtual relationship managers, live support, etc.) and Physical (branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25"
             ]
         },
         {
@@ -41,7 +45,7 @@ const SusSnapshots = () => {
             achievements: [
                 { value: "27%", desc: "Board gender diversity" },
                 { value: "> 20%", desc: "Of Bank's workforce operating from ISO 45001:2018 certified premises" },
-                { value: "₹ 7,900+ cr", desc: "Green assets as on 31st March 2025 at the Bank" },
+                { value: "₹ 7,900+ cr", desc: "Green assets as on 31st March 2025 at the Bank", html: "Green assets as on 31st March 2025 at the Bank<sup>***</sup>" },
                 { value: "20 years", desc: "Average tenure of leadership team with the Group" }
             ],
             initiatives: [
@@ -49,6 +53,9 @@ const SusSnapshots = () => {
                 { title: "ESG Integration", desc: "Considerations in Credit and Risk management processes" },
                 { title: "Renewable Energy", desc: "5.5% share of renewable electricity used by the Bank" },
                 { title: "Green Infrastructure", desc: "Open access renewable energy and rooftop solar installations" }
+            ],
+            footnotes: [
+                "***As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping"
             ]
         },
         {
@@ -56,11 +63,11 @@ const SusSnapshots = () => {
             title: "Colleagues",
             link: "/sustainability/colleagues",
             subtitle: "Empowering Our People",
-            image: './home/ss3.webp',
+            image: '/home/Untitled-3-1.png',
             achievements: [
                 { value: "26.4%", desc: "Gender diversity at the Group" },
                 { value: "16%", desc: "YoY reduction in employee turnover at the Bank" },
-                { value: "78%", desc: "Employees take pride in being a part of the Bank" },
+                { value: "78%", desc: "Employees take pride in being a part of the Bank", html: "Employees take pride in being a part of the Bank<sup>##</sup>" },
                 { value: "49.5 Hours", desc: "Average person hours of training at the Bank" }
             ],
             initiatives: [
@@ -68,9 +75,11 @@ const SusSnapshots = () => {
                 { title: "5 Pillars", desc: "Of employee development through talent engagement" },
                 { title: "ISO 45001:2018", desc: "Certified offices - eight" },
                 { title: "Diversity Programs", desc: "Including Women re-launch programme" }
+            ],
+            footnotes: [
+                "##Respondents to the Great Place To Work® survey"
             ]
         },
-
         {
             id: 4,
             title: "Community",
@@ -78,16 +87,19 @@ const SusSnapshots = () => {
             subtitle: "Social Impact",
             image: './home/ss4.webp',
             achievements: [
-                { value: "2 lakh+", desc: "Children from schools and colleges supported by Kotak Education Foundation" },
-                { value: "7,600+", desc: "Scholarships awarded for continuation of education of school and college students" },
-                { value: "~19,000", desc: "Differently abled beneficiaries for better education, healthcare & livelihood" },
-                { value: "11,000+", desc: "Cancer patients supported" }
+                { value: "2 lakh+", desc: "Children from schools and colleges supported by Kotak Education Foundation", html: "Children from schools and colleges supported by Kotak Education Foundation<sup>$</sup>" },
+                { value: "7,600+", desc: "Scholarships awarded for continuation of education of school and college students", html: "Scholarships awarded for continuation of education of school and college students<sup>$</sup>" },
+                { value: "~19,000", desc: "Differently abled beneficiaries for better education, healthcare & livelihood", html: "Differently abled beneficiaries for better education, healthcare & livelihood<sup>$</sup>" },
+                { value: "11,000+", desc: "Cancer patients supported", html: "Cancer patients supported<sup>$</sup>" }
             ],
             initiatives: [
                 { title: "Kotak BizLabs", desc: "Accelerator programme for early-revenue stage startups in India" },
                 { title: "Environmental Impact", desc: "1.5 lakh+ saplings creating mini forests" },
                 { title: "Gender Focus", desc: "15 women-specific CSR programmes" },
                 { title: "Institution Building", desc: "6 flagship institutions/programmes built and/or under development" }
+            ],
+            footnotes: [
+                "$We estimate CSR beneficiaries based on data provided by the implementing agencies and some of them may not be unique"
             ]
         }
     ];
@@ -176,7 +188,7 @@ const SusSnapshots = () => {
                                     {/* Arrow only */}
                                     <div className="absolute flex justify-between items-center w-full top-4 sm:top-4 right-4 sm:right-0">
                                         <div className="w-8 h-8 ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
-                                            <LuLayoutGrid  className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                            <LuLayoutGrid className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
                                         </div>
                                         <Link to={card.link} className="w-8 h-8 mr-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                                             <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
@@ -185,7 +197,7 @@ const SusSnapshots = () => {
 
                                     {/* Title Content */}
                                     <div className="absolute bottom-4 sm:bottom-2 left-4 sm:left-6 right-4 sm:right-6">
-                                       <h3 className="text-xl sm:text-lg font-semibold text-white mb-1 sm:mb-2">{card.title}</h3>
+                                        <h3 className="text-xl sm:text-lg font-semibold text-white mb-1 sm:mb-2">{card.title}</h3>
                                         {/* <p className="text-white/80 text-xs sm:text-sm font-medium">{card.subtitle}</p> */}
                                     </div>
                                 </div>
@@ -205,16 +217,15 @@ const SusSnapshots = () => {
                 >
                     <div
                         ref={modalRef}
-                        className={`bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-hidden shadow-2xl mx-4 transition-all duration-300 ${isModalVisible
-                                ? 'opacity-100 scale-100 translate-y-0'
-                                : 'opacity-0 scale-95 translate-y-4'
+                        className={`bg-white rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto shadow-2xl mx-4 transition-all duration-300 ${isModalVisible
+                            ? 'opacity-100 scale-100 translate-y-0'
+                            : 'opacity-0 scale-95 translate-y-4'
                             }`}
                         onClick={(e) => e.stopPropagation()}
                     >
                         {/* Modal Header */}
                         <div className="relative">
                             <div className="h-22 overflow-hidden relative">
-
                                 {/* Dark gradient overlay only */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-[#ed1c25] to-[#013367]"></div>
                             </div>
@@ -227,12 +238,10 @@ const SusSnapshots = () => {
                             </button>
 
                             <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6">
-                                {/* <p className="text-white/80 text-xs sm:text-sm font-medium mb-1 sm:mb-2">{selectedCard.subtitle}</p> */}
                                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white">{selectedCard.title}</h2>
                             </div>
                         </div>
 
-                        {/* Modal Content */}
                         {/* Modal Content */}
                         <div className="p-4 sm:p-6 lg:p-8">
                             {/* Key Achievements */}
@@ -248,14 +257,16 @@ const SusSnapshots = () => {
                                             <div className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-2 sm:mb-3">
                                                 {achievement.value}
                                             </div>
-                                            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">{achievement.desc}</p>
+                                            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed"
+                                                dangerouslySetInnerHTML={{ __html: achievement.html || achievement.desc }}>
+                                            </p>
                                         </div>
                                     ))}
                                 </div>
                             </div>
 
                             {/* Strategic Initiatives */}
-                            <div>
+                            <div className="mb-6">
                                 <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4 sm:mb-6">Strategic Initiatives</h3>
 
                                 <div className="flex flex-wrap gap-4 sm:gap-6">
@@ -265,13 +276,31 @@ const SusSnapshots = () => {
                                             className="p-4 sm:p-6 bg-white border border-slate-200/60 rounded-xl flex-1 min-w-[200px] max-w-[48%]"
                                         >
                                             <h4 className="font-semibold text-slate-900 mb-2 sm:mb-3 text-sm sm:text-base">{initiative.title}</h4>
-                                            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">{initiative.desc}</p>
+                                            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed"
+                                                dangerouslySetInnerHTML={{ __html: initiative.html || initiative.desc }}>
+                                            </p>
                                         </div>
                                     ))}
                                 </div>
                             </div>
-                        </div>
 
+                            {/* Footnotes */}
+                            {selectedCard.footnotes.map((footnote, index) => {
+                                const formattedFootnote = footnote
+                                    .replace(/\*{1,3}/g, match => `<sup>${match}</sup>`)
+                                    .replace(/#+/g, match => `<sup>${match}</sup>`)
+                                    .replace(/\${1,3}/g, match => `<sup>${match}</sup>`);
+
+                                return (
+                                    <p
+                                        key={index}
+                                        className="text-sm text-slate-500 leading-relaxed"
+                                        dangerouslySetInnerHTML={{ __html: formattedFootnote }}
+                                    />
+                                );
+                            })}
+
+                        </div>
                     </div>
                 </div>
             )}

@@ -17,7 +17,7 @@ const About = () => {
                             Established in 1985, Kotak is one of India’s leading diversified and integrated financial
                             services conglomerates, providing a wide range of financial solutions across customer and
                             geographic segments within India. As a Group, Kotak also operates in overseas markets through
-                            international subsidiaries and branches in key geographies.<sup>1</sup>
+                            international subsidiaries and branches in key geographies.
                         </p>
                         <p className='mb-2'>
                             Kotak has been built on the ethos of trust, governance, prudent risk management practices,
@@ -82,7 +82,7 @@ const About = () => {
                 <div className="text-sm text-[#000000] mt-8 border-t pt-1 italic">
                     <p>
                         *Consolidated Assets | <sup>#</sup>All numbers are on a consolidated basis except where stated |
-                        <sup>**</sup> Relationship value of Private Banking + Priority as of 31<sup>st</sup> March, 2025 |<sup>1</sup> GRI 2-1
+                        <sup>**</sup> Relationship value of Private Banking + Priority as of 31<sup>st</sup> March, 2025
                     </p>
                 </div>
             </div>

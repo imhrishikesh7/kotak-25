@@ -67,9 +67,10 @@ const KPIHome = () => {
     const sliderRef = useRef(null);
 
     const sliderSettings = {
+        autoplay: false,
         infinite: false,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         arrows: false,
         responsive: [
             {
@@ -111,46 +112,50 @@ const KPIHome = () => {
 
     return (
         <div className="bg-[#F2F2F2] overflow-hidden py-1 px-4">
-           
+
             <div className='w-full px- py-6 md:py-6'>
-          <div className='mx-auto md:text-center'>
-            {/* Mobile-First Centered Layout */}
-            <div className=' space-y-2 md:space-y-0 md:gap-1 md:items-center'>
-              {/* Left Section - Heading */}
-              <div className='space-y-2'>
-                {/* Technology Badge */}
-                <Reveal animation="slide-up mx-aut text-cente">
-                  <div className="inline-flex mx-aut flex-col md:items-start">
-                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
-                      Key Performance Indicators
-                    </span>
-                    {/* Centered decorative line for mobile */}
-                    <div className='flex w-12 md:mx-auto md:w-16'>
-                      <div className='h-[2px] bg-[#ed1c25] w-1/2' />
-                      <div className='h-[2px] bg-[#013367] w-1/2' />
+                <div className='mx-auto md:text-center'>
+                    {/* Mobile-First Centered Layout */}
+                    <div className=' space-y-2 md:space-y-0 md:gap-1 md:items-center'>
+                        {/* Left Section - Heading */}
+                        <div className='space-y-2'>
+                            {/* Technology Badge */}
+                            <Reveal animation="slide-up mx-aut text-cente">
+                                <div className="inline-flex mx-aut flex-col md:items-start">
+                                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                                        Key Performance Indicators
+                                    </span>
+                                    {/* Centered decorative line for mobile */}
+                                    <div className='flex w-12 md:mx-auto md:w-16'>
+                                        <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                                        <div className='h-[2px] bg-[#013367] w-1/2' />
+                                    </div>
+                                </div>
+                            </Reveal>
+
+                            {/* Main Title - Much smaller for mobile */}
+                            <Reveal animation="slide-up">
+                                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                                    Responsible growth, resilient performance
+                                </h1>
+                            </Reveal>
+                        </div>
+
+                        {/* Right Section - Description */}
+                        <div className='mt-4 md:mt-0'>
+                            <Reveal animation="slide-up">
+                                <p className='text-sm sm:text-base  md:text-xl font-semibold text-[#013367] leading-relaxed max-w-md mx-auto md:max-w-none md:mx-0 '>
+                                    All numbers are on a consolidated basis except where stated
+                                </p>
+                                <p className='text-lg font-semibold'>
+                                    Our consistent return ratios and fortress-like balance sheet reflect our unwavering commitment to creating sustainable and
+                                    long-term value for all stakeholders.
+                                </p>
+                            </Reveal>
+                        </div>
                     </div>
-                  </div>
-                </Reveal>
-
-                {/* Main Title - Much smaller for mobile */}
-                <Reveal animation="slide-up">
-                  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
-                    Responsible growth, resilient performance
-                  </h1>
-                </Reveal>
-              </div>
-
-              {/* Right Section - Description */}
-              <div className='mt-4 md:mt-0'>
-                <Reveal animation="slide-up">
-                  <p className='text-sm sm:text-base  md:text-xl font-semibold text-[#013367] leading-relaxed max-w-md mx-auto md:max-w-none md:mx-0 '>
-                    All numbers are on a consolidated basis except where stated
-                  </p>
-                </Reveal>
-              </div>
+                </div>
             </div>
-          </div>
-        </div>
             {/* Tabs */}
             <div className="flex md:flex-row flex-col justify-center md:gap-6 gap-3 mb-10">
                 {Object.keys(chartImages).map((tab) => (
@@ -168,7 +173,7 @@ const KPIHome = () => {
             </div>
 
             {/* Slider with Fixed Arrows */}
-            <div className="relative bg-white rounded-2xl p-6 md:h-[350px] overflow-hidden max-w-5xl mx-auto">
+            <div className="relative bg-white rounded-2xl p-6 md:h-[450px] overflow-hidden max-w-5xl mx-auto">
                 <Slider ref={sliderRef} {...sliderSettings}>
                     {chartImages[activeTab].map((src, index) => (
                         <div key={index}>
@@ -186,24 +191,26 @@ const KPIHome = () => {
                     ))}
                 </Slider>
 
-                {/* Custom Arrows */}
                 <Arrow direction="left" onClick={() => sliderRef.current?.slickPrev()} />
                 <Arrow direction="right" onClick={() => sliderRef.current?.slickNext()} />
-            </div>
-            <div className='mt-6 w-[100%] mx-auto'>
-                {activeTab === 'Operational Metrics' && (
-                    <p className="text-xs flex items-start md:w-[70%] w-[90%] mx-auto gap-1">
-                       <span><IoMdArrowDropupCircle className='mt-[1px]'/></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
-                    </p>
-                )}
+                <div className='mt-6 w-[100%]'>
+                    {activeTab === 'Operational Metrics' && (
+                        <p className="text-xs flex items-start md:w-[70%] w-[90%] gap-1">
+                            <span><IoMdArrowDropupCircle className="mt-[1px]" /></span>
+                            4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to ₹ 3,803 crore and ₹ 3,013 crore respectively
+                        </p>
 
-                {activeTab === 'Group Company Metrics' && (
-                    <p className="text-xs flex items-start md:w-[70%] w-[90%] gap-1">
-                        <span><IoMdArrowDropupCircle className='mt-[1px] '/></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
-                        **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
-                    </p>
-                )}
+                    )}
+
+                    {activeTab === 'Group Company Metrics' && (
+                        <p className="text-xs flex items-start md:w-[70%] w-[90%] gap-1">
+                            <span><IoMdArrowDropupCircle className='mt-[1px] ' /></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April’23, accordingly previous period numbers are recomputed | <br />
+                            **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
+                        </p>
+                    )}
+                </div>
             </div>
+
 
         </div>
     );

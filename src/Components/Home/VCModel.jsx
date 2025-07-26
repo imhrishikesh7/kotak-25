@@ -165,7 +165,7 @@ export default function VCModel() {
           >
             <img
               src="\home\Table.png"
-              className='h-full rounded-3xl hover:opacity-50 transition-opacity pointer-events-none'
+              className='h-full rounded-3xl hover:opacity-50 transition-opacity pointer-events-none bg-white'
               alt="Value Creation Model"
             />
             {/* Zoom overlay hint */}
@@ -232,7 +232,7 @@ export default function VCModel() {
               ref={imageRef}
               src="home\Table.png"
               alt="Value Creation Model"
-              className="transition-transform duration-200 ease-out select-none"
+              className="transition-transform duration-200 ease-out select-none bg-white"
               style={{
                 transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px)) scale(${scale})`,
                 transformOrigin: 'center center',

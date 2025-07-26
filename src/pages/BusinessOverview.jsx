@@ -113,7 +113,8 @@ const BusinessOverview = () => {
                     </p>
                 </div>
             </div>
-            <div className='flex lg:flex-row flex-col justify-between gap-5 mt-5 text-[#212b7e]'>
+
+            <div className='flex lg:flex-row flex-col justify-between gap-5 mt-5 text-[#212b7e] border-b-2 border-[#b6b8ba] pb-5'>
                 <div>
                     <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
                         11%<sup><span className="text-red-600 text-sm ml-1">▲</span></sup>
@@ -142,6 +143,7 @@ const BusinessOverview = () => {
                     <p className='text-[#58595b] text-md font-normal'>Growth in Consumer Assets</p>
                 </div>
             </div>
+            <h1 className='pt-3'><sup><span className="text-red-600 text-sm ml-1">▲</span></sup><i>YoY </i></h1>
             <div id='kotak811'>
                 <Heading heading={'Kotak811'} icon='BusinessOverview\Page-13-Icon.webp' />
             </div>
@@ -620,7 +622,7 @@ const BusinessOverview = () => {
             <div id='custodial-services'>
                 <Heading heading={'Custodial Services'} icon='BusinessOverview\Page-16-Icon.webp' />
             </div>
-            <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
+            <div className='mt-5 text-lg  pb-5'>
 
                 <p className='font-semibold mb-2'>
                     Recognised as one of India’s leading domestic custodians,
@@ -774,7 +776,7 @@ const BusinessOverview = () => {
             <div id='asset-reconstruction-division'>
                 <Heading heading={'Asset Reconstruction Division'} icon='BusinessOverview\Page-16-Icon-2.webp' />
             </div>
-            <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
+            <div className='mt-5 text-lg  pb-5'>
 
                 <p className='font-semibold mb-2'>
                     Addresses potential turnaround cases and structured funding
@@ -894,7 +896,7 @@ const BusinessOverview = () => {
             <div id='lending-and-investments'>
                 <Heading heading={'Lending and Investments'} subheading={'Kotak Mahindra Investments Limited'} icon='BusinessOverview\Page-17-Icon-2.webp' />
             </div>
-            <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
+            <div className='mt-5 text-lg pb-5'>
 
                 <p className='font-semibold mb-2'>
                     Primarily engaged in real estate developer finance, corporate
@@ -1377,7 +1379,7 @@ const BusinessOverview = () => {
             <div id='mutual-fund'>
                 <Heading heading={'Mutual Fund'} subheading={'Kotak Mahindra Asset Management Company Limited'} icon='BusinessOverview\Page-20-Icon.webp' />
             </div>
-            <div className='mt-5 text-lg border-b-2 border-[#b6b8ba] pb-5'>
+            <div className='mt-5 text-lg pb-5'>
 
                 <p className='font-semibold mb-2'>
                     Serves investor requirements across both active and passive

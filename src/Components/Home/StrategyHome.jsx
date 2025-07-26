@@ -38,7 +38,7 @@ const fallbackThemes = [
     },
     {
         id: 2,
-        bg: './home/op-strategy/Image-42.webp',
+        bg: './home/op-strategy/onekotak.png',
         title: 'One Kotak',
         link: '/strategy#one-kotak',
     },
@@ -56,7 +56,7 @@ const fallbackThemes = [
     },
     {
         id: 5,
-        bg: './home/op-strategy/Untitled-1.webp',
+        bg: './home/op-strategy/people.jpg',
         title: 'Empowered Colleagues',
         link: '/strategy#empowered-colleagues',
     },

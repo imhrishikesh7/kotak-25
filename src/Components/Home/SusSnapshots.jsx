@@ -63,7 +63,7 @@ const SusSnapshots = () => {
             title: "Colleagues",
             link: "/sustainability/colleagues",
             subtitle: "Empowering Our People",
-            image: '/home/Untitled-3-1.png',
+            image: '/home/image (3).png',
             achievements: [
                 { value: "26.4%", desc: "Gender diversity at the Group" },
                 { value: "16%", desc: "YoY reduction in employee turnover at the Bank" },

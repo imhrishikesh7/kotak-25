@@ -111,7 +111,7 @@ const KPIHome = () => {
     }, [activeTab]);
 
     return (
-        <div className="bg-[#F2F2F2] overflow-hidden py-1 px-4">
+        <div className="bg-[#F2F2F2] pb-10 overflow-hidden py-1 px-4">
 
             <div className='w-full px- py-6 md:py-6'>
                 <div className='mx-auto md:text-center'>

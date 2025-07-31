@@ -1630,18 +1630,15 @@ const BusinessOverview = () => {
 
                 </div>
             </div>
-            <h1 className='pt-3'><i>*Kotak Alternate Asset Managers Limited (formerly known as Kotak Investment Advisors Limited)
+            <h1 className='pt-3'><i>*Kotak Alternate Asset Managers Limited (formerly known as Kotak Investment Advisors Limited) | ^Portfolio of Data Centre has
+                    been consolidated under Real estate; Portfolio of Strategic Situations has been
+                    consolidated under Private Credit
                 {/* ^Portfolio of Data Centre has been
                     consolidated under Real estate; Portfolio of Strategic Situations has been consolidated under Private Credit */}
                 {/* | <sup>#</sup>Bloomberg */}
             </i>
              </h1>
              <h1>
-                <i>
-                    ^Portfolio of Data Centre has
-                    been consolidated under Real estate; Portfolio of Strategic Situations has been
-                    consolidated under Private Credit
-                </i>
                 </h1>
            
 

@@ -291,7 +291,7 @@ const SusSnapshots = () => {
                                             key={index}
                                             className="p-4 sm:p-6 bg-white border border-slate-200/60 rounded-xl flex-1 min-w-[200px] max-w-[48%]"
                                         >
-                                            <h4 className="font-semibold text-slate-900 mb-2 sm:mb-3 text-sm sm:text-base">{initiative.title}</h4>
+                                            <h4 className="font-semibold text-slate-900 mb-2 sm:mb-3 text-sm sm:text-2xl">{initiative.title}</h4>
                                             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed"
                                                 dangerouslySetInnerHTML={{ __html: initiative.html || initiative.desc }}>
                                             </p>

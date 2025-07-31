@@ -33,8 +33,8 @@ const Aboutus = () => {
                                 </p>
                             </Reveal>
                             <Reveal animation="slide-up">
-                                <p className='text-[20px] leading-6 w-full text-[#013367] font-semibold'>
-                                    We are a ₹ 8.8 trillion institution* with a market capitalisation of ₹ 4.3 trillion, as of 31<sup>st</sup> March, 2025.
+                                <p className='leading-6 w-full text-lg'>
+                                    We are a <b>₹ 8.8 trillion</b> institution* with a market capitalisation of ₹ <b>4.3 trillion</b>, as of 31<sup>st</sup> March, 2025.
                                 </p>
                             </Reveal>
                             <p className='mt-4'>*Consolidated Assets</p>
@@ -42,7 +42,7 @@ const Aboutus = () => {
                     </div>
                 </div>
             <div className='margina mt-10 mx-auto'>
-                <p className='text-lg text-cente'>
+                <p className='text-lg text-cente font-semibold'>
                     At Kotak, we offer virtually every financial
                     services product. This is evident across our diversified financial conglomerate, which
                     is akin to a plane with four engines — banking and lending, capital markets, asset

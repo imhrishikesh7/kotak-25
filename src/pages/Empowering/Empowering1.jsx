@@ -66,7 +66,7 @@ const Empowering1 = () => {
         Empowering Colleagues
       </div>
       <h1 className="text-3xl font-bold text-[#ed1c2f] mb-2">
-        Colleagues at the Core
+        Colleagues at the core
       </h1>
       <h1 className='text-xl mb-2'>Our colleagues* are the backbone of our organisation, driving innovation and fueling future
         growth. We foster an inclusive culture that prioritises colleague well-being, diversity and

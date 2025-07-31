@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { LuX, LuArrowRight, LuArrowUpRight, LuLayoutGrid } from 'react-icons/lu';
 import Reveal from '../Reveal';
 import { href, Link } from 'react-router-dom';
+import KnowMore from '../KnowMore';
 
 const BO = () => {
   const [selectedCard, setSelectedCard] = useState(null);
@@ -168,7 +169,7 @@ const BO = () => {
 
 
   return (
-    <div className="bg-gradient-to-br from-slate-50 via-white to-slate-100">
+    <div className="bg-gradient-to-br from-slate-50 via-white to-slate-100 pb-6">
       <div className="marginal mx-auto px-4 sm:px-0 py-8 sm:py-16">
         <div className="w-fit mx-auto mb-6 md:text-center">
           <div className='space-y-2'>
@@ -281,12 +282,14 @@ const BO = () => {
                   )}
                 </div>
 
-
               </div>
             </div>
           </div>
         </div>
       )}
+               <div className='w-fit  mx-auto'>
+                <KnowMore to={"/business-overview"} />
+            </div>
     </div>
   );
 };

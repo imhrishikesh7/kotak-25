@@ -34,14 +34,16 @@ const KotakReportLayout = () => {
                             </div>
                             <div>
                                 <p className="leading-relaxed">
-                                    At the overall Bank level, the number of customers increased to 5.3 crore as on 31st March, 2025, as against 5.0 crore as on 31st March, 2024. This was primarily led by acquisitions in the Consumer and Commercial Bank businesses. During the year, R-NPS score, a measure of customer trust and therefore willingness to refer the Bank to others, saw an increase by 7 points*. Kotak Pay, our platform geared towards SME and Enterprise clients saw a growth of 72% YoY in customer base.
+                                    At the overall Bank level, the number of customers increased to 5.3 crore as on 31st March, 2025, as against 5.0 crore as on 31st March, 2024. This was primarily led by acquisitions in the Consumer and Commercial Bank businesses. During the year, R-NPS score, a measure of customer trust and therefore willingness to refer the Bank to others, saw an increase by 7 points*. Kotak fyn, our platform geared towards SME and Enterprise clients saw a growth of 72% YoY in customer base.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+                <div>
+                <i>*Improvement in score over the period July 2023 to March 2025</i>
+            </div>
             <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]" id='colleagues'>
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
@@ -74,7 +76,7 @@ const KotakReportLayout = () => {
                                 </p>
 
                                 <p className="mt-3 leading-relaxed">
-                                    As a measure of colleague engagement, the Bank received a 75% score in the Annual Employee Pulse Survey. Further, our focus on employee engagement led to a drop in turnover rate from 33.6% in FY 2023-24 to 33.3% in FY 2024-25 at the Bank. Additionally, 21% of our senior management of the Bank has 20 years tenure with the Group.
+                                    As a measure of colleague engagement, the Bank received a 75% score in the Annual Employee Pulse Survey. Further, our focus on employee engagement led to a drop in turnover rate from 33.6% in FY 2023-24 to 33.3% in FY 2024-25 at the Bank. Additionally, 21% of our senior management of the Bank has {'>20'} years tenure with the Group.
                                 </p>
                             </div>
                             <div>
@@ -112,9 +114,7 @@ const KotakReportLayout = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <i>*Improvement in score over the period July 2023 to March 2025</i>
-            </div>
+        
             <div className="border-2 border-red-400 rounded-lg p-6 bg-[#e8f6fd]" id='company'>
                 <div className="flex md:flex-row flex-col items-start gap-4">
                     <div className="flex-shrink-0 w-20 h-20 bg-[#d4effc] rounded-full border-2 border-red-400 flex items-center justify-center">
@@ -217,7 +217,7 @@ const KotakReportLayout = () => {
 
                             <div>
                                 <p className="leading-relaxed mb-4">
-                                    We have launched Kotak BizLabs (Bank's accelerator programme for early revenue stage startups in India), awarded "Good Samaritan" to various medical education and support 11,000+ cancer patients. We are committed to building institutions that go beyond immediate impact – rooted in excellence, built to scale and designed to serve generations.
+                                    We have launched Kotak BizLabs (Bank's accelerator programme for early revenue stage startups in India), awarded 7,600+ scholarships towards education and support 11,000+ cancer patients. We are committed to building institutions that go beyond immediate impact – rooted in excellence, built to scale and designed to serve generations.
                                 </p>
 
                                 <p className="leading-relaxed mb-4">

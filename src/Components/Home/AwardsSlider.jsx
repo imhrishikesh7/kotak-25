@@ -11,7 +11,7 @@ const awards = [
   {
     title: "Recognition for Business Excellence",
     icon: "./home/Icon1.webp",
-    href: "/awards-and-accolades#aw1" 
+    href: "/awards-and-accolades#aw1"
   },
   {
     title: "Recognition for Technology and Digital Prowess",
@@ -72,21 +72,26 @@ const AwardsSlider = () => {
       <div className="mx-auto">
 
         <div className='w-fit mx-auto mt-12 mb-8 text-center'>
-    
-            <Reveal animation="slide-up mx-aut text-cente">
-                        <div className="inline-flex mx-aut flex-col md:items-start">
-                            <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
-                                Awards and Accolades
-                            </span>
-                            {/* Centered decorative line for mobile */}
-                            <div className='flex w-12 md:mx-auto md:w-16'>
-                                <div className='h-[2px] bg-[#ed1c25] w-1/2' />
-                                <div className='h-[2px] bg-[#013367] w-1/2' />
-                            </div>
-                        </div>
-                    </Reveal>
+
+          <Reveal animation="slide-up mx-aut text-cente">
+            <div className="inline-flex mx-aut flex-col md:items-start">
+              <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                Awards and Accolades
+              </span>
+              {/* Centered decorative line for mobile */}
+              <div className='flex w-12 md:mx-auto md:w-16'>
+                <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                <div className='h-[2px] bg-[#013367] w-1/2' />
+              </div>
+            </div>
+          </Reveal>
+          <Reveal animation="slide-up">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+              Recognition of excellence
+            </h1>
+          </Reveal>
         </div>
-        
+
 
         {/* Slider Section */}
         <div className="relative">
@@ -106,7 +111,7 @@ const AwardsSlider = () => {
                   </div>
 
                   <h3 className="award-title text-lg font-medium text-slate-700 leading-relaxed px-4 transition-colors duration-300 ease-out">
-                   {award.title}
+                    {award.title}
                   </h3>
 
                 </Link>
@@ -124,7 +129,7 @@ const AwardsSlider = () => {
               <FaChevronLeft className="text-[#013367] w-4 h-4 group-hover:text-slate-800 transition-colors duration-300" />
             </button>
 
-      
+
             <button
               onClick={handleNext}
               className="w-12 h-12 rounded-full cursor-pointer border border-[#ed1c25] flex items-center justify-center hover:bg-slate-50 transition-all duration-300 group"
@@ -135,7 +140,7 @@ const AwardsSlider = () => {
           </div>
         </div>
         <div className='mt-6 w-fit mx-auto'>
-          <KnowMore to={"/awards-and-accolades"}/>
+          <KnowMore to={"/awards-and-accolades"} />
         </div>
       </div>
 

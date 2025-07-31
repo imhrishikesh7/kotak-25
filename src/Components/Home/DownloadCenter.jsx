@@ -237,15 +237,22 @@ const DownloadCenter = () => {
       category: "financial-highlights",
       link: "./documents/Kotak AR 2024-25-Financial Highlights(Consolidated and Standalone).pdf",
     },
+    {
+      id: 34,
+      title: "Download Full Report",
+      category: "ar",
+      link: "./documents/Kotak Integrated Annual Report 2024-25.pdf",
+    },
   ];
 
   const categories = [
     { id: 'all', name: 'All', count: documents.length },
+    { id: 'ar', name: 'Download Full Report', count: documents.filter(d => d.category === 'ar').length },
     { id: 'financial-highlights', name: 'Financial Highlights', count: documents.filter(d => d.category === 'financial-highlights').length },
     { id: 'financial-statements', name: 'Financial Statements', count: documents.filter(d => d.category === 'financial-statements').length },
     { id: 'statutory-reports', name: 'Statutory Reports', count: documents.filter(d => d.category === 'statutory-reports').length },
     { id: 'annexures', name: 'Annexures', count: documents.filter(d => d.category === 'annexures').length },
-    { id: 'Subsidiaries', name: 'Subsidiaries', count: documents.filter(d => d.category === 'Subsidiaries').length }
+    { id: 'Subsidiaries', name: 'Subsidiaries', count: documents.filter(d => d.category === 'Subsidiaries').length },
   ];
 
   const filteredDocuments = documents.filter(doc => {

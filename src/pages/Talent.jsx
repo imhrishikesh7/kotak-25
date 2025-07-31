@@ -8,7 +8,7 @@ const Talent = () => {
                 Talent
             </div>
             <h1 className="text-3xl font-bold text-[#ed1c2f]">
-                Empowering Our People: Building a Future-Ready Kotak
+                Empowering our people: building a future-ready kotak
             </h1>
             <div className='mt-2 text-2xl'>
                 <p>

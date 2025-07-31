@@ -9,7 +9,7 @@ const Excellence = () => {
         Delivering Excellence in Governance
       </div>
       <h1 className="text-3xl font-bold text-[#ed1c2f] mb-2">
-        Our Guiding Principles
+        Our guiding principles
       </h1>
       <div className='md:flex gap-5 mb-7 mt-10'>
         <div className='md:w-[50%] p-4 bg-gray-100 mb-2 rounded-3xl'>
@@ -114,8 +114,7 @@ const Excellence = () => {
             in their respective domains, well-aware of their fiduciary
             duties and dedicated to meeting the expectations of all
             stakeholders. Our directors bring a unique blend of skills,
-            expertise and perspectives for informed strategic decision-
-            making and drives the success of our organisation. The
+            expertise and perspectives for informed strategic decision-making and drives the success of our organisation. The
             composition of the Board can be found in Directors’ Report on
             pages <strong className='text-[#212b7e]'>309-311</strong> of this report.
           </p>
@@ -194,7 +193,7 @@ const Excellence = () => {
               Control Unit (RCU) teams.
             </p>
             <p className='mb-2'>
-              A vigilance clearance is required for transitiont of employees
+              A vigilance clearance is required for transition of employees
               to high-risk roles. High value fraud cases are reported to a
               Special committee of the Board for monitoring and follow-up
               of frauds. This committee ensures accountability, monitor
@@ -282,8 +281,7 @@ const Excellence = () => {
           </p>
           <p className='mb-2'>
             The IT Risk and Information Security Committee (IRISC) oversees
-            the Bank’s overall security posture and operates under a Board-
-            sanctioned policy framework, which is reviewed annually.
+            the Bank’s overall security posture and operates under a Board-sanctioned policy framework, which is reviewed annually.
             The Bank maintains full compliance with Indian regulatory
             standards, including the RBI Cybersecurity Framework, IT
             Act 2000 and PCI DSS 4.0. We are certified under ISO/IEC
@@ -362,7 +360,7 @@ const Excellence = () => {
           <p className='mb-2'>
             We conduct security assessments of new software vendors,
             software and hardware, during onboarding as well as on ongoing
-            basis. ongoing basis. We also perform external assessments such
+            basis. We also perform external assessments such
             as Vulnerability Assessment (VA) and Penetration Testing (PT),
             along with internal assessments like Vulnerability Assessment
             and Configuration Audit (VACA), Dynamic Application Security
@@ -409,7 +407,7 @@ const Excellence = () => {
             <p className='mb-2'>
               We provide comprehensive induction training, including
               dedicated modules on cybersecurity awareness to all our new
-              empolyees. We also have mandatory annual refresher courses
+              employees. We also have mandatory annual refresher courses
               on information security for all staff. In addition, the Information
               Risk Management (IRM) and Chief Information Security Officer
               (CISO) teams regularly share security updates and best practices,

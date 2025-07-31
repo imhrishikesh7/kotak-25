@@ -12,7 +12,7 @@ const highlights = [
 
 const KeyHighlights = () => {
     return (
-        <div className="bg-transparent py-8 ">
+        <div className="bg-transparent pt-8">
             <div className="w-full mx-auto">
 
                 <Marquee speed={50} className="rounded-3xl" gradient={false}>

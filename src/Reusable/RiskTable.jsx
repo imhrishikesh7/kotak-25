@@ -7,7 +7,7 @@ const RiskTable = ({ risks }) => {
     <div className="border border-red-300 rounded-md overflow-hidden divide-y divide-red-200 text-lg">
       {/* Table Header */}
       <div className="grid grid-cols-2 bg-blue-900 text-white font-semibold p-3">
-        <div className='ml-5'>Risks</div>
+        <div className='ml-5'>Risks <span className='ml-6 text-gray-200 font-medium'>(Click for more content)</span></div>
         <div className='ml-5'>Mitigating Action</div>
       </div>
 

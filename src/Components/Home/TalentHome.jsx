@@ -83,7 +83,7 @@ const TalentHome = () => {
                                             {/* Main Title - Much smaller for mobile */}
                                             <Reveal animation="slide-up">
                                                 <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-tight text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0 md:text-left">
-                                                    Empowering Our People: <br /> Building a Future-Ready Kotak
+                                                    Empowering our people: <br /> Building a future-ready kotak
                                                 </h1>
                                             </Reveal>
                                         </div>

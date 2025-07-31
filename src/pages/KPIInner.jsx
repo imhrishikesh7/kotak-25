@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { IoMdArrowDropupCircle } from "react-icons/io";
 import Reveal from '../Components/Reveal';
+import { div } from 'three/src/nodes/TSL.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,25 +48,32 @@ const KPIHome = () => {
     const imageRefs = useRef([]);
 
     useEffect(() => {
-        imageRefs.current.forEach((el) => {
-            if (el) {
-                gsap.fromTo(
-                    el,
-                    { clipPath: 'inset(0 100% 0 0)' },
-                    {
-                        clipPath: 'inset(0 0% 0 0)',
-                        duration: 1.2,
-                        ease: 'power2.out',
-                        scrollTrigger: {
-                            trigger: el,
-                            start: 'top 90%',
-                            toggleActions: 'play none none none',
-                        },
-                    }
-                );
-            }
-        });
+        // Clear previous refs
+        imageRefs.current = [];
+
+        // Timeout to allow DOM update before animation triggers
+        setTimeout(() => {
+            imageRefs.current.forEach((el) => {
+                if (el) {
+                    gsap.fromTo(
+                        el,
+                        { clipPath: 'inset(0 100% 0 0)' },
+                        {
+                            clipPath: 'inset(0 0% 0 0)',
+                            duration: 1.2,
+                            ease: 'power2.out',
+                            scrollTrigger: {
+                                trigger: el,
+                                start: 'top 90%',
+                                toggleActions: 'play none none none',
+                            },
+                        }
+                    );
+                }
+            });
+        }, 100); // Small delay ensures DOM is updated
     }, [activeTab]);
+
 
     return (
         <div className=" overflow-hidden py-10 px-4 marginal">
@@ -84,7 +92,7 @@ const KPIHome = () => {
                     <p>
                         All numbers are on a consolidated basis except where stated
                     </p>
-                    
+
                 </Reveal>
             </div>
             {/* Tabs */}
@@ -110,7 +118,9 @@ const KPIHome = () => {
                         <div key={index}>
                             <div
                                 className="overflow-hidden"
-                                ref={(el) => (imageRefs.current[index] = el)}
+                                ref={(el) => {
+                                    if (el) imageRefs.current[index] = el;
+                                }}
                             >
                                 <img
                                     src={src}
@@ -120,21 +130,25 @@ const KPIHome = () => {
                             </div>
                         </div>
                     ))}
+
                 </div>
             </div>
 
             <div className='px-4'>
                 {activeTab === 'Operational Metrics' && (
                     <p className="text-xs flex items-start gap-1 mt-5">
-                        <span><IoMdArrowDropupCircle className='mt-[1px]' /></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to H 3,803 crore and H 3,013 crore respectively
+                        <span><IoMdArrowDropupCircle className='mt-[1px]' /></span> 4-year CAGR | *Operating Profit and Net Profit for FY 2024-25 includes gain on divestment of stake in Kotak Mahindra General Insurance Company Limited amounting to ₹ 3,803 crore and ₹ 3,013 crore respectively
                     </p>
                 )}
 
                 {activeTab === 'Group Company Metrics' && (
-                    <p className="text-xs flex items-start gap-1">
-                        <span><IoMdArrowDropupCircle className='mt-[1px]' /></span>4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April'23, accordingly previous period numbers are recomputed | <br />
-                        **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | #Average assets under Management | ##excluding Proprietary Segments
-                    </p>
+                    <div className='flex items-start gap-1'>
+                        <span><IoMdArrowDropupCircle className='mt-[1px]' /></span>
+                        <p className="text-xs gap-1">
+                            4-year CAGR |*KSEC ADV is computed based on the revised disclosures by NSE from April'23, accordingly previous period numbers are recomputed |
+                            **Computed based on the principles prescribed by APS10. The methodology, assumptions and results have been reviewed by Willis Towers Watson Actuarial Advisory LLP | <sup>#</sup>Average Assets Under Management | <sup>##</sup>excluding Proprietary Segments
+                        </p>
+                    </div>
                 )}
             </div>
 

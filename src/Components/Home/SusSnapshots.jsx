@@ -20,20 +20,22 @@ const SusSnapshots = () => {
             subtitle: "Excellence in Service",
             image: './home/ss1.webp',
             achievements: [
-                { value: "28%", desc: "Reduction YoY in net complaints at the Bank", html: "Reduction YoY in net complaints at the Bank<sup>*</sup>" },
+                { value: "28%", desc: "Reduction YoY in net complaints at the Bank", html: "Reduction YoY in net complaints<sup>*</sup> at the Bank" },
                 { value: "30%", desc: "Of Bank's ATMs are differently-abled friendly" },
-                { value: "> 40%", desc: "Improvement in RNPS scores of Affluent and NR Customers at the Bank" },
+                { value: "> 40%", desc: "Improvement in RNPS® scores of Affluent and NR Customers at the Bank", html: "Improvement in RNPS® scores of Affluent and NR Customers<sup>**</sup> at the Bank" },
                 { value: "40%", desc: "Of service requests automated for faster complaint resolution at the Bank" }
             ],
             initiatives: [
-                { title: "Customer Centric", desc: "Initiatives such as 811, Customer 360 and Voice channel", html: "Initiatives such as 811, Customer 360 and Voice channel<sup>#</sup>" },
+                { title: "Customer Centric", desc: "Initiatives such as 811, Customer 360 and Voice channel", html: "Initiatives such as 811, Customer 360 and Voice channel<sup>$</sup>" },
                 { title: "Care Index", desc: "For service quality monitoring through key channels" },
                 { title: "Training", desc: "Front-line staff for proactive prevention of fraud" },
                 { title: "Grievance Redressal", desc: "Strengthened with 11-member Internal ombudsman support desk working with 3 Internal ombudsmen" }
             ],
             footnotes: [
                 "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days",
-                "#Voice channel is an initiative to ensure seamless integration between Digital (digital platforms), Phygital (virtual relationship managers, live support, etc.) and Physical (branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25"
+                 "**Period of calculation is from September 2024 to March 2025",
+                "$Voice channel is an initiative to ensure seamless integration between Digital (digital platforms), Phygital (virtual relationship managers, live support, etc.) and Physical (branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25",
+               
             ]
         },
         {
@@ -45,7 +47,7 @@ const SusSnapshots = () => {
             achievements: [
                 { value: "27%", desc: "Board gender diversity" },
                 { value: "> 20%", desc: "Of Bank's workforce operating from ISO 45001:2018 certified premises" },
-                { value: "₹ 7,900+ cr", desc: "Green assets as on 31st March 2025 at the Bank", html: "Green assets as on 31st March 2025 at the Bank<sup>***</sup>" },
+                { value: "₹ 7,900+ cr", desc: "Green assets as on 31st March 2025 at the Bank", html: "Green assets<sup>*</sup> as on 31<sup>st</sup> March 2025 at the Bank" },
                 { value: "20 years", desc: "Average tenure of leadership team with the Group" }
             ],
             initiatives: [
@@ -55,7 +57,7 @@ const SusSnapshots = () => {
                 { title: "Green Infrastructure", desc: "Open access renewable energy and rooftop solar installations" }
             ],
             footnotes: [
-                "***As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping"
+                "*As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping"
             ]
         },
         {
@@ -67,7 +69,7 @@ const SusSnapshots = () => {
             achievements: [
                 { value: "26.4%", desc: "Gender diversity at the Group" },
                 { value: "16%", desc: "YoY reduction in employee turnover at the Bank" },
-                { value: "78%", desc: "Employees take pride in being a part of the Bank", html: "Employees take pride in being a part of the Bank<sup>##</sup>" },
+                { value: "78%", desc: "Employees take pride in being a part of the Bank", html: "Employees<sup>##</sup> take pride in being a part of the Bank" },
                 { value: "49.5 Hours", desc: "Average person hours of training at the Bank" }
             ],
             initiatives: [
@@ -87,10 +89,10 @@ const SusSnapshots = () => {
             subtitle: "Social Impact",
             image: './home/ss4.webp',
             achievements: [
-                { value: "2 lakh+", desc: "Children from schools and colleges supported by Kotak Education Foundation", html: "Children from schools and colleges supported by Kotak Education Foundation<sup>$</sup>" },
+                { value: "2 lakh+$", desc: "Children from schools and colleges supported by Kotak Education Foundation", html: "Children from schools and colleges supported by Kotak Education Foundation<sup>$</sup>" },
                 { value: "7,600+", desc: "Scholarships awarded for continuation of education of school and college students", html: "Scholarships awarded for continuation of education of school and college students<sup>$</sup>" },
-                { value: "~19,000", desc: "Differently abled beneficiaries for better education, healthcare & livelihood", html: "Differently abled beneficiaries for better education, healthcare & livelihood<sup>$</sup>" },
-                { value: "11,000+", desc: "Cancer patients supported", html: "Cancer patients supported<sup>$</sup>" }
+                { value: "~19,000$", desc: "Differently abled beneficiaries for better education, healthcare & livelihood", html: "Differently abled beneficiaries for better education, healthcare & livelihood<sup>$</sup>" },
+                { value: "11,000+$", desc: "Cancer patients supported", html: "Cancer patients supported<sup>$</sup>" }
             ],
             initiatives: [
                 { title: "Kotak BizLabs", desc: "Accelerator programme for early-revenue stage startups in India" },
@@ -103,6 +105,17 @@ const SusSnapshots = () => {
             ]
         }
     ];
+
+    const renderValueWithSup = (value) => {
+        const parts = value.split('$');
+        return (
+            <>
+                {parts[0]}
+                {value.endsWith('$') && <sup>$</sup>}
+            </>
+        );
+    };
+
 
     const handleCardClick = (card) => {
         setSelectedCard(card);
@@ -246,7 +259,7 @@ const SusSnapshots = () => {
                         <div className="p-4 sm:p-6 lg:p-8">
                             {/* Key Achievements */}
                             <div className="mb-8 sm:mb-10">
-                                <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4 sm:mb-6">Key Achievements</h3>
+                                <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4 sm:mb-6">Achievements</h3>
 
                                 <div className="flex flex-wrap gap-4 sm:gap-6">
                                     {selectedCard.achievements.map((achievement, index) => (
@@ -255,8 +268,11 @@ const SusSnapshots = () => {
                                             className="p-4 sm:p-6 bg-slate-50 rounded-xl border border-slate-200/60 flex-1 min-w-[200px] max-w-[48%]"
                                         >
                                             <div className="text-2xl sm:text-3xl font-semibold text-slate-900 mb-2 sm:mb-3">
-                                                {achievement.value}
+                                                {renderValueWithSup(achievement.value)}
                                             </div>
+
+
+
                                             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed"
                                                 dangerouslySetInnerHTML={{ __html: achievement.html || achievement.desc }}>
                                             </p>
@@ -267,7 +283,7 @@ const SusSnapshots = () => {
 
                             {/* Strategic Initiatives */}
                             <div className="mb-6">
-                                <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4 sm:mb-6">Strategic Initiatives</h3>
+                                <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-4 sm:mb-6">Initiatives</h3>
 
                                 <div className="flex flex-wrap gap-4 sm:gap-6">
                                     {selectedCard.initiatives.map((initiative, index) => (

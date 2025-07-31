@@ -144,7 +144,7 @@ const Empowering1 = () => {
           staff <sup>*</sup>. 68% of the Group employees are permanent. Our
           permanent workforce has shown a steady increase YoY.
           There has been a marked decline in contractual roles
-          at the Bank and subsidiaries, with KLO being
+          at the Bank and subsidiaries, with KLI being
           the only exception <sup>*</sup>.
         </p>
         <p className='mb-2'>
@@ -428,24 +428,26 @@ const Empowering1 = () => {
         <h1 className='font-bold text-black mb-2'>
           Testimonials on Kotak MyLearn from learners
         </h1>
-        <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
+        <div className="bg-blue-100 rounded-xl p-4  shadow-sm">
           {/* Quotation Icons */}
-          <div className="text-red-600 text-4xl mb-2">❝</div>
+
 
           {/* Testimonial Text */}
-          <p className="text-[#252f80]">
+          <p className="text-[#252f80] relative">
+            <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
             The courses on Kotak MyLearn align well with
             my job responsibilities and learning goals. They
             provided valuable insights and practical skills
             that I can directly apply to my work, helping me
             perform more effectively in my role.
+            <span className="text-red-600 absolute ml-1  text-4xl inline-block text-righ ">❞</span>
           </p>
 
           {/* Closing quote */}
-          <div className="text-red-600 text-4xl text-right ">❞</div>
+
 
           {/* Name and Title */}
-          <div className="">
+          <div className="mt-4">
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Alkesh Ashokbhai Bhatt
             </p>
@@ -457,22 +459,23 @@ const Empowering1 = () => {
       </div>
       <div className='mb-8 text-xl'>
         <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
-          {/* Quotation Icons */}
-          <div className="text-red-600 text-4xl">❝</div>
+
 
           {/* Testimonial Text */}
-          <p className="text-[#252f80]  ">
+          <p className="text-[#252f80] relative">
+            <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
             Kotak MyLearn platform has been
             incredibly helpful in familiarising me with
             the organisation’s policies, culture and
             overall functioning.
+            <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
           </p>
 
           {/* Closing quote */}
-          <div className="text-red-600 text-4xl text-right">❞</div>
+
 
           {/* Name and Title */}
-          <div className="">
+          <div className="mt-4">
             <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
               Sunil Sharma
             </p>
@@ -509,21 +512,18 @@ const Empowering1 = () => {
         </div>
         <div className='mb-5 text-xl'>
           <div className="bg-blue-100 rounded-xl p-6  shadow-sm">
-            {/* Quotation Icons */}
-            <div className="text-red-600 text-4xl mb-2">❝</div>
 
-            {/* Testimonial Text */}
-            <p className="text-[#252f80]  ">
+            <p className="text-[#252f80] relative">
+              <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
               KYLC has been an exciting journey! The hands-on projects, inspiring mentors and real-time
               challenges are shaping me into a stronger,
               more confident leader every day.
+              <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
             </p>
 
-            {/* Closing quote */}
-            <div className="text-red-600 text-4xl text-right">❞</div>
 
             {/* Name and Title */}
-            <div className="">
+            <div className="mt-4">
               <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
                 Amrutha Kandukuri
               </p>
@@ -562,8 +562,9 @@ const Empowering1 = () => {
 
           {/* Bottom: Testimonial Box */}
           <div className="bg-blue-100 rounded-xl p-4">
-            <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
-            <p className="text-[#1d278d]  mb-2">
+
+            <p className="text-[#252f80] relative">
+              <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
               The session on future business was profoundly
               insightful. It has significantly transformed
               my perspective and encouraged me to think
@@ -571,9 +572,10 @@ const Empowering1 = () => {
               inspired to explore innovative business ideas
               and, most importantly, to focus on their
               effective implementation.
+              <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
             </p>
-            <div className="text-red-600 text-2xl font-bold text-right mt-2">❞</div>
-            <p className="inline-block bg-red-600 text-white font-bold px-2 py-1 rounded">
+
+            <p className="inline-block bg-red-600 mt-4 text-white font-bold px-2 py-1 rounded">
               Akhil Jain
             </p>
             <p className=" italic">
@@ -605,20 +607,16 @@ const Empowering1 = () => {
           </p>
         </div>
         <div className="bg-blue-100 p-4 rounded-xl shadow-sm  border border-gray-200 mb-5">
-          {/* Opening Quotes */}
-          <div className="text-red-600 text-2xl font-bold mb-2">❝</div>
 
-          {/* Testimonial Text */}
-          <p className="text-[#1d278d] ">
+          <p className="text-[#252f80] relative">
+            <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
             The immersion programme was
             engaging and highlighted the
             importance of putting the customer
             at the centre with technology as a key
             enabler of customer engagement.
+            <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
           </p>
-
-          {/* Closing Quotes */}
-          <div className="text-red-600 text-2xl font-bold text-right mt-2">❞</div>
 
           {/* Author */}
           <div className="mt-3">
@@ -710,7 +708,9 @@ const Empowering1 = () => {
 
           {/* Testimonial Section */}
           <div className="bg-blue-100 rounded-xl p-4">
-            <p className="text-[#252f80]">
+
+            <p className="text-[#252f80] relative">
+              <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
               I feel immensely proud that we got an
               opportunity to talk about such an important
               topic in different workshops. I have not
@@ -721,7 +721,9 @@ const Empowering1 = () => {
               a similar approach. This workshop is
               definitely going to bridge the gap between
               customer expectation and our service.
+              <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
             </p>
+
             <div className="mt-4">
               <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
                 Prashant Bharadwaj
@@ -798,18 +800,15 @@ const Empowering1 = () => {
 
 
         <div class="p-6 relative flex flex-col justify-between">
-          <div class="absolute top-2 left-2 text-red-500 text-2xl font-bold">❝</div>
 
 
-          <p class="mt-6 text-3xl font-light">
+          <p className="text-3xl font-light relative">
+            <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
             We are building a workplace where everyone is seen, heard
             and valued -not despite our differences but because of them.
             Inclusion is how we grow together.
+            <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
           </p>
-
-
-          <div class="text-red-500 text-2xl font-bold text-right mt-2">❞</div>
-
 
           <div class="mt-4 border-t pt-4">
             <p class="font-bold text-white w-fit p-2 rounded-lg bg-red-600">Paritosh Kashyap</p>
@@ -931,13 +930,16 @@ const Empowering1 = () => {
           Testimonials of Culture of Inclusivity and Beyond Biases
         </h1>
         <div className="bg-blue-100 rounded-xl p-4">
-          <p className="text-[#252f80] font-semibold">
+          <p className="text-[#252f80] relative">
+            <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
             As a manager I should not be biased towards
             any team member. This session taught us
             how to identify different types of biases,
             improve our awareness and avoid them in
             day-to-day life.
+            <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
           </p>
+
           <div className="mt-4">
             <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
               Ambili A Nair
@@ -948,14 +950,19 @@ const Empowering1 = () => {
           </div>
         </div>
         <div className="bg-blue-100 rounded-xl p-4 mt-3">
-          <p className="text-[#252f80] font-semibold">
-            Recognising, understanding and respecting
+
+
+            <p className="text-[#252f80] font-semibold relative">
+            <span className="text-red-600 absolut inline-block text-4xl mr-2">❝</span>
+               Recognising, understanding and respecting
             differences in cultural backgrounds, values,
             beliefs and practices is essential. Creating
             an environment that encourages meaningful
             participation from people of all backgrounds
             is key to fostering inclusivity.
+            <span className="text-red-600 text-4xl absolute ml-1 text-right">❞</span>
           </p>
+
           <div className="mt-4">
             <p className="font-bold bg-red-600 text-white px-2 py-1 inline-block rounded-sm">
               Srikrishna Moorthy Sivakumar

@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { HiOutlineArrowSmallLeft, HiOutlineArrowSmallRight } from "react-icons/hi2";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import KnowMore from '../KnowMore';
 
 const outerData = [
     {
@@ -100,7 +101,7 @@ const StrategyHome = ({ themes = fallbackThemes }) => {
     };
 
     return (
-        <section ref={containerRef} className="marginal mx-auto px-4 !py-16 text-black">
+        <section ref={containerRef} className="marginal mx-auto px-4 !py-10 text-black">
             <div className="w-fit mx-auto mb-6 md:text-center">
                 <div className='space-y-2'>
                     {/* Technology Badge */}
@@ -235,6 +236,9 @@ const StrategyHome = ({ themes = fallbackThemes }) => {
                 </div>
             </div>
 
+            <div className='w-fit mt-8 mx-auto'>
+                <KnowMore to={"/strategy"} />
+            </div>
         </section>
     );
 };

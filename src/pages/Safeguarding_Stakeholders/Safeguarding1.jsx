@@ -204,47 +204,52 @@ const Safeguarding1 = () => {
               adequacy, as reflected in our current 'AAA' credit ratings.
             </p>
             <p className='mb-2'>
-              The Enterprise-wide Risk Management (ERM) framework
-              provides a unified and integrated approach to managing risks,
-              enabling the group to balance risk and return while driving long-term sustainability, shareholder value creation and financial
-              strength. The framework also supports delivery of customer-centric products and services. The ERM policy, which guides
-              the ERM framework, forms the basis for risk management
-              across the group, with tailored modifications for individual
-              businesses. A suite of policies and procedures supports this
-              framework, providing clear guidelines for managing specific
-              risks and aligning risk mitigation with business objectives.
-              By integrating risk management into our core operations, we
-              ensure a balanced approach that maximises opportunities while
-              minimising potential losses. Refer to ‘Management’s Discussion
-              and Analysis’ section of the report on page <strong className='text-[#212b7e]'>444</strong> for further details on ERM framework.
-            </p>
-            <p className='mb-2'>
-              The Group Chief Risk Officer (CRO), appointed by the Board,
-              reports directly to the MD & CEO and heads the independent risk
-              function in the Bank. The risk management team comprises of
-              several units, that are responsible for managing different kinds
-              of risk and report to the CRO. Detailed reports related to the
-              performance in relation to risk appetite are presented by the
-              CRO to the Board and its Risk Management Committee (RMC)
-              on a quarterly basis. The RMC and the Board are professionally
-              qualified to discharge their responsibilities, equipped with
-              deep industry knowledge, skills, experience, professional
-              qualifications and relevant technical as well as financial
-              acumen in risk and related disciplines.
-            </p>
-            <p className='mb-2'>
-              Our Bank has implemented the Three Lines of Defence model
-              for risk management, establishing a robust and transparent
-              governance framework that includes active involvement of
-              both the Board and senior management. This framework
-              ensures a unified understanding of risk across the organisation,
-              promoting a collaborative approach to risk identification,
-              assessment and mitigation.
-            </p>
+                The Enterprise-wide Risk Management (ERM) framework
+                provides a unified and integrated approach to managing risks,
+                enabling the group to balance risk and return while driving long-term sustainability, shareholder value creation and financial
+                strength. The framework also supports delivery of customer-centric products and services. The ERM policy, which guides
+                the ERM framework, forms the basis for risk management
+                across the group, with tailored modifications for individual
+                businesses. A suite of policies and procedures supports this
+                framework, providing clear guidelines for managing specific
+                risks and aligning risk mitigation with business objectives.
+                By integrating risk management into our core operations, we
+                ensure a balanced approach that maximises opportunities while
+                minimising potential losses. Refer to ‘Management’s Discussion
+                and Analysis’ section of the report on page <strong className='text-[#212b7e]'>444</strong> for further details on ERM framework.
+              </p>
+            <div className='flex md:flex-row flex-col items-start gap-6'>
+              <div className='md:w-1/2'> 
+              <p className='mb-2'>
+                The Group Chief Risk Officer (CRO), appointed by the Board,
+                reports directly to the MD & CEO and heads the independent risk
+                function in the Bank. The risk management team comprises of
+                several units, that are responsible for managing different kinds
+                of risk and report to the CRO. Detailed reports related to the
+                performance in relation to risk appetite are presented by the
+                CRO to the Board and its Risk Management Committee (RMC)
+                on a quarterly basis. The RMC and the Board are professionally
+                qualified to discharge their responsibilities, equipped with
+                deep industry knowledge, skills, experience, professional
+                qualifications and relevant technical as well as financial
+                acumen in risk and related disciplines.
+              </p>
+              <p className='mb-2'>
+                Our Bank has implemented the Three Lines of Defence model
+                for risk management, establishing a robust and transparent
+                governance framework that includes active involvement of
+                both the Board and senior management. This framework
+                ensures a unified understanding of risk across the organisation,
+                promoting a collaborative approach to risk identification,
+                assessment and mitigation.
+              </p>
+              </div> 
+           
+            <div className='md:w-1/2'>
+              <img className='rounded-2xl' src='/Safeguarding_Stakeholder/Hand.png' alt='' />
+            </div>
           </div>
-          <div className='mb-3'>
-            <img className='rounded-2xl' src='/Safeguarding_Stakeholder/Hand.png' alt='' />
-          </div>
+ </div>
         </div>
 
         <div className='mb-4'>
@@ -300,8 +305,7 @@ const Safeguarding1 = () => {
         <div className='mb-5 mt-10'>
           <h1 className='text-xl text-[#ed2133] mb-2 font-semibold'>Emerging Risk Landscape</h1>
           <p className='mb-2'>
-            The banking sector faces a diverse range of emerging risks, including cybersecurity threats, technological disruptions and climate-
-            related financial vulnerabilities. To effectively mitigate these risks, our Bank is developing a proactive and adaptable risk management
+            The banking sector faces a diverse range of emerging risks, including cybersecurity threats, technological disruptions and climate-related financial vulnerabilities. To effectively mitigate these risks, our Bank is developing a proactive and adaptable risk management
             approach, complemented by a forward-thinking strategy to foster resilience and sustainable value creation.
           </p>
           <div className='mb-4'>
@@ -544,12 +548,11 @@ const Safeguarding1 = () => {
           </div>
           <div className='md:w-[70%] '>
             <p className='mb-2'>
-              WWe are in the process of drafting a comprehensive Climate
+              We are in the process of drafting a comprehensive Climate
               Change Policy, outlining guidelines for assessing climate
               risks across our Bank’s operations and portfolio. This policy
               is proposed to align with the key areas to be specified in the
-              Reserve Bank of India’s (RBI) expected guidelines on climate-
-              related financial disclosures.
+              Reserve Bank of India’s (RBI) expected guidelines on climate-related financial disclosures.
             </p>
             <p className='mb-2'>
               The RBI framework encourages the regulated entities to take

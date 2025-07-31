@@ -161,7 +161,7 @@ const BusinessOverview = () => {
                     and Protection plans.
                 </p>
                 <h1 className='text-xl text-[#ed1c2f] font-semibold mb-2'>
-                    Kotak811 - Where Banking meets Technology
+                    Kotak811 - Where Banking Meets Technology
                 </h1>
                 <p className='mb-2'>
                     In FY 2024-25, Kotak811 integrated advanced technologies and
@@ -758,7 +758,7 @@ const BusinessOverview = () => {
 
                     <div>
                         <h1 className='text-3xl font-extrabold sm:text-4xl border-b-2 border-[#ed1b2f] w-fit mb-1'>
-                            ₹920,000 cr+
+                            ₹ 920,000 cr+
                         </h1>
                         <p className='text-[#58595b] text-md font-normal'>
                             Relationship Value^^ as on 31st
@@ -1213,7 +1213,7 @@ const BusinessOverview = () => {
 
             </div>
 
-            <h1 className='pt-3'><i>*Retail and institutional market share after excluding the proprietary segment. Based on notional turnover for equity futures and premium turnover for equity options segment.|<sup>#</sup>Source: Bloomberg | <sup>@</sup>League tables: Bloomberg LSEG, Dealogic – for CY 2024 | **Total deal value does not include the transactions where value is not disclosed, Bloomberg data as on 28<sup>th</sup> April 2025 </i></h1>
+            <h1 className='pt-3'><i><sup>#</sup>Source: Bloomberg | <sup>@</sup>League tables: Bloomberg LSEG, Dealogic – for CY 2024 | **Total deal value does not include the transactions where value is not disclosed, Bloomberg data as on 28<sup>th</sup> April 2025 </i></h1>
             <div id='life-insurance'>
                 <Heading heading={'Life Insurance'} subheading={'Kotak Mahindra Life Insurance Company Limited'} icon='BusinessOverview\Page-19-Icon.webp' />
             </div>
@@ -1571,7 +1571,7 @@ const BusinessOverview = () => {
                 <p className='mb-2'>
                     We are among the leading private markets investment managers,
                     with a strong presence across asset classes, including Private Credit,
-                    Real Estate, Infrastructure and Private Equity. Our investment
+                    Real Estate, Infrastructure and Private Equity^. Our investment
                     advisory services are tailored to meet specific client objectives,
                     offering customised solutions aligned with individual risk profiles.
                     For retail investors, our digital investment platform, Kotak Cherry,
@@ -1634,7 +1634,16 @@ const BusinessOverview = () => {
                 {/* ^Portfolio of Data Centre has been
                     consolidated under Real estate; Portfolio of Strategic Situations has been consolidated under Private Credit */}
                 {/* | <sup>#</sup>Bloomberg */}
-            </i></h1>
+            </i>
+             </h1>
+             <h1>
+                <i>
+                    ^Portfolio of Data Centre has
+                    been consolidated under Real estate; Portfolio of Strategic Situations has been
+                    consolidated under Private Credit
+                </i>
+                </h1>
+           
 
             <div className="flex items-start border-b mt-5 pb-5 gap-4 mb-5">
                 <div className=" absolute rounded-full translate-x-[-10%] flex items-center justify-center ">

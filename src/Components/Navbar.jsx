@@ -355,7 +355,7 @@ const Navbar = () => {
                             Download Center
                         </a>
                         <a
-                            href="https://www.kotak.com/content/dam/Kotak/investor-relation/Financial-Result/Annual-Reports/FY-2025/kotak-mahindra-bank/Kotak-Mahindra-Bank-Limited-FY25.pdf"
+                            href="./documents/Kotak Integrated Annual Report 2024-25.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 text-slate-300 hover:text-white transition-all duration-300"

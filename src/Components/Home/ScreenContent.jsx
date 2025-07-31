@@ -15,7 +15,7 @@ export const ScreenContent = () => {
     <img src="./home/Kotak Cherry.webp" alt="Test" className="w-full h-full object-cover" />,
     <img src="./home/Kotak 811.webp" alt="Test" className="w-full h-full object-cover" />,
     <img src="./home/Kotak Neo.webp" alt="Test" className="w-full h-full object-cover" />,
-    <img src="./home/Kotak Fyn.webp" alt="Test" className="w-full h-full object-cover" />,
+    <img src="./home/Kotak FYN.webp" alt="Test" className="w-full h-full object-cover" />,
     <img src="./home/Kotak Sampark Setu.webp" alt="Test" className="w-full h-full object-cover" />,
     ];
 
@@ -23,16 +23,16 @@ export const ScreenContent = () => {
     const Arrow = ({ onClick, direction }) => (
         <div
             className={`absolute bottom-25 cursor-pointer
-      ${direction === 'left' ? 'left-1/2 transform -translate-x-[50px] ' : 'right-1/2 transform translate-x-[50px] '} 
-      cursor-pointer bg-gradient-to-br from-[#9f0910] to-[#ed1c25] 
-      text-white w-10 h-10 flex items-center justify-center rounded-full 
+      ${direction === 'left' ? 'left-1/2 transform -translate-x-[36px] ' : 'right-1/2 transform translate-x-[36px] '} 
+      cursor-pointer bg-[#013367]
+      text-white w-8 h-8 flex items-center justify-center rounded-full 
       z-1`}
             onClick={onClick}
         >
             {direction === 'left' ? (
-                <HiOutlineArrowSmallLeft size={20} />
+                <HiOutlineArrowSmallLeft size={16} />
             ) : (
-                <HiOutlineArrowSmallRight size={20} />
+                <HiOutlineArrowSmallRight size={16} />
             )}
         </div>
     );

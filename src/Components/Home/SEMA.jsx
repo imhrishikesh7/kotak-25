@@ -69,14 +69,15 @@ const SEMA = () => {
     }, []);
 
     return (
-        <div className="marginal">
+        <div className="margina">
             <div className='w-full marginal py-6 md:py-6'>
                 <div className='mx-auto md:text-center'>
                     {/* Mobile-First Centered Layout */}
-                    <div className='space-y-2 md:space-y-0 my-4 md:gap-1 md:items-center'>
+                </div>
+            </div>
+                    <div className='space-y-2 w-fit mx-auto text-center md:space-y-0 mt-4 md:gap-1 md:items-center'>
                         {/* Left Section - Heading */}
                         <div className='space-y-2'>
-                            {/* Technology Badge */}
                             <Reveal animation="slide-up mx-aut text-cente">
                                 <div className="inline-flex mx-aut flex-col md:items-start">
                                     <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
@@ -93,15 +94,13 @@ const SEMA = () => {
                             {/* Main Title - Much smaller for mobile */}
                             <Reveal animation="slide-up">
                                 <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
-                                    Creating Value and Nurturing Relationships
+                                    Creating value and nurturing relationships
                                 </h1>
                             </Reveal>
                         </div>
                     </div>
-                </div>
-            </div>
             <div
-                className="lg:hidden  h-80 inset-0 bg-cover bg-no-repeat"
+                className="lg:hidden h-80 inset-0 bg-cover bg-no-repeat"
 
             >
                 <img src="./home/hausla.webp" className='w-full h-full object-cover object-left' alt="" />
@@ -123,49 +122,42 @@ const SEMA = () => {
                         to our stakeholders in the short, medium and long-term.
                     </p>
                     <div className='mt-4'>
-                        <KnowMore to={"/our-enablers/stakeholder-engagement"}/>
+                        <KnowMore to={"/our-enablers/stakeholder-engagement"} />
                     </div>
 
                 </div>
             </div>
             <div
                 ref={containerRef}
-                className="overflow-hidden md:h-[90vh] scale-0 object-contain relative"
+                className="relative w-full h-screen overflow-hidden"
             >
-
-                {/* Desktop Background Image */}
-                <div
+                {/* Full-screen Image that maintains aspect ratio */}
+                <img
                     ref={imageRef}
-                    className="hidden lg:block absolute inset-0 bg-cover bg-center bg-no-repeat"
-                    style={{
-                        backgroundImage: 'url(./home/hausla.webp)',
-                        transform: 'scale(1)'
-                    }}
+                    src="./home/hausla.webp"
+                    alt="Hausla Background"
+                    className="hidden lg:block absoluteinset-0 w-full h-full object-contain z-0"
                 />
-
-
 
                 {/* Text Content - Only visible on desktop */}
                 <div
                     ref={textRef}
-                    className="hidden lg:flex absolute right-24 top-[25%] w-[40vw] flex-col"
+                    className="hidden lg:flex absolute right-24 top-[30%]  w-[40vw] flex-col z-10"
                 >
-
                     <p className="text-lg text-white leading-relaxed drop-shadow-md">
-                        Material topics serve to
-                        help shape our strategy.
+                        Material topics serve to help shape our strategy.
                         By conducting materiality evaluation, we align our strategic objectives to the insights from emerging risks and opportunities. This guarantees that our activities are consistent with our values and vision, resulting in an impactful change.
                     </p>
                     <p className="text-lg text-white leading-relaxed mt-4 drop-shadow-md">
-                        An issue is considered material if it has the
-                        potential to significantly affect our ability to create, sustain and deliver value
+                        An issue is considered material if it has the potential to significantly affect our ability to create, sustain and deliver value
                         to our stakeholders in the short, medium and long-term.
                     </p>
-                     <div className='mt-4'>
-                        <KnowMore to={"/our-enablers/stakeholder-engagement"}/>
+                    <div className='mt-4'>
+                        <KnowMore to={"/our-enablers/stakeholder-engagement"} />
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

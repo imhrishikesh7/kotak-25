@@ -8,7 +8,7 @@ const Generating1 = () => {
         Generating Value for Customers
       </div>
       <h1 className="text-3xl font-bold text-[#ed1c2f]">
-        Re-imagining Customer Experience
+        Re-imagining customer experience
       </h1>
       <p className='mb-2 text-2xl'>
         At Kotak, we remain steadfast in our commitment to fostering enduring customer
@@ -83,8 +83,7 @@ const Generating1 = () => {
             our customers. The Board-level Customer Service Committee
             (CSC) plays a pivotal role in shaping our customer experience
             strategy, monitoring both qualitative and quantitative indicators
-            such as digital engagement, resolution effectiveness and first-
-            contact resolution. This data-driven oversight ensures that
+            such as digital engagement, resolution effectiveness and first-contact resolution. This data-driven oversight ensures that
             customer feedback is not only heard but also acted upon, driving
             continuous improvement across the Bank. Our service excellence
             framework integrates real-time feedback from multiple channels,
@@ -187,8 +186,7 @@ const Generating1 = () => {
           <p className='mb-2'>
             We adopt a multi-channel strategy to raise customer awareness
             tailored to product, segment and campaign needs. Our
-            outreach includes digital marketing, mass media and branch-
-            level promotions, complemented by financial education
+            outreach includes digital marketing, mass media and branch-level promotions, complemented by financial education
             content and influencer collaborations. Customer engagement
             and collection of feedback are through various direct and
             indirect modes such as:

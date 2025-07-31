@@ -36,7 +36,7 @@ const Sustainable1 = () => {
         Embracing Sustainability
       </div>
       <h1 className="text-3xl font-bold text-[#ed1c2f] ">
-        Transforming For a Sustainable Future
+        Transforming for a sustainable future
       </h1>
       <div className='mb-5 mt-5 text-2xl'>
         Our approach towards ESG integration goes beyond compliance and is geared towards
@@ -125,8 +125,7 @@ const Sustainable1 = () => {
           <p className='mb-2'>
             We integrate social and environmental considerations into
             our strategic vision and operational practices through a
-            comprehensive ESG Policy Framework, supported by subsidiary-
-            specific ESG policies.
+            comprehensive ESG Policy Framework, supported by subsidiary-specific ESG policies.
           </p>
           <p className='mb-2'>
             In FY 2024–25, we reviewed our material topics to ensure
@@ -208,8 +207,7 @@ const Sustainable1 = () => {
             teams to drive ESG focus in areas such as credit underwriting,
             client engagement and operational decision-making. Our
             Code of Conduct (CoC) for Service Providers also articulates
-            our expectations on ethical conduct, labour standards, anti-
-            corruption and environmental responsibility, enabling ESG
+            our expectations on ethical conduct, labour standards, anti-corruption and environmental responsibility, enabling ESG
             alignment across our value chain.
           </p>
         </div>
@@ -1034,8 +1032,7 @@ const Sustainable1 = () => {
               (solar and wind) and non-renewable sources. Emissions from
               rooftop solar power are accounted for within Scope 2, using the
               same methodology as grid electricity, as the Renewable Energy
-              Certificates (RECs) are held by the service provider. For FY 2024-
-              25, we utilised the latest emission factors for grid electricity
+              Certificates (RECs) are held by the service provider. For FY 2024-25, we utilised the latest emission factors for grid electricity
               published by the Central Electricity Authority (CEA), taking into
               account cross-border electricity transfers, including those from
               renewable energy sources and captive power injection into the
@@ -1203,8 +1200,7 @@ const Sustainable1 = () => {
             and services, business travel, employee commute and waste.
             Our total Scope 3 emissions for FY 2024-25 were 42,397 tCO2e13
             .
-            Major sources of Scope 3 emissions were from fuel and energy-
-            related emissions, capital goods (such as software, IT equipment,
+            Major sources of Scope 3 emissions were from fuel and energy-related emissions, capital goods (such as software, IT equipment,
             vehicles and furniture) and business travel. Our assessment helps
             us identify the primary sources of Scope 3 emissions; however,
             certain categories such as post-sales processing and downstream

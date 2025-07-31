@@ -517,7 +517,7 @@ const Strategy = () => {
           requirement of branch visits.
         </p>
         <p>
-          <strong className="text-[#14216c]">Employee Productivity:</strong>
+          <strong className="text-[#14216c]">Employee Productivity: </strong>
           We endeavour to consistently improve
           employee productivity levels and have identified technology,
           automation and straight-through-processing as critical enablers
@@ -590,7 +590,7 @@ const Strategy = () => {
           and business models.
         </p>
         <p>
-          <strong className="text-[#14216c]">Compliance:</strong>
+          <strong className="text-[#14216c]">Compliance: </strong>
           We will continue to follow a comprehensive
           compliance framework to ensure adherence to all the
           regulatory requirements at all times. We maintain transparency

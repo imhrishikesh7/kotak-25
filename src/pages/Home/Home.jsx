@@ -17,6 +17,7 @@ import SEMA from '../../Components/Home/SEMA'
 import TechnologyHome from '../../Components/Home/TechnologyHome'
 import TalentHome from '../../Components/Home/TalentHome'
 import BO from '../../Components/Home/BO'
+import KnowMore from '../../Components/KnowMore'
 
 const Home = () => {
     return (
@@ -26,9 +27,11 @@ const Home = () => {
             </div>
             <TransformingForScale />
             <Aboutus />
+            
             <div className='relative'>
+         
                 <Airplane />
-                <div className='bg-[#F2F2F2]'>
+                <div className='bg-[#F2F2F2] pb-2'>
                     <div className='pt-10'>
                         <Reveal animation="slide-up">
                             <h3 className="text-xl text-center mb-3 font-bold text-white bg-[#ed1c25] w-fit mx-auto py-1 px-4 rounded-xl">Kotak Universe</h3>
@@ -38,6 +41,9 @@ const Home = () => {
                             </div> */}
                         </Reveal>
                         <KeyHighlights />
+                        <div className='w-fit my-8 mx-auto'>
+                            <KnowMore to={"/about"} />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Awards = () => {
                 Awards and Accolades
             </div>
             <h1 className="text-3xl font-bold text-[#ed1c2f] mb-10">
-                Recognition of Excellence
+                Recognition of excellence
             </h1>
             <div className='space-y-5'>
                 <img src="\Awards\1.webp" id='aw1' alt="" />

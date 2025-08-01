@@ -24,20 +24,18 @@ const Aboutus = () => {
                     </div>
                     <div className='w-[90%]'>
                         <div className='bg-white shadow-lg mx-auto p-8  rounded-3xl'>
-                            <Reveal animation="slide-up" className={"text-lg mx-auto  text-cente mt-2 mb-3 leading-6"}>
-                                <p className='text-lg'>
+                                <p className='text-lg mx-auto  text-cente mt-2 mb-3 leading-6'>
                                     Established in 1985, Kotak is one of India’s leading diversified and integrated financial
                                     services conglomerates, providing a wide range of financial solutions across customer and
                                     geographic segments within India. As a Group, Kotak also operates in overseas markets through
                                     international subsidiaries and branches in key geographies.
                                 </p>
-                            </Reveal>
-                            <Reveal animation="slide-up">
+                            
                                 <p className='leading-6 w-full text-lg'>
                                     We are a <b>₹ 8.8 trillion</b> institution* with a market capitalisation of ₹ <b>4.3 trillion</b>, as of 31<sup>st</sup> March, 2025.
                                 </p>
-                            </Reveal>
-                            <p className='mt-4'>*Consolidated Assets</p>
+                         
+                            <p className='mt-4 text-sm italic'>*Consolidated Assets</p>
                         </div>
                     </div>
                 </div>

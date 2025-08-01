@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { LuX, LuArrowRight, LuSquareArrowOutUpRight, LuLayoutGrid } from 'react-icons/lu';
+import { IoClose } from 'react-icons/io5';
 import Reveal from '../Reveal';
 import { Link } from 'react-router-dom';
 
@@ -8,6 +9,8 @@ const SusSnapshots = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isModalVisible, setIsModalVisible] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
+    const [showCompanySublinks, setShowCompanySublinks] = useState(false);
+
     const cardsRef = useRef([]);
     const modalRef = useRef(null);
     const overlayRef = useRef(null);
@@ -33,9 +36,9 @@ const SusSnapshots = () => {
             ],
             footnotes: [
                 "*Net Complaints are total complaints excluding the complaints which are resolved within 0 & 1 working Days",
-                 "**Period of calculation is from September 2024 to March 2025",
+                "**Period of calculation is from September 2024 to March 2025",
                 "$Voice channel is an initiative to ensure seamless integration between Digital (digital platforms), Phygital (virtual relationship managers, live support, etc.) and Physical (branches and relationship managers). Further 'Digital Powerhouse' section of the report on pages 24-25",
-               
+
             ]
         },
         {
@@ -58,7 +61,12 @@ const SusSnapshots = () => {
             ],
             footnotes: [
                 "*As per green activities/projects indicated in RBI's 'Framework for acceptance of Green deposits' issued in April, 2023, based on internal mapping"
-            ]
+            ],
+            sublinks: [
+                { label: "Delivering Excellence in Governance", path: "/sustainability/governance" },
+                { label: "Institutionalising Risk Resilience", path: "/sustainability/risk-resilience" },
+                { label: "Embracing Sustainability", path: "/sustainability/embracing-sustainability" },
+            ],
         },
         {
             id: 3,
@@ -178,6 +186,34 @@ const SusSnapshots = () => {
                             onClick={() => handleCardClick(card)}
                         >
                             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500">
+
+                                {card.title === "Company" && showCompanySublinks && (
+                                    <div className="absolute inset-0 z-20 bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/60 p-6 sm:p-8 flex flex-col items-center justify-center space-y-4">
+                                        {/* Close Button */}
+                                        <button
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                setShowCompanySublinks(false);
+                                            }}
+                                            className="absolute top-4 right-4 text-[#013367] hover:text-white hover:bg-[#013367] transition-all cursor-pointer duration-300 rounded-full p-1 sm:p-2"
+                                        >
+                                            <IoClose className="w-3 h-3" />
+                                        </button>
+
+                                        {/* Sublinks */}
+                                        {card.sublinks?.map((link, i) => (
+                                            <Link
+                                                key={i}
+                                                to={link.path}
+                                                onClick={(e) => e.stopPropagation()}
+                                                className="w-full text-center text-sm font-medium text-[#013367] px-6 py-2 rounded-full border border-[#013367] hover:bg-[#013367] hover:text-white transition-all duration-300 shadow-sm"
+                                            >
+                                                {link.label}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                )}
+
                                 {/* Image Section */}
                                 <div className="relative h-full w-full overflow-hidden">
                                     <img
@@ -203,9 +239,26 @@ const SusSnapshots = () => {
                                         <div className="w-8 h-8 ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                                             <LuLayoutGrid className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
                                         </div>
-                                        <Link to={card.link} className="w-8 h-8 mr-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
-                                            <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
-                                        </Link>
+                                        {card.title === "Company" ? (
+                                            <button
+                                                onClick={(e) => {
+                                                    e.stopPropagation(); // prevent modal trigger
+                                                    setShowCompanySublinks((prev) => !prev); // toggle overlay
+                                                }}
+                                                className="w-8 h-8 mr-4 cursor-pointer sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300"
+                                            >
+                                                <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                            </button>
+                                        ) : (
+                                            <Link
+                                                to={card.link}
+                                                className="w-8 h-8 mr-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300"
+                                                onClick={(e) => e.stopPropagation()} // prevent modal open
+                                            >
+                                                <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                            </Link>
+                                        )}
+
                                     </div>
 
                                     {/* Title Content */}

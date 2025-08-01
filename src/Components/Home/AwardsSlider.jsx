@@ -123,19 +123,19 @@ const AwardsSlider = () => {
           <div className="flex justify-center items-center mt-12 space-x-4">
             <button
               onClick={handlePrevious}
-              className="w-12 h-12 rounded-full cursor-pointer border border-[#ed1c25] flex items-center justify-center hover:bg-slate-50 transition-all duration-300 group"
+              className="w-8 h-8 rounded-full cursor-pointer border border-[#ed1c25] flex items-center justify-center hover:bg-slate-50 transition-all duration-300 group"
               aria-label="Previous slide"
             >
-              <FaChevronLeft className="text-[#013367] w-4 h-4 group-hover:text-slate-800 transition-colors duration-300" />
+              <FaChevronLeft className="text-[#013367] w-3 h-3 group-hover:text-slate-800 transition-colors duration-300" />
             </button>
 
 
             <button
               onClick={handleNext}
-              className="w-12 h-12 rounded-full cursor-pointer border border-[#ed1c25] flex items-center justify-center hover:bg-slate-50 transition-all duration-300 group"
+              className="w-8 h-8 rounded-full cursor-pointer border border-[#ed1c25] flex items-center justify-center hover:bg-slate-50 transition-all duration-300 group"
               aria-label="Next slide"
             >
-              <FaChevronRight className="text-[#013367] w-4 h-4 group-hover:text-slate-800 transition-colors duration-300" />
+              <FaChevronRight className="text-[#013367] w-3 h-3 group-hover:text-slate-800 transition-colors duration-300" />
             </button>
           </div>
         </div>

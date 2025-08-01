@@ -19,7 +19,7 @@ const Cover = () => {
         autoPlay
         loop
         muted
-        playsInline
+        playsInline 
         preload="auto"
       />
     </div>

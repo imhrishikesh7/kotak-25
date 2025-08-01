@@ -236,8 +236,8 @@ const SusSnapshots = () => {
 
                                     {/* Arrow only */}
                                     <div className="absolute flex justify-between items-center w-full top-4 sm:top-4 right-4 sm:right-0">
-                                        <div className="w-8 h-8 ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
-                                            <LuLayoutGrid className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                        <div className="w-12 h-12 ml-10 md:ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                                            <LuLayoutGrid className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
                                         </div>
                                         {card.title === "Company" ? (
                                             <button
@@ -245,17 +245,17 @@ const SusSnapshots = () => {
                                                     e.stopPropagation(); // prevent modal trigger
                                                     setShowCompanySublinks((prev) => !prev); // toggle overlay
                                                 }}
-                                                className="w-8 h-8 mr-4 cursor-pointer sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300"
+                                                className="w-12 h-12 mr-4 cursor-pointer sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300"
                                             >
-                                                <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                                <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
                                             </button>
                                         ) : (
                                             <Link
                                                 to={card.link}
-                                                className="w-8 h-8 mr-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300"
+                                                className="w-12 h-12 mr-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300"
                                                 onClick={(e) => e.stopPropagation()} // prevent modal open
                                             >
-                                                <LuSquareArrowOutUpRight className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                                                <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
                                             </Link>
                                         )}
 

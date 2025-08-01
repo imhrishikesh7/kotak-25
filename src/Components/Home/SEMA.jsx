@@ -75,30 +75,30 @@ const SEMA = () => {
                     {/* Mobile-First Centered Layout */}
                 </div>
             </div>
-                    <div className='space-y-2 w-fit mx-auto text-center md:space-y-0 mt-4 md:gap-1 md:items-center'>
-                        {/* Left Section - Heading */}
-                        <div className='space-y-2'>
-                            <Reveal animation="slide-up mx-aut text-cente">
-                                <div className="inline-flex mx-aut flex-col md:items-start">
-                                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
-                                        Stakeholder Engagement and Materiality Assessment
-                                    </span>
-                                    {/* Centered decorative line for mobile */}
-                                    <div className='flex w-12 md:mx-auto md:w-16'>
-                                        <div className='h-[2px] bg-[#ed1c25] w-1/2' />
-                                        <div className='h-[2px] bg-[#013367] w-1/2' />
-                                    </div>
-                                </div>
-                            </Reveal>
-
-                            {/* Main Title - Much smaller for mobile */}
-                            <Reveal animation="slide-up">
-                                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
-                                    Creating value and nurturing relationships
-                                </h1>
-                            </Reveal>
+            <div className='space-y-2 w-fit mx-auto text-center md:space-y-0 mt-4 md:gap-1 md:items-center'>
+                {/* Left Section - Heading */}
+                <div className='space-y-2'>
+                    <Reveal animation="slide-up mx-aut text-cente">
+                        <div className="inline-flex mx-aut flex-col md:items-start">
+                            <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                                Stakeholder Engagement and Materiality Assessment
+                            </span>
+                            {/* Centered decorative line for mobile */}
+                            <div className='flex w-12 md:mx-auto md:w-16'>
+                                <div className='h-[2px] bg-[#ed1c25] w-1/2' />
+                                <div className='h-[2px] bg-[#013367] w-1/2' />
+                            </div>
                         </div>
-                    </div>
+                    </Reveal>
+
+                    {/* Main Title - Much smaller for mobile */}
+                    <Reveal animation="slide-up">
+                        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-snug text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0">
+                            Creating value and nurturing relationships
+                        </h1>
+                    </Reveal>
+                </div>
+            </div>
             <div
                 className="lg:hidden h-80 inset-0 bg-cover bg-no-repeat"
 
@@ -129,7 +129,7 @@ const SEMA = () => {
             </div>
             <div
                 ref={containerRef}
-                className="relative w-full h-screen overflow-hidden"
+                className="relative w-full h-scree overflow-hidden"
             >
                 {/* Full-screen Image that maintains aspect ratio */}
                 <img

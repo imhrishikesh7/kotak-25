@@ -227,8 +227,8 @@ const BO = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div className="absolute top-4 sm:top-6 right-4 sm:right-6">
-                    <div className="w-8 h-8 ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
-                      <LuLayoutGrid className="w-3 h-3 sm:w-5 sm:h-5 text-white" />
+                    <div className="w-12 h-12 md:w-10 md:h-10 ml-4 sm:w-10 sm:h-10 bg-gradient-to-br from-[#013367] to-[#3597ff] backdrop-blur-sm rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                      <LuLayoutGrid className="w-5 h-5 sm:w-5 sm:h-5 text-white" />
                     </div>
                   </div>
                   <div className="absolute bottom-4 sm:bottom-2 left-4 sm:left-6 right-4 sm:right-6">

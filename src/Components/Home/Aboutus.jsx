@@ -22,7 +22,7 @@ const Aboutus = () => {
                             </Reveal>
                         </div>
                     </div>
-                    <div className='w-[90%]'>
+                    <div className='md:w-[90%]'>
                         <div className='bg-white shadow-lg mx-auto p-8  rounded-3xl'>
                                 <p className='text-lg mx-auto  text-cente mt-2 mb-3 leading-6'>
                                     Established in 1985, Kotak is one of India’s leading diversified and integrated financial

@@ -3,8 +3,8 @@ import Reveal from "../Reveal";
 
 const Message = () => {
     return (
-        <div className="mb-12">
-              <div className="w-fit mx-auto mb-6 md:text-center">
+        <div className="!mb-12 arginal">
+              <div className="md:w-fit mx-auto  mb-6 md:text-center">
                 <div className='space-y-2'>
                     {/* Technology Badge */}
                     <Reveal animation="slide-up mx-aut text-cente">
@@ -28,28 +28,25 @@ const Message = () => {
                     </Reveal>
                 </div>
             </div>
-            <div
-                className="relative hidden md:block marginal rounded-4xl w-full overflow-hidden"
-                style={{
-                    height: "80vh", // consistent vertical space on desktops
-                    backgroundImage: `url(./home/ceo-banner.webp)`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover", // Fill the container with cropping (better than contain)
-                    backgroundPosition: "top",
-                }}
-            >
-                <div
-                    className="absolute -translate-x-1/2"
-                    style={{
-                        left: "50%",
-                        bottom: "8vh",
-                    }}
-                >
-                    <KnowMore to={"/message-from-ashok-vaswani"} />
-                </div>
-            </div>
-            <div className="block md:hidden marginal">
-                <img src="./AshokMessage/Ashok.webp" alt="" />
+           <div className="relative hidden md:block marginal rounded-4xl w-full overflow-hidden" style={{ height: "76vh" }}>
+    <img
+        src="./home/ceo-banner.webp"
+        alt="CEO Banner"
+        className="w-full h-full rounded-3xl object-contain"
+    />
+    <div
+        className="absolute -translate-x-1/2"
+        style={{
+            left: "50%",
+            bottom: "8vh",
+        }}
+    >
+        <KnowMore to={"/message-from-ashok-vaswani"} />
+    </div>
+</div>
+
+            <div className="block  md:hidden">
+                <img src="./AshokMessage/Ashok.webp" className="" alt="" />
                 <div className="w-fit mx-auto mt-4">
                     <KnowMore to={"/message-from-ashok-vaswani"} />
                 </div>

@@ -1,10 +1,10 @@
 import Reveal from '../Reveal';
 export default function BOD() {
   return (
-    <div className=" bg-white py-12 px-4">
+    <div className=" bg-white py-12 md:px-4">
       <div className="marginal mx-auto">
 
-          <div className="w-fit mx-auto mb-6 md:text-center">
+          <div className="md:w-fit mx-auto mb-6 md:text-center">
                 <div className='space-y-2'>
                     {/* Technology Badge */}
                     <Reveal animation="slide-up mx-aut text-cente">

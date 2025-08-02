@@ -85,7 +85,7 @@ const Technology = () => {
                                 <p className="text-[#000000] mb-2">
                                     A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
                                 </p>
-                                <p className="text-[#000000]">
+                                <p className="text-[#000000] ">
                                     It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
                                 </p>
                             </div>
@@ -156,25 +156,6 @@ const TechnologyContent = () => (
 
         <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
             <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
-                Leveraging Data and Analytics
-            </h2>
-
-            <div className="overflow-hidden">
-                <p className="text-[#000000] mb-4">
-                    The Bank has advanced its capabilities in predictive analytics, customer behaviour modelling and operational efficiency. AI and ML are embedded across various layers, from intelligent automation in backend processes to personalised experiences in customer-facing applications. The development of advanced data analytics frameworks has empowered the Bank to derive actionable insights, supporting business decisions and scalable growth.
-                </p>
-
-                <div className="mt-4">
-                    <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
-                    <p className="text-[#000000]">
-                        The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
-            <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
                 Creation of Unified and Interoperable Platforms
             </h2>
 
@@ -183,21 +164,42 @@ const TechnologyContent = () => (
                     These platforms are designed to modernise the core infrastructure and serve as a robust foundation for powering front-end applications. They enable seamless integration, faster development cycles and consistent performance across channels. Key ones being:
                 </p>
 
+                <div className="mt-4">
+                    <h3 className='text-xl text-[#212b7e] mb-2'>Data EXchange (DEX) Platform</h3>
+                    <p className="text-[#000000] mb-3">
+                        A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
+                    </p>
+                    <p className="text-[#000000]">
+                        It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
+                    </p>
+                </div>
+                <div className="mt-4">
+                    <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
+                    <p className="text-[#000000]">
+                       The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="relative rounded-2xl p-6 bg-white shadow-md border border-[#e2e8f0] text-[#000]">
+            <h2 className="text-[#ed1c2f] font-semibold text-lg mb-3">
+                Leveraging Data and Analytics
+            </h2>
+
+            <div className="overflow-hidden">
+                <p className="text-[#000000] mb-4">
+                       The Bank has advanced its capabilities in predictive analytics, customer behaviour modelling and operational efficiency. AI and ML are embedded across various layers, from intelligent automation in backend processes to personalised experiences in customer-facing applications. The development of advanced data analytics frameworks has empowered the Bank to derive actionable insights, supporting business decisions and scalable growth.
+                </p>
+
                 <div className="mt-4 space-y-4">
                     <div>
-                        <h3 className='text-xl text-[#212b7e] mb-2'>Data EXchange (DEX) Platform</h3>
+                        <h3 className='text-xl text-[#212b7e] mb-2'>Kotak AI Platform</h3>
                         <p className="text-[#000000] mb-2">
-                            A unified data platform for smart banking, the cloud-native DEX platform serves as the intelligence backbone of Kotak's digital transformation. Purpose-built on modern cloud architecture, DEX ingests, processes and analyses vast volumes of data in real time, powering everything from hyper-personalised experiences to intelligent risk management. DEX has broken down legacy data silos by unifying structured and unstructured data across business lines into a single, trusted platform.
-                        </p>
-                        <p className="text-[#000000]">
-                            It enables a 360-degree view of the customer, allowing for smarter engagement, faster response times and more proactive interventions. By embedding advanced analytics and machine learning models directly into the platform, DEX empowers real-time fraud detection, personalised product recommendations and automated credit risk scoring. The platform's scalability ensures that the Bank stays ahead as data volumes and complexity grow.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 className='text-xl text-[#212b7e] mb-2'>Unified Onboarding Platform</h3>
-                        <p className="text-[#000000]">
-                            The unified onboarding platform provides best-in-class, unified branding customer experience across journeys and resiliency (99.5%+ uptime) due to cloud-native re-usable micro-services. From the customer's perspective, the platform allows journey resumption from any point and supports web, mobile and assisted experiences. This platform seamlessly integrates with KYC modules, risk assessment components, customer drop-off management and other common banking services
+                            We are building Kotak AI, a proprietary Generative AI platform that will serve as
+                                    the cognitive core of the Bank’s ecosystem. It is being deeply embedded into the
+                                    Bank’s technology fabric, enabling predictive insights, contextual intelligence
+                                    and seamless automation across interactions.
                         </p>
                     </div>
                 </div>

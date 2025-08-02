@@ -201,9 +201,9 @@ const Generating1 = () => {
             { img: "/Generating/SuperiorService/Icon5.webp", text: "Annual surveys that are conducted across wealth management, SME, commercial and wholesale banking segments", width: "150px" },
           ].map((item, idx) => (
             <div key={idx}>
-              <div className='flex gap-3 items-start md:items-center'>
-                <div className={`md:w-16 md:h-16 w-[${item.width}]`}>
-                  <img src={item.img} alt="" />
+              <div className='flex md:flex-row flex-col gap-3 items-start md:items-center'>
+                <div className={`md:w-16 md:h-16 h-[50px] w-[50px]`}>
+                  <img src={item.img} className='w-full' alt="" />
                 </div>
                 <div>{item.text}</div>
               </div>

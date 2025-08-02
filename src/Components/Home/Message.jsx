@@ -4,7 +4,7 @@ import Reveal from "../Reveal";
 const Message = () => {
     return (
         <div className="!mb-12 arginal">
-              <div className="md:w-fit mx-auto  mb-6 md:text-center">
+              <div className="md:w-fit mx-auto  mb-6 text-center">
                 <div className='space-y-2'>
                     {/* Technology Badge */}
                     <Reveal animation="slide-up mx-aut text-cente">
@@ -13,7 +13,7 @@ const Message = () => {
                                 Message from Ashok Vaswani
                             </span>
                             {/* Centered decorative line for mobile */}
-                            <div className='flex w-12 md:mx-auto md:w-16'>
+                            <div className='flex w-12 mx-auto md:w-16'>
                                 <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                                 <div className='h-[2px] bg-[#013367] w-1/2' />
                             </div>

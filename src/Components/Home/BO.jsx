@@ -171,14 +171,14 @@ const BO = () => {
   return (
     <div className="bg-gradient-to-br from-slate-50 via-white to-slate-100 pb-6">
       <div className="marginal mx-auto px-4 sm:px-0 py-8 sm:py-16">
-        <div className="w-fit mx-auto mb-6 md:text-center">
+        <div className="w-fit mx-auto mb-6 text-center">
           <div className='space-y-2'>
             <Reveal animation="slide-up mx-aut text-cente">
               <div className="inline-flex mx-aut flex-col md:items-start">
                 <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide mb-2">
                   Business Overview
                 </span>
-                <div className='flex w-12 md:mx-auto md:w-16'>
+                <div className='flex w-12 mx-auto md:w-16'>
                   <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                   <div className='h-[2px] bg-[#013367] w-1/2' />
                 </div>

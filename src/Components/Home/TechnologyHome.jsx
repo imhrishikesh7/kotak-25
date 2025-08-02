@@ -80,19 +80,19 @@ const TechnologyHome = () => {
         className="relative md:text-center marginal h-scree bg-gray-100 overflow-hidden"
       >
         <div className='w-full px- py-6 md:py-6'>
-          <div className='mx-aut'>
+          <div className='mx-auto'>
             {/* Mobile-First Centered Layout */}
-            <div className=' space-y-2 md:space-y-0 md:gap-1 md:items-center'>
+            <div className=' space-y-2 md:space-y-0 md:gap-1 items-center'>
               {/* Left Section - Heading */}
-              <div className='space-y-2'>
+              <div className='space-y-2  text-center'>
                 {/* Technology Badge */}
-                <Reveal animation="slide-up mx-aut text-cente">
+                <Reveal animation="slide-up mx-auto text-center">
                   <div className="inline-flex mx-aut flex-col md:items-start">
                     <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
                       Technology
                     </span>
                     {/* Centered decorative line for mobile */}
-                    <div className='flex w-12 md:mx-auto md:w-16'>
+                    <div className='flex w-12 mx-auto md:w-16'>
                       <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                       <div className='h-[2px] bg-[#013367] w-1/2' />
                     </div>

@@ -84,7 +84,7 @@ const SEMA = () => {
                                 Stakeholder Engagement and Materiality Assessment
                             </span>
                             {/* Centered decorative line for mobile */}
-                            <div className='flex w-12 md:mx-auto md:w-16'>
+                            <div className='flex w-12 mx-auto md:w-16'>
                                 <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                                 <div className='h-[2px] bg-[#013367] w-1/2' />
                             </div>
@@ -108,7 +108,7 @@ const SEMA = () => {
             <div>
                 <div
                     ref={textRef}
-                    className="md:hidden block p-4 flex-col"
+                    className="md:hidden text-center block p-4 flex-col"
                 >
 
                     <p className="text-lg leading-relaxed drop-shadow-md">
@@ -121,7 +121,7 @@ const SEMA = () => {
                         potential to significantly affect our ability to create, sustain and deliver value
                         to our stakeholders in the short, medium and long-term.
                     </p>
-                    <div className='mt-4'>
+                    <div className='mt-4 w-fit mx-auto'>
                         <KnowMore to={"/our-enablers/stakeholder-engagement"} />
                     </div>
 

@@ -79,7 +79,7 @@ const AwardsSlider = () => {
                 Awards and Accolades
               </span>
               {/* Centered decorative line for mobile */}
-              <div className='flex w-12 md:mx-auto md:w-16'>
+              <div className='flex w-12 mb-2 mx-auto md:w-16'>
                 <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                 <div className='h-[2px] bg-[#013367] w-1/2' />
               </div>

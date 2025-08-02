@@ -66,10 +66,10 @@ const TalentHome = () => {
                             <div className='w-full md:py-4'>
                                 <div className='mx-aut'>
                                     <div className=' md:text-left space-y-2 md:space-y-0 md:gap-1 md:items-center'>
-                                        <div className='space-y-2'>
-                                            <Reveal animation="slide-up mx-aut text-center md:text-left">
-                                                <div className="inline-flex mx-aut flex-col md:items-start">
-                                                    <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
+                                        <div className='space-y-2 text-center md:text-left'>
+                                            <Reveal animation="slide-up  mx-auto text-center md:text-left">
+                                                <div className="inline-flex mx-auto flex-col md:items-start">
+                                                    <span className="text-xs text-center md:text-left md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
                                                         Talent
                                                     </span>
                                                     {/* Centered decorative line for mobile */}
@@ -82,7 +82,7 @@ const TalentHome = () => {
 
                                             {/* Main Title - Much smaller for mobile */}
                                             <Reveal animation="slide-up">
-                                                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-tight text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0 md:text-left">
+                                                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-ligh leading-tight text-transparent bg-gradient-to-r from-[#ed1c25] to-[#013367] bg-clip-text md:px-0 text-center md:text-left">
                                                     Empowering our people: <br /> Building a future-ready kotak
                                                 </h1>
                                             </Reveal>
@@ -92,7 +92,7 @@ const TalentHome = () => {
                             </div>
 
 
-                            <p className="text-lg text-gray-700 md:text- text-cente leading-relaxed mb-6 mt-2">
+                            <p className="text-lg text-gray-700 md:text- text-center md:text-left leading-relaxed mb-6 mt-2">
                                 At Kotak, our people are our greatest strength. We recognise that our success hinges on the talent, dedication and diversity of our colleagues. As we continue to grow and evolve, our unwavering commitment to creating a workplace where every Kotakite feels valued, empowered and inspired remains central to our transformation journey. FY 2024-25 was a year of meaningful progress, driven by our belief that when our people thrive in this dynamic environment, so
                                 does our organisation.
                             </p>

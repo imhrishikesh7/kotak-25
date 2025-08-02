@@ -277,16 +277,16 @@ const DownloadCenter = () => {
   return (
     <div className="marginal bg-gray-100 !my-12 rounded-3xl mx-auto !p-4">
 
-      <div className="w-fit mx-auto mb-6 md:text-center">
+      <div className="w-fit mx-auto mb-6 text-center">
         <div className='space-y-2'>
           {/* Technology Badge */}
-          <Reveal animation="slide-up mx-aut text-cente">
+          <Reveal animation="slide-up mx-auto text-center">
             <div className="inline-flex mx-aut flex-col md:items-start">
               <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
                 Download Center
               </span>
               {/* Centered decorative line for mobile */}
-              <div className='flex w-12 md:mx-auto md:w-16'>
+              <div className='flex w-12 mx-auto md:w-16'>
                 <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                 <div className='h-[2px] bg-[#013367] w-1/2' />
               </div>

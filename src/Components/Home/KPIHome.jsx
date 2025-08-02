@@ -93,7 +93,7 @@ const KPIHome = () => {
     return (
         <div className="bg-[#F2F2F2] pb-10 overflow-hidden py-1 px-4">
             <div className='w-full px- py-6 md:py-6'>
-                <div className='mx-auto md:text-center'>
+                <div className='mx-auto text-center'>
                     <div className='space-y-2 md:space-y-0 md:gap-1 md:items-center'>
                         <div className='space-y-2'>
                             <Reveal animation="slide-up mx-aut text-cente">
@@ -101,7 +101,7 @@ const KPIHome = () => {
                                     <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide mb-2">
                                         Key Performance Indicators
                                     </span>
-                                    <div className='flex w-12 md:mx-auto md:w-16'>
+                                    <div className='flex w-12 mx-auto md:w-16'>
                                         <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                                         <div className='h-[2px] bg-[#013367] w-1/2' />
                                     </div>

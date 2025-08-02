@@ -102,16 +102,16 @@ const StrategyHome = ({ themes = fallbackThemes }) => {
 
     return (
         <section ref={containerRef} className="marginal mx-auto px-4 !py-10 text-black">
-            <div className="w-fit mx-auto mb-6 md:text-center">
+            <div className="w-fit mx-auto mb-6 text-center">
                 <div className='space-y-2'>
                     {/* Technology Badge */}
-                    <Reveal animation="slide-up mx-aut text-cente">
-                        <div className="inline-flex mx-aut flex-col md:items-start">
+                    <Reveal animation="slide-up mx-auto text-cente">
+                        <div className="inline-flex mx-auto flex-col md:items-start">
                             <span className="text-xs md:text-lg font-bold text-[#ed1c25] tracking-wide  mb-2">
                                 Strategy
                             </span>
                             {/* Centered decorative line for mobile */}
-                            <div className='flex w-12 md:mx-auto md:w-16'>
+                            <div className='flex w-12 mx-auto md:w-16'>
                                 <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                                 <div className='h-[2px] bg-[#013367] w-1/2' />
                             </div>

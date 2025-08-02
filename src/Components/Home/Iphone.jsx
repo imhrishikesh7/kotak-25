@@ -154,7 +154,7 @@ export default function IPhone() {
   return (
     <div>
       <div className='block mt-12 md:hidden'>
-        <div className='w-fit marginal mx-auto text-cente'>
+        <div className='w-fit marginal mx-auto text-center'>
           <div className='mx-aut'>
             <div className=' md:text-left space-y-2 md:space-y-0 md:gap-1 md:items-center'>
               <div className='space-y-2'>
@@ -164,7 +164,7 @@ export default function IPhone() {
                       Digital Powerhouse
                     </span>
                     {/* Centered decorative line for mobile */}
-                    <div className='flex w-12 md:mx-0 md:w-16'>
+                    <div className='flex w-12 mx-auto md:mx-0 md:w-16'>
                       <div className='h-[2px] bg-[#ed1c25] w-1/2' />
                       <div className='h-[2px] bg-[#013367] w-1/2' />
                     </div>

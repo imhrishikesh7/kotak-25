@@ -1399,7 +1399,7 @@ const BusinessOverview = () => {
                     exchange-traded funds (ETFs), index funds and overseas funds.
                 </p>
 
-                <div className='flex md:flex-row flex-com gap-5'>
+                <div className='flex md:flex-row flex-col gap-5'>
                     <div className='md:w-[60%]'>
                         <h1 className='text-xl text-[#ed1c2f] font-semibold mb-2'>
                             Enhanced Distributor Engagement and Market

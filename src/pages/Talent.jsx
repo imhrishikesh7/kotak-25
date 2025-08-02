@@ -176,13 +176,13 @@ const Talent = () => {
                     </div>
                 </div>
             </div>
-            <div className='flecx md:flex-row flex col gap-5 pr-5'>
+            <div className='flex md:flex-row flex-col gap-5 '>
                 <img src="/Talent/Page-27-Image.webp" alt="" className='rounded-3xl mt-2 md:mt-0 md:w-1/2' />
                 <img src="/Talent/Page-26-Image.webp" alt="" className='rounded-3xl mt-2 md:mt-0 md:w-1/2' />
             </div>
 
 
-            <div className="bg-[#d4effc] rounded-2xl mt-2">
+            <div className="bg-[#d4effc] rounded-2xl mt-6 w-full">
                 <h1 className="text-lg text-[#212b7e] font-bold p-5">Kotak Bank has been recognised
                     among India’s Top 100 Best Companies
                     to Work (2024 and 2025), as one of

@@ -58,8 +58,8 @@ const DigitalPowerhouse = () => {
             </div>
 
             <div className="bg-[#013367] mt-5 rounded-3xl min-h-screen">
-                <div className="hidden md:block">
-                    <div className="flex flex-row items-stretch px-4 py-6">
+                <div className="">
+                    <div className="flex md:flex-row flex-col items-stretch px-4 py-6">
                         <div className="md:w-1/2 flex items-center justify-center">
                             <img src="/Digital/Page-24.webp" alt="" className="md:w-[70%] m-auto" />
                         </div>
@@ -87,13 +87,6 @@ const DigitalPowerhouse = () => {
                             ))}
                         </div>
                     </div>
-                </div>
-
-                {/* Mobile Layout */}
-                <div className="md:hidden">
-                    {cardData.map((card, idx) => (
-                        <Card key={idx} {...card} />
-                    ))}
                 </div>
             </div>
 

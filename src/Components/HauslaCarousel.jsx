@@ -47,8 +47,8 @@ const HauslaStoriesGrid = () => {
   ];
 
   return (
-    <div className="min-h-screen p-5">
-      <div className="mx-auto rounded-3xl p-8">
+    <div className="min-h-screen md:p-5">
+      <div className="mx-auto rounded-3xl md:p-8">
         <div className="text-center mb-10">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Hausla hai toh <span className="text-red-500 italic">ho jayega</span>.

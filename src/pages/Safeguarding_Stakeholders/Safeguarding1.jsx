@@ -477,7 +477,7 @@ const Safeguarding1 = () => {
         </div>
         <div className='mb-5'>
           <div className='bg-[#f8f8f8] p-5 rounded-2xl border border-gray-200 shadow-sm '>
-            <div className='flex items-start gap-4'>
+            <div className='flex md:flex-row flex-col items-start gap-4'>
               {/* Icon */}
               <div className='rounded-full shrink-0 -mt-2 '>
                 <img
@@ -509,7 +509,7 @@ const Safeguarding1 = () => {
         </div>
         <div className='mb-5'>
           <div className='bg-[#f8f8f8] p-5 rounded-2xl border border-gray-200 shadow-sm '>
-            <div className='flex items-start gap-4'>
+            <div className='flex md:flex-row flex-col items-start gap-4'>
               {/* Icon */}
               <div className='rounded-full shrink-0 -mt-2 '>
                 <img
@@ -542,7 +542,7 @@ const Safeguarding1 = () => {
             </div>
           </div>
         </div>
-        <div className='mb-5 md:flex gap-5'>
+        <div className='mb-5 flex md:flex-row flex-col gap-5'>
           <div className='md:w-[30%] mt-2'>
             <img src='\Safeguarding_Stakeholder\image77.webp' alt='' className='rounded-3xl' />
           </div>

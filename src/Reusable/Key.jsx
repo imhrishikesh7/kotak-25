@@ -34,19 +34,6 @@ export default function Key({
     result = [];
     let textToProcess = currentText;
 
-    // Handle '*' superscript
-    // We need to convert React fragments back to string temporarily or process recursively
-    // A simpler approach for two distinct symbols is to ensure the first one is processed
-    // and then the second one operates on the output of the first.
-
-    // If currentText is already a React fragment (from '#'), we need to make sure we don't
-    // try to split on it directly as a string. The safest way is to ensure this function
-    // is called for each part of the string if it contains multiple formatting needs.
-    // For simplicity, let's refine the sequential processing.
-
-    // Let's re-think `formatLabel` to apply both in a more robust way.
-    // The previous approach could indeed overwrite React elements.
-    // A better approach is to use a regex or a more iterative splitting method.
 
     // --- REVISED formatLabel function ---
     let finalFormattedText = [labelText]; // Start with the raw text in an array
@@ -104,7 +91,7 @@ export default function Key({
 
       {/* Footer Section: Material, Capital, SDGs */}
       {/* Changed `grid grid-cols-1 md:grid-cols-3 gap-4` to `flex md:flex-row md:gap-20 gap-5` */}
-      <div className="flex md:flex-row md:gap-20 gap-5 bg-blue-50 p-4 border-t">
+      <div className="flex md:flex-row flex-col md:gap-20 gap-5 bg-blue-50 p-4 border-t">
         {/* Material Topics */}
         <div>
           <p className="text-red-600 font-semibold mb-2">Material Topics Covered</p>

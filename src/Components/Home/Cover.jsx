@@ -16,7 +16,7 @@ const Cover = () => {
       <video
         ref={desktopVideoRef}
         className="hidden md:block absolute inset-0 w-full top-0 h-full object-contain"
-        src="./home/Cover 2025.webm"
+        src="./home/Cover 2025x.mp4"
         autoPlay
         loop
         muted

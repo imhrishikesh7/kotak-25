@@ -21,7 +21,7 @@ const TechnologyHome = () => {
     const video = videoRef.current;
     if (video) {
       video.load();
-      
+
       // Handle mobile video playback
       const playVideo = async () => {
         try {
@@ -126,13 +126,13 @@ const TechnologyHome = () => {
               {/* Video */}
               <video
                 ref={videoRef}
-                src='/home/technology-video.webm'
+                src="./home/technology-video.webm"
                 className="absolute inset-0 w-full h-full object-cover"
                 muted
                 playsInline
                 autoPlay
-                preload="metadata"
-                webkit-playsinline="true"
+                preload="auto"
+                webkitPlaysInline
                 onCanPlayThrough={() => {
                   console.log('Video can play through');
                 }}
@@ -146,12 +146,9 @@ const TechnologyHome = () => {
                     video.play().catch(console.error);
                   }
                 }}
-              >
-                <source src="/path/to/your/video.mp4" type="video/mp4" />
-                <source src="/path/to/your/video.webm" type="video/webm" />
-                Your browser does not support the video tag.
-              </video>
-              
+              />
+
+
               {/* Curtain */}
               <div
                 ref={curtainRef}
@@ -171,7 +168,7 @@ const TechnologyHome = () => {
                 During FY 2024-25, we undertook a comprehensive upgrade of the technology infrastructure and enhanced the UI/UX and core features of its apps and platforms. This transformation was driven by the strategic belief that building a resilient, secure and scalable core is fundamental to delivering improved customer experiences in an increasingly digital-first world. These efforts also resulted in resolving the regulatory restrictions highlighted in the RBI Order dated 24th April, 2024, which were subsequently removed by its letter dated 12th February, 2025.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <KnowMore to={"/our-enablers/technology"}/>
+                <KnowMore to={"/our-enablers/technology"} />
               </div>
             </div>
           </div>

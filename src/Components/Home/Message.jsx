@@ -4,7 +4,7 @@ import Reveal from "../Reveal";
 const Message = () => {
     return (
         <div className="!mb-12 arginal">
-              <div className="md:w-fit mx-auto  mb-6 text-center">
+            <div className="md:w-fit mx-auto  mb-6 text-center">
                 <div className='space-y-2'>
                     {/* Technology Badge */}
                     <Reveal animation="slide-up mx-aut text-cente">
@@ -28,25 +28,27 @@ const Message = () => {
                     </Reveal>
                 </div>
             </div>
-           <div className="relative hidden md:block marginal rounded-4xl w-full overflow-hidden" style={{ height: "76vh" }}>
-    <img
-        src="./home/ceo-banner.webp"
-        alt="CEO Banner"
-        className="w-full h-full rounded-3xl object-contain"
-    />
-    <div
-        className="absolute -translate-x-1/2"
-        style={{
-            left: "50%",
-            bottom: "8vh",
-        }}
-    >
-        <KnowMore to={"/message-from-ashok-vaswani"} />
-    </div>
-</div>
+            <div className="relative hidden md:block marginal rounded-4xl w-full overflow-hidden" style={{ height: "76vh" }}>
+                <img
+                    src="./home/ceo-banner.webp"
+                    alt="CEO Banner"
+                    className="w-full h-full rounded-3xl object-contain"
+                />
+                <div
+                    className="absolute -translate-x-1/2"
+                    style={{
+                        left: "50%",
+                        bottom: "8vh",
+                    }}
+                >
+                    <KnowMore to={"/message-from-ashok-vaswani"} />
+                </div>
+            </div>
 
             <div className="block  md:hidden">
+                <div className="p-4">
                 <img src="./AshokMessage/Ashok.webp" className="" alt="" />
+                </div>
                 <div className="w-fit mx-auto mt-4">
                     <KnowMore to={"/message-from-ashok-vaswani"} />
                 </div>

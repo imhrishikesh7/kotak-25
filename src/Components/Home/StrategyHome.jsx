@@ -225,7 +225,7 @@ const StrategyHome = ({ themes = fallbackThemes }) => {
                         <a
                             key={index}
                             href={link}
-                            className="flex items-center gap-3 bg-white border border-black text-black px-5 py-2 rounded-2xl hover:-translate-y-1 hover:text-[#d1002c] transition-all duration-300"
+                            className="flex w-[200px] md:w-auto justify-center items-center gap-3 bg-white border border-black text-black px-5 py-2 rounded-2xl hover:-translate-y-1 hover:text-[#d1002c] transition-all duration-300"
                         >
                             <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#d1002c] text-white">
                                 <img src={icon} alt={label} />

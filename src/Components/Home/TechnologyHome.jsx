@@ -126,7 +126,7 @@ const TechnologyHome = () => {
               {/* Video */}
               <video
                 ref={videoRef}
-                src='./home/technology-video.webm'
+                src='/home/technology-video.webm'
                 className="absolute inset-0 w-full h-full object-cover"
                 muted
                 playsInline
